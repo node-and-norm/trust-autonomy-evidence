@@ -1,13 +1,9 @@
 # Trust, Autonomy, and Evidence
 
-[Node & Norm research directory](https://github.com/node-and-norm) · Research on justified reliance and practical human control.
-
-Repository stewardship moved to Node & Norm on 2026-09-15. Published versions, authorship, and research-status claims retain their existing scope.
-
 [![Status: Working Research](https://img.shields.io/badge/status-working%20research-5b6cff)](RESEARCH_STATUS.md)
-[![Version: 0.17.0](https://img.shields.io/github/v/release/node-and-norm/trust-autonomy-evidence?display_name=tag&label=release)](https://github.com/node-and-norm/trust-autonomy-evidence/releases)
+[![Version: 0.17.0](https://img.shields.io/github/v/release/mj3b/trust-autonomy-evidence?display_name=tag&label=release)](https://github.com/mj3b/trust-autonomy-evidence/releases)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21841127.svg)](https://doi.org/10.5281/zenodo.21841127)
-[![Validation](https://github.com/node-and-norm/trust-autonomy-evidence/actions/workflows/validate.yml/badge.svg)](https://github.com/node-and-norm/trust-autonomy-evidence/actions/workflows/validate.yml)
+[![Validation](https://github.com/mj3b/trust-autonomy-evidence/actions/workflows/validate.yml/badge.svg)](https://github.com/mj3b/trust-autonomy-evidence/actions/workflows/validate.yml)
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-green)](LICENSE)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--8121--2878-brightgreen)](https://orcid.org/0009-0001-8121-2878)
 
@@ -252,7 +248,7 @@ Contributions should identify the proposition being changed, the evidence suppor
 
 The current working paper has no v0.16.0 DOI. Cite the versioned GitHub release so the cited manuscript and research package remain identifiable:
 
-> Banasihan, M. J. (2026). *From Formal Authority to Practical Human Control: A traceable method for reconstructing human control in automated decisions* (Version v0.16.0) [Working paper]. GitHub. https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.16.0
+> Banasihan, M. J. (2026). *From Formal Authority to Practical Human Control: A traceable method for reconstructing human control in automated decisions* (Version v0.16.0) [Working paper]. GitHub. https://github.com/mj3b/trust-autonomy-evidence/releases/tag/v0.16.0
 
 The DOI [10.5281/zenodo.21926005](https://doi.org/10.5281/zenodo.21926005) identifies the earlier v0.14.0 preprint. The concept DOI [10.5281/zenodo.21841127](https://doi.org/10.5281/zenodo.21841127) identifies archived repository versions. Neither DOI currently identifies the v0.16.0 manuscript. Machine-readable metadata and the preferred paper citation are in [CITATION.cff](CITATION.cff).
 
