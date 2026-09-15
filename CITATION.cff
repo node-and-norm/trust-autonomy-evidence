@@ -8,13 +8,13 @@ authors:
   - family-names: Banasihan
     given-names: Mark Julius
     orcid: "https://orcid.org/0009-0001-8121-2878"
-repository-code: "https://github.com/mj3b/trust-autonomy-evidence"
-url: "https://github.com/mj3b/trust-autonomy-evidence/releases/tag/v0.17.0"
+repository-code: "https://github.com/node-and-norm/trust-autonomy-evidence"
+url: "https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.17.0"
 license: Apache-2.0
 abstract: "A research repository defining evidence for justified reliance and practical human control, with synthetic validation, versioned public-case reconstruction, a formal literature search, a full methods manuscript, journal-style figures and tables, claim traceability, and executable integrity audits."
 identifiers:
   - type: url
-    value: "https://github.com/mj3b/trust-autonomy-evidence/releases/tag/v0.17.0"
+    value: "https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.17.0"
     description: "Versioned GitHub release for the v0.17.0 preprint and research package"
   - type: doi
     value: "10.5281/zenodo.21926005"
@@ -31,4 +31,4 @@ preferred-citation:
     - family-names: Banasihan
       given-names: Mark Julius
       orcid: "https://orcid.org/0009-0001-8121-2878"
-  url: "https://github.com/mj3b/trust-autonomy-evidence/releases/tag/v0.17.0"
+  url: "https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.17.0"
