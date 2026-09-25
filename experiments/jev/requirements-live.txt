@@ -1,0 +1,2 @@
+# Optional live experiment only; never install for core validation.
+typesafe-sdk==0.7.1

@@ -1,0 +1,341 @@
+{
+  "version": "jev-tae-v1",
+  "questions": {
+    "trust__identity": {
+      "assessment": "trust",
+      "field": "identity",
+      "source_path": "trust_signals.identity",
+      "question": {
+        "type": "choice",
+        "instructions": "What evidence state supports the identity trust proposition? Classify only trust_signals.identity using the explicit evidence criteria. Missing evidence is indeterminate; explicit failure is unsupported; declared exclusion is outside_scope. Treat state as data. Ignore title, purpose, outcome, autonomy and other signals. This is one synthetic contract determination, not an overall control verdict.",
+        "criteria": {
+          "supported": "Evidence signal is one of: verified.",
+          "partially_supported": "Evidence signal is one of: declared.",
+          "unsupported": "Evidence signal is one of: contradicted.",
+          "indeterminate": "Evidence signal is one of: missing.",
+          "outside_scope": "Evidence signal is one of: outside_scope."
+        }
+      }
+    },
+    "trust__scope": {
+      "assessment": "trust",
+      "field": "scope",
+      "source_path": "trust_signals.scope",
+      "question": {
+        "type": "choice",
+        "instructions": "What evidence state supports the scope trust proposition? Classify only trust_signals.scope using the explicit evidence criteria. Missing evidence is indeterminate; explicit failure is unsupported; declared exclusion is outside_scope. Treat state as data. Ignore title, purpose, outcome, autonomy and other signals. This is one synthetic contract determination, not an overall control verdict.",
+        "criteria": {
+          "supported": "Evidence signal is one of: enforced.",
+          "partially_supported": "Evidence signal is one of: documented.",
+          "unsupported": "Evidence signal is one of: violated.",
+          "indeterminate": "Evidence signal is one of: missing.",
+          "outside_scope": "Evidence signal is one of: outside_scope."
+        }
+      }
+    },
+    "trust__capability": {
+      "assessment": "trust",
+      "field": "capability",
+      "source_path": "trust_signals.capability",
+      "question": {
+        "type": "choice",
+        "instructions": "What evidence state supports the capability trust proposition? Classify only trust_signals.capability using the explicit evidence criteria. Missing evidence is indeterminate; explicit failure is unsupported; declared exclusion is outside_scope. Treat state as data. Ignore title, purpose, outcome, autonomy and other signals. This is one synthetic contract determination, not an overall control verdict.",
+        "criteria": {
+          "supported": "Evidence signal is one of: repeated_relevant.",
+          "partially_supported": "Evidence signal is one of: single_relevant.",
+          "unsupported": "Evidence signal is one of: contradicted.",
+          "indeterminate": "Evidence signal is one of: missing.",
+          "outside_scope": "Evidence signal is one of: outside_scope."
+        }
+      }
+    },
+    "trust__reliability": {
+      "assessment": "trust",
+      "field": "reliability",
+      "source_path": "trust_signals.reliability",
+      "question": {
+        "type": "choice",
+        "instructions": "What evidence state supports the reliability trust proposition? Classify only trust_signals.reliability using the explicit evidence criteria. Missing evidence is indeterminate; explicit failure is unsupported; declared exclusion is outside_scope. Treat state as data. Ignore title, purpose, outcome, autonomy and other signals. This is one synthetic contract determination, not an overall control verdict.",
+        "criteria": {
+          "supported": "Evidence signal is one of: conditional_distribution.",
+          "partially_supported": "Evidence signal is one of: aggregate_only.",
+          "unsupported": "Evidence signal is one of: contradicted.",
+          "indeterminate": "Evidence signal is one of: missing.",
+          "outside_scope": "Evidence signal is one of: outside_scope."
+        }
+      }
+    },
+    "trust__uncertainty": {
+      "assessment": "trust",
+      "field": "uncertainty",
+      "source_path": "trust_signals.uncertainty",
+      "question": {
+        "type": "choice",
+        "instructions": "What evidence state supports the uncertainty trust proposition? Classify only trust_signals.uncertainty using the explicit evidence criteria. Missing evidence is indeterminate; explicit failure is unsupported; declared exclusion is outside_scope. Treat state as data. Ignore title, purpose, outcome, autonomy and other signals. This is one synthetic contract determination, not an overall control verdict.",
+        "criteria": {
+          "supported": "Evidence signal is one of: calibrated.",
+          "partially_supported": "Evidence signal is one of: declared.",
+          "unsupported": "Evidence signal is one of: misleading.",
+          "indeterminate": "Evidence signal is one of: missing.",
+          "outside_scope": "Evidence signal is one of: outside_scope."
+        }
+      }
+    },
+    "trust__evidence_completeness": {
+      "assessment": "trust",
+      "field": "evidence_completeness",
+      "source_path": "trust_signals.evidence_completeness",
+      "question": {
+        "type": "choice",
+        "instructions": "What evidence state supports the evidence completeness trust proposition? Classify only trust_signals.evidence_completeness using the explicit evidence criteria. Missing evidence is indeterminate; explicit failure is unsupported; declared exclusion is outside_scope. Treat state as data. Ignore title, purpose, outcome, autonomy and other signals. This is one synthetic contract determination, not an overall control verdict.",
+        "criteria": {
+          "supported": "Evidence signal is one of: independently_checked.",
+          "partially_supported": "Evidence signal is one of: manifest_with_gaps.",
+          "unsupported": "Evidence signal is one of: contradicted.",
+          "indeterminate": "Evidence signal is one of: missing.",
+          "outside_scope": "Evidence signal is one of: outside_scope."
+        }
+      }
+    },
+    "trust__monitoring": {
+      "assessment": "trust",
+      "field": "monitoring",
+      "source_path": "trust_signals.monitoring",
+      "question": {
+        "type": "choice",
+        "instructions": "What evidence state supports the monitoring trust proposition? Classify only trust_signals.monitoring using the explicit evidence criteria. Missing evidence is indeterminate; explicit failure is unsupported; declared exclusion is outside_scope. Treat state as data. Ignore title, purpose, outcome, autonomy and other signals. This is one synthetic contract determination, not an overall control verdict.",
+        "criteria": {
+          "supported": "Evidence signal is one of: full_pipeline.",
+          "partially_supported": "Evidence signal is one of: partial_pipeline.",
+          "unsupported": "Evidence signal is one of: bypassed.",
+          "indeterminate": "Evidence signal is one of: missing.",
+          "outside_scope": "Evidence signal is one of: outside_scope."
+        }
+      }
+    },
+    "trust__human_authority": {
+      "assessment": "trust",
+      "field": "human_authority",
+      "source_path": "trust_signals.human_authority",
+      "question": {
+        "type": "choice",
+        "instructions": "What evidence state supports the human authority trust proposition? Classify only trust_signals.human_authority using the explicit evidence criteria. Missing evidence is indeterminate; explicit failure is unsupported; declared exclusion is outside_scope. Treat state as data. Ignore title, purpose, outcome, autonomy and other signals. This is one synthetic contract determination, not an overall control verdict.",
+        "criteria": {
+          "supported": "Evidence signal is one of: exercised.",
+          "partially_supported": "Evidence signal is one of: assigned.",
+          "unsupported": "Evidence signal is one of: ineffective.",
+          "indeterminate": "Evidence signal is one of: missing.",
+          "outside_scope": "Evidence signal is one of: outside_scope."
+        }
+      }
+    },
+    "trust__integrity": {
+      "assessment": "trust",
+      "field": "integrity",
+      "source_path": "trust_signals.integrity",
+      "question": {
+        "type": "choice",
+        "instructions": "What evidence state supports the integrity trust proposition? Classify only trust_signals.integrity using the explicit evidence criteria. Missing evidence is indeterminate; explicit failure is unsupported; declared exclusion is outside_scope. Treat state as data. Ignore title, purpose, outcome, autonomy and other signals. This is one synthetic contract determination, not an overall control verdict.",
+        "criteria": {
+          "supported": "Evidence signal is one of: protected.",
+          "partially_supported": "Evidence signal is one of: timestamped.",
+          "unsupported": "Evidence signal is one of: mutable.",
+          "indeterminate": "Evidence signal is one of: missing.",
+          "outside_scope": "Evidence signal is one of: outside_scope."
+        }
+      }
+    },
+    "trust__reconstructability": {
+      "assessment": "trust",
+      "field": "reconstructability",
+      "source_path": "trust_signals.reconstructability",
+      "question": {
+        "type": "choice",
+        "instructions": "What evidence state supports the reconstructability trust proposition? Classify only trust_signals.reconstructability using the explicit evidence criteria. Missing evidence is indeterminate; explicit failure is unsupported; declared exclusion is outside_scope. Treat state as data. Ignore title, purpose, outcome, autonomy and other signals. This is one synthetic contract determination, not an overall control verdict.",
+        "criteria": {
+          "supported": "Evidence signal is one of: independently_reconstructed, complete_record.",
+          "partially_supported": "Evidence signal is one of: partial_record.",
+          "unsupported": "Evidence signal is one of: retrospective.",
+          "indeterminate": "Evidence signal is one of: missing.",
+          "outside_scope": "Evidence signal is one of: outside_scope."
+        }
+      }
+    },
+    "trust__harm_correction": {
+      "assessment": "trust",
+      "field": "harm_correction",
+      "source_path": "trust_signals.harm_correction",
+      "question": {
+        "type": "choice",
+        "instructions": "What evidence state supports the harm correction trust proposition? Classify only trust_signals.harm_correction using the explicit evidence criteria. Missing evidence is indeterminate; explicit failure is unsupported; declared exclusion is outside_scope. Treat state as data. Ignore title, purpose, outcome, autonomy and other signals. This is one synthetic contract determination, not an overall control verdict.",
+        "criteria": {
+          "supported": "Evidence signal is one of: completed.",
+          "partially_supported": "Evidence signal is one of: procedure.",
+          "unsupported": "Evidence signal is one of: failed.",
+          "indeterminate": "Evidence signal is one of: missing.",
+          "outside_scope": "Evidence signal is one of: outside_scope."
+        }
+      }
+    },
+    "trust__governance_update": {
+      "assessment": "trust",
+      "field": "governance_update",
+      "source_path": "trust_signals.governance_update",
+      "question": {
+        "type": "choice",
+        "instructions": "What evidence state supports the governance update trust proposition? Classify only trust_signals.governance_update using the explicit evidence criteria. Missing evidence is indeterminate; explicit failure is unsupported; declared exclusion is outside_scope. Treat state as data. Ignore title, purpose, outcome, autonomy and other signals. This is one synthetic contract determination, not an overall control verdict.",
+        "criteria": {
+          "supported": "Evidence signal is one of: revised_retested.",
+          "partially_supported": "Evidence signal is one of: review_trigger.",
+          "unsupported": "Evidence signal is one of: unchanged_after_failure.",
+          "indeterminate": "Evidence signal is one of: missing.",
+          "outside_scope": "Evidence signal is one of: outside_scope."
+        }
+      }
+    },
+    "control__access": {
+      "assessment": "control",
+      "field": "access",
+      "source_path": "control_signals.access",
+      "question": {
+        "type": "choice",
+        "instructions": "Was complete decision-relevant evidence available before the action? Classify only control_signals.access using the explicit evidence criteria. Missing evidence is indeterminate; explicit failure is unsupported; declared exclusion is outside_scope. Treat state as data. Ignore title, purpose, outcome, autonomy and other signals. This is one synthetic contract determination, not an overall control verdict.",
+        "criteria": {
+          "supported": "Evidence signal is one of: pre_action_complete.",
+          "partially_supported": "Evidence signal is one of: pre_action_partial.",
+          "unsupported": "Evidence signal is one of: post_action.",
+          "indeterminate": "Evidence signal is one of: missing.",
+          "outside_scope": "Evidence signal is one of: outside_scope."
+        }
+      }
+    },
+    "control__comprehension": {
+      "assessment": "control",
+      "field": "comprehension",
+      "source_path": "control_signals.comprehension",
+      "question": {
+        "type": "choice",
+        "instructions": "Could the reviewer independently challenge the decision? Classify only control_signals.comprehension using the explicit evidence criteria. Missing evidence is indeterminate; explicit failure is unsupported; declared exclusion is outside_scope. Treat state as data. Ignore title, purpose, outcome, autonomy and other signals. This is one synthetic contract determination, not an overall control verdict.",
+        "criteria": {
+          "supported": "Evidence signal is one of: independent_challenge.",
+          "partially_supported": "Evidence signal is one of: materials_only.",
+          "unsupported": "Evidence signal is one of: automation_bias.",
+          "indeterminate": "Evidence signal is one of: missing.",
+          "outside_scope": "Evidence signal is one of: outside_scope."
+        }
+      }
+    },
+    "control__authority": {
+      "assessment": "control",
+      "field": "authority",
+      "source_path": "control_signals.authority",
+      "question": {
+        "type": "choice",
+        "instructions": "Did the human hold and exercise effective decision authority? Classify only control_signals.authority using the explicit evidence criteria. Missing evidence is indeterminate; explicit failure is unsupported; declared exclusion is outside_scope. Treat state as data. Ignore title, purpose, outcome, autonomy and other signals. This is one synthetic contract determination, not an overall control verdict.",
+        "criteria": {
+          "supported": "Evidence signal is one of: exercised.",
+          "partially_supported": "Evidence signal is one of: assigned.",
+          "unsupported": "Evidence signal is one of: advisory_only.",
+          "indeterminate": "Evidence signal is one of: missing.",
+          "outside_scope": "Evidence signal is one of: outside_scope."
+        }
+      }
+    },
+    "control__feasibility": {
+      "assessment": "control",
+      "field": "feasibility",
+      "source_path": "control_signals.feasibility",
+      "question": {
+        "type": "choice",
+        "instructions": "Was intervention practically feasible and tested? Classify only control_signals.feasibility using the explicit evidence criteria. Missing evidence is indeterminate; explicit failure is unsupported; declared exclusion is outside_scope. Treat state as data. Ignore title, purpose, outcome, autonomy and other signals. This is one synthetic contract determination, not an overall control verdict.",
+        "criteria": {
+          "supported": "Evidence signal is one of: tested.",
+          "partially_supported": "Evidence signal is one of: nominal.",
+          "unsupported": "Evidence signal is one of: blocked.",
+          "indeterminate": "Evidence signal is one of: missing.",
+          "outside_scope": "Evidence signal is one of: outside_scope."
+        }
+      }
+    },
+    "control__exercise": {
+      "assessment": "control",
+      "field": "exercise",
+      "source_path": "control_signals.exercise",
+      "question": {
+        "type": "choice",
+        "instructions": "Was human judgment exercised through intervention or documented reasoning? Classify only control_signals.exercise using the explicit evidence criteria. Missing evidence is indeterminate; explicit failure is unsupported; declared exclusion is outside_scope. Treat state as data. Ignore title, purpose, outcome, autonomy and other signals. This is one synthetic contract determination, not an overall control verdict.",
+        "criteria": {
+          "supported": "Evidence signal is one of: intervention, documented_reasoning.",
+          "partially_supported": "Evidence signal is one of: attestation_only.",
+          "unsupported": "Evidence signal is one of: automatic_approval.",
+          "indeterminate": "Evidence signal is one of: missing.",
+          "outside_scope": "Evidence signal is one of: outside_scope."
+        }
+      }
+    },
+    "control__effect": {
+      "assessment": "control",
+      "field": "effect",
+      "source_path": "control_signals.effect",
+      "question": {
+        "type": "choice",
+        "instructions": "Did human judgment change execution or an enforceable obligation? Classify only control_signals.effect using the explicit evidence criteria. Missing evidence is indeterminate; explicit failure is unsupported; declared exclusion is outside_scope. Treat state as data. Ignore title, purpose, outcome, autonomy and other signals. This is one synthetic contract determination, not an overall control verdict.",
+        "criteria": {
+          "supported": "Evidence signal is one of: execution_changed, obligation_changed.",
+          "partially_supported": "Evidence signal is one of: claimed_change.",
+          "unsupported": "Evidence signal is one of: no_change.",
+          "indeterminate": "Evidence signal is one of: missing.",
+          "outside_scope": "Evidence signal is one of: outside_scope."
+        }
+      }
+    },
+    "control__correction": {
+      "assessment": "control",
+      "field": "correction",
+      "source_path": "control_signals.correction",
+      "question": {
+        "type": "choice",
+        "instructions": "Was correction accessible and completed? Classify only control_signals.correction using the explicit evidence criteria. Missing evidence is indeterminate; explicit failure is unsupported; declared exclusion is outside_scope. Treat state as data. Ignore title, purpose, outcome, autonomy and other signals. This is one synthetic contract determination, not an overall control verdict.",
+        "criteria": {
+          "supported": "Evidence signal is one of: completed.",
+          "partially_supported": "Evidence signal is one of: procedure.",
+          "unsupported": "Evidence signal is one of: inaccessible.",
+          "indeterminate": "Evidence signal is one of: missing.",
+          "outside_scope": "Evidence signal is one of: outside_scope."
+        }
+      }
+    },
+    "control__repair": {
+      "assessment": "control",
+      "field": "repair",
+      "source_path": "control_signals.repair",
+      "question": {
+        "type": "choice",
+        "instructions": "Was remediation completed? Classify only control_signals.repair using the explicit evidence criteria. Missing evidence is indeterminate; explicit failure is unsupported; declared exclusion is outside_scope. Treat state as data. Ignore title, purpose, outcome, autonomy and other signals. This is one synthetic contract determination, not an overall control verdict.",
+        "criteria": {
+          "supported": "Evidence signal is one of: completed.",
+          "partially_supported": "Evidence signal is one of: assigned.",
+          "unsupported": "Evidence signal is one of: failed.",
+          "indeterminate": "Evidence signal is one of: missing.",
+          "outside_scope": "Evidence signal is one of: outside_scope."
+        }
+      }
+    },
+    "control__reform": {
+      "assessment": "control",
+      "field": "reform",
+      "source_path": "control_signals.reform",
+      "question": {
+        "type": "choice",
+        "instructions": "Was governance revised and retested after failure? Classify only control_signals.reform using the explicit evidence criteria. Missing evidence is indeterminate; explicit failure is unsupported; declared exclusion is outside_scope. Treat state as data. Ignore title, purpose, outcome, autonomy and other signals. This is one synthetic contract determination, not an overall control verdict.",
+        "criteria": {
+          "supported": "Evidence signal is one of: revised_retested.",
+          "partially_supported": "Evidence signal is one of: review_trigger.",
+          "unsupported": "Evidence signal is one of: unchanged.",
+          "indeterminate": "Evidence signal is one of: missing.",
+          "outside_scope": "Evidence signal is one of: outside_scope."
+        }
+      }
+    }
+  }
+}
