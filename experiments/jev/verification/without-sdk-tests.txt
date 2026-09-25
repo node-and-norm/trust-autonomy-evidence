@@ -1,0 +1,17 @@
+test_dry_run_has_no_answers_and_covers_252 (test_experiment.ExperimentTests.test_dry_run_has_no_answers_and_covers_252) ... ok
+test_invalid_response_retained_no_false_agreement (test_experiment.ExperimentTests.test_invalid_response_retained_no_false_agreement) ... ok
+test_missing_key_blocked_without_sdk (test_experiment.ExperimentTests.test_missing_key_blocked_without_sdk) ... ok
+test_mock_outputs_hashes_calibration_and_disagreements (test_experiment.ExperimentTests.test_mock_outputs_hashes_calibration_and_disagreements) ... ok
+test_mutation_detects_unexpected_extra_changes (test_experiment.ExperimentTests.test_mutation_detects_unexpected_extra_changes) ... ok
+test_no_gold_in_requests_and_mapping_complete (test_experiment.ExperimentTests.test_no_gold_in_requests_and_mapping_complete) ... ok
+test_output_cannot_touch_core (test_experiment.ExperimentTests.test_output_cannot_touch_core) ... ok
+test_question_tampering_rejected (test_experiment.ExperimentTests.test_question_tampering_rejected) ... ok
+test_response_rejections (test_experiment.ExperimentTests.test_response_rejections) ... ok
+test_sdk_invalid_and_error_bodies_preserved_without_retries (test_experiment.ExperimentTests.test_sdk_invalid_and_error_bodies_preserved_without_retries) ... skipped 'optional SDK not installed'
+test_sdk_transport_contract (test_experiment.ExperimentTests.test_sdk_transport_contract) ... skipped 'optional SDK not installed'
+test_sealed_fixture_tampering_rejected (test_experiment.ExperimentTests.test_sealed_fixture_tampering_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.821s
+
+OK (skipped=2)

@@ -1,0 +1,14 @@
+release snapshot validation: PASS (6 tags; 821 sealed artifacts; 67 immutable working copies)
+formula register: PASS (v0.16.0; 8 formulas; 4 compiled-paper, 4 supporting)
+release candidate validation: PASS (v0.17.0; 33 sealed artifacts)
+solo validation: PASS (252 oracle comparisons, 12 mutation tests)
+figure data and artifact integrity v0.16.0: PASS
+claim-evidence figure: PASS (v0.16.0; 40 claims)
+chain-of-evidence audits: PASS_WITH_EXCEPTIONS (v0.16 preserved: 40 claims and 39/39 controls; v0.17 policy extension: 5 claims and 9/9 controls)
+v0.6.0 adjudication validation: PASS (6 transitions; 6/6 controls detected)
+literature-support validation: PASS (23 propositions)
+formal-search validation: PASS (8 queries; 15 chains; 2,431 records; 89 frozen author-queue records)
+risk sample: PASS (1087 population; 284 selected)
+forward-citation author screening: CLOSED (71/71 decisions; 13 close; 22 background; 36 exclusions; 0 claim permissions)
+paper validation: PASS
+repository validation: PASS

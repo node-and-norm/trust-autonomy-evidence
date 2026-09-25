@@ -1,0 +1,333 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TAE Jev experimental run v1",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "mode",
+    "status",
+    "started_at",
+    "finished_at",
+    "requested_model",
+    "resolved_models",
+    "sdk_version",
+    "question_set_sha256",
+    "sealed_artifacts",
+    "planned_cases",
+    "planned_base_determinations",
+    "planned_requests",
+    "records",
+    "mutation_results"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "jev-tae-run-v1"
+    },
+    "mode": {
+      "enum": [
+        "dry-run",
+        "mock",
+        "live"
+      ]
+    },
+    "status": {
+      "enum": [
+        "running",
+        "blocked",
+        "dry-run",
+        "complete",
+        "incomplete",
+        "interrupted"
+      ]
+    },
+    "started_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "finished_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "requested_model": {
+      "type": "string",
+      "minLength": 1
+    },
+    "resolved_models": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sdk_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "question_set_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "sealed_artifacts": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^[a-f0-9]{64}$"
+      }
+    },
+    "planned_cases": {
+      "const": 12
+    },
+    "planned_base_determinations": {
+      "const": 252
+    },
+    "planned_requests": {
+      "enum": [
+        12,
+        24
+      ]
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "job_id",
+          "kind",
+          "status",
+          "started_at",
+          "finished_at",
+          "request_sha256",
+          "state_sha256",
+          "fixture_sha256",
+          "response_sha256",
+          "resolved_model",
+          "rows"
+        ],
+        "properties": {
+          "job_id": {
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "base",
+              "mutation"
+            ]
+          },
+          "status": {
+            "enum": [
+              "planned",
+              "ok",
+              "error"
+            ]
+          },
+          "started_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "finished_at": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "request_sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "state_sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "fixture_sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "response_sha256": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "resolved_model": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "rows": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "job_id",
+                "kind",
+                "question_id",
+                "oracle",
+                "choice",
+                "agreement",
+                "probabilities",
+                "confidence",
+                "entropy_bits",
+                "review_required",
+                "brier_multiclass",
+                "oracle_probability"
+              ],
+              "properties": {
+                "job_id": {
+                  "type": "string"
+                },
+                "kind": {
+                  "enum": [
+                    "base",
+                    "mutation"
+                  ]
+                },
+                "question_id": {
+                  "type": "string"
+                },
+                "oracle": {
+                  "enum": [
+                    "supported",
+                    "partially_supported",
+                    "unsupported",
+                    "indeterminate",
+                    "outside_scope"
+                  ]
+                },
+                "choice": {
+                  "enum": [
+                    "supported",
+                    "partially_supported",
+                    "unsupported",
+                    "indeterminate",
+                    "outside_scope"
+                  ]
+                },
+                "agreement": {
+                  "type": "boolean"
+                },
+                "probabilities": {
+                  "type": "object",
+                  "required": [
+                    "supported",
+                    "partially_supported",
+                    "unsupported",
+                    "indeterminate",
+                    "outside_scope"
+                  ],
+                  "properties": {
+                    "supported": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 1
+                    },
+                    "partially_supported": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 1
+                    },
+                    "unsupported": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 1
+                    },
+                    "indeterminate": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 1
+                    },
+                    "outside_scope": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 1
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "confidence": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "entropy_bits": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "review_required": {
+                  "type": "boolean"
+                },
+                "brier_multiclass": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 2
+                },
+                "oracle_probability": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                }
+              }
+            }
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "status": {
+                  "const": "ok"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "rows": {
+                  "minItems": 21,
+                  "maxItems": 21
+                },
+                "response_sha256": {
+                  "type": "string",
+                  "pattern": "^[a-f0-9]{64}$"
+                },
+                "resolved_model": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "status": {
+                  "enum": [
+                    "planned",
+                    "error"
+                  ]
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "rows": {
+                  "maxItems": 0
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "mutation_results": {
+      "type": "array"
+    }
+  }
+}

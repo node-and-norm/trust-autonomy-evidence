@@ -1,0 +1,86 @@
+[
+  {
+    "mode": "dry-run",
+    "status": "dry-run",
+    "started_at": "2026-09-25T20:39:52.304722+00:00",
+    "finished_at": "2026-09-25T20:39:52.389080+00:00",
+    "requested_model": "jev-1.13.0",
+    "resolved_models": [],
+    "sdk_version": null,
+    "question_set_sha256": "5beac0d0cfa7d61f6a4e55369c8f8bf6267129a9715b697a2eae010036e6ca9c",
+    "sealed_artifacts": {
+      "fixtures/mutations/mutations.json": "ac02425e825c0d14714c8adb2540e39c118493b4ad8834b0d68cc21385c7d94b",
+      "fixtures/synthetic/cases.json": "1d7f9ba49d80b384cc3c78b188c96627b2419cf8739e0d468d31d19de01a5713",
+      "oracles/solo-validation-v0.2.0.json": "0d1eb3591ed794d59ea5c20de8970295a38b753b0aa105d3d871b9476ddb5c00"
+    },
+    "planned_requests": 24,
+    "git_commit": "a6830a08aa7347a1c4e7a9fa8df1925f5e25e888",
+    "implementation_sha256": {
+      "adapter.py": "2f232578d2dd1404f3d098efed4f7b0723a84bf7b76525041292d2721c1f6ff6",
+      "run.py": "3785cf50a8cdfcde29ec10264ad4aef490db81ca8d5f7080118c063b4c88b815"
+    },
+    "summary": {
+      "base_agreements": 0,
+      "base_brier_mean": null,
+      "errors": 0,
+      "evaluated_base_determinations": 0
+    },
+    "reason": null,
+    "run_manifest_sha256": "05f6349b40d6237d96bcc347358c57b012c1b8a06608f4598f71ce023558e34b"
+  },
+  {
+    "mode": "mock",
+    "status": "complete",
+    "started_at": "2026-09-25T20:39:52.490319+00:00",
+    "finished_at": "2026-09-25T20:39:52.717188+00:00",
+    "requested_model": "jev-1.13.0",
+    "resolved_models": [
+      "mock-only"
+    ],
+    "sdk_version": null,
+    "question_set_sha256": "5beac0d0cfa7d61f6a4e55369c8f8bf6267129a9715b697a2eae010036e6ca9c",
+    "sealed_artifacts": {
+      "fixtures/mutations/mutations.json": "ac02425e825c0d14714c8adb2540e39c118493b4ad8834b0d68cc21385c7d94b",
+      "fixtures/synthetic/cases.json": "1d7f9ba49d80b384cc3c78b188c96627b2419cf8739e0d468d31d19de01a5713",
+      "oracles/solo-validation-v0.2.0.json": "0d1eb3591ed794d59ea5c20de8970295a38b753b0aa105d3d871b9476ddb5c00"
+    },
+    "planned_requests": 24,
+    "git_commit": "a6830a08aa7347a1c4e7a9fa8df1925f5e25e888",
+    "implementation_sha256": {
+      "adapter.py": "2f232578d2dd1404f3d098efed4f7b0723a84bf7b76525041292d2721c1f6ff6",
+      "run.py": "3785cf50a8cdfcde29ec10264ad4aef490db81ca8d5f7080118c063b4c88b815"
+    },
+    "summary": {
+      "base_agreements": 25,
+      "base_brier_mean": 0.8000000000000002,
+      "errors": 0,
+      "evaluated_base_determinations": 252
+    },
+    "reason": null,
+    "run_manifest_sha256": "7c5cf33e8cbc09113c64087b8f7f163d92b1609e6da2ca3c30541e42ef125b53"
+  },
+  {
+    "mode": "live",
+    "status": "blocked",
+    "started_at": "2026-09-25T20:39:52.846428+00:00",
+    "finished_at": "2026-09-25T20:39:52.898878+00:00",
+    "requested_model": "jev-1.13.0",
+    "resolved_models": [],
+    "sdk_version": null,
+    "question_set_sha256": "5beac0d0cfa7d61f6a4e55369c8f8bf6267129a9715b697a2eae010036e6ca9c",
+    "sealed_artifacts": {
+      "fixtures/mutations/mutations.json": "ac02425e825c0d14714c8adb2540e39c118493b4ad8834b0d68cc21385c7d94b",
+      "fixtures/synthetic/cases.json": "1d7f9ba49d80b384cc3c78b188c96627b2419cf8739e0d468d31d19de01a5713",
+      "oracles/solo-validation-v0.2.0.json": "0d1eb3591ed794d59ea5c20de8970295a38b753b0aa105d3d871b9476ddb5c00"
+    },
+    "planned_requests": 24,
+    "git_commit": "a6830a08aa7347a1c4e7a9fa8df1925f5e25e888",
+    "implementation_sha256": {
+      "adapter.py": "2f232578d2dd1404f3d098efed4f7b0723a84bf7b76525041292d2721c1f6ff6",
+      "run.py": "3785cf50a8cdfcde29ec10264ad4aef490db81ca8d5f7080118c063b4c88b815"
+    },
+    "summary": null,
+    "reason": "missing TYPESAFE_API_KEY",
+    "run_manifest_sha256": "2e81e3487cfa0506059d00ebbe0d4942d2233b60224e128154ae253489dbd266"
+  }
+]
