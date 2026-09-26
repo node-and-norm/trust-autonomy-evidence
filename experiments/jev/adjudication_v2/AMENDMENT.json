@@ -1,0 +1,15 @@
+{
+  "amendment": "jev-tae-adjudication-v2",
+  "base_commit": "558489bcf0affad4e1615500cba1ae9b42df16f0",
+  "scope": "Dated, append-only review records; no experiment or result changes.",
+  "observations": "No live calls or human adjudication performed by this amendment.",
+  "sha256": {
+    ".github/workflows/jev-adjudication.yml": "4e5d8407589b28384ff86520614316413359463ad92ad22cf44136c56beb9411",
+    "experiments/jev/adjudication_v2/README.md": "fea57eb343f244ff1c0d2c2b5ce818990f13fb8f8e683117ba1155ff009935eb",
+    "experiments/jev/adjudication_v2/record.schema.json": "b192f90265ff75a1bf29102548eef3b6e6935317903f679971a794066b16bbcc",
+    "experiments/jev/adjudication_v2/records.py": "d185bf0aef1cf70f3535a4ee1fae3e5ab48f63198f4e598d794059f4e20fb16a",
+    "experiments/jev/adjudication_v2/tests/test_records.py": "b2d7580bb93bbd664b2166fbc57d822041a8719d56ea8a448e9aa19f33344fba",
+    "experiments/jev/evidence_v1/adjudication.schema.json": "973148f80edb505c0459daab610cc041a3583f7ae2f5c05c2c41799e57086380",
+    "experiments/jev/evidence_v1/freeze.json": "e0e1253259b42faa64e76ff7e363692629764c00b78ae558ca30c7c1c6b2220b"
+  }
+}
