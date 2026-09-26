@@ -1,0 +1,30 @@
+{
+  "adjudication_dispositions": [
+    "JEV_ERROR",
+    "ORACLE_AMBIGUITY",
+    "QUESTION_DEFECT",
+    "EVIDENCE_TRANSLATION_DEFECT",
+    "CONSTRUCT_AMBIGUITY",
+    "INSUFFICIENT_EVIDENCE",
+    "UNRESOLVED"
+  ],
+  "attempts_per_scheduled_request": 1,
+  "label_order": [
+    "supported",
+    "partially_supported",
+    "unsupported",
+    "indeterminate",
+    "outside_scope"
+  ],
+  "live_enabled": false,
+  "order": "repetition_then_corpus_order",
+  "primary_repetition": 1,
+  "repetitions": 3,
+  "requested_model": "jev-1.13.0",
+  "retries": 0,
+  "review_route": "author_reviewed_ai_assisted_v1",
+  "sdk_version_for_future_live": "0.7.1",
+  "seed": null,
+  "temperature": null,
+  "version": "jev-tae-evidence-v2"
+}

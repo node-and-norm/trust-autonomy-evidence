@@ -1,0 +1,7 @@
+{
+  "assumptions": "New facts are authored synthetic stipulations; no historical documentary facts were recovered.",
+  "changes": "changes.json",
+  "label_decisions": "label-decisions.json",
+  "source_freeze_sha256": "e0e1253259b42faa64e76ff7e363692629764c00b78ae558ca30c7c1c6b2220b",
+  "source_provenance_sha256": "b9e4439616af33246f1d1072575663961faf743dc569338456b9edebfc8cf6a5"
+}

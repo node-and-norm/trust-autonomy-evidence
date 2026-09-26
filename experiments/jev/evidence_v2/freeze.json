@@ -1,0 +1,27 @@
+{
+  "materials": {
+    ".github/workflows/jev-evidence-v2.yml": "3db0b9bc78b9218c56462a851633f0a2d7d5650c69382abd2053116674c5f3f0",
+    "experiments/jev/evidence_v2/APPROVAL.json": "67be6378ddac338cfd199403e090b36a6696595d55ac5eabed4d346bc49e138e",
+    "experiments/jev/evidence_v2/README.md": "47439797203007fa851ad3fa8a1e5c22f98cc92a61f72eeb9f252eed8a6402fb",
+    "experiments/jev/evidence_v2/REPORT_TEMPLATE.md": "9659fb5dcab6e3a13b1b93e19789e1d7f5dc7c553e5e5fa6f533fb4f6c0c6234",
+    "experiments/jev/evidence_v2/adjudication.schema.json": "973148f80edb505c0459daab610cc041a3583f7ae2f5c05c2c41799e57086380",
+    "experiments/jev/evidence_v2/approved-triage.json": "cac1e359dc5a00a5c724920a0b79343d59447f44cc990a6314cace643957774b",
+    "experiments/jev/evidence_v2/author.py": "ee1b289caff7b775831670bbab8509581bf7337e9c53cdc040f4db831adb663c",
+    "experiments/jev/evidence_v2/cards.json": "7ade69381ed4f3e400914541531395be97cde62390787144ab58f7034104242e",
+    "experiments/jev/evidence_v2/changes.json": "6f9542b8674cc7e24534bebd6a30d2f4bc135915c84e22647ba6b9bcdbdfa188",
+    "experiments/jev/evidence_v2/gold.json": "d7ce13ba9bebd2ce46fc27f92553816534571e1080b3fef6f10a50254dcbb3fa",
+    "experiments/jev/evidence_v2/label-decisions.json": "44581fafa43539c20b13f2c4e8e907b9e9871e7eefd7fae0b0b419e3e3b5e82a",
+    "experiments/jev/evidence_v2/pairs.json": "be86499f9ed30f017420305a21e035607b61aaaf30faf71e1b28b30b9df20baf",
+    "experiments/jev/evidence_v2/policy.json": "7b81b230aa21e58da1f3e825fc3ea0584374a5a85c2ade3b98ddfa834a1f4e1d",
+    "experiments/jev/evidence_v2/provenance.json": "39c0c836c3d3e51a041afba38a899115e38451b1445a06a1a655477a6fb7fd7d",
+    "experiments/jev/evidence_v2/questions.json": "3935761902f36dad79879dd2f1301fce41024d448b3d428fa947a3f87a767c03",
+    "experiments/jev/evidence_v2/run.py": "a7e344360ff3f013e7ae809032e249a17ded5a431a469574bef6db04d506c32f",
+    "experiments/jev/evidence_v2/tests/test_successor.py": "59121be93a4d8e1ab11a13ff0c354bd4c964daf2f01fbe1887ab08490ae8e277"
+  },
+  "preserved": {
+    "experiments/jev/author_audit_v1/freeze.json": "c83d917ae166b4eba37294c54d53330e5b9e8a496e997a0e9e5d0d6460f73d3d",
+    "experiments/jev/evidence_v1/freeze.json": "e0e1253259b42faa64e76ff7e363692629764c00b78ae558ca30c7c1c6b2220b"
+  },
+  "review_route": "author_reviewed_ai_assisted_v1",
+  "version": "jev-tae-evidence-v2"
+}

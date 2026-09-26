@@ -1,0 +1,1274 @@
+[
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P001",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P001",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P001",
+    "topic": "control__access"
+  },
+  {
+    "after": "The manifest identifies source items, including two not retained in the packet. No independent check establishes whether the manifest lists every source.",
+    "before": "The manifest lists the source items and identifies two items absent from the packet.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T10",
+    "packet": "P002",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; at least one falls below its predeclared acceptance threshold.",
+    "before": "The recorded success counts fall below the reliability claim under its stated operating conditions.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T13",
+    "packet": "P004",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P005",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "The manifest identifies source items, including two not retained in the packet. No independent check establishes whether the manifest lists every source.",
+    "before": "The manifest lists the source items and identifies two items absent from the packet.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T10",
+    "packet": "P005",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P006",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P006",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P007",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "The manifest identifies source items, including two not retained in the packet. No independent check establishes whether the manifest lists every source.",
+    "before": "The manifest lists the source items and identifies two items absent from the packet.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T10",
+    "packet": "P007",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P007",
+    "topic": "control__access"
+  },
+  {
+    "after": "The manifest identifies source items, including two not retained in the packet. No independent check establishes whether the manifest lists every source.",
+    "before": "The manifest lists the source items and identifies two items absent from the packet.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T10",
+    "packet": "P008",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P009",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P009",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P009",
+    "topic": "control__access"
+  },
+  {
+    "after": "The manifest identifies source items, including two not retained in the packet. No independent check establishes whether the manifest lists every source.",
+    "before": "The manifest lists the source items and identifies two items absent from the packet.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T10",
+    "packet": "P010",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P011",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P011",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P011",
+    "topic": "control__access"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P012",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P012",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P012",
+    "topic": "control__access"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P013",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P013",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P014",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P014",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P014",
+    "topic": "control__access"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P015",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P015",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P015",
+    "topic": "control__access"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P016",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P016",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P016",
+    "topic": "control__access"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P017",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P017",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P017",
+    "topic": "control__access"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P018",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P018",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P018",
+    "topic": "control__access"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P019",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P019",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P019",
+    "topic": "control__access"
+  },
+  {
+    "after": "The manifest identifies source items, including two not retained in the packet. No independent check establishes whether the manifest lists every source.",
+    "before": "The manifest lists the source items and identifies two items absent from the packet.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T10",
+    "packet": "P020",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P021",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P021",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P021",
+    "topic": "control__access"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P022",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P022",
+    "topic": "control__access"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P023",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P023",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P023",
+    "topic": "control__access"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P024",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P024",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P024",
+    "topic": "control__access"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P001-order",
+    "topic": "control__access"
+  },
+  {
+    "after": "An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P001-order",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P001-order",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P001-wording",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P001-wording",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P001-wording",
+    "topic": "control__access"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P001-context",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P001-context",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P001-context",
+    "topic": "control__access"
+  },
+  {
+    "after": "The supplied extract states the following: The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The supplied extract states the following: The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P001-paraphrase",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "The supplied extract states the following: An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "The supplied extract states the following: An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P001-paraphrase",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "Every item needed for the decision is included in the scenario\u2019s stipulated evidence inventory. All inventory items reached the reviewer at 09:50. Execution followed at 10:00.",
+    "before": "At 09:50 the reviewer received the entire decision packet. Execution followed at 10:00.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P001-paraphrase",
+    "topic": "control__access"
+  },
+  {
+    "after": "The manifest identifies source items, including two not retained in the packet. No independent check establishes whether the manifest lists every source.",
+    "before": "The manifest lists the source items and identifies two items absent from the packet.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T10",
+    "packet": "P002-order",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The manifest identifies source items, including two not retained in the packet. No independent check establishes whether the manifest lists every source.",
+    "before": "The manifest lists the source items and identifies two items absent from the packet.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T10",
+    "packet": "P002-wording",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The manifest identifies source items, including two not retained in the packet. No independent check establishes whether the manifest lists every source.",
+    "before": "The manifest lists the source items and identifies two items absent from the packet.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T10",
+    "packet": "P002-context",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The supplied extract states the following: The manifest identifies source items, including two not retained in the packet. No independent check establishes whether the manifest lists every source.",
+    "before": "The supplied extract states the following: The manifest lists the source items and identifies two items absent from the packet.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T10",
+    "packet": "P002-paraphrase",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; at least one falls below its predeclared acceptance threshold.",
+    "before": "The recorded success counts fall below the reliability claim under its stated operating conditions.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T13",
+    "packet": "P004-order",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; at least one falls below its predeclared acceptance threshold.",
+    "before": "The recorded success counts fall below the reliability claim under its stated operating conditions.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T13",
+    "packet": "P004-wording",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; at least one falls below its predeclared acceptance threshold.",
+    "before": "The recorded success counts fall below the reliability claim under its stated operating conditions.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T13",
+    "packet": "P004-context",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "The supplied extract states the following: The report gives success and failure counts for every declared operating condition; at least one falls below its predeclared acceptance threshold.",
+    "before": "The supplied extract states the following: The recorded success counts fall below the reliability claim under its stated operating conditions.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T13",
+    "packet": "P004-paraphrase",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "The manifest identifies source items, including two not retained in the packet. No independent check establishes whether the manifest lists every source.",
+    "before": "The manifest lists the source items and identifies two items absent from the packet.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T10",
+    "packet": "P005-order",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P005-order",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P005-wording",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "The manifest identifies source items, including two not retained in the packet. No independent check establishes whether the manifest lists every source.",
+    "before": "The manifest lists the source items and identifies two items absent from the packet.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T10",
+    "packet": "P005-wording",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P005-context",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "The manifest identifies source items, including two not retained in the packet. No independent check establishes whether the manifest lists every source.",
+    "before": "The manifest lists the source items and identifies two items absent from the packet.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T10",
+    "packet": "P005-context",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The supplied extract states the following: The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The supplied extract states the following: The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P005-paraphrase",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "The supplied extract states the following: The manifest identifies source items, including two not retained in the packet. No independent check establishes whether the manifest lists every source.",
+    "before": "The supplied extract states the following: The manifest lists the source items and identifies two items absent from the packet.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T10",
+    "packet": "P005-paraphrase",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P006-order",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P006-order",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P006-wording",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P006-wording",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P006-context",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P006-context",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The supplied extract states the following: The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The supplied extract states the following: The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P006-paraphrase",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "The supplied extract states the following: An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "The supplied extract states the following: An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P006-paraphrase",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P007-order",
+    "topic": "control__access"
+  },
+  {
+    "after": "The manifest identifies source items, including two not retained in the packet. No independent check establishes whether the manifest lists every source.",
+    "before": "The manifest lists the source items and identifies two items absent from the packet.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T10",
+    "packet": "P007-order",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P007-order",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P007-wording",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "The manifest identifies source items, including two not retained in the packet. No independent check establishes whether the manifest lists every source.",
+    "before": "The manifest lists the source items and identifies two items absent from the packet.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T10",
+    "packet": "P007-wording",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P007-wording",
+    "topic": "control__access"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P007-context",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "The manifest identifies source items, including two not retained in the packet. No independent check establishes whether the manifest lists every source.",
+    "before": "The manifest lists the source items and identifies two items absent from the packet.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T10",
+    "packet": "P007-context",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P007-context",
+    "topic": "control__access"
+  },
+  {
+    "after": "The supplied extract states the following: The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The supplied extract states the following: The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P007-paraphrase",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "The supplied extract states the following: The manifest identifies source items, including two not retained in the packet. No independent check establishes whether the manifest lists every source.",
+    "before": "The supplied extract states the following: The manifest lists the source items and identifies two items absent from the packet.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T10",
+    "packet": "P007-paraphrase",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "Every item needed for the decision is included in the scenario\u2019s stipulated evidence inventory. All inventory items reached the reviewer at 09:50. Execution followed at 10:00.",
+    "before": "At 09:50 the reviewer received the entire decision packet. Execution followed at 10:00.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P007-paraphrase",
+    "topic": "control__access"
+  },
+  {
+    "after": "The manifest identifies source items, including two not retained in the packet. No independent check establishes whether the manifest lists every source.",
+    "before": "The manifest lists the source items and identifies two items absent from the packet.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T10",
+    "packet": "P008-order",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The manifest identifies source items, including two not retained in the packet. No independent check establishes whether the manifest lists every source.",
+    "before": "The manifest lists the source items and identifies two items absent from the packet.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T10",
+    "packet": "P008-wording",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The manifest identifies source items, including two not retained in the packet. No independent check establishes whether the manifest lists every source.",
+    "before": "The manifest lists the source items and identifies two items absent from the packet.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T10",
+    "packet": "P008-context",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The supplied extract states the following: The manifest identifies source items, including two not retained in the packet. No independent check establishes whether the manifest lists every source.",
+    "before": "The supplied extract states the following: The manifest lists the source items and identifies two items absent from the packet.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T10",
+    "packet": "P008-paraphrase",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P009-order",
+    "topic": "control__access"
+  },
+  {
+    "after": "An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P009-order",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P009-order",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P009-wording",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P009-wording",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P009-wording",
+    "topic": "control__access"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P009-context",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P009-context",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P009-context",
+    "topic": "control__access"
+  },
+  {
+    "after": "The supplied extract states the following: The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The supplied extract states the following: The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P009-paraphrase",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "The supplied extract states the following: An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "The supplied extract states the following: An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P009-paraphrase",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "Every item needed for the decision is included in the scenario\u2019s stipulated evidence inventory. All inventory items reached the reviewer at 09:50. Execution followed at 10:00.",
+    "before": "At 09:50 the reviewer received the entire decision packet. Execution followed at 10:00.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P009-paraphrase",
+    "topic": "control__access"
+  },
+  {
+    "after": "The manifest identifies source items, including two not retained in the packet. No independent check establishes whether the manifest lists every source.",
+    "before": "The manifest lists the source items and identifies two items absent from the packet.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T10",
+    "packet": "P010-order",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The manifest identifies source items, including two not retained in the packet. No independent check establishes whether the manifest lists every source.",
+    "before": "The manifest lists the source items and identifies two items absent from the packet.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T10",
+    "packet": "P010-wording",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The manifest identifies source items, including two not retained in the packet. No independent check establishes whether the manifest lists every source.",
+    "before": "The manifest lists the source items and identifies two items absent from the packet.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T10",
+    "packet": "P010-context",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The supplied extract states the following: The manifest identifies source items, including two not retained in the packet. No independent check establishes whether the manifest lists every source.",
+    "before": "The supplied extract states the following: The manifest lists the source items and identifies two items absent from the packet.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T10",
+    "packet": "P010-paraphrase",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P011-order",
+    "topic": "control__access"
+  },
+  {
+    "after": "An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P011-order",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P011-order",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P011-wording",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P011-wording",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P011-wording",
+    "topic": "control__access"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P011-context",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P011-context",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P011-context",
+    "topic": "control__access"
+  },
+  {
+    "after": "The supplied extract states the following: The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The supplied extract states the following: The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P011-paraphrase",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "The supplied extract states the following: An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "The supplied extract states the following: An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P011-paraphrase",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "Every item needed for the decision is included in the scenario\u2019s stipulated evidence inventory. All inventory items reached the reviewer at 09:50. Execution followed at 10:00.",
+    "before": "At 09:50 the reviewer received the entire decision packet. Execution followed at 10:00.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P011-paraphrase",
+    "topic": "control__access"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P012-order",
+    "topic": "control__access"
+  },
+  {
+    "after": "An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P012-order",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P012-order",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P012-wording",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P012-wording",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P012-wording",
+    "topic": "control__access"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P012-context",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P012-context",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P012-context",
+    "topic": "control__access"
+  },
+  {
+    "after": "The supplied extract states the following: The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The supplied extract states the following: The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "P012-paraphrase",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "The supplied extract states the following: An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "The supplied extract states the following: An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "P012-paraphrase",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "Every item needed for the decision is included in the scenario\u2019s stipulated evidence inventory. All inventory items reached the reviewer at 09:50. Execution followed at 10:00.",
+    "before": "At 09:50 the reviewer received the entire decision packet. Execution followed at 10:00.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "P012-paraphrase",
+    "topic": "control__access"
+  },
+  {
+    "after": "The policy lets the reviewer review the proposed action. The reviewer cannot prevent or alter execution; the executor may disregard the reviewer\u2019s view. The reviewer inspected the proposed action, recorded a review note requesting cancellation, and the executor continued.",
+    "before": "The policy lets the reviewer review the proposed action. The reviewer cannot prevent or alter execution; the executor may disregard the reviewer\u2019s view. The reviewer recorded an objection and the executor continued.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T04",
+    "packet": "A-review-1",
+    "topic": "control__authority"
+  },
+  {
+    "after": "The policy lets the reviewer recommend the proposed action. The reviewer cannot prevent or alter execution; the executor may disregard the reviewer\u2019s view. The reviewer recommended cancellation and the executor continued.",
+    "before": "The policy lets the reviewer recommend the proposed action. The reviewer cannot prevent or alter execution; the executor may disregard the reviewer\u2019s view. The reviewer recorded an objection and the executor continued.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T04",
+    "packet": "A-recommend-1",
+    "topic": "control__authority"
+  },
+  {
+    "after": "The policy lets the reviewer object to the proposed action. The reviewer cannot prevent or alter execution; the executor may disregard the reviewer\u2019s view. No use of this role is recorded.",
+    "before": "The policy lets the reviewer object the proposed action. The reviewer cannot prevent or alter execution; the executor may disregard the reviewer\u2019s view. No use of this role is recorded.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T03",
+    "packet": "A-object-0",
+    "topic": "control__authority"
+  },
+  {
+    "after": "The policy lets the reviewer object to the proposed action. The reviewer cannot prevent or alter execution; the executor may disregard the reviewer\u2019s view. The reviewer recorded an objection and the executor continued.",
+    "before": "The policy lets the reviewer object the proposed action. The reviewer cannot prevent or alter execution; the executor may disregard the reviewer\u2019s view. The reviewer recorded an objection and the executor continued.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T03",
+    "packet": "A-object-1",
+    "topic": "control__authority"
+  },
+  {
+    "after": "An independent custodian checked the source inventory against the scenario\u2019s complete source register, found no omitted sources, and verified that every registered item was retained in the packet.",
+    "before": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T09",
+    "packet": "H01",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The manifest identifies source items, including two not retained in the packet. No independent check establishes whether the manifest lists every source.",
+    "before": "The manifest lists the source items and identifies two items absent from the packet.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T10",
+    "packet": "H02",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; each meets its predeclared acceptance threshold.",
+    "before": "The evaluation report gives counts of successes and failures separately for every declared operating condition.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T12/T13",
+    "packet": "H03",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "H04",
+    "topic": "control__access"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; at least one falls below its predeclared acceptance threshold.",
+    "before": "The recorded success counts fall below the reliability claim under its stated operating conditions.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T13",
+    "packet": "H05",
+    "topic": "trust__reliability"
+  },
+  {
+    "after": "The manifest identifies source items, including two not retained in the packet. No independent check establishes whether the manifest lists every source.",
+    "before": "The manifest lists the source items and identifies two items absent from the packet.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T10",
+    "packet": "H06",
+    "topic": "trust__evidence_completeness"
+  },
+  {
+    "after": "The scenario\u2019s stipulated evidence inventory contains every item needed for this decision. The reviewer received every inventory item at 09:50; execution occurred at 10:00.",
+    "before": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T01",
+    "packet": "H06",
+    "topic": "control__access"
+  },
+  {
+    "after": "The report gives success and failure counts for every declared operating condition; at least one falls below its predeclared acceptance threshold.",
+    "before": "The recorded success counts fall below the reliability claim under its stated operating conditions.",
+    "boundary": "Approved authored successor wording; added facts are synthetic stipulations.",
+    "issue": "T13",
+    "packet": "H06",
+    "topic": "trust__reliability"
+  }
+]
