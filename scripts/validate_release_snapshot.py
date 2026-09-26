@@ -11,6 +11,42 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SNAPSHOTS = {
+    "v0.17.0": {
+        "manifest": "release/v0.17.0-manifest.json",
+        "immutable": (
+            'release/v0.17.0-manifest.json',
+            'release/v0.17.0-release-notes.md',
+            'CHANGELOG.md',
+            'paper/README.md',
+            'paper/REVIEW.md',
+            'paper/policy-and-standards-crosswalk-v0.17.0.md',
+            'paper/data/policy-and-standards-source-review-v0.17.0.json',
+            'paper/drafts/v0.17.0/README.md',
+            'paper/drafts/v0.17.0/regulatory-section.tex',
+            'paper/drafts/v0.17.0/regulatory-section-review.pdf',
+            'paper/preprints/README.md',
+            'paper/preprints/00README.XXX',
+            'paper/preprints/main.tex',
+            'paper/preprints/metadata.yaml',
+            'paper/preprints/source-manifest-v0.17.0.json',
+            'paper/preprints/compile-receipt-v0.17.0.json',
+            'paper/preprints/preprints-source-v0.17.0.zip',
+            'paper/preprints/preprints-compiled-v0.17.0.pdf',
+            'evidence/policy-claim-evidence-map-v0.17.0.json',
+            'evidence/human-review-attestation-v0.17.0.json',
+            'fixtures/policy-crosswalk-mutations-v0.17.0.json',
+            'audits/v0.17.0-policy-crosswalk/audit-plan.md',
+            'audits/v0.17.0-policy-crosswalk/audit-report.md',
+            'audits/v0.17.0-policy-crosswalk/audit-results.json',
+            'audits/v0.17.0-policy-crosswalk/exceptions.md',
+            'scripts/build_policy_review_pdf_v0_17_0.py',
+            'scripts/build_v0_17_policy_claim_map.py',
+            'scripts/build_v0_17_preprint_package.py',
+            'scripts/run_policy_integrity_audit_v0_17_0.py',
+            'scripts/validate_policy_crosswalk_v0_17_0.py',
+            'scripts/build_v0_17_release_manifest.py',
+        ),
+    },
     "v0.6.0": {
         "manifest": "release/v0.6.0-manifest.json",
         "immutable": (

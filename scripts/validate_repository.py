@@ -645,16 +645,35 @@ def validate_release_candidate(failures: list[str]) -> str:
         indexed[row["path"]] = row
     if len(indexed) != len(artifacts):
         fail("current release manifest contains duplicate artifact paths", failures)
+    # The published tag seals all original bytes. Three current-facing documents
+    # have a separately hashed navigation checkpoint; research stays sealed.
+    navigation_paths = {"README.md", "CITATION.cff", "RESEARCH_STATUS.md"}
+    try:
+        navigation = json.loads((ROOT / "docs/navigation-v0.17.0.json").read_text())
+        if navigation.get("release_tag") != "v0.17.0":
+            raise ValueError("unexpected release tag")
+        entries = navigation["artifacts"]
+        if not isinstance(entries, dict) or set(entries) != navigation_paths:
+            raise ValueError("navigation scope must contain exactly the three declared documents")
+        for name, entry in entries.items():
+            if entry.get("released_sha256") != indexed[name]["sha256"]:
+                raise ValueError("navigation baseline differs from released artifact: " + name)
+    except (OSError, ValueError, KeyError, TypeError, AttributeError) as exc:
+        fail(f"invalid current navigation checkpoint: {exc}", failures)
+        return ""
     for artifact_path, row in indexed.items():
         file_path = ROOT / artifact_path
         if not file_path.is_file():
             fail(f"current release artifact is missing: {artifact_path}", failures)
             continue
-        if row.get("bytes") != file_path.stat().st_size:
-            fail(f"current release artifact size mismatch: {artifact_path}", failures)
-        if row.get("sha256") != digest(file_path):
-            fail(f"current release artifact hash mismatch: {artifact_path}", failures)
-    return f"release candidate validation: PASS (v{WORKING_VERSION}; {len(indexed)} sealed artifacts)"
+        expected = entries[artifact_path] if artifact_path in navigation_paths else row
+        if expected.get("bytes") != file_path.stat().st_size:
+            fail(f"current artifact size mismatch: {artifact_path}", failures)
+        if expected.get("sha256") != digest(file_path):
+            fail(f"current artifact hash mismatch: {artifact_path}", failures)
+    return (f"working-tree validation: PASS (v{WORKING_VERSION}; "
+            f"{len(indexed) - len(navigation_paths)} preserved release artifacts; "
+            f"{len(navigation_paths)} separately hashed navigation documents)")
 
 
 def validate_solo_suite(failures: list[str]) -> str:

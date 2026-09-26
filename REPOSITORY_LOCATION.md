@@ -6,7 +6,7 @@ Trust, Autonomy & Evidence is now maintained at [node-and-norm/trust-autonomy-ev
 
 The repository moved from `mj3b` to `node-and-norm`. Its GitHub repository ID, existing branches and tags, release records, and release assets were preserved. GitHub redirects the former repository address to the new location.
 
-The current release manifest covers the root README and citation file. Those files retain their exact pre-transfer bytes. Their historical repository links continue through GitHub's redirects. This note records the current address without changing a frozen artifact, research claim, author credit, DOI, or version identifier.
+At the stewardship transfer, the manifest-covered root README and citation file retained their pre-transfer bytes. The v0.17.0 tag and release manifest continue to preserve those historical bytes. Current navigation now uses the node-and-norm address and the v0.17.0 paper; the separately hashed navigation checkpoint and validation boundary are documented in [docs/current-navigation.md](docs/current-navigation.md). No historical manifest, research claim, author credit, DOI, or release identifier is rewritten.
 
 | Navigation | Current location |
 | :--- | :--- |
