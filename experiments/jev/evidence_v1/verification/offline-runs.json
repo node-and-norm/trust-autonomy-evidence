@@ -1,0 +1,52 @@
+[
+  {
+    "artifact_count": 285,
+    "artifact_manifest_sha256": "8edc7fa456f284c60e779ef0e00bd1c52312676c9be72e453585448b20d33313",
+    "attempted": 0,
+    "freeze_sha256": "e0e1253259b42faa64e76ff7e363692629764c00b78ae558ca30c7c1c6b2220b",
+    "git_commit": "91d90551cfc6a1f1a0a9c51da04f484bec081344",
+    "mode": "dry-run",
+    "request_status_counts": {
+      "error": 0,
+      "interrupted": 0,
+      "invalid": 0,
+      "ok": 0,
+      "planned": 282
+    },
+    "resolved_versions": [],
+    "run_directory": "experiments/jev/evidence_v1/runs/verification-dry",
+    "scheduled_requests": 282,
+    "status": "dry-run",
+    "summary_files_sha256": {
+      "adjudications.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "report.json": "aa8e97035347ab3c03c9b3ff7b98b11430969d7d0b530df7cb04af1e38de35fb",
+      "run.json": "ff5777da71da7f6762235af834d6f7186d0d36f4024ca1b5ba7f1f3b7532afb8"
+    }
+  },
+  {
+    "artifact_count": 567,
+    "artifact_manifest_sha256": "0ed4301bb9ed0f5bc8db48b93cc97d669ff903654cd7042c938009d1c6611ad9",
+    "attempted": 282,
+    "freeze_sha256": "e0e1253259b42faa64e76ff7e363692629764c00b78ae558ca30c7c1c6b2220b",
+    "git_commit": "91d90551cfc6a1f1a0a9c51da04f484bec081344",
+    "mode": "mock",
+    "request_status_counts": {
+      "error": 0,
+      "interrupted": 0,
+      "invalid": 0,
+      "ok": 282,
+      "planned": 0
+    },
+    "resolved_versions": [
+      "mock-only"
+    ],
+    "run_directory": "experiments/jev/evidence_v1/runs/verification-mock",
+    "scheduled_requests": 282,
+    "status": "complete",
+    "summary_files_sha256": {
+      "adjudications.json": "71ac7309efc5e8c72708900474a20f02fd48e4581f57ae040d2bab95dd4a191d",
+      "report.json": "ba4899fdf6f723d100874dcb1661b65d1271ea9ddb284590c3d45d30c2e9c055",
+      "run.json": "9221d1ffdf50b4e388db39cd79701126c35494b991b993be558f65b3097204b4"
+    }
+  }
+]
