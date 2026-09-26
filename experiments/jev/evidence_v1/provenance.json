@@ -1,0 +1,1186 @@
+{
+  "A-approval-required-0": {
+    "assumption": "binding temporary delay counts as decision authority; mere advisory objection does not",
+    "sealed_oracle": false,
+    "source": "new authored authority challenge"
+  },
+  "A-approval-required-1": {
+    "assumption": "binding temporary delay counts as decision authority; mere advisory objection does not",
+    "sealed_oracle": false,
+    "source": "new authored authority challenge"
+  },
+  "A-cancel-0": {
+    "assumption": "binding temporary delay counts as decision authority; mere advisory objection does not",
+    "sealed_oracle": false,
+    "source": "new authored authority challenge"
+  },
+  "A-cancel-1": {
+    "assumption": "binding temporary delay counts as decision authority; mere advisory objection does not",
+    "sealed_oracle": false,
+    "source": "new authored authority challenge"
+  },
+  "A-delay-0": {
+    "assumption": "binding temporary delay counts as decision authority; mere advisory objection does not",
+    "sealed_oracle": false,
+    "source": "new authored authority challenge"
+  },
+  "A-delay-1": {
+    "assumption": "binding temporary delay counts as decision authority; mere advisory objection does not",
+    "sealed_oracle": false,
+    "source": "new authored authority challenge"
+  },
+  "A-object-0": {
+    "assumption": "binding temporary delay counts as decision authority; mere advisory objection does not",
+    "sealed_oracle": false,
+    "source": "new authored authority challenge"
+  },
+  "A-object-1": {
+    "assumption": "binding temporary delay counts as decision authority; mere advisory objection does not",
+    "sealed_oracle": false,
+    "source": "new authored authority challenge"
+  },
+  "A-override-0": {
+    "assumption": "binding temporary delay counts as decision authority; mere advisory objection does not",
+    "sealed_oracle": false,
+    "source": "new authored authority challenge"
+  },
+  "A-override-1": {
+    "assumption": "binding temporary delay counts as decision authority; mere advisory objection does not",
+    "sealed_oracle": false,
+    "source": "new authored authority challenge"
+  },
+  "A-recommend-0": {
+    "assumption": "binding temporary delay counts as decision authority; mere advisory objection does not",
+    "sealed_oracle": false,
+    "source": "new authored authority challenge"
+  },
+  "A-recommend-1": {
+    "assumption": "binding temporary delay counts as decision authority; mere advisory objection does not",
+    "sealed_oracle": false,
+    "source": "new authored authority challenge"
+  },
+  "A-review-0": {
+    "assumption": "binding temporary delay counts as decision authority; mere advisory objection does not",
+    "sealed_oracle": false,
+    "source": "new authored authority challenge"
+  },
+  "A-review-1": {
+    "assumption": "binding temporary delay counts as decision authority; mere advisory objection does not",
+    "sealed_oracle": false,
+    "source": "new authored authority challenge"
+  },
+  "A-suspend-0": {
+    "assumption": "binding temporary delay counts as decision authority; mere advisory objection does not",
+    "sealed_oracle": false,
+    "source": "new authored authority challenge"
+  },
+  "A-suspend-1": {
+    "assumption": "binding temporary delay counts as decision authority; mere advisory objection does not",
+    "sealed_oracle": false,
+    "source": "new authored authority challenge"
+  },
+  "H01": {
+    "limitation": "shares translation vocabulary; compositional transfer only, not independent author or lexical transfer",
+    "sealed_oracle": false,
+    "signals": {
+      "control_signals": {
+        "access": "post_action",
+        "authority": "outside_scope",
+        "comprehension": "missing",
+        "correction": "missing",
+        "effect": "no_change",
+        "exercise": "attestation_only",
+        "feasibility": "tested",
+        "reform": "revised_retested",
+        "repair": "outside_scope"
+      },
+      "trust_signals": {
+        "capability": "contradicted",
+        "evidence_completeness": "independently_checked",
+        "governance_update": "review_trigger",
+        "harm_correction": "completed",
+        "human_authority": "ineffective",
+        "identity": "verified",
+        "integrity": "missing",
+        "monitoring": "partial_pipeline",
+        "reconstructability": "outside_scope",
+        "reliability": "missing",
+        "scope": "documented",
+        "uncertainty": "outside_scope"
+      }
+    },
+    "source": "new mixed-state composition"
+  },
+  "H02": {
+    "limitation": "shares translation vocabulary; compositional transfer only, not independent author or lexical transfer",
+    "sealed_oracle": false,
+    "signals": {
+      "control_signals": {
+        "access": "missing",
+        "authority": "exercised",
+        "comprehension": "outside_scope",
+        "correction": "outside_scope",
+        "effect": "missing",
+        "exercise": "automatic_approval",
+        "feasibility": "nominal",
+        "reform": "review_trigger",
+        "repair": "completed"
+      },
+      "trust_signals": {
+        "capability": "missing",
+        "evidence_completeness": "manifest_with_gaps",
+        "governance_update": "unchanged_after_failure",
+        "harm_correction": "procedure",
+        "human_authority": "missing",
+        "identity": "declared",
+        "integrity": "outside_scope",
+        "monitoring": "bypassed",
+        "reconstructability": "independently_reconstructed",
+        "reliability": "outside_scope",
+        "scope": "violated",
+        "uncertainty": "calibrated"
+      }
+    },
+    "source": "new mixed-state composition"
+  },
+  "H03": {
+    "limitation": "shares translation vocabulary; compositional transfer only, not independent author or lexical transfer",
+    "sealed_oracle": false,
+    "signals": {
+      "control_signals": {
+        "access": "outside_scope",
+        "authority": "assigned",
+        "comprehension": "independent_challenge",
+        "correction": "completed",
+        "effect": "outside_scope",
+        "exercise": "missing",
+        "feasibility": "blocked",
+        "reform": "unchanged",
+        "repair": "assigned"
+      },
+      "trust_signals": {
+        "capability": "outside_scope",
+        "evidence_completeness": "contradicted",
+        "governance_update": "missing",
+        "harm_correction": "failed",
+        "human_authority": "outside_scope",
+        "identity": "contradicted",
+        "integrity": "protected",
+        "monitoring": "missing",
+        "reconstructability": "partial_record",
+        "reliability": "conditional_distribution",
+        "scope": "missing",
+        "uncertainty": "declared"
+      }
+    },
+    "source": "new mixed-state composition"
+  },
+  "H04": {
+    "limitation": "shares translation vocabulary; compositional transfer only, not independent author or lexical transfer",
+    "sealed_oracle": false,
+    "signals": {
+      "control_signals": {
+        "access": "pre_action_complete",
+        "authority": "advisory_only",
+        "comprehension": "materials_only",
+        "correction": "procedure",
+        "effect": "execution_changed",
+        "exercise": "outside_scope",
+        "feasibility": "missing",
+        "reform": "missing",
+        "repair": "failed"
+      },
+      "trust_signals": {
+        "capability": "repeated_relevant",
+        "evidence_completeness": "missing",
+        "governance_update": "outside_scope",
+        "harm_correction": "missing",
+        "human_authority": "exercised",
+        "identity": "missing",
+        "integrity": "timestamped",
+        "monitoring": "outside_scope",
+        "reconstructability": "retrospective",
+        "reliability": "aggregate_only",
+        "scope": "outside_scope",
+        "uncertainty": "misleading"
+      }
+    },
+    "source": "new mixed-state composition"
+  },
+  "H05": {
+    "limitation": "shares translation vocabulary; compositional transfer only, not independent author or lexical transfer",
+    "sealed_oracle": false,
+    "signals": {
+      "control_signals": {
+        "access": "pre_action_partial",
+        "authority": "missing",
+        "comprehension": "automation_bias",
+        "correction": "inaccessible",
+        "effect": "claimed_change",
+        "exercise": "intervention",
+        "feasibility": "outside_scope",
+        "reform": "outside_scope",
+        "repair": "missing"
+      },
+      "trust_signals": {
+        "capability": "single_relevant",
+        "evidence_completeness": "outside_scope",
+        "governance_update": "revised_retested",
+        "harm_correction": "outside_scope",
+        "human_authority": "assigned",
+        "identity": "outside_scope",
+        "integrity": "mutable",
+        "monitoring": "full_pipeline",
+        "reconstructability": "missing",
+        "reliability": "contradicted",
+        "scope": "enforced",
+        "uncertainty": "missing"
+      }
+    },
+    "source": "new mixed-state composition"
+  },
+  "H06": {
+    "limitation": "shares translation vocabulary; compositional transfer only, not independent author or lexical transfer",
+    "sealed_oracle": false,
+    "signals": {
+      "control_signals": {
+        "access": "post_action",
+        "authority": "outside_scope",
+        "comprehension": "missing",
+        "correction": "missing",
+        "effect": "no_change",
+        "exercise": "attestation_only",
+        "feasibility": "tested",
+        "reform": "revised_retested",
+        "repair": "outside_scope"
+      },
+      "trust_signals": {
+        "capability": "contradicted",
+        "evidence_completeness": "independently_checked",
+        "governance_update": "review_trigger",
+        "harm_correction": "completed",
+        "human_authority": "ineffective",
+        "identity": "verified",
+        "integrity": "missing",
+        "monitoring": "partial_pipeline",
+        "reconstructability": "outside_scope",
+        "reliability": "missing",
+        "scope": "documented",
+        "uncertainty": "outside_scope"
+      }
+    },
+    "source": "new mixed-state composition"
+  },
+  "P001": {
+    "source_case": "TAE-SYN-001",
+    "source_fields": {
+      "control__access": "control_signals.access",
+      "control__authority": "control_signals.authority",
+      "control__comprehension": "control_signals.comprehension",
+      "control__correction": "control_signals.correction",
+      "control__effect": "control_signals.effect",
+      "control__exercise": "control_signals.exercise",
+      "control__feasibility": "control_signals.feasibility",
+      "control__reform": "control_signals.reform",
+      "control__repair": "control_signals.repair",
+      "trust__capability": "trust_signals.capability",
+      "trust__evidence_completeness": "trust_signals.evidence_completeness",
+      "trust__governance_update": "trust_signals.governance_update",
+      "trust__harm_correction": "trust_signals.harm_correction",
+      "trust__human_authority": "trust_signals.human_authority",
+      "trust__identity": "trust_signals.identity",
+      "trust__integrity": "trust_signals.integrity",
+      "trust__monitoring": "trust_signals.monitoring",
+      "trust__reconstructability": "trust_signals.reconstructability",
+      "trust__reliability": "trust_signals.reliability",
+      "trust__scope": "trust_signals.scope",
+      "trust__uncertainty": "trust_signals.uncertainty"
+    },
+    "source_job": "TAE-SYN-001",
+    "translation": "TEXT authored from signal semantics; invented illustrative details; no recovered documents"
+  },
+  "P001-context": {
+    "derived_from": "P001",
+    "facts_changed": false,
+    "transformation": "context"
+  },
+  "P001-order": {
+    "derived_from": "P001",
+    "facts_changed": false,
+    "transformation": "order"
+  },
+  "P001-paraphrase": {
+    "derived_from": "P001",
+    "facts_changed": false,
+    "transformation": "paraphrase"
+  },
+  "P001-wording": {
+    "derived_from": "P001",
+    "facts_changed": false,
+    "transformation": "wording"
+  },
+  "P002": {
+    "source_case": "TAE-SYN-002",
+    "source_fields": {
+      "control__access": "control_signals.access",
+      "control__authority": "control_signals.authority",
+      "control__comprehension": "control_signals.comprehension",
+      "control__correction": "control_signals.correction",
+      "control__effect": "control_signals.effect",
+      "control__exercise": "control_signals.exercise",
+      "control__feasibility": "control_signals.feasibility",
+      "control__reform": "control_signals.reform",
+      "control__repair": "control_signals.repair",
+      "trust__capability": "trust_signals.capability",
+      "trust__evidence_completeness": "trust_signals.evidence_completeness",
+      "trust__governance_update": "trust_signals.governance_update",
+      "trust__harm_correction": "trust_signals.harm_correction",
+      "trust__human_authority": "trust_signals.human_authority",
+      "trust__identity": "trust_signals.identity",
+      "trust__integrity": "trust_signals.integrity",
+      "trust__monitoring": "trust_signals.monitoring",
+      "trust__reconstructability": "trust_signals.reconstructability",
+      "trust__reliability": "trust_signals.reliability",
+      "trust__scope": "trust_signals.scope",
+      "trust__uncertainty": "trust_signals.uncertainty"
+    },
+    "source_job": "TAE-SYN-002",
+    "translation": "TEXT authored from signal semantics; invented illustrative details; no recovered documents"
+  },
+  "P002-context": {
+    "derived_from": "P002",
+    "facts_changed": false,
+    "transformation": "context"
+  },
+  "P002-order": {
+    "derived_from": "P002",
+    "facts_changed": false,
+    "transformation": "order"
+  },
+  "P002-paraphrase": {
+    "derived_from": "P002",
+    "facts_changed": false,
+    "transformation": "paraphrase"
+  },
+  "P002-wording": {
+    "derived_from": "P002",
+    "facts_changed": false,
+    "transformation": "wording"
+  },
+  "P003": {
+    "source_case": "TAE-SYN-003",
+    "source_fields": {
+      "control__access": "control_signals.access",
+      "control__authority": "control_signals.authority",
+      "control__comprehension": "control_signals.comprehension",
+      "control__correction": "control_signals.correction",
+      "control__effect": "control_signals.effect",
+      "control__exercise": "control_signals.exercise",
+      "control__feasibility": "control_signals.feasibility",
+      "control__reform": "control_signals.reform",
+      "control__repair": "control_signals.repair",
+      "trust__capability": "trust_signals.capability",
+      "trust__evidence_completeness": "trust_signals.evidence_completeness",
+      "trust__governance_update": "trust_signals.governance_update",
+      "trust__harm_correction": "trust_signals.harm_correction",
+      "trust__human_authority": "trust_signals.human_authority",
+      "trust__identity": "trust_signals.identity",
+      "trust__integrity": "trust_signals.integrity",
+      "trust__monitoring": "trust_signals.monitoring",
+      "trust__reconstructability": "trust_signals.reconstructability",
+      "trust__reliability": "trust_signals.reliability",
+      "trust__scope": "trust_signals.scope",
+      "trust__uncertainty": "trust_signals.uncertainty"
+    },
+    "source_job": "TAE-SYN-003",
+    "translation": "TEXT authored from signal semantics; invented illustrative details; no recovered documents"
+  },
+  "P003-context": {
+    "derived_from": "P003",
+    "facts_changed": false,
+    "transformation": "context"
+  },
+  "P003-order": {
+    "derived_from": "P003",
+    "facts_changed": false,
+    "transformation": "order"
+  },
+  "P003-paraphrase": {
+    "derived_from": "P003",
+    "facts_changed": false,
+    "transformation": "paraphrase"
+  },
+  "P003-wording": {
+    "derived_from": "P003",
+    "facts_changed": false,
+    "transformation": "wording"
+  },
+  "P004": {
+    "source_case": "TAE-SYN-004",
+    "source_fields": {
+      "control__access": "control_signals.access",
+      "control__authority": "control_signals.authority",
+      "control__comprehension": "control_signals.comprehension",
+      "control__correction": "control_signals.correction",
+      "control__effect": "control_signals.effect",
+      "control__exercise": "control_signals.exercise",
+      "control__feasibility": "control_signals.feasibility",
+      "control__reform": "control_signals.reform",
+      "control__repair": "control_signals.repair",
+      "trust__capability": "trust_signals.capability",
+      "trust__evidence_completeness": "trust_signals.evidence_completeness",
+      "trust__governance_update": "trust_signals.governance_update",
+      "trust__harm_correction": "trust_signals.harm_correction",
+      "trust__human_authority": "trust_signals.human_authority",
+      "trust__identity": "trust_signals.identity",
+      "trust__integrity": "trust_signals.integrity",
+      "trust__monitoring": "trust_signals.monitoring",
+      "trust__reconstructability": "trust_signals.reconstructability",
+      "trust__reliability": "trust_signals.reliability",
+      "trust__scope": "trust_signals.scope",
+      "trust__uncertainty": "trust_signals.uncertainty"
+    },
+    "source_job": "TAE-SYN-004",
+    "translation": "TEXT authored from signal semantics; invented illustrative details; no recovered documents"
+  },
+  "P004-context": {
+    "derived_from": "P004",
+    "facts_changed": false,
+    "transformation": "context"
+  },
+  "P004-order": {
+    "derived_from": "P004",
+    "facts_changed": false,
+    "transformation": "order"
+  },
+  "P004-paraphrase": {
+    "derived_from": "P004",
+    "facts_changed": false,
+    "transformation": "paraphrase"
+  },
+  "P004-wording": {
+    "derived_from": "P004",
+    "facts_changed": false,
+    "transformation": "wording"
+  },
+  "P005": {
+    "source_case": "TAE-SYN-005",
+    "source_fields": {
+      "control__access": "control_signals.access",
+      "control__authority": "control_signals.authority",
+      "control__comprehension": "control_signals.comprehension",
+      "control__correction": "control_signals.correction",
+      "control__effect": "control_signals.effect",
+      "control__exercise": "control_signals.exercise",
+      "control__feasibility": "control_signals.feasibility",
+      "control__reform": "control_signals.reform",
+      "control__repair": "control_signals.repair",
+      "trust__capability": "trust_signals.capability",
+      "trust__evidence_completeness": "trust_signals.evidence_completeness",
+      "trust__governance_update": "trust_signals.governance_update",
+      "trust__harm_correction": "trust_signals.harm_correction",
+      "trust__human_authority": "trust_signals.human_authority",
+      "trust__identity": "trust_signals.identity",
+      "trust__integrity": "trust_signals.integrity",
+      "trust__monitoring": "trust_signals.monitoring",
+      "trust__reconstructability": "trust_signals.reconstructability",
+      "trust__reliability": "trust_signals.reliability",
+      "trust__scope": "trust_signals.scope",
+      "trust__uncertainty": "trust_signals.uncertainty"
+    },
+    "source_job": "TAE-SYN-005",
+    "translation": "TEXT authored from signal semantics; invented illustrative details; no recovered documents"
+  },
+  "P005-context": {
+    "derived_from": "P005",
+    "facts_changed": false,
+    "transformation": "context"
+  },
+  "P005-order": {
+    "derived_from": "P005",
+    "facts_changed": false,
+    "transformation": "order"
+  },
+  "P005-paraphrase": {
+    "derived_from": "P005",
+    "facts_changed": false,
+    "transformation": "paraphrase"
+  },
+  "P005-wording": {
+    "derived_from": "P005",
+    "facts_changed": false,
+    "transformation": "wording"
+  },
+  "P006": {
+    "source_case": "TAE-SYN-006",
+    "source_fields": {
+      "control__access": "control_signals.access",
+      "control__authority": "control_signals.authority",
+      "control__comprehension": "control_signals.comprehension",
+      "control__correction": "control_signals.correction",
+      "control__effect": "control_signals.effect",
+      "control__exercise": "control_signals.exercise",
+      "control__feasibility": "control_signals.feasibility",
+      "control__reform": "control_signals.reform",
+      "control__repair": "control_signals.repair",
+      "trust__capability": "trust_signals.capability",
+      "trust__evidence_completeness": "trust_signals.evidence_completeness",
+      "trust__governance_update": "trust_signals.governance_update",
+      "trust__harm_correction": "trust_signals.harm_correction",
+      "trust__human_authority": "trust_signals.human_authority",
+      "trust__identity": "trust_signals.identity",
+      "trust__integrity": "trust_signals.integrity",
+      "trust__monitoring": "trust_signals.monitoring",
+      "trust__reconstructability": "trust_signals.reconstructability",
+      "trust__reliability": "trust_signals.reliability",
+      "trust__scope": "trust_signals.scope",
+      "trust__uncertainty": "trust_signals.uncertainty"
+    },
+    "source_job": "TAE-SYN-006",
+    "translation": "TEXT authored from signal semantics; invented illustrative details; no recovered documents"
+  },
+  "P006-context": {
+    "derived_from": "P006",
+    "facts_changed": false,
+    "transformation": "context"
+  },
+  "P006-order": {
+    "derived_from": "P006",
+    "facts_changed": false,
+    "transformation": "order"
+  },
+  "P006-paraphrase": {
+    "derived_from": "P006",
+    "facts_changed": false,
+    "transformation": "paraphrase"
+  },
+  "P006-wording": {
+    "derived_from": "P006",
+    "facts_changed": false,
+    "transformation": "wording"
+  },
+  "P007": {
+    "source_case": "TAE-SYN-007",
+    "source_fields": {
+      "control__access": "control_signals.access",
+      "control__authority": "control_signals.authority",
+      "control__comprehension": "control_signals.comprehension",
+      "control__correction": "control_signals.correction",
+      "control__effect": "control_signals.effect",
+      "control__exercise": "control_signals.exercise",
+      "control__feasibility": "control_signals.feasibility",
+      "control__reform": "control_signals.reform",
+      "control__repair": "control_signals.repair",
+      "trust__capability": "trust_signals.capability",
+      "trust__evidence_completeness": "trust_signals.evidence_completeness",
+      "trust__governance_update": "trust_signals.governance_update",
+      "trust__harm_correction": "trust_signals.harm_correction",
+      "trust__human_authority": "trust_signals.human_authority",
+      "trust__identity": "trust_signals.identity",
+      "trust__integrity": "trust_signals.integrity",
+      "trust__monitoring": "trust_signals.monitoring",
+      "trust__reconstructability": "trust_signals.reconstructability",
+      "trust__reliability": "trust_signals.reliability",
+      "trust__scope": "trust_signals.scope",
+      "trust__uncertainty": "trust_signals.uncertainty"
+    },
+    "source_job": "TAE-SYN-007",
+    "translation": "TEXT authored from signal semantics; invented illustrative details; no recovered documents"
+  },
+  "P007-context": {
+    "derived_from": "P007",
+    "facts_changed": false,
+    "transformation": "context"
+  },
+  "P007-order": {
+    "derived_from": "P007",
+    "facts_changed": false,
+    "transformation": "order"
+  },
+  "P007-paraphrase": {
+    "derived_from": "P007",
+    "facts_changed": false,
+    "transformation": "paraphrase"
+  },
+  "P007-wording": {
+    "derived_from": "P007",
+    "facts_changed": false,
+    "transformation": "wording"
+  },
+  "P008": {
+    "source_case": "TAE-SYN-008",
+    "source_fields": {
+      "control__access": "control_signals.access",
+      "control__authority": "control_signals.authority",
+      "control__comprehension": "control_signals.comprehension",
+      "control__correction": "control_signals.correction",
+      "control__effect": "control_signals.effect",
+      "control__exercise": "control_signals.exercise",
+      "control__feasibility": "control_signals.feasibility",
+      "control__reform": "control_signals.reform",
+      "control__repair": "control_signals.repair",
+      "trust__capability": "trust_signals.capability",
+      "trust__evidence_completeness": "trust_signals.evidence_completeness",
+      "trust__governance_update": "trust_signals.governance_update",
+      "trust__harm_correction": "trust_signals.harm_correction",
+      "trust__human_authority": "trust_signals.human_authority",
+      "trust__identity": "trust_signals.identity",
+      "trust__integrity": "trust_signals.integrity",
+      "trust__monitoring": "trust_signals.monitoring",
+      "trust__reconstructability": "trust_signals.reconstructability",
+      "trust__reliability": "trust_signals.reliability",
+      "trust__scope": "trust_signals.scope",
+      "trust__uncertainty": "trust_signals.uncertainty"
+    },
+    "source_job": "TAE-SYN-008",
+    "translation": "TEXT authored from signal semantics; invented illustrative details; no recovered documents"
+  },
+  "P008-context": {
+    "derived_from": "P008",
+    "facts_changed": false,
+    "transformation": "context"
+  },
+  "P008-order": {
+    "derived_from": "P008",
+    "facts_changed": false,
+    "transformation": "order"
+  },
+  "P008-paraphrase": {
+    "derived_from": "P008",
+    "facts_changed": false,
+    "transformation": "paraphrase"
+  },
+  "P008-wording": {
+    "derived_from": "P008",
+    "facts_changed": false,
+    "transformation": "wording"
+  },
+  "P009": {
+    "source_case": "TAE-SYN-009",
+    "source_fields": {
+      "control__access": "control_signals.access",
+      "control__authority": "control_signals.authority",
+      "control__comprehension": "control_signals.comprehension",
+      "control__correction": "control_signals.correction",
+      "control__effect": "control_signals.effect",
+      "control__exercise": "control_signals.exercise",
+      "control__feasibility": "control_signals.feasibility",
+      "control__reform": "control_signals.reform",
+      "control__repair": "control_signals.repair",
+      "trust__capability": "trust_signals.capability",
+      "trust__evidence_completeness": "trust_signals.evidence_completeness",
+      "trust__governance_update": "trust_signals.governance_update",
+      "trust__harm_correction": "trust_signals.harm_correction",
+      "trust__human_authority": "trust_signals.human_authority",
+      "trust__identity": "trust_signals.identity",
+      "trust__integrity": "trust_signals.integrity",
+      "trust__monitoring": "trust_signals.monitoring",
+      "trust__reconstructability": "trust_signals.reconstructability",
+      "trust__reliability": "trust_signals.reliability",
+      "trust__scope": "trust_signals.scope",
+      "trust__uncertainty": "trust_signals.uncertainty"
+    },
+    "source_job": "TAE-SYN-009",
+    "translation": "TEXT authored from signal semantics; invented illustrative details; no recovered documents"
+  },
+  "P009-context": {
+    "derived_from": "P009",
+    "facts_changed": false,
+    "transformation": "context"
+  },
+  "P009-order": {
+    "derived_from": "P009",
+    "facts_changed": false,
+    "transformation": "order"
+  },
+  "P009-paraphrase": {
+    "derived_from": "P009",
+    "facts_changed": false,
+    "transformation": "paraphrase"
+  },
+  "P009-wording": {
+    "derived_from": "P009",
+    "facts_changed": false,
+    "transformation": "wording"
+  },
+  "P010": {
+    "source_case": "TAE-SYN-010",
+    "source_fields": {
+      "control__access": "control_signals.access",
+      "control__authority": "control_signals.authority",
+      "control__comprehension": "control_signals.comprehension",
+      "control__correction": "control_signals.correction",
+      "control__effect": "control_signals.effect",
+      "control__exercise": "control_signals.exercise",
+      "control__feasibility": "control_signals.feasibility",
+      "control__reform": "control_signals.reform",
+      "control__repair": "control_signals.repair",
+      "trust__capability": "trust_signals.capability",
+      "trust__evidence_completeness": "trust_signals.evidence_completeness",
+      "trust__governance_update": "trust_signals.governance_update",
+      "trust__harm_correction": "trust_signals.harm_correction",
+      "trust__human_authority": "trust_signals.human_authority",
+      "trust__identity": "trust_signals.identity",
+      "trust__integrity": "trust_signals.integrity",
+      "trust__monitoring": "trust_signals.monitoring",
+      "trust__reconstructability": "trust_signals.reconstructability",
+      "trust__reliability": "trust_signals.reliability",
+      "trust__scope": "trust_signals.scope",
+      "trust__uncertainty": "trust_signals.uncertainty"
+    },
+    "source_job": "TAE-SYN-010",
+    "translation": "TEXT authored from signal semantics; invented illustrative details; no recovered documents"
+  },
+  "P010-context": {
+    "derived_from": "P010",
+    "facts_changed": false,
+    "transformation": "context"
+  },
+  "P010-order": {
+    "derived_from": "P010",
+    "facts_changed": false,
+    "transformation": "order"
+  },
+  "P010-paraphrase": {
+    "derived_from": "P010",
+    "facts_changed": false,
+    "transformation": "paraphrase"
+  },
+  "P010-wording": {
+    "derived_from": "P010",
+    "facts_changed": false,
+    "transformation": "wording"
+  },
+  "P011": {
+    "source_case": "TAE-SYN-011",
+    "source_fields": {
+      "control__access": "control_signals.access",
+      "control__authority": "control_signals.authority",
+      "control__comprehension": "control_signals.comprehension",
+      "control__correction": "control_signals.correction",
+      "control__effect": "control_signals.effect",
+      "control__exercise": "control_signals.exercise",
+      "control__feasibility": "control_signals.feasibility",
+      "control__reform": "control_signals.reform",
+      "control__repair": "control_signals.repair",
+      "trust__capability": "trust_signals.capability",
+      "trust__evidence_completeness": "trust_signals.evidence_completeness",
+      "trust__governance_update": "trust_signals.governance_update",
+      "trust__harm_correction": "trust_signals.harm_correction",
+      "trust__human_authority": "trust_signals.human_authority",
+      "trust__identity": "trust_signals.identity",
+      "trust__integrity": "trust_signals.integrity",
+      "trust__monitoring": "trust_signals.monitoring",
+      "trust__reconstructability": "trust_signals.reconstructability",
+      "trust__reliability": "trust_signals.reliability",
+      "trust__scope": "trust_signals.scope",
+      "trust__uncertainty": "trust_signals.uncertainty"
+    },
+    "source_job": "TAE-SYN-011",
+    "translation": "TEXT authored from signal semantics; invented illustrative details; no recovered documents"
+  },
+  "P011-context": {
+    "derived_from": "P011",
+    "facts_changed": false,
+    "transformation": "context"
+  },
+  "P011-order": {
+    "derived_from": "P011",
+    "facts_changed": false,
+    "transformation": "order"
+  },
+  "P011-paraphrase": {
+    "derived_from": "P011",
+    "facts_changed": false,
+    "transformation": "paraphrase"
+  },
+  "P011-wording": {
+    "derived_from": "P011",
+    "facts_changed": false,
+    "transformation": "wording"
+  },
+  "P012": {
+    "source_case": "TAE-SYN-012",
+    "source_fields": {
+      "control__access": "control_signals.access",
+      "control__authority": "control_signals.authority",
+      "control__comprehension": "control_signals.comprehension",
+      "control__correction": "control_signals.correction",
+      "control__effect": "control_signals.effect",
+      "control__exercise": "control_signals.exercise",
+      "control__feasibility": "control_signals.feasibility",
+      "control__reform": "control_signals.reform",
+      "control__repair": "control_signals.repair",
+      "trust__capability": "trust_signals.capability",
+      "trust__evidence_completeness": "trust_signals.evidence_completeness",
+      "trust__governance_update": "trust_signals.governance_update",
+      "trust__harm_correction": "trust_signals.harm_correction",
+      "trust__human_authority": "trust_signals.human_authority",
+      "trust__identity": "trust_signals.identity",
+      "trust__integrity": "trust_signals.integrity",
+      "trust__monitoring": "trust_signals.monitoring",
+      "trust__reconstructability": "trust_signals.reconstructability",
+      "trust__reliability": "trust_signals.reliability",
+      "trust__scope": "trust_signals.scope",
+      "trust__uncertainty": "trust_signals.uncertainty"
+    },
+    "source_job": "TAE-SYN-012",
+    "translation": "TEXT authored from signal semantics; invented illustrative details; no recovered documents"
+  },
+  "P012-context": {
+    "derived_from": "P012",
+    "facts_changed": false,
+    "transformation": "context"
+  },
+  "P012-order": {
+    "derived_from": "P012",
+    "facts_changed": false,
+    "transformation": "order"
+  },
+  "P012-paraphrase": {
+    "derived_from": "P012",
+    "facts_changed": false,
+    "transformation": "paraphrase"
+  },
+  "P012-wording": {
+    "derived_from": "P012",
+    "facts_changed": false,
+    "transformation": "wording"
+  },
+  "P013": {
+    "source_case": "TAE-SYN-001",
+    "source_fields": {
+      "control__access": "control_signals.access",
+      "control__authority": "control_signals.authority",
+      "control__comprehension": "control_signals.comprehension",
+      "control__correction": "control_signals.correction",
+      "control__effect": "control_signals.effect",
+      "control__exercise": "control_signals.exercise",
+      "control__feasibility": "control_signals.feasibility",
+      "control__reform": "control_signals.reform",
+      "control__repair": "control_signals.repair",
+      "trust__capability": "trust_signals.capability",
+      "trust__evidence_completeness": "trust_signals.evidence_completeness",
+      "trust__governance_update": "trust_signals.governance_update",
+      "trust__harm_correction": "trust_signals.harm_correction",
+      "trust__human_authority": "trust_signals.human_authority",
+      "trust__identity": "trust_signals.identity",
+      "trust__integrity": "trust_signals.integrity",
+      "trust__monitoring": "trust_signals.monitoring",
+      "trust__reconstructability": "trust_signals.reconstructability",
+      "trust__reliability": "trust_signals.reliability",
+      "trust__scope": "trust_signals.scope",
+      "trust__uncertainty": "trust_signals.uncertainty"
+    },
+    "source_job": "TAE-MUT-001",
+    "translation": "TEXT authored from signal semantics; invented illustrative details; no recovered documents"
+  },
+  "P014": {
+    "source_case": "TAE-SYN-001",
+    "source_fields": {
+      "control__access": "control_signals.access",
+      "control__authority": "control_signals.authority",
+      "control__comprehension": "control_signals.comprehension",
+      "control__correction": "control_signals.correction",
+      "control__effect": "control_signals.effect",
+      "control__exercise": "control_signals.exercise",
+      "control__feasibility": "control_signals.feasibility",
+      "control__reform": "control_signals.reform",
+      "control__repair": "control_signals.repair",
+      "trust__capability": "trust_signals.capability",
+      "trust__evidence_completeness": "trust_signals.evidence_completeness",
+      "trust__governance_update": "trust_signals.governance_update",
+      "trust__harm_correction": "trust_signals.harm_correction",
+      "trust__human_authority": "trust_signals.human_authority",
+      "trust__identity": "trust_signals.identity",
+      "trust__integrity": "trust_signals.integrity",
+      "trust__monitoring": "trust_signals.monitoring",
+      "trust__reconstructability": "trust_signals.reconstructability",
+      "trust__reliability": "trust_signals.reliability",
+      "trust__scope": "trust_signals.scope",
+      "trust__uncertainty": "trust_signals.uncertainty"
+    },
+    "source_job": "TAE-MUT-002",
+    "translation": "TEXT authored from signal semantics; invented illustrative details; no recovered documents"
+  },
+  "P015": {
+    "source_case": "TAE-SYN-001",
+    "source_fields": {
+      "control__access": "control_signals.access",
+      "control__authority": "control_signals.authority",
+      "control__comprehension": "control_signals.comprehension",
+      "control__correction": "control_signals.correction",
+      "control__effect": "control_signals.effect",
+      "control__exercise": "control_signals.exercise",
+      "control__feasibility": "control_signals.feasibility",
+      "control__reform": "control_signals.reform",
+      "control__repair": "control_signals.repair",
+      "trust__capability": "trust_signals.capability",
+      "trust__evidence_completeness": "trust_signals.evidence_completeness",
+      "trust__governance_update": "trust_signals.governance_update",
+      "trust__harm_correction": "trust_signals.harm_correction",
+      "trust__human_authority": "trust_signals.human_authority",
+      "trust__identity": "trust_signals.identity",
+      "trust__integrity": "trust_signals.integrity",
+      "trust__monitoring": "trust_signals.monitoring",
+      "trust__reconstructability": "trust_signals.reconstructability",
+      "trust__reliability": "trust_signals.reliability",
+      "trust__scope": "trust_signals.scope",
+      "trust__uncertainty": "trust_signals.uncertainty"
+    },
+    "source_job": "TAE-MUT-003",
+    "translation": "TEXT authored from signal semantics; invented illustrative details; no recovered documents"
+  },
+  "P016": {
+    "source_case": "TAE-SYN-001",
+    "source_fields": {
+      "control__access": "control_signals.access",
+      "control__authority": "control_signals.authority",
+      "control__comprehension": "control_signals.comprehension",
+      "control__correction": "control_signals.correction",
+      "control__effect": "control_signals.effect",
+      "control__exercise": "control_signals.exercise",
+      "control__feasibility": "control_signals.feasibility",
+      "control__reform": "control_signals.reform",
+      "control__repair": "control_signals.repair",
+      "trust__capability": "trust_signals.capability",
+      "trust__evidence_completeness": "trust_signals.evidence_completeness",
+      "trust__governance_update": "trust_signals.governance_update",
+      "trust__harm_correction": "trust_signals.harm_correction",
+      "trust__human_authority": "trust_signals.human_authority",
+      "trust__identity": "trust_signals.identity",
+      "trust__integrity": "trust_signals.integrity",
+      "trust__monitoring": "trust_signals.monitoring",
+      "trust__reconstructability": "trust_signals.reconstructability",
+      "trust__reliability": "trust_signals.reliability",
+      "trust__scope": "trust_signals.scope",
+      "trust__uncertainty": "trust_signals.uncertainty"
+    },
+    "source_job": "TAE-MUT-004",
+    "translation": "TEXT authored from signal semantics; invented illustrative details; no recovered documents"
+  },
+  "P017": {
+    "source_case": "TAE-SYN-001",
+    "source_fields": {
+      "control__access": "control_signals.access",
+      "control__authority": "control_signals.authority",
+      "control__comprehension": "control_signals.comprehension",
+      "control__correction": "control_signals.correction",
+      "control__effect": "control_signals.effect",
+      "control__exercise": "control_signals.exercise",
+      "control__feasibility": "control_signals.feasibility",
+      "control__reform": "control_signals.reform",
+      "control__repair": "control_signals.repair",
+      "trust__capability": "trust_signals.capability",
+      "trust__evidence_completeness": "trust_signals.evidence_completeness",
+      "trust__governance_update": "trust_signals.governance_update",
+      "trust__harm_correction": "trust_signals.harm_correction",
+      "trust__human_authority": "trust_signals.human_authority",
+      "trust__identity": "trust_signals.identity",
+      "trust__integrity": "trust_signals.integrity",
+      "trust__monitoring": "trust_signals.monitoring",
+      "trust__reconstructability": "trust_signals.reconstructability",
+      "trust__reliability": "trust_signals.reliability",
+      "trust__scope": "trust_signals.scope",
+      "trust__uncertainty": "trust_signals.uncertainty"
+    },
+    "source_job": "TAE-MUT-005",
+    "translation": "TEXT authored from signal semantics; invented illustrative details; no recovered documents"
+  },
+  "P018": {
+    "source_case": "TAE-SYN-001",
+    "source_fields": {
+      "control__access": "control_signals.access",
+      "control__authority": "control_signals.authority",
+      "control__comprehension": "control_signals.comprehension",
+      "control__correction": "control_signals.correction",
+      "control__effect": "control_signals.effect",
+      "control__exercise": "control_signals.exercise",
+      "control__feasibility": "control_signals.feasibility",
+      "control__reform": "control_signals.reform",
+      "control__repair": "control_signals.repair",
+      "trust__capability": "trust_signals.capability",
+      "trust__evidence_completeness": "trust_signals.evidence_completeness",
+      "trust__governance_update": "trust_signals.governance_update",
+      "trust__harm_correction": "trust_signals.harm_correction",
+      "trust__human_authority": "trust_signals.human_authority",
+      "trust__identity": "trust_signals.identity",
+      "trust__integrity": "trust_signals.integrity",
+      "trust__monitoring": "trust_signals.monitoring",
+      "trust__reconstructability": "trust_signals.reconstructability",
+      "trust__reliability": "trust_signals.reliability",
+      "trust__scope": "trust_signals.scope",
+      "trust__uncertainty": "trust_signals.uncertainty"
+    },
+    "source_job": "TAE-MUT-006",
+    "translation": "TEXT authored from signal semantics; invented illustrative details; no recovered documents"
+  },
+  "P019": {
+    "source_case": "TAE-SYN-001",
+    "source_fields": {
+      "control__access": "control_signals.access",
+      "control__authority": "control_signals.authority",
+      "control__comprehension": "control_signals.comprehension",
+      "control__correction": "control_signals.correction",
+      "control__effect": "control_signals.effect",
+      "control__exercise": "control_signals.exercise",
+      "control__feasibility": "control_signals.feasibility",
+      "control__reform": "control_signals.reform",
+      "control__repair": "control_signals.repair",
+      "trust__capability": "trust_signals.capability",
+      "trust__evidence_completeness": "trust_signals.evidence_completeness",
+      "trust__governance_update": "trust_signals.governance_update",
+      "trust__harm_correction": "trust_signals.harm_correction",
+      "trust__human_authority": "trust_signals.human_authority",
+      "trust__identity": "trust_signals.identity",
+      "trust__integrity": "trust_signals.integrity",
+      "trust__monitoring": "trust_signals.monitoring",
+      "trust__reconstructability": "trust_signals.reconstructability",
+      "trust__reliability": "trust_signals.reliability",
+      "trust__scope": "trust_signals.scope",
+      "trust__uncertainty": "trust_signals.uncertainty"
+    },
+    "source_job": "TAE-MUT-007",
+    "translation": "TEXT authored from signal semantics; invented illustrative details; no recovered documents"
+  },
+  "P020": {
+    "source_case": "TAE-SYN-008",
+    "source_fields": {
+      "control__access": "control_signals.access",
+      "control__authority": "control_signals.authority",
+      "control__comprehension": "control_signals.comprehension",
+      "control__correction": "control_signals.correction",
+      "control__effect": "control_signals.effect",
+      "control__exercise": "control_signals.exercise",
+      "control__feasibility": "control_signals.feasibility",
+      "control__reform": "control_signals.reform",
+      "control__repair": "control_signals.repair",
+      "trust__capability": "trust_signals.capability",
+      "trust__evidence_completeness": "trust_signals.evidence_completeness",
+      "trust__governance_update": "trust_signals.governance_update",
+      "trust__harm_correction": "trust_signals.harm_correction",
+      "trust__human_authority": "trust_signals.human_authority",
+      "trust__identity": "trust_signals.identity",
+      "trust__integrity": "trust_signals.integrity",
+      "trust__monitoring": "trust_signals.monitoring",
+      "trust__reconstructability": "trust_signals.reconstructability",
+      "trust__reliability": "trust_signals.reliability",
+      "trust__scope": "trust_signals.scope",
+      "trust__uncertainty": "trust_signals.uncertainty"
+    },
+    "source_job": "TAE-MUT-008",
+    "translation": "TEXT authored from signal semantics; invented illustrative details; no recovered documents"
+  },
+  "P021": {
+    "source_case": "TAE-SYN-001",
+    "source_fields": {
+      "control__access": "control_signals.access",
+      "control__authority": "control_signals.authority",
+      "control__comprehension": "control_signals.comprehension",
+      "control__correction": "control_signals.correction",
+      "control__effect": "control_signals.effect",
+      "control__exercise": "control_signals.exercise",
+      "control__feasibility": "control_signals.feasibility",
+      "control__reform": "control_signals.reform",
+      "control__repair": "control_signals.repair",
+      "trust__capability": "trust_signals.capability",
+      "trust__evidence_completeness": "trust_signals.evidence_completeness",
+      "trust__governance_update": "trust_signals.governance_update",
+      "trust__harm_correction": "trust_signals.harm_correction",
+      "trust__human_authority": "trust_signals.human_authority",
+      "trust__identity": "trust_signals.identity",
+      "trust__integrity": "trust_signals.integrity",
+      "trust__monitoring": "trust_signals.monitoring",
+      "trust__reconstructability": "trust_signals.reconstructability",
+      "trust__reliability": "trust_signals.reliability",
+      "trust__scope": "trust_signals.scope",
+      "trust__uncertainty": "trust_signals.uncertainty"
+    },
+    "source_job": "TAE-MUT-009",
+    "translation": "TEXT authored from signal semantics; invented illustrative details; no recovered documents"
+  },
+  "P022": {
+    "source_case": "TAE-SYN-001",
+    "source_fields": {
+      "control__access": "control_signals.access",
+      "control__authority": "control_signals.authority",
+      "control__comprehension": "control_signals.comprehension",
+      "control__correction": "control_signals.correction",
+      "control__effect": "control_signals.effect",
+      "control__exercise": "control_signals.exercise",
+      "control__feasibility": "control_signals.feasibility",
+      "control__reform": "control_signals.reform",
+      "control__repair": "control_signals.repair",
+      "trust__capability": "trust_signals.capability",
+      "trust__evidence_completeness": "trust_signals.evidence_completeness",
+      "trust__governance_update": "trust_signals.governance_update",
+      "trust__harm_correction": "trust_signals.harm_correction",
+      "trust__human_authority": "trust_signals.human_authority",
+      "trust__identity": "trust_signals.identity",
+      "trust__integrity": "trust_signals.integrity",
+      "trust__monitoring": "trust_signals.monitoring",
+      "trust__reconstructability": "trust_signals.reconstructability",
+      "trust__reliability": "trust_signals.reliability",
+      "trust__scope": "trust_signals.scope",
+      "trust__uncertainty": "trust_signals.uncertainty"
+    },
+    "source_job": "TAE-MUT-010",
+    "translation": "TEXT authored from signal semantics; invented illustrative details; no recovered documents"
+  },
+  "P023": {
+    "source_case": "TAE-SYN-001",
+    "source_fields": {
+      "control__access": "control_signals.access",
+      "control__authority": "control_signals.authority",
+      "control__comprehension": "control_signals.comprehension",
+      "control__correction": "control_signals.correction",
+      "control__effect": "control_signals.effect",
+      "control__exercise": "control_signals.exercise",
+      "control__feasibility": "control_signals.feasibility",
+      "control__reform": "control_signals.reform",
+      "control__repair": "control_signals.repair",
+      "trust__capability": "trust_signals.capability",
+      "trust__evidence_completeness": "trust_signals.evidence_completeness",
+      "trust__governance_update": "trust_signals.governance_update",
+      "trust__harm_correction": "trust_signals.harm_correction",
+      "trust__human_authority": "trust_signals.human_authority",
+      "trust__identity": "trust_signals.identity",
+      "trust__integrity": "trust_signals.integrity",
+      "trust__monitoring": "trust_signals.monitoring",
+      "trust__reconstructability": "trust_signals.reconstructability",
+      "trust__reliability": "trust_signals.reliability",
+      "trust__scope": "trust_signals.scope",
+      "trust__uncertainty": "trust_signals.uncertainty"
+    },
+    "source_job": "TAE-MUT-011",
+    "translation": "TEXT authored from signal semantics; invented illustrative details; no recovered documents"
+  },
+  "P024": {
+    "source_case": "TAE-SYN-001",
+    "source_fields": {
+      "control__access": "control_signals.access",
+      "control__authority": "control_signals.authority",
+      "control__comprehension": "control_signals.comprehension",
+      "control__correction": "control_signals.correction",
+      "control__effect": "control_signals.effect",
+      "control__exercise": "control_signals.exercise",
+      "control__feasibility": "control_signals.feasibility",
+      "control__reform": "control_signals.reform",
+      "control__repair": "control_signals.repair",
+      "trust__capability": "trust_signals.capability",
+      "trust__evidence_completeness": "trust_signals.evidence_completeness",
+      "trust__governance_update": "trust_signals.governance_update",
+      "trust__harm_correction": "trust_signals.harm_correction",
+      "trust__human_authority": "trust_signals.human_authority",
+      "trust__identity": "trust_signals.identity",
+      "trust__integrity": "trust_signals.integrity",
+      "trust__monitoring": "trust_signals.monitoring",
+      "trust__reconstructability": "trust_signals.reconstructability",
+      "trust__reliability": "trust_signals.reliability",
+      "trust__scope": "trust_signals.scope",
+      "trust__uncertainty": "trust_signals.uncertainty"
+    },
+    "source_job": "TAE-MUT-012",
+    "translation": "TEXT authored from signal semantics; invented illustrative details; no recovered documents"
+  }
+}
