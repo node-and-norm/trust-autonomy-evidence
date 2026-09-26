@@ -1,0 +1,22 @@
+{
+  "author_review_status": "pending",
+  "reason": "Independent researcher lacks two reviewers; bounded synthetic claims only.",
+  "route": "author-audited-synthetic-v1",
+  "sha256": {
+    ".github/workflows/jev-author-audit.yml": "bf128b6c042cc19e2d396a67adc5b3d74ab4dc1aeea998d6fa9e97c81b488682",
+    "experiments/jev/adjudication_v2/AMENDMENT.json": "c4f2b23ea05320e60d19d48092fa0465f312089d25c77a6ac8112eb206204ee9",
+    "experiments/jev/author_audit_v1/COVER.json": "192447d09dc9e980343dbf9a7dd7433994cb3d40466441edadfbca399cec1ca2",
+    "experiments/jev/author_audit_v1/ISSUES.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "experiments/jev/author_audit_v1/KEY.json": "6e4913ebe6f9af19575f8ee2fe51f713825cb7fffc6a7f2b9d8cc6d52362864e",
+    "experiments/jev/author_audit_v1/PAIRS.csv": "4a1c01d7de45c2fb62b80a371254454997cdd1dbaad2b8ae01cd2a6f9fdd97b5",
+    "experiments/jev/author_audit_v1/PAIR_PACKET.json": "5b000e07d342e545b7e251474332e98ae2f4932ac9d39955e3c5c1e7de429a19",
+    "experiments/jev/author_audit_v1/PASS_1.csv": "5c041380bbce1d1645ac1885c547ea60029c02a14b62bdc495293a9a642f3ece",
+    "experiments/jev/author_audit_v1/PASS_2.csv": "ee1e22240f1d7dcd31429c657cac069274ad9646f8bb4c4ca830ae8487f735ce",
+    "experiments/jev/author_audit_v1/README.md": "7ee49405cef5cbe38424e71d55d0573c1bc5207a297944be213b80f910e12015",
+    "experiments/jev/author_audit_v1/UNITS.json": "f6cf9c416d17401046ad2fcba8511ed04a64c27bcfd4a62a5b231b7fb9dd12e5",
+    "experiments/jev/author_audit_v1/audit.py": "7e7e90ef0e2677da1f82c3b6b53f327f3d120e1baae753cd535ba095ce74bd0a",
+    "experiments/jev/author_audit_v1/tests/test_audit.py": "b02ade760605e24e5558acff65139c76fecd1b07195192c5acb0f985ad4c243e",
+    "experiments/jev/evidence_v1/freeze.json": "e0e1253259b42faa64e76ff7e363692629764c00b78ae558ca30c7c1c6b2220b"
+  },
+  "timing": "Author confirmed no live Jev outputs observed before this freeze; assistant observed mock only."
+}

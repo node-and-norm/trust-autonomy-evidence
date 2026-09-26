@@ -1,0 +1,12 @@
+{
+  "ai_criticism": "not_performed",
+  "author": null,
+  "independent_review": "not_performed",
+  "live_output_exposure": "none_declared",
+  "pass_1_completed_at": null,
+  "pass_1_sha256": null,
+  "pass_2_completed_at": null,
+  "pass_2_sha256": null,
+  "route": "author-audited-synthetic-v1",
+  "route_confirmed": false
+}
