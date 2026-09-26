@@ -4,8 +4,8 @@
   "artifacts": {
     "README.md": {
       "released_sha256": "37e96579cea1fcbfff5c7f98c1b4bd55d22f2d64417f8974f3f1ab4e15e1b729",
-      "bytes": 42107,
-      "sha256": "29541c382f837e1489605654d8f2a4118e55f5db63cb0cbfadfa82116f62d7e6"
+      "bytes": 42248,
+      "sha256": "c1abbc6289c0799331e4469d1b3f62958b34c2efbf84b5a5cc78565dc6f5771b"
     },
     "CITATION.cff": {
       "released_sha256": "c81d607a3a073474f1bcfdca116be6079aa58582c4548c1d4ce851137690bd2f",

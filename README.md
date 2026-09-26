@@ -37,7 +37,7 @@ These results establish internal contract behavior and traceability for the incl
 
 ### Engineer
 
-1. [Validation commands and scope](#repository-validation)
+1. [Reproduce the repository checks](docs/REPRODUCIBILITY.md)
 2. [Deterministic assessment logic](analysis/)
 3. [Synthetic cases and mutation controls](fixtures/)
 4. [Sealed expected decisions](oracles/)
@@ -404,7 +404,9 @@ The five protocols define solo validation, public-case reconstruction, practical
 
 ## Repository validation
 
-Install the pinned development dependency and run the validator with Python 3.10 or later:
+For clean setup, expected results, and isolated historical audit replay, use the [reproducibility guide](docs/REPRODUCIBILITY.md).
+
+Install the pinned development dependencies and run the validator with Python 3.12, matching CI:
 
 ```bash
 python -m pip install -r requirements-dev.txt

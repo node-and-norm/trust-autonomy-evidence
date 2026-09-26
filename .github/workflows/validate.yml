@@ -28,5 +28,5 @@ jobs:
         run: python scripts/validate_paper.py
       - name: Validate frozen release snapshots
         run: python scripts/validate_release_snapshot.py
-      - name: Current navigation and frozen-release boundary tests
-        run: python -m unittest discover -s tests -p 'test_navigation.py' -v
+      - name: Navigation, license, and isolated historical replay tests
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
