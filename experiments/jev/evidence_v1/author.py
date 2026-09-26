@@ -217,7 +217,7 @@ def build():
         expected = {}
         for k,(qid,q) in enumerate(old_questions.items()):
             rule = rules[q['assessment']][q['field']]
-            label = labels[(k+n)%5]
+            label = labels[(2*k+1)%5] if n==5 else labels[(k+n)%5]
             signals = [s for s,l in rule.items() if l==label]
             signal = signals[-1] if n==5 else signals[0]
             case[q['assessment']+'_signals'][q['field']] = signal

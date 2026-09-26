@@ -7385,19 +7385,19 @@
     "state": {
       "documents": [
         {
-          "text": "An independent custodian compared the manifest with the source inventory and accounted for every listed item.",
+          "text": "The manifest lists the source items and identifies two items absent from the packet.",
           "topic": "trust__evidence_completeness"
         },
         {
-          "text": "The monitoring trace covers model processing only; input receipt, tool calls, and subsequent action are not logged.",
+          "text": "The supplied packet contains no record for this topic.",
           "topic": "trust__monitoring"
         },
         {
-          "text": "The institutional decision owner issued a stop command under its charter, but the service continued execution.",
+          "text": "The institutional decision owner used its granted stop permission, and the service obeyed the stop command.",
           "topic": "trust__human_authority"
         },
         {
-          "text": "The supplied packet contains no record for this topic.",
+          "text": "An operator overwrote the original record without leaving a retained version or alteration trail.",
           "topic": "trust__integrity"
         },
         {
@@ -7405,19 +7405,19 @@
           "topic": "trust__reconstructability"
         },
         {
-          "text": "The harm-correction ledger records delivery of the required remedy and receipt by the affected party.",
+          "text": "A harm-correction procedure names the required remedy. There is no delivery entry in the supplied ledger.",
           "topic": "trust__harm_correction"
         },
         {
-          "text": "The incident opened a policy review ticket. The packet contains no rule revision or retest.",
+          "text": "The supplied packet contains no record for this topic.",
           "topic": "trust__governance_update"
         },
         {
-          "text": "The action occurred at 10:00. The reviewer first received the decision packet at 10:05.",
+          "text": "The action occurred at 10:00. The reviewer received every item in the decision packet at 09:50.",
           "topic": "control__access"
         },
         {
-          "text": "The supplied packet contains no record for this topic.",
+          "text": "The review record states that the recommendation was accepted solely because the automated system produced it, despite a recorded contrary observation.",
           "topic": "control__comprehension"
         },
         {
@@ -7425,19 +7425,19 @@
           "topic": "control__authority"
         },
         {
-          "text": "In a timed intervention trial, the reviewer reached the stop control and halted the queued action before its deadline.",
+          "text": "A stop control is listed in the interface specification. No timing or access trial is supplied.",
           "topic": "control__feasibility"
         },
         {
-          "text": "The review log contains a checked review box, with no explanation or edit recorded.",
+          "text": "The supplied packet contains no record for this topic.",
           "topic": "control__exercise"
         },
         {
-          "text": "The service executed the same action and retained the same binding obligation after receiving the reviewer decision.",
+          "text": "The reviewer decision amended a binding obligation, and the signed obligation register records that amendment.",
           "topic": "control__effect"
         },
         {
-          "text": "The supplied packet contains no record for this topic.",
+          "text": "The affected party attempted to submit a correction request, but the channel refused access.",
           "topic": "control__correction"
         },
         {
@@ -7445,23 +7445,23 @@
           "topic": "control__repair"
         },
         {
-          "text": "The oversight procedure was amended after the incident and the amended procedure was tested against the incident scenario.",
+          "text": "The incident triggered a review of the oversight procedure. No amendment or retest is supplied.",
           "topic": "control__reform"
         },
         {
-          "text": "An independent registry check matched the operator name and signing credential to the named organization.",
+          "text": "The operator supplied its own name and signing credential. The packet contains no registry check.",
           "topic": "trust__identity"
         },
         {
-          "text": "The task boundary is written in the policy. The packet contains no permission-enforcement record.",
+          "text": "The supplied packet contains no record for this topic.",
           "topic": "trust__scope"
         },
         {
-          "text": "The task trial did not meet the specified acceptance conditions.",
+          "text": "Three trials on the specified task each met the acceptance conditions, with trial records attached.",
           "topic": "trust__capability"
         },
         {
-          "text": "The supplied packet contains no record for this topic.",
+          "text": "The recorded success counts fall below the reliability claim under its stated operating conditions.",
           "topic": "trust__reliability"
         },
         {

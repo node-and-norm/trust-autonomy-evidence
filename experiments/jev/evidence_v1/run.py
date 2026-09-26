@@ -125,7 +125,7 @@ def repetition_results(records):
 
 def report(records, cards, gold, pairs, policy, mode):
     versions=sorted({r['resolved_model'] for r in records if r.get('resolved_model')})
-    statuses={s:sum(r['status']==s for r in records) for s in ('planned','ok','invalid','error')}
+    statuses={s:sum(r['status']==s for r in records) for s in ('planned','ok','invalid','error','interrupted')}
     # Never aggregate scores across resolved versions. Coverage of a version includes
     # the full scheduled suite; all missing/other-version positions remain visible.
     sections=[]
@@ -211,6 +211,9 @@ def run(mode, output, adapter=None):
                 wire=load(output/r['request_file'])
                 try:
                     raw=adapter.evaluate(wire['state'],wire['questions'],wire['model'])
+                except (KeyboardInterrupt, SystemExit):
+                    r.update(status='interrupted')
+                    raise
                 except Exception as exc:
                     r.update(status='error',error_type=type(exc).__name__)
                 else:
@@ -218,6 +221,9 @@ def run(mode, output, adapter=None):
                     (output/name).write_bytes(raw)
                     r.update(response_file=name,response_sha256=sha(raw))
                     try:
+                        parsed=json.loads(raw)
+                        if isinstance(parsed,dict) and isinstance(parsed.get('model'),str) and parsed['model'].strip():
+                            r['resolved_model']=parsed['model']
                         doc=validate_response(raw,set(wire['questions']))
                     except (ValueError,TypeError,KeyError) as exc:
                         r.update(status='invalid',error_type=type(exc).__name__)
