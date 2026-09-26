@@ -1,0 +1,21 @@
+{
+  "release_tag": "v0.17.0",
+  "purpose": "Current navigation metadata; not a replacement research release or historical manifest",
+  "artifacts": {
+    "README.md": {
+      "released_sha256": "37e96579cea1fcbfff5c7f98c1b4bd55d22f2d64417f8974f3f1ab4e15e1b729",
+      "bytes": 42107,
+      "sha256": "29541c382f837e1489605654d8f2a4118e55f5db63cb0cbfadfa82116f62d7e6"
+    },
+    "CITATION.cff": {
+      "released_sha256": "c81d607a3a073474f1bcfdca116be6079aa58582c4548c1d4ce851137690bd2f",
+      "bytes": 1746,
+      "sha256": "92d166c8766a7fccd1a3f498219ffd88f96d1c2784a6e73cbe98e6af1ca50904"
+    },
+    "RESEARCH_STATUS.md": {
+      "released_sha256": "62a1561fa87226772f25364dc2dd6e060b5af5958b91d1bfc899d47fcd4a3128",
+      "bytes": 11431,
+      "sha256": "f097ccf480f2a940f73d5246cd317b42acfd3d636ba3ac20bbb7449618c12cbe"
+    }
+  }
+}
