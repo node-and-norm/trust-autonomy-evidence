@@ -15,7 +15,7 @@ from jsonschema import Draft202012Validator, FormatChecker
 
 
 ROOT = Path(__file__).resolve().parents[1]
-REPOSITORY_VERSION = "0.17.0"
+REPOSITORY_VERSION = "0.17.1"
 WORKING_VERSION = "0.17.0"
 FIGURE_VERSION = "0.16.0"
 PUBLIC_CASE_VERSION = "0.3.0"
@@ -401,7 +401,7 @@ def validate_versions(failures: list[str]) -> None:
         "README.md": f"Version: {REPOSITORY_VERSION}",
         "RESEARCH_STATUS.md": f"**Version:** {REPOSITORY_VERSION}",
         "CITATION.cff": f"version: {REPOSITORY_VERSION}",
-        "CHANGELOG.md": f"## {REPOSITORY_VERSION}",
+        f"release/v{REPOSITORY_VERSION}-release-notes.md": f"# v{REPOSITORY_VERSION}:",
     }
     for relative, marker in required_markers.items():
         text = (ROOT / relative).read_text(encoding="utf-8")

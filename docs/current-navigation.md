@@ -1,6 +1,6 @@
 # Current navigation and the v0.17.0 release
 
-The current release and preprint are v0.17.0, published on 6 September 2026.
+The repository release is v0.17.1 (26 September 2026). The current preprint remains v0.17.0, published on 6 September 2026.
 The preferred citation, current PDF and compile receipt now agree across the root
 README, citation metadata, research status and existing paper entry points.
 Repository URLs use node-and-norm; the author profile remains mj3b.
@@ -32,8 +32,7 @@ Only three current-facing documents use a separate checkpoint:
 `navigation-v0.17.0.json` records their original release hashes and current hashes
 and sizes. The repository validator fixes this three-path scope in code and checks
 every current document against the new checkpoint. All other release artifacts
-remain checked against the unmodified released manifest. This is a navigation
-correction on the development branch, not a rebuilt or retagged v0.17.0 release.
+remain checked against the unmodified released manifest. These are current-navigation updates carried in v0.17.1, not a rebuilt or retagged v0.17.0 release.
 Do not run the historical manifest builder to reseal current navigation as though
 it were the original release.
 
