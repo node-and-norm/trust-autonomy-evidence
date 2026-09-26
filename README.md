@@ -4,7 +4,7 @@
 
 An evidence architecture for bounded reliance.
 
-[![Status: Working Research](https://img.shields.io/badge/status-working%20research-5b6cff)](RESEARCH_STATUS.md) [![Version: 0.17.1](https://img.shields.io/github/v/release/node-and-norm/trust-autonomy-evidence?display_name=tag&label=release)](https://github.com/node-and-norm/trust-autonomy-evidence/releases) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21841127.svg)](https://doi.org/10.5281/zenodo.21841127) [![Validation](https://github.com/node-and-norm/trust-autonomy-evidence/actions/workflows/validate.yml/badge.svg)](https://github.com/node-and-norm/trust-autonomy-evidence/actions/workflows/validate.yml) [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-green)](LICENSE) [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--8121--2878-brightgreen)](https://orcid.org/0009-0001-8121-2878)
+[![Status: Working Research](https://img.shields.io/badge/status-working%20research-5b6cff)](RESEARCH_STATUS.md) [![Version: 0.17.1](https://img.shields.io/github/v/release/node-and-norm/trust-autonomy-evidence?display_name=tag&label=release)](https://github.com/node-and-norm/trust-autonomy-evidence/releases) [![Paper DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22970968.svg)](https://doi.org/10.5281/zenodo.22970968) [![Validation](https://github.com/node-and-norm/trust-autonomy-evidence/actions/workflows/validate.yml/badge.svg)](https://github.com/node-and-norm/trust-autonomy-evidence/actions/workflows/validate.yml) [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-green)](LICENSE) [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--8121--2878-brightgreen)](https://orcid.org/0009-0001-8121-2878)
 
 </div>
 
@@ -436,11 +436,11 @@ Contributions should identify the proposition being changed, the evidence suppor
 
 ## Citation
 
-The current preprint is **v0.17.0**. No v0.17.0-specific DOI is recorded in the release citation metadata. Cite the versioned GitHub release so the cited manuscript and research package remain identifiable:
+The current preprint is **v0.17.0**, archived on Zenodo with version DOI [10.5281/zenodo.22970968](https://doi.org/10.5281/zenodo.22970968):
 
-> Banasihan, M. J. (2026). *From Formal Authority to Practical Human Control: A traceable method for reconstructing human control in automated decisions* (Version v0.17.0) [Preprint]. GitHub. https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.17.0
+> Banasihan, M. J. (2026). *From Formal Authority to Practical Human Control: A traceable method for reconstructing human control in automated decisions* (Version v0.17.0) [Preprint]. Zenodo. [https://doi.org/10.5281/zenodo.22970968](https://doi.org/10.5281/zenodo.22970968)
 
-The DOI [10.5281/zenodo.21926005](https://doi.org/10.5281/zenodo.21926005) identifies the earlier v0.14.0 preprint. The concept DOI [10.5281/zenodo.21841127](https://doi.org/10.5281/zenodo.21841127) identifies archived repository versions. The v0.14.0 DOI must not be assigned to v0.17.0; the concept DOI identifies the archive collection, not a v0.17.0-specific paper record. Machine-readable metadata and the preferred paper citation are in [CITATION.cff](CITATION.cff).
+Use the version DOI above to cite this paper. The [paper’s all-versions DOI](https://doi.org/10.5281/zenodo.21926004) follows the latest archived paper version. The [repository archive DOI](https://doi.org/10.5281/zenodo.21841127) identifies the separate software/repository collection. Repository release [v0.17.1](https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.17.1) includes later offline research tools; the paper remains v0.17.0. Machine-readable metadata is in [CITATION.cff](CITATION.cff).
 
 ## Author
 

@@ -43,8 +43,10 @@ The PDF SHA-256 is
 the source archive SHA-256 is
 `840a08784753cbc569e506bcd71bfc577fe43dddfef1dcedce934572213a4be9`.
 Both match the published GitHub v0.17.0 asset digests and the compile receipt.
-The versioned GitHub release is the preferred citation target. The earlier
-v0.14.0 DOI is not reassigned to this paper.
+The preferred paper citation is now the v0.17.0 Zenodo DOI
+[10.5281/zenodo.22970968](https://doi.org/10.5281/zenodo.22970968), published as a new version on 26 September 2026. Its all-versions paper DOI is 10.5281/zenodo.21926004. The separate repository archive DOI remains 10.5281/zenodo.21841127. The earlier v0.14.0 DOI is preserved with its historical record.
+
+This post-release citation update changes current navigation only. The v0.17.1 tag and snapshot manifest remain unchanged; the snapshot verifier checks tagged bytes, not later working-tree navigation.
 
 Run the repository's existing validation workflow and
 `python -m unittest discover -s tests -p 'test_navigation.py' -v`.

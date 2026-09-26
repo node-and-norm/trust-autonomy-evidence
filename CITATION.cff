@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "For the current preprint, cite the preferred v0.17.0 manuscript below. The v0.14.0 DOI identifies an earlier archived preprint and must not be assigned to v0.17.0."
+message: "For the current paper, cite the preferred v0.17.0 Zenodo preprint below. Repository release v0.17.1 is a separate software checkpoint."
 title: "Trust, Autonomy, and Evidence"
 type: software
 version: 0.17.1
@@ -17,8 +17,11 @@ identifiers:
     value: "https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.17.1"
     description: "Versioned GitHub repository release v0.17.1; preferred paper remains v0.17.0"
   - type: doi
-    value: "10.5281/zenodo.21926005"
-    description: "Earlier v0.14.0 Zenodo preprint"
+    value: "10.5281/zenodo.22970968"
+    description: "Current v0.17.0 preprint version"
+  - type: doi
+    value: "10.5281/zenodo.21926004"
+    description: "All versions of the preprint; separate from the repository archive"
   - type: doi
     value: "10.5281/zenodo.21841127"
     description: "Zenodo concept DOI for archived repository versions"
@@ -31,4 +34,5 @@ preferred-citation:
     - family-names: Banasihan
       given-names: Mark Julius
       orcid: "https://orcid.org/0009-0001-8121-2878"
-  url: "https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.17.0"
+  doi: "10.5281/zenodo.22970968"
+  url: "https://doi.org/10.5281/zenodo.22970968"

@@ -4,7 +4,7 @@
 
 **Latest GitHub release:** [v0.17.1](https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.17.1), 26 September 2026; repository and offline experiment update. Current paper: v0.17.0.
 
-**Latest DOI-archived preprint:** 0.14.0
+**Latest DOI-archived preprint:** [v0.17.0](https://doi.org/10.5281/zenodo.22970968), deposited on Zenodo 26 September 2026; original paper publication 6 September 2026.
 
 **Working checkpoint:** v0.17.1 reproducibility and author-reviewed AI-assisted evidence-v2; v0.17.0 regulatory crosswalk and preprint preserved.
 
