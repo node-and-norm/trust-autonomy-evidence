@@ -1,0 +1,374 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "source",
+    "record",
+    "created_at",
+    "reviewed_at",
+    "reviewer_dates",
+    "downstream"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "jev-tae-adjudication-v2"
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "record",
+        "record_sha256",
+        "run_sha256",
+        "run_mode",
+        "request_file",
+        "request_sha256",
+        "response_file",
+        "response_sha256",
+        "resolved_model"
+      ],
+      "properties": {
+        "record": {
+          "$ref": "#/$defs/legacyRecord"
+        },
+        "record_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "run_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "run_mode": {
+          "enum": [
+            "mock",
+            "live"
+          ]
+        },
+        "request_file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "request_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "response_file": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "response_sha256": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "resolved_model": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    },
+    "record": {
+      "$ref": "#/$defs/legacyRecord"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "reviewed_at": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date-time"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "reviewer_dates": {
+      "type": "array",
+      "maxItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "identity",
+          "blind_reviewed_at",
+          "reconciled_at"
+        ],
+        "properties": {
+          "identity": {
+            "type": "string",
+            "minLength": 1
+          },
+          "blind_reviewed_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "reconciled_at": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "downstream": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "rationale",
+        "changes"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "not_assessed",
+            "no_change",
+            "change_proposed",
+            "change_applied"
+          ]
+        },
+        "rationale": {
+          "type": "string"
+        },
+        "changes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "kind",
+              "target",
+              "description",
+              "evidence_refs",
+              "changed_at",
+              "before_sha256",
+              "after_sha256"
+            ],
+            "properties": {
+              "kind": {
+                "enum": [
+                  "new_exploratory_report",
+                  "new_versioned_experiment",
+                  "documentation_correction"
+                ]
+              },
+              "target": {
+                "type": "string",
+                "minLength": 1
+              },
+              "description": {
+                "type": "string",
+                "minLength": 1
+              },
+              "evidence_refs": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "changed_at": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "before_sha256": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "^[0-9a-f]{64}$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "after_sha256": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "^[0-9a-f]{64}$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Versioned Jev adjudication record with review dates and downstream effects",
+  "$defs": {
+    "legacyRecord": {
+      "title": "Append-only evidence-v1 adjudication",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "record_id",
+        "run_id",
+        "job_id",
+        "repetition",
+        "question_id",
+        "status",
+        "disposition",
+        "evidence_refs",
+        "reviewers",
+        "rationale",
+        "supersedes"
+      ],
+      "properties": {
+        "record_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "run_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "job_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "repetition": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 3
+        },
+        "question_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "open",
+            "closed"
+          ]
+        },
+        "disposition": {
+          "enum": [
+            "JEV_ERROR",
+            "ORACLE_AMBIGUITY",
+            "QUESTION_DEFECT",
+            "EVIDENCE_TRANSLATION_DEFECT",
+            "CONSTRUCT_AMBIGUITY",
+            "INSUFFICIENT_EVIDENCE",
+            "UNRESOLVED"
+          ]
+        },
+        "evidence_refs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "reviewers": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "identity",
+              "blind_notes",
+              "reconciliation"
+            ],
+            "properties": {
+              "identity": {
+                "type": "string",
+                "minLength": 1
+              },
+              "blind_notes": {
+                "type": "string",
+                "minLength": 1
+              },
+              "reconciliation": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        },
+        "rationale": {
+          "type": "string"
+        },
+        "supersedes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "closed"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "reviewers": {
+                "minItems": 2,
+                "uniqueItems": true
+              },
+              "rationale": {
+                "minLength": 1
+              },
+              "disposition": {
+                "not": {
+                  "const": "UNRESOLVED"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
