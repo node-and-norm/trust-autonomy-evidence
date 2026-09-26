@@ -1,12 +1,12 @@
 # Research Status
 
-**Version:** 0.17.0
+**Version:** 0.17.1
 
-**Latest GitHub release:** [v0.17.0](https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.17.0), published 6 September 2026
+**Latest GitHub release:** [v0.17.1](https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.17.1), 26 September 2026; repository and offline experiment update. Current paper: v0.17.0.
 
 **Latest DOI-archived preprint:** 0.14.0
 
-**Working checkpoint:** v0.17.0 regulatory crosswalk and arXiv-ready preprint package
+**Working checkpoint:** v0.17.1 reproducibility and author-reviewed AI-assisted evidence-v2; v0.17.0 regulatory crosswalk and preprint preserved.
 
 **Next target:** Update the existing arXiv submission, then test the method prospectively on one contemporary trace-based case or regulatory-sandbox exercise
 
@@ -14,7 +14,9 @@
 
 **Research checkpoint date:** 6 September 2026
 
-**Navigation correction:** The published release, current preprint, and preferred citation are v0.17.0. Earlier version identifiers below name preserved research inputs and historical checkpoints.
+**Navigation correction:** The repository release is v0.17.1; the current preprint and preferred paper citation remain v0.17.0. Earlier version identifiers below name preserved research inputs and historical checkpoints.
+
+The offline Jev successor has author-approved wording corrections and passing offline controls. Its review basis is author review of AI assistance; independent review and delayed unassisted author consistency are not claimed. See [release scope](release/v0.17.1-release-notes.md).
 
 ## Current maturity
 
