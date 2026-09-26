@@ -1,0 +1,12 @@
+{
+  "determinations_per_reviewer": 1654,
+  "packets": 94,
+  "sha256": {
+    "BLIND_PACKET.json": "d99d8181822dac6681b1087ed75d936c52e871245e48b208bcf3bd4229513387",
+    "COORDINATOR_KEY.json": "1ea7e7bf7f25d6f8f6d60c0f1f4bf52c1dc4ff6d18da3086f48aae6ae15811f4",
+    "REVIEWER_A.csv": "61e73f5bdf101e0b840fe484574c0be4eeab624b1d746f22560f1e998526dc8b",
+    "REVIEWER_B.csv": "61e73f5bdf101e0b840fe484574c0be4eeab624b1d746f22560f1e998526dc8b"
+  },
+  "source_freeze_sha256": "e0e1253259b42faa64e76ff7e363692629764c00b78ae558ca30c7c1c6b2220b",
+  "status": "blank forms; no human review completed"
+}

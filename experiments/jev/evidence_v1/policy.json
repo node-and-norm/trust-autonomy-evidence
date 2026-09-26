@@ -1,0 +1,15 @@
+{
+  "version": "jev-tae-evidence-v1",
+  "requested_model": "jev-1.13.0",
+  "sdk_version_for_future_live": "0.7.1",
+  "repetitions": 3,
+  "primary_repetition": 1,
+  "order": "repetition_then_corpus_order",
+  "attempts_per_scheduled_request": 1,
+  "retries": 0,
+  "seed": null,
+  "temperature": null,
+  "live_enabled": false,
+  "label_order": ["supported", "partially_supported", "unsupported", "indeterminate", "outside_scope"],
+  "adjudication_dispositions": ["JEV_ERROR", "ORACLE_AMBIGUITY", "QUESTION_DEFECT", "EVIDENCE_TRANSLATION_DEFECT", "CONSTRUCT_AMBIGUITY", "INSUFFICIENT_EVIDENCE", "UNRESOLVED"]
+}

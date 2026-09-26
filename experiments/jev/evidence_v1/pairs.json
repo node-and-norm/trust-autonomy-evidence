@@ -1,0 +1,415 @@
+[
+  {
+    "base": "P001",
+    "expected_deltas": {
+      "control__access": [
+        "supported",
+        "unsupported"
+      ]
+    },
+    "suite": "mutation",
+    "variant": "P013"
+  },
+  {
+    "base": "P001",
+    "expected_deltas": {
+      "control__authority": [
+        "supported",
+        "unsupported"
+      ]
+    },
+    "suite": "mutation",
+    "variant": "P014"
+  },
+  {
+    "base": "P001",
+    "expected_deltas": {
+      "trust__human_authority": [
+        "supported",
+        "unsupported"
+      ]
+    },
+    "suite": "mutation",
+    "variant": "P015"
+  },
+  {
+    "base": "P001",
+    "expected_deltas": {
+      "trust__integrity": [
+        "supported",
+        "unsupported"
+      ]
+    },
+    "suite": "mutation",
+    "variant": "P016"
+  },
+  {
+    "base": "P001",
+    "expected_deltas": {
+      "control__correction": [
+        "supported",
+        "partially_supported"
+      ],
+      "trust__harm_correction": [
+        "supported",
+        "partially_supported"
+      ]
+    },
+    "suite": "mutation",
+    "variant": "P017"
+  },
+  {
+    "base": "P001",
+    "expected_deltas": {
+      "trust__monitoring": [
+        "supported",
+        "unsupported"
+      ]
+    },
+    "suite": "mutation",
+    "variant": "P018"
+  },
+  {
+    "base": "P001",
+    "expected_deltas": {},
+    "suite": "boundary",
+    "variant": "P019"
+  },
+  {
+    "base": "P008",
+    "expected_deltas": {},
+    "suite": "boundary",
+    "variant": "P020"
+  },
+  {
+    "base": "P001",
+    "expected_deltas": {},
+    "suite": "boundary",
+    "variant": "P021"
+  },
+  {
+    "base": "P001",
+    "expected_deltas": {
+      "trust__evidence_completeness": [
+        "supported",
+        "indeterminate"
+      ]
+    },
+    "suite": "mutation",
+    "variant": "P022"
+  },
+  {
+    "base": "P001",
+    "expected_deltas": {
+      "control__repair": [
+        "supported",
+        "unsupported"
+      ]
+    },
+    "suite": "mutation",
+    "variant": "P023"
+  },
+  {
+    "base": "P001",
+    "expected_deltas": {
+      "control__reform": [
+        "supported",
+        "unsupported"
+      ],
+      "trust__governance_update": [
+        "supported",
+        "unsupported"
+      ]
+    },
+    "suite": "mutation",
+    "variant": "P024"
+  },
+  {
+    "base": "P001",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P001-order"
+  },
+  {
+    "base": "P001",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P001-wording"
+  },
+  {
+    "base": "P001",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P001-context"
+  },
+  {
+    "base": "P001",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P001-paraphrase"
+  },
+  {
+    "base": "P002",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P002-order"
+  },
+  {
+    "base": "P002",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P002-wording"
+  },
+  {
+    "base": "P002",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P002-context"
+  },
+  {
+    "base": "P002",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P002-paraphrase"
+  },
+  {
+    "base": "P003",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P003-order"
+  },
+  {
+    "base": "P003",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P003-wording"
+  },
+  {
+    "base": "P003",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P003-context"
+  },
+  {
+    "base": "P003",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P003-paraphrase"
+  },
+  {
+    "base": "P004",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P004-order"
+  },
+  {
+    "base": "P004",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P004-wording"
+  },
+  {
+    "base": "P004",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P004-context"
+  },
+  {
+    "base": "P004",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P004-paraphrase"
+  },
+  {
+    "base": "P005",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P005-order"
+  },
+  {
+    "base": "P005",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P005-wording"
+  },
+  {
+    "base": "P005",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P005-context"
+  },
+  {
+    "base": "P005",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P005-paraphrase"
+  },
+  {
+    "base": "P006",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P006-order"
+  },
+  {
+    "base": "P006",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P006-wording"
+  },
+  {
+    "base": "P006",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P006-context"
+  },
+  {
+    "base": "P006",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P006-paraphrase"
+  },
+  {
+    "base": "P007",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P007-order"
+  },
+  {
+    "base": "P007",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P007-wording"
+  },
+  {
+    "base": "P007",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P007-context"
+  },
+  {
+    "base": "P007",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P007-paraphrase"
+  },
+  {
+    "base": "P008",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P008-order"
+  },
+  {
+    "base": "P008",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P008-wording"
+  },
+  {
+    "base": "P008",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P008-context"
+  },
+  {
+    "base": "P008",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P008-paraphrase"
+  },
+  {
+    "base": "P009",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P009-order"
+  },
+  {
+    "base": "P009",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P009-wording"
+  },
+  {
+    "base": "P009",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P009-context"
+  },
+  {
+    "base": "P009",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P009-paraphrase"
+  },
+  {
+    "base": "P010",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P010-order"
+  },
+  {
+    "base": "P010",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P010-wording"
+  },
+  {
+    "base": "P010",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P010-context"
+  },
+  {
+    "base": "P010",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P010-paraphrase"
+  },
+  {
+    "base": "P011",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P011-order"
+  },
+  {
+    "base": "P011",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P011-wording"
+  },
+  {
+    "base": "P011",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P011-context"
+  },
+  {
+    "base": "P011",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P011-paraphrase"
+  },
+  {
+    "base": "P012",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P012-order"
+  },
+  {
+    "base": "P012",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P012-wording"
+  },
+  {
+    "base": "P012",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P012-context"
+  },
+  {
+    "base": "P012",
+    "expected_deltas": {},
+    "suite": "invariance",
+    "variant": "P012-paraphrase"
+  }
+]
