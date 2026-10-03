@@ -103,6 +103,22 @@ class BridgeTests(unittest.TestCase):
             adapter.close()
         self.assertEqual(calls, [('GET', 'https://api.typesafe.ai/v1/models')])
 
+    def test_successful_sdk_run_keeps_bytes_and_excludes_credentials(self):
+        try:
+            import httpx2
+        except ImportError:
+            self.skipTest('optional SDK not installed')
+        def respond(request):
+            payload = json.loads(request.content)
+            raw = MockAdapter().evaluate(**payload)
+            return httpx2.Response(200, content=raw)
+        result = bridge.run('live', self.parent/'success', adapter=self.sdk(respond))
+        self.assertEqual(result['status'], 'complete')
+        self.assertTrue(all(row['resolved_model']=='mock-only' for row in result['records']))
+        for file in (self.parent/'success').iterdir():
+            self.assertNotIn(b'test-only', file.read_bytes())
+        self.assertEqual(len(result['records']), 282)
+
     def test_manifest_tamper_rejected(self):
         with patch.object(bridge, 'load', return_value={'sha256':{'experiments/jev/live_v1/run.py':'wrong'}}):
             with self.assertRaisesRegex(ValueError, 'hash mismatch'):
