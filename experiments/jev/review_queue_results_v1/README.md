@@ -72,3 +72,23 @@ python -B -m experiments.jev.review_queue_results_v1.verify
 No additional live calls are needed to inspect this pilot. The prior v0.17.2
 release, original evidence corpus and all 1,079 original unresolved records remain
 unchanged. CEC remains context only.
+
+## Milestone closure: human comparison omitted
+
+After pilot execution, the author elected to omit the human time/quality
+comparison and authorized closure of this development milestone. The received
+baseline export was incomplete and contained zero saved item assessments. It
+supplies no usable review timing or completed assessment record. No assisted-pass
+export was received. Human time saving and review quality remain unmeasured;
+there is no end-to-end acceleration claim.
+
+Separately, the author approved Codex-drafted notes for items 1–3 and viewed a
+draft for item 4. Those local notes are disclosed AI-assisted author review,
+not an unassisted baseline, independent validation, or completed 24-item review.
+Item 4 approval was not recorded. The original export and intake disclosure are
+retained locally; no personal review files are published by this closure.
+
+The frozen protocol, implementation, raw outputs and summary are unchanged.
+All original adjudication records remain unresolved. No new live calls or
+replacement runs are needed for this stopping point. A future human comparison
+would require a separately documented design accounting for prior exposure.
