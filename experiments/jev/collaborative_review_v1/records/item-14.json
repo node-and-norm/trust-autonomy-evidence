@@ -1,0 +1,25 @@
+{
+  "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+  "unit_id": "P007-paraphrase/trust__monitoring",
+  "source_request_sha256": "6b6fd27a4ad51b4f52c7807d3ea612c7e6e6fb303f2643926469bdd7a4599e02",
+  "source_response_sha256": "7dd036860caf88eef39ea7ed97410d593188345efcce7cab93e3daf471abcddd",
+  "draft_author": "Codex",
+  "human_approval": "approved",
+  "approval_evidence": {
+    "source": "user message in this chat",
+    "text": "approved.",
+    "scope": "item 14 supported assessment within the synthetic-excerpt boundary and underlying-trace limitation"
+  },
+  "human_active_seconds": null,
+  "eligible_for_unassisted_time_comparison": false,
+  "assessment": {
+    "conclusion": "supported",
+    "notes": "The supplied synthetic excerpt reports monitoring across input receipt, model processing, tool calls, decision delivery and subsequent action. The underlying trace was not inspected, so its actual coverage and authenticity are not independently verified."
+  },
+  "collaborative_review": {
+    "initial_user_choice": "C: excerpt supplies no monitoring coverage information",
+    "user_clarification": "User indicated concern about not seeing the actual trace and said otherwise they would have chosen A. Assistant restated that interpretation and user approved the bounded assessment.",
+    "discussion": "Assistant distinguished assessing the supplied synthetic excerpt from independently inspecting the underlying trace and disclosed Jev/reference agreement. User approved supported within that boundary with the evidence limitation retained.",
+    "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+  }
+}

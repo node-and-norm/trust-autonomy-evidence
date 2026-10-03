@@ -1,0 +1,24 @@
+{
+  "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+  "unit_id": "P008/trust__human_authority",
+  "source_request_sha256": "2369eae927df6c6585438d53360f9a156a71e2f4c6b4a0be935dacc1e2d487c3",
+  "source_response_sha256": "c9102825c32b9bdd34373189f638a4fa276a555c9812013d381b2421749a99bb",
+  "draft_author": "Codex",
+  "human_approval": "approved",
+  "approval_evidence": {
+    "source": "user message in this chat",
+    "text": "approved.",
+    "scope": "item 24 partially-supported assessment and missing-use concern"
+  },
+  "human_active_seconds": null,
+  "eligible_for_unassisted_time_comparison": false,
+  "assessment": {
+    "conclusion": "partially_supported",
+    "notes": "Institutional permission is documented. Missing evidence of its use does not establish absent authority or a failed intervention. The cause of Jev disagreement remains unresolved."
+  },
+  "collaborative_review": {
+    "initial_user_choice": "A: stop permission documented, use and effect not demonstrated",
+    "discussion": "Assistant agreed with the bounded reading and disclosed reference agreement and Jev unsupported answer. User approved the final assessment and note.",
+    "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+  }
+}

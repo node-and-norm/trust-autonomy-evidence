@@ -1,0 +1,25 @@
+{
+  "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+  "unit_id": "P020/trust__reliability",
+  "source_request_sha256": "2369eae927df6c6585438d53360f9a156a71e2f4c6b4a0be935dacc1e2d487c3",
+  "source_response_sha256": "6ee774c8401d12e982e7c2fd77ec69760da732387125e019a0555fa43ac5b66a",
+  "draft_author": "Codex",
+  "human_approval": "approved",
+  "approval_evidence": {
+    "source": "user message in this chat",
+    "text": "Approved.",
+    "scope": "item 6 partially-supported assessment and no issue identified with Jev answer"
+  },
+  "human_active_seconds": null,
+  "eligible_for_unassisted_time_comparison": false,
+  "assessment": {
+    "conclusion": "partially_supported",
+    "route": "NO_ISSUE_IDENTIFIED",
+    "notes": "The overall success rate supplies limited performance evidence. Without results for each operating condition, the packet establishes neither that every threshold was met nor that one failed. No issue identified with the observed partially_supported answer under the supplied criteria."
+  },
+  "collaborative_review": {
+    "initial_user_choice": "D: unsure; requested discussion",
+    "discussion": "Assistant explained aggregate versus condition-specific performance, marking concealed poor performance as a hypothetical possibility rather than observed fact. Assistant disclosed the explicit partial-support criterion, Jev answer and provisional reference. User confirmed understanding and approved the assessment.",
+    "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+  }
+}

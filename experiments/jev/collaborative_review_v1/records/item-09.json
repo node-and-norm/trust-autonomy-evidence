@@ -1,0 +1,24 @@
+{
+  "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+  "unit_id": "H04/control__correction",
+  "source_request_sha256": "63e3899716f960488d828f692669872524fe08aa91a91933f6a5d70252975f7e",
+  "source_response_sha256": "af379f6f4c44c05e09a268de8b39208832690f1922d79b6ca4ee6f751c0ba443",
+  "draft_author": "Codex",
+  "human_approval": "approved",
+  "approval_evidence": {
+    "source": "user message in this chat",
+    "text": "make sense. approved.",
+    "scope": "item 9 partially-supported interpretation after discussion"
+  },
+  "human_active_seconds": null,
+  "eligible_for_unassisted_time_comparison": false,
+  "assessment": {
+    "conclusion": "partially_supported",
+    "notes": "The policy describes a correction channel, supplying a declaration of a process. The packet supplies no completed request and corrected decision, so practical access and delivery of correction are not demonstrated. This does not establish that an attempted correction failed. The partially_supported choice is consistent with the supplied criteria and provisional reference."
+  },
+  "collaborative_review": {
+    "initial_user_choice": "D: unsure; requested discussion",
+    "discussion": "Assistant distinguished a policy-described correction process from demonstrated access and delivery, explained the partial-support criterion, and disclosed Jev and reference agreement. User confirmed understanding and approved.",
+    "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+  }
+}

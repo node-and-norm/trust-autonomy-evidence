@@ -1,0 +1,24 @@
+{
+  "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+  "unit_id": "H03/control__authority",
+  "source_request_sha256": "91f1e1802dbc8f35094ac1b5c135fdfbcfcdb627bd5f17a4f3fe19a9a265343c",
+  "source_response_sha256": "f236d75fa730b7d85ff95b658452ec176e55bfeb3850b290c8fb2556dcf19d70",
+  "draft_author": "Codex",
+  "human_approval": "approved",
+  "approval_evidence": {
+    "source": "user message in this chat",
+    "text": "approved.",
+    "scope": "item 12 partially-supported conclusion and permission-versus-exercise concern"
+  },
+  "human_active_seconds": null,
+  "eligible_for_unassisted_time_comparison": false,
+  "assessment": {
+    "conclusion": "partially_supported",
+    "notes": "Cancellation permission is documented, but its use and operational effect are not demonstrated. Missing evidence of use does not establish absent permission or a failed intervention. Review the distinction between permission and exercised control; the cause of Jev disagreement remains unresolved."
+  },
+  "collaborative_review": {
+    "initial_user_choice": "B: cancellation permission documented, use and effect not demonstrated",
+    "discussion": "Assistant agreed with the bounded reading, explained the partial-support criterion, and disclosed that the provisional reference agrees while Jev answered unsupported. User approved the assessment and concern.",
+    "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+  }
+}

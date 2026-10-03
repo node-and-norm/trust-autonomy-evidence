@@ -1,0 +1,24 @@
+{
+  "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+  "unit_id": "H02/control__repair",
+  "source_request_sha256": "7c5e4fc40dbeaad43d4966b5863377a67e804e4961a62ad97fcd2bd366b7f98e",
+  "source_response_sha256": "5a951eb18073b457bb6c2136eec73aa49624b5479dcbaee57fca385f2a3f4c37",
+  "draft_author": "Codex",
+  "human_approval": "approved",
+  "approval_evidence": {
+    "source": "user message in this chat",
+    "text": "approved.",
+    "scope": "item 10 supported assessment and bounded no-concern note"
+  },
+  "human_active_seconds": null,
+  "eligible_for_unassisted_time_comparison": false,
+  "assessment": {
+    "conclusion": "supported",
+    "notes": "Delivery of remediation is documented within the supplied excerpt by a delivery receipt showing restoration of the affected resource. No ambiguity or concern identified for this narrow question; the record does not establish broader or lasting effectiveness."
+  },
+  "collaborative_review": {
+    "initial_user_choice": "B: supplied record documents delivery and restoration",
+    "discussion": "Assistant agreed, explained the supported criterion and disclosed Jev/reference agreement. User approved the assessment and bounded note.",
+    "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+  }
+}

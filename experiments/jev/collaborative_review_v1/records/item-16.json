@@ -1,0 +1,25 @@
+{
+  "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+  "unit_id": "P008-order/trust__reconstructability",
+  "source_request_sha256": "3840505b27050a5ff59f07579df96281e1387e5c8b34777f22cd810cf6fa843a",
+  "source_response_sha256": "7629997401e0298ccd06f3f2c1d252601e48c578c443a14ce8349128afc20dda",
+  "draft_author": "Codex",
+  "human_approval": "approved",
+  "approval_evidence": {
+    "source": "user message in this chat",
+    "text": "approved.",
+    "scope": "item 16 bounded reading and unresolved classification tension"
+  },
+  "human_active_seconds": null,
+  "eligible_for_unassisted_time_comparison": false,
+  "assessment": {
+    "conclusion": null,
+    "interpretation": "Inputs and decisions are retained, but subsequent actions cannot be reconstructed from this record. Missing action records do not prove that no actions occurred.",
+    "notes": "Preserve classification tension: the record supports partial reconstruction but explicitly fails the question requirement for a complete sequence. The reference says partially_supported and Jev says unsupported. Final classification remains unresolved."
+  },
+  "collaborative_review": {
+    "initial_user_choice": "B: part of sequence retained, subsequent actions cannot be reconstructed from this record",
+    "discussion": "Assistant agreed with bounded reading, disclosed Jev/reference disagreement and explained tension between partial reconstruction and the complete-sequence requirement. User approved preserving the ambiguity without assigning a final class.",
+    "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+  }
+}

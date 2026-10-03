@@ -1,0 +1,24 @@
+{
+  "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+  "unit_id": "P001/control__reform",
+  "source_request_sha256": "afccd4b1678c45b1f101e488e76c2adc23ee62762fc6f1a6d6693c1970f0478f",
+  "source_response_sha256": "9a341e9a7799ac2d1ea2e388d09de34030d3405abdd5563bc224f8734b1a0fda",
+  "draft_author": "Codex",
+  "human_approval": "approved",
+  "approval_evidence": {
+    "source": "user message in this chat",
+    "text": "approved.",
+    "scope": "item 22 supported assessment and bounded no-concern note"
+  },
+  "human_active_seconds": null,
+  "eligible_for_unassisted_time_comparison": false,
+  "assessment": {
+    "conclusion": "supported",
+    "notes": "Revision and retesting of the oversight procedure against the incident scenario are documented. No ambiguity or concern identified for this narrow question. The excerpt does not report the test outcome or establish prevention of future incidents."
+  },
+  "collaborative_review": {
+    "initial_user_choice": "A: revision and testing against the incident scenario are documented",
+    "discussion": "Assistant agreed with the bounded interpretation and disclosed Jev/reference agreement, distinguishing documented retesting from successful test outcomes and future prevention. User approved the assessment and note.",
+    "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+  }
+}

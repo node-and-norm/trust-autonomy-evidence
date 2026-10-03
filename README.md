@@ -18,6 +18,8 @@ An evidence architecture for bounded reliance.
 
 Repository v0.17.2 preserves the [first live Jev evidence-v2 results](experiments/jev/live_results_v1/REPORT.md) and [post-output diagnostics](experiments/jev/live_followup_v1/README.md): 282 requests attempted, 260 valid and 22 invalid. Primary reconstruction agreement is 198/231 valid determinations (85.7%), with 231/252 coverage (91.7%). See the [release notes](release/v0.17.2-release-notes.md). The paper remains v0.17.0; these authored synthetic agreements do not establish independent or real-world validation.
 
+Later work includes the [review-assistance pilot](experiments/jev/review_queue_results_v1/README.md) and a separate [24-item collaborative author review](experiments/jev/collaborative_review_v1/README.md). The timed human comparison was omitted; time savings and quality improvement remain unmeasured. See the [current Jev experiment guide](docs/jev-experiments.md) for phase boundaries, results and unresolved questions.
+
 | Research checkpoint | Current account |
 | :--- | :--- |
 | Research question | What evidence justifies reliance, and what evidence shows that institutional authority can detect, interrupt, correct, and repair AI-system actions? |

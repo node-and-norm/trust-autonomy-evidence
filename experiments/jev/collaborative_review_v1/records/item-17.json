@@ -1,0 +1,26 @@
+{
+  "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+  "unit_id": "P015/control__comprehension",
+  "source_request_sha256": "51a40c279bcc1bc6664720acda6472b8b135b57ab165f3f4ba91823b5832f810",
+  "source_response_sha256": "7c4931b1fe30b225a10e5ff90bf8e463a16486edcd2d88bfb71dc993098a4abb",
+  "draft_author": "Codex",
+  "human_approval": "approved",
+  "approval_evidence": {
+    "source": "user message in this chat",
+    "text": "approved.",
+    "scope": "item 17 supported assessment and separate review-process concern"
+  },
+  "human_active_seconds": null,
+  "eligible_for_unassisted_time_comparison": false,
+  "assessment": {
+    "conclusion": "supported",
+    "notes": "The supplied excerpt records comparison with an independently checked alternative and a challenge to a stated assumption. This supports the narrow proposition of independent comparison or challenge; it does not establish correctness of the reasoning or ultimate acceptance or rejection of the recommendation.",
+    "review_process_concern": "The author raised that a human may overlook relevant details without closer examination or a flag. Whether flagging improves review quality remains untested."
+  },
+  "collaborative_review": {
+    "initial_user_choice": "C: recommendation accepted without examination",
+    "user_clarification": "The concern is that a human may overlook this without closer examination, if its not flagged.",
+    "discussion": "Assistant identified the two documented acts of examination and disclosed Jev/reference agreement. Assistant separated the author review-process concern from the evidence classification. User approved both. No cause for the initial C choice is assumed.",
+    "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+  }
+}

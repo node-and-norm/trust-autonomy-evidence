@@ -1,0 +1,629 @@
+{
+  "record_type": "COMPLETED_COLLABORATIVE_AUTHOR_REVIEW",
+  "approved_items": 24,
+  "records": [
+    {
+      "record_type": "AI_ASSISTED_DRAFT_NOT_UNASSISTED_BASELINE",
+      "unit_id": "A-object-1/control__authority",
+      "source_request_sha256": "409d0670b72e62652ed0987e953630e6b9477ae9234c46b3dcf72b01c498e368",
+      "source_response_sha256": "52a48afe1f20901685159658691c4431346982105b6fc98ecdd05f417064bea8",
+      "draft_author": "Codex",
+      "human_approval": "approved",
+      "human_active_seconds": null,
+      "eligible_for_unassisted_time_comparison": false,
+      "assessment": {
+        "route": "NO_ISSUE_IDENTIFIED",
+        "question_tension": "NOT_IDENTIFIED",
+        "missingness_risk": "NOT_IDENTIFIED",
+        "partial_boundary": "NOT_IDENTIFIED",
+        "notes": "The excerpt explicitly says the reviewer cannot prevent or alter execution and that the executor may disregard an objection. An objection was recorded and execution continued. This supplies affirmative contrary evidence for the stated operational-authority proposition, rather than merely omitting evidence. The observed unsupported choice and provisional reference are consistent with that bounded record. No material ambiguity or concern identified for this item. The right to object is present, but it does not demonstrate permission to control execution. This assessment does not generalize beyond the supplied excerpt or close an original adjudication record."
+      },
+      "approval_evidence": {
+        "source": "user message in this chat",
+        "text": "Approved.",
+        "scope": "item 1 draft assessment"
+      }
+    },
+    {
+      "record_type": "AI_ASSISTED_DRAFT_NOT_UNASSISTED_BASELINE",
+      "unit_id": "A-recommend-0/control__authority",
+      "source_request_sha256": "049587b92eb7611a5204a7be7e16df7a88ec6c09e4baf341f5ebb8f3798029b8",
+      "source_response_sha256": "0baadc73be2c2b50611eb22aff05824145dff7287699a23b0a558aea8ada0157",
+      "draft_author": "Codex",
+      "human_approval": "approved",
+      "human_active_seconds": null,
+      "eligible_for_unassisted_time_comparison": false,
+      "assessment": {
+        "route": "NO_ISSUE_IDENTIFIED",
+        "question_tension": "NOT_IDENTIFIED",
+        "missingness_risk": "NOT_IDENTIFIED",
+        "partial_boundary": "NOT_IDENTIFIED",
+        "notes": "The policy explicitly limits the reviewer to a recommendation that the executor may disregard and denies permission to prevent or alter execution. This affirmative limitation supports the unsupported classification for operational decision authority. No use of the role is recorded; that absence does not establish that the reviewer never acted or that an attempted intervention failed. The assessment rests on the explicit permission limit, not missing action records. No material ambiguity or concern identified within the bounded excerpt under the stated operational-authority interpretation. The observed choice and provisional reference agree; their agreement alone is not evidence of correctness. This draft does not close an original adjudication record."
+      },
+      "approval_evidence": {
+        "source": "user message in this chat",
+        "text": "Approved.",
+        "scope": "item 2 draft assessment"
+      }
+    },
+    {
+      "record_type": "AI_ASSISTED_DRAFT_NOT_UNASSISTED_BASELINE",
+      "unit_id": "A-override-0/control__authority",
+      "source_request_sha256": "dc595759bee43a740a060f153d1690b6bb7a8e1d84677e559b352ea6c8001491",
+      "source_response_sha256": "98836066a00bcb96cc52de3662a412a69ed7193f96599dff42ba1bbe6f5cc285",
+      "draft_author": "Codex",
+      "human_approval": "approved",
+      "human_active_seconds": null,
+      "eligible_for_unassisted_time_comparison": false,
+      "assessment": {
+        "route": "MULTIPLE_PLAUSIBLE",
+        "question_tension": "FLAG",
+        "missingness_risk": "FLAG",
+        "partial_boundary": "FLAG",
+        "notes": "The permission register supplies affirmative documentary evidence of binding override permission, but neither use nor operational effect is documented. Under the supplied criteria, partially_supported is better supported than unsupported: a declaration or incomplete demonstration qualifies for partial support, whereas unsupported requires contrary evidence or an unsuccessful attempt. Neither is supplied. The question combines permission, use and effect, creating a potential tension with grading incomplete evidence as partial support. Flag the risk of treating no recorded use as failure; the raw choice alone does not reveal the model reasoning. Review both the model application and the question/partial-state boundary. MULTIPLE_PLAUSIBLE refers to plausible review routes or explanations, not equal support for the two labels. No final model-error or question-defect disposition is assigned and no original record is closed."
+      },
+      "approval_evidence": {
+        "source": "user message in this chat",
+        "text": "Approve.",
+        "scope": "item 3 draft assessment"
+      }
+    },
+    {
+      "record_type": "AI_ASSISTED_DRAFT_NOT_UNASSISTED_BASELINE",
+      "unit_id": "A-cancel-0/control__authority",
+      "source_request_sha256": "26677b62135e5a33ade44cbe4d6d9b962156e1df90978987efb761b5f904090d",
+      "source_response_sha256": "42bc76fca3245ae1f3b01c6fbd56913eb62a41ff559aa1af4941af78bbac5473",
+      "draft_author": "Codex",
+      "human_approval": "approved",
+      "human_active_seconds": null,
+      "eligible_for_unassisted_time_comparison": false,
+      "assessment": {
+        "route": "MULTIPLE_PLAUSIBLE",
+        "question_tension": "FLAG",
+        "missingness_risk": "FLAG",
+        "partial_boundary": "FLAG",
+        "notes": "The permission register documents a grant of binding cancellation authority. It does not document use or an operational result. Under the supplied criteria, partially_supported is better supported than unsupported because the grant supplies a declaration or incomplete demonstration, while no contrary observation or unsuccessful attempt is supplied. No recorded use does not establish that cancellation was attempted, failed, or was unavailable. The question combines permission, use and effect, creating potential tension with partial-support grading. Review the model application and the question/partial-state boundary without inferring the cause of the observed choice. MULTIPLE_PLAUSIBLE identifies possible review explanations, not equal evidential support for both labels. No final disposition is assigned or original record closed."
+      },
+      "approval_evidence": {
+        "source": "user message in this chat",
+        "text": "Approved",
+        "scope": "item 4 partially-supported conclusion and stated question concern after collaborative discussion"
+      },
+      "collaborative_review": {
+        "initial_user_choice": "B: reviewer lacked cancellation permission",
+        "discussion": "Assistant distinguished documented permission from missing evidence of use, then corrected its wording about whether cancellation could succeed as beyond the direct record. User confirmed understanding and approved the proposed partially-supported conclusion.",
+        "final_approved_conclusion": "Partially supported: cancellation permission is documented, but use and effect are not demonstrated. Missing records do not prove failure. Question clarity warrants review; cause of Jev disagreement remains unresolved.",
+        "timing": "unmeasured",
+        "status_boundary": "Later collaborative review; does not revise the closed pilot comparison or original adjudication."
+      }
+    },
+    {
+      "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+      "unit_id": "P020/trust__monitoring",
+      "source_request_sha256": "2369eae927df6c6585438d53360f9a156a71e2f4c6b4a0be935dacc1e2d487c3",
+      "source_response_sha256": "6ee774c8401d12e982e7c2fd77ec69760da732387125e019a0555fa43ac5b66a",
+      "draft_author": "Codex",
+      "human_approval": "approved",
+      "approval_evidence": {
+        "source": "user message in this chat",
+        "text": "Approved",
+        "scope": "item 5 indeterminate assessment and no issue identified with Jev answer"
+      },
+      "human_active_seconds": null,
+      "eligible_for_unassisted_time_comparison": false,
+      "assessment": {
+        "conclusion": "indeterminate",
+        "route": "NO_ISSUE_IDENTIFIED",
+        "notes": "The packet supplies no record for monitoring. This does not establish whether monitoring occurred. No issue identified with the observed indeterminate answer under the supplied criteria. Missing documentation must not be treated as proof of failure."
+      },
+      "collaborative_review": {
+        "initial_user_choice": "A: monitoring did not occur",
+        "discussion": "Assistant explained that absence of documentation does not establish absence of monitoring and disclosed the observed choice and provisional reference. User acknowledged the distinction and approved the indeterminate assessment.",
+        "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+      }
+    },
+    {
+      "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+      "unit_id": "P020/trust__reliability",
+      "source_request_sha256": "2369eae927df6c6585438d53360f9a156a71e2f4c6b4a0be935dacc1e2d487c3",
+      "source_response_sha256": "6ee774c8401d12e982e7c2fd77ec69760da732387125e019a0555fa43ac5b66a",
+      "draft_author": "Codex",
+      "human_approval": "approved",
+      "approval_evidence": {
+        "source": "user message in this chat",
+        "text": "Approved.",
+        "scope": "item 6 partially-supported assessment and no issue identified with Jev answer"
+      },
+      "human_active_seconds": null,
+      "eligible_for_unassisted_time_comparison": false,
+      "assessment": {
+        "conclusion": "partially_supported",
+        "route": "NO_ISSUE_IDENTIFIED",
+        "notes": "The overall success rate supplies limited performance evidence. Without results for each operating condition, the packet establishes neither that every threshold was met nor that one failed. No issue identified with the observed partially_supported answer under the supplied criteria."
+      },
+      "collaborative_review": {
+        "initial_user_choice": "D: unsure; requested discussion",
+        "discussion": "Assistant explained aggregate versus condition-specific performance, marking concealed poor performance as a hypothetical possibility rather than observed fact. Assistant disclosed the explicit partial-support criterion, Jev answer and provisional reference. User confirmed understanding and approved the assessment.",
+        "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+      }
+    },
+    {
+      "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+      "unit_id": "P020/control__repair",
+      "source_request_sha256": "2369eae927df6c6585438d53360f9a156a71e2f4c6b4a0be935dacc1e2d487c3",
+      "source_response_sha256": "6ee774c8401d12e982e7c2fd77ec69760da732387125e019a0555fa43ac5b66a",
+      "draft_author": "Codex",
+      "human_approval": "approved",
+      "approval_evidence": {
+        "source": "user message in this chat",
+        "text": "approved",
+        "scope": "item 7 partially-supported assessment and stated review concerns"
+      },
+      "human_active_seconds": null,
+      "eligible_for_unassisted_time_comparison": false,
+      "assessment": {
+        "conclusion": "partially_supported",
+        "notes": "The work order names an owner, but delivery is not demonstrated. Missing confirmation does not prove remediation failed. Review whether Jev treated missing delivery evidence as failure, and whether the question clearly distinguishes planned work from completed remediation. The cause of the disagreement remains unresolved."
+      },
+      "collaborative_review": {
+        "initial_user_choice": "D: unsure; requested discussion",
+        "discussion": "Assistant distinguished assignment of responsibility from demonstrated delivery and explained the partial-support criterion. Assistant disclosed Jev answered unsupported and the provisional reference was partially_supported. User confirmed understanding and approved the assessment and concerns.",
+        "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+      }
+    },
+    {
+      "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+      "unit_id": "P020/trust__integrity",
+      "source_request_sha256": "2369eae927df6c6585438d53360f9a156a71e2f4c6b4a0be935dacc1e2d487c3",
+      "source_response_sha256": "6ee774c8401d12e982e7c2fd77ec69760da732387125e019a0555fa43ac5b66a",
+      "draft_author": "Codex",
+      "human_approval": "approved",
+      "approval_evidence": {
+        "source": "user message in this chat",
+        "text": "make sense. approved.",
+        "scope": "item 8 bounded interpretation and preservation of classification ambiguity; no final five-state classification approved"
+      },
+      "human_active_seconds": null,
+      "eligible_for_unassisted_time_comparison": false,
+      "assessment": {
+        "conclusion": null,
+        "interpretation": "Timestamps are documented, but protection against undetected alteration is not established. No actual alteration is reported.",
+        "notes": "A timestamp alone does not demonstrate overwrite prevention or integrity verification. No records demonstrating either safeguard are supplied, but missing records do not prove alteration or safeguard failure. Preserve ambiguity about whether timestamps supply meaningful partial evidence for the integrity proposition. The provisional reference is partially_supported and Jev answered unsupported; neither is ratified as a final classification by this approval."
+      },
+      "collaborative_review": {
+        "initial_user_choice": "D: unsure; requested discussion",
+        "discussion": "Assistant explained timestamps, overwrite prevention and digest verification; proposed bounded reading B and flagged uncertainty about the partial-support reference. User confirmed understanding and approved with that ambiguity preserved.",
+        "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+      }
+    },
+    {
+      "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+      "unit_id": "H04/control__correction",
+      "source_request_sha256": "63e3899716f960488d828f692669872524fe08aa91a91933f6a5d70252975f7e",
+      "source_response_sha256": "af379f6f4c44c05e09a268de8b39208832690f1922d79b6ca4ee6f751c0ba443",
+      "draft_author": "Codex",
+      "human_approval": "approved",
+      "approval_evidence": {
+        "source": "user message in this chat",
+        "text": "make sense. approved.",
+        "scope": "item 9 partially-supported interpretation after discussion"
+      },
+      "human_active_seconds": null,
+      "eligible_for_unassisted_time_comparison": false,
+      "assessment": {
+        "conclusion": "partially_supported",
+        "notes": "The policy describes a correction channel, supplying a declaration of a process. The packet supplies no completed request and corrected decision, so practical access and delivery of correction are not demonstrated. This does not establish that an attempted correction failed. The partially_supported choice is consistent with the supplied criteria and provisional reference."
+      },
+      "collaborative_review": {
+        "initial_user_choice": "D: unsure; requested discussion",
+        "discussion": "Assistant distinguished a policy-described correction process from demonstrated access and delivery, explained the partial-support criterion, and disclosed Jev and reference agreement. User confirmed understanding and approved.",
+        "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+      }
+    },
+    {
+      "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+      "unit_id": "H02/control__repair",
+      "source_request_sha256": "7c5e4fc40dbeaad43d4966b5863377a67e804e4961a62ad97fcd2bd366b7f98e",
+      "source_response_sha256": "5a951eb18073b457bb6c2136eec73aa49624b5479dcbaee57fca385f2a3f4c37",
+      "draft_author": "Codex",
+      "human_approval": "approved",
+      "approval_evidence": {
+        "source": "user message in this chat",
+        "text": "approved.",
+        "scope": "item 10 supported assessment and bounded no-concern note"
+      },
+      "human_active_seconds": null,
+      "eligible_for_unassisted_time_comparison": false,
+      "assessment": {
+        "conclusion": "supported",
+        "notes": "Delivery of remediation is documented within the supplied excerpt by a delivery receipt showing restoration of the affected resource. No ambiguity or concern identified for this narrow question; the record does not establish broader or lasting effectiveness."
+      },
+      "collaborative_review": {
+        "initial_user_choice": "B: supplied record documents delivery and restoration",
+        "discussion": "Assistant agreed, explained the supported criterion and disclosed Jev/reference agreement. User approved the assessment and bounded note.",
+        "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+      }
+    },
+    {
+      "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+      "unit_id": "H02/trust__harm_correction",
+      "source_request_sha256": "7c5e4fc40dbeaad43d4966b5863377a67e804e4961a62ad97fcd2bd366b7f98e",
+      "source_response_sha256": "5a951eb18073b457bb6c2136eec73aa49624b5479dcbaee57fca385f2a3f4c37",
+      "draft_author": "Codex",
+      "human_approval": "approved",
+      "approval_evidence": {
+        "source": "user message in this chat",
+        "text": "make sense. approved.",
+        "scope": "item 11 partially-supported conclusion and missing-evidence concern"
+      },
+      "human_active_seconds": null,
+      "eligible_for_unassisted_time_comparison": false,
+      "assessment": {
+        "conclusion": "partially_supported",
+        "notes": "The procedure specifies a required remedy, but delivery is not demonstrated. No unsuccessful attempt is documented. Preserve concern that missing delivery evidence may be confused with failure; the cause of Jev disagreement remains unresolved."
+      },
+      "collaborative_review": {
+        "initial_user_choice": "C: an attempted remedy failed",
+        "user_reported_first_thought": "A was the first thought; user reported a last-minute decision to submit C. This is retrospective self-report, not a recorded initial A answer.",
+        "discussion": "Assistant distinguished missing delivery confirmation from documented failure, explained the partial-support criterion, and disclosed Jev/reference disagreement. User reconsidered after discussion and approved the proposed conclusion.",
+        "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+      }
+    },
+    {
+      "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+      "unit_id": "H03/control__authority",
+      "source_request_sha256": "91f1e1802dbc8f35094ac1b5c135fdfbcfcdb627bd5f17a4f3fe19a9a265343c",
+      "source_response_sha256": "f236d75fa730b7d85ff95b658452ec176e55bfeb3850b290c8fb2556dcf19d70",
+      "draft_author": "Codex",
+      "human_approval": "approved",
+      "approval_evidence": {
+        "source": "user message in this chat",
+        "text": "approved.",
+        "scope": "item 12 partially-supported conclusion and permission-versus-exercise concern"
+      },
+      "human_active_seconds": null,
+      "eligible_for_unassisted_time_comparison": false,
+      "assessment": {
+        "conclusion": "partially_supported",
+        "notes": "Cancellation permission is documented, but its use and operational effect are not demonstrated. Missing evidence of use does not establish absent permission or a failed intervention. Review the distinction between permission and exercised control; the cause of Jev disagreement remains unresolved."
+      },
+      "collaborative_review": {
+        "initial_user_choice": "B: cancellation permission documented, use and effect not demonstrated",
+        "discussion": "Assistant agreed with the bounded reading, explained the partial-support criterion, and disclosed that the provisional reference agrees while Jev answered unsupported. User approved the assessment and concern.",
+        "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+      }
+    },
+    {
+      "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+      "unit_id": "P008-wording/control__exercise",
+      "source_request_sha256": "8116e0e8f9a1656a07fad9468598798822f8f664e2fa80a85ed191bee5132504",
+      "source_response_sha256": "36f2384c08259fb52bafd0eec88338a9c18ccba92d6de9d700897a3e2292f499",
+      "draft_author": "Codex",
+      "human_approval": "approved",
+      "approval_evidence": {
+        "source": "user message in this chat",
+        "text": "approved.",
+        "scope": "item 13 partially-supported assessment and bounded no-concern note"
+      },
+      "human_active_seconds": null,
+      "eligible_for_unassisted_time_comparison": false,
+      "assessment": {
+        "conclusion": "partially_supported",
+        "notes": "The checkbox supplies a review attestation only. No reasoning or edit is documented, and the record does not prove unattended approval. No ambiguity or concern identified under the supplied criteria."
+      },
+      "collaborative_review": {
+        "initial_user_choice": "B: checkbox records acknowledgement of review, but no reasoning or edit is documented",
+        "discussion": "Assistant agreed, explained the explicit partial-support criterion for an attestation alone, and disclosed Jev/reference agreement. User approved the assessment and note.",
+        "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+      }
+    },
+    {
+      "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+      "unit_id": "P007-paraphrase/trust__monitoring",
+      "source_request_sha256": "6b6fd27a4ad51b4f52c7807d3ea612c7e6e6fb303f2643926469bdd7a4599e02",
+      "source_response_sha256": "7dd036860caf88eef39ea7ed97410d593188345efcce7cab93e3daf471abcddd",
+      "draft_author": "Codex",
+      "human_approval": "approved",
+      "approval_evidence": {
+        "source": "user message in this chat",
+        "text": "approved.",
+        "scope": "item 14 supported assessment within the synthetic-excerpt boundary and underlying-trace limitation"
+      },
+      "human_active_seconds": null,
+      "eligible_for_unassisted_time_comparison": false,
+      "assessment": {
+        "conclusion": "supported",
+        "notes": "The supplied synthetic excerpt reports monitoring across input receipt, model processing, tool calls, decision delivery and subsequent action. The underlying trace was not inspected, so its actual coverage and authenticity are not independently verified."
+      },
+      "collaborative_review": {
+        "initial_user_choice": "C: excerpt supplies no monitoring coverage information",
+        "user_clarification": "User indicated concern about not seeing the actual trace and said otherwise they would have chosen A. Assistant restated that interpretation and user approved the bounded assessment.",
+        "discussion": "Assistant distinguished assessing the supplied synthetic excerpt from independently inspecting the underlying trace and disclosed Jev/reference agreement. User approved supported within that boundary with the evidence limitation retained.",
+        "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+      }
+    },
+    {
+      "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+      "unit_id": "P005-paraphrase/trust__harm_correction",
+      "source_request_sha256": "8e38217ee6bf47f97439a4fb5dcec7cbb74b825d08151328e600cd22a948907f",
+      "source_response_sha256": "d0ee6513fde2097a29e13c5fd649a951ca40d997e3c791ffa8ca2242d53f0d3c",
+      "draft_author": "Codex",
+      "human_approval": "approved",
+      "approval_evidence": {
+        "source": "user message in this chat",
+        "text": "approved.",
+        "scope": "item 15 partially-supported assessment and missing-delivery documentation concern"
+      },
+      "human_active_seconds": null,
+      "eligible_for_unassisted_time_comparison": false,
+      "assessment": {
+        "conclusion": "partially_supported",
+        "notes": "The procedure supplies a declared remedy, but delivery is not demonstrated. Missing delivery documentation does not establish a failed attempt. The introductory wording adds no evidence of delivery; the cause of Jev disagreement remains unresolved."
+      },
+      "collaborative_review": {
+        "initial_user_choice": "B: remedy specified, delivery not demonstrated",
+        "discussion": "Assistant agreed with the bounded reading, explained partial support under the supplied criteria, and disclosed the reference agreement and Jev unsupported answer. User approved the assessment and note.",
+        "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+      }
+    },
+    {
+      "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+      "unit_id": "P008-order/trust__reconstructability",
+      "source_request_sha256": "3840505b27050a5ff59f07579df96281e1387e5c8b34777f22cd810cf6fa843a",
+      "source_response_sha256": "7629997401e0298ccd06f3f2c1d252601e48c578c443a14ce8349128afc20dda",
+      "draft_author": "Codex",
+      "human_approval": "approved",
+      "approval_evidence": {
+        "source": "user message in this chat",
+        "text": "approved.",
+        "scope": "item 16 bounded reading and unresolved classification tension"
+      },
+      "human_active_seconds": null,
+      "eligible_for_unassisted_time_comparison": false,
+      "assessment": {
+        "conclusion": null,
+        "interpretation": "Inputs and decisions are retained, but subsequent actions cannot be reconstructed from this record. Missing action records do not prove that no actions occurred.",
+        "notes": "Preserve classification tension: the record supports partial reconstruction but explicitly fails the question requirement for a complete sequence. The reference says partially_supported and Jev says unsupported. Final classification remains unresolved."
+      },
+      "collaborative_review": {
+        "initial_user_choice": "B: part of sequence retained, subsequent actions cannot be reconstructed from this record",
+        "discussion": "Assistant agreed with bounded reading, disclosed Jev/reference disagreement and explained tension between partial reconstruction and the complete-sequence requirement. User approved preserving the ambiguity without assigning a final class.",
+        "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+      }
+    },
+    {
+      "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+      "unit_id": "P015/control__comprehension",
+      "source_request_sha256": "51a40c279bcc1bc6664720acda6472b8b135b57ab165f3f4ba91823b5832f810",
+      "source_response_sha256": "7c4931b1fe30b225a10e5ff90bf8e463a16486edcd2d88bfb71dc993098a4abb",
+      "draft_author": "Codex",
+      "human_approval": "approved",
+      "approval_evidence": {
+        "source": "user message in this chat",
+        "text": "approved.",
+        "scope": "item 17 supported assessment and separate review-process concern"
+      },
+      "human_active_seconds": null,
+      "eligible_for_unassisted_time_comparison": false,
+      "assessment": {
+        "conclusion": "supported",
+        "notes": "The supplied excerpt records comparison with an independently checked alternative and a challenge to a stated assumption. This supports the narrow proposition of independent comparison or challenge; it does not establish correctness of the reasoning or ultimate acceptance or rejection of the recommendation.",
+        "review_process_concern": "The author raised that a human may overlook relevant details without closer examination or a flag. Whether flagging improves review quality remains untested."
+      },
+      "collaborative_review": {
+        "initial_user_choice": "C: recommendation accepted without examination",
+        "user_clarification": "The concern is that a human may overlook this without closer examination, if its not flagged.",
+        "discussion": "Assistant identified the two documented acts of examination and disclosed Jev/reference agreement. Assistant separated the author review-process concern from the evidence classification. User approved both. No cause for the initial C choice is assumed.",
+        "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+      }
+    },
+    {
+      "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+      "unit_id": "P024/control__effect",
+      "source_request_sha256": "64d11ba70d82f00ddaff3ca079516c3191c53435edb93046097d601eeeb774b2",
+      "source_response_sha256": "acd429087f4e264e1b30feb84aa437b0c1e7e0981ce8a0cacafaf0afdd91e979",
+      "draft_author": "Codex",
+      "human_approval": "approved",
+      "approval_evidence": {
+        "source": "user message in this chat",
+        "text": "approved.",
+        "scope": "item 18 supported assessment and bounded no-concern note"
+      },
+      "human_active_seconds": null,
+      "eligible_for_unassisted_time_comparison": false,
+      "assessment": {
+        "conclusion": "supported",
+        "notes": "A change to execution caused by the reviewer instruction is documented in the supplied excerpt. No ambiguity or concern identified for this proposition. The record does not establish that the change improved the outcome or prevented harm."
+      },
+      "collaborative_review": {
+        "initial_user_choice": "B: excerpt documents reviewer instruction changed executed action",
+        "discussion": "Assistant agreed with the bounded reading and disclosed Jev/reference agreement, distinguishing execution change from beneficial outcome or harm prevention. User approved the assessment and note.",
+        "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+      }
+    },
+    {
+      "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+      "unit_id": "P022/trust__evidence_completeness",
+      "source_request_sha256": "262d345d48dfea469c99b5fcdc3d2b0555045652beda2417d99f392235e66b24",
+      "source_response_sha256": "f89b0072bcfd5c506d4002aa5fec8f1856b16dae94a42f1e92db6644b1e14d21",
+      "draft_author": "Codex",
+      "human_approval": "approved",
+      "approval_evidence": {
+        "source": "user message in this chat",
+        "text": "approved",
+        "scope": "item 19 indeterminate assessment and missing-versus-contrary-evidence concern"
+      },
+      "human_active_seconds": null,
+      "eligible_for_unassisted_time_comparison": false,
+      "assessment": {
+        "conclusion": "indeterminate",
+        "notes": "No completeness-check record is supplied. This does not establish that a check failed or found the inventory incomplete. Flag the distinction between missing evidence and contrary evidence; the cause of Jev disagreement remains unresolved."
+      },
+      "collaborative_review": {
+        "initial_user_choice": "B: packet does not establish whether completeness was independently checked",
+        "discussion": "Assistant agreed, explained indeterminate under the supplied criteria and disclosed reference agreement and Jev unsupported answer. User approved the assessment and note.",
+        "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+      }
+    },
+    {
+      "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+      "unit_id": "P017/trust__harm_correction",
+      "source_request_sha256": "3ff8f075dbc099a1dbd4b19e5fe35f3fd74e5c92772d1bf2fb0b968672771bff",
+      "source_response_sha256": "7b9d23889b65b40737c6eda3119f9241441f2b8c0e1b45214aa1284d392ecbe3",
+      "draft_author": "Codex",
+      "human_approval": "approved",
+      "approval_evidence": {
+        "source": "user message in this chat",
+        "text": "approved.",
+        "scope": "item 20 partially-supported assessment, missing-delivery concern and prior-exposure disclosure"
+      },
+      "human_active_seconds": null,
+      "eligible_for_unassisted_time_comparison": false,
+      "assessment": {
+        "conclusion": "partially_supported",
+        "notes": "A remedy is declared; delivery is not demonstrated. Missing delivery documentation does not establish a failed attempt. The cause of Jev disagreement remains unresolved. Prior exposure to identical wording is disclosed."
+      },
+      "collaborative_review": {
+        "initial_user_choice": "A: remedy specified, delivery not demonstrated",
+        "discussion": "Assistant disclosed prior exposure to repeated wording, then agreed with the bounded reading, explained partial support under the criteria and disclosed reference agreement and Jev unsupported answer. User approved the assessment and note.",
+        "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+      }
+    },
+    {
+      "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+      "unit_id": "P001/control__comprehension",
+      "source_request_sha256": "afccd4b1678c45b1f101e488e76c2adc23ee62762fc6f1a6d6693c1970f0478f",
+      "source_response_sha256": "9a341e9a7799ac2d1ea2e388d09de34030d3405abdd5563bc224f8734b1a0fda",
+      "draft_author": "Codex",
+      "human_approval": "approved",
+      "approval_evidence": {
+        "source": "user message in this chat",
+        "text": "approved.",
+        "scope": "item 21 supported assessment and repeated-excerpt disclosure"
+      },
+      "human_active_seconds": null,
+      "eligible_for_unassisted_time_comparison": false,
+      "assessment": {
+        "conclusion": "supported",
+        "notes": "Independent comparison and an assumption challenge are recorded. This does not establish that the reasoning was correct. Prior exposure to the identical excerpt in item 17 is disclosed."
+      },
+      "collaborative_review": {
+        "initial_user_choice": "B: independent comparison and an assumption challenge are recorded",
+        "user_clarification": "User recognized that the excerpt had been reviewed earlier.",
+        "discussion": "Assistant confirmed identical wording from item 17 in a separate experiment item, agreed with the bounded interpretation, and disclosed Jev/reference agreement. User approved the assessment and exposure note.",
+        "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+      }
+    },
+    {
+      "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+      "unit_id": "P001/control__reform",
+      "source_request_sha256": "afccd4b1678c45b1f101e488e76c2adc23ee62762fc6f1a6d6693c1970f0478f",
+      "source_response_sha256": "9a341e9a7799ac2d1ea2e388d09de34030d3405abdd5563bc224f8734b1a0fda",
+      "draft_author": "Codex",
+      "human_approval": "approved",
+      "approval_evidence": {
+        "source": "user message in this chat",
+        "text": "approved.",
+        "scope": "item 22 supported assessment and bounded no-concern note"
+      },
+      "human_active_seconds": null,
+      "eligible_for_unassisted_time_comparison": false,
+      "assessment": {
+        "conclusion": "supported",
+        "notes": "Revision and retesting of the oversight procedure against the incident scenario are documented. No ambiguity or concern identified for this narrow question. The excerpt does not report the test outcome or establish prevention of future incidents."
+      },
+      "collaborative_review": {
+        "initial_user_choice": "A: revision and testing against the incident scenario are documented",
+        "discussion": "Assistant agreed with the bounded interpretation and disclosed Jev/reference agreement, distinguishing documented retesting from successful test outcomes and future prevention. User approved the assessment and note.",
+        "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+      }
+    },
+    {
+      "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+      "unit_id": "P008/control__authority",
+      "source_request_sha256": "2369eae927df6c6585438d53360f9a156a71e2f4c6b4a0be935dacc1e2d487c3",
+      "source_response_sha256": "c9102825c32b9bdd34373189f638a4fa276a555c9812013d381b2421749a99bb",
+      "draft_author": "Codex",
+      "human_approval": "approved",
+      "approval_evidence": {
+        "source": "user message in this chat",
+        "text": "approved.",
+        "scope": "item 23 partially-supported assessment, missing-use concern and repeated-excerpt disclosure"
+      },
+      "human_active_seconds": null,
+      "eligible_for_unassisted_time_comparison": false,
+      "assessment": {
+        "conclusion": "partially_supported",
+        "notes": "Cancellation permission is documented; its use and effect are not demonstrated. Missing evidence of use does not establish absent permission or a failed intervention. The cause of Jev disagreement remains unresolved. Prior exposure to the identical excerpt in item 12 is disclosed."
+      },
+      "collaborative_review": {
+        "initial_user_choice": "B: cancellation permission documented, use and effect not demonstrated",
+        "discussion": "Assistant disclosed identical wording from item 12, agreed with the bounded interpretation, and disclosed reference agreement and Jev unsupported answer. User approved the assessment and note.",
+        "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+      }
+    },
+    {
+      "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+      "unit_id": "P008/trust__human_authority",
+      "source_request_sha256": "2369eae927df6c6585438d53360f9a156a71e2f4c6b4a0be935dacc1e2d487c3",
+      "source_response_sha256": "c9102825c32b9bdd34373189f638a4fa276a555c9812013d381b2421749a99bb",
+      "draft_author": "Codex",
+      "human_approval": "approved",
+      "approval_evidence": {
+        "source": "user message in this chat",
+        "text": "approved.",
+        "scope": "item 24 partially-supported assessment and missing-use concern"
+      },
+      "human_active_seconds": null,
+      "eligible_for_unassisted_time_comparison": false,
+      "assessment": {
+        "conclusion": "partially_supported",
+        "notes": "Institutional permission is documented. Missing evidence of its use does not establish absent authority or a failed intervention. The cause of Jev disagreement remains unresolved."
+      },
+      "collaborative_review": {
+        "initial_user_choice": "A: stop permission documented, use and effect not demonstrated",
+        "discussion": "Assistant agreed with the bounded reading and disclosed reference agreement and Jev unsupported answer. User approved the final assessment and note.",
+        "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+      }
+    }
+  ],
+  "record_sha256": {
+    "item-01.json": "2c0b8e1437658dc88719812a624bb154ef762d8aa965ec85af511e80e8c126ea",
+    "item-02.json": "6ac79116acf83332e1e6e2c88ff18d00e0d3dc1ce6344571ad0da4f494ad39c3",
+    "item-03.json": "7abf58659a362989d31315cb9c1be4dba6487c6a9ad656986c7fa5032bca3200",
+    "item-04.json": "b6f3011ebb1fc9deeda74a73dd783113dcb1fa23120a2a951b2f2386646384ed",
+    "item-05.json": "d40ecaac2adfe997b7d72479e7e1b4912ffbffdbff22e8d7a81a6c3836cdd177",
+    "item-06.json": "b5d67608aba792a4fd1709dc70d3884d35acc858f8eed251bf26e248613ad894",
+    "item-07.json": "0820e785c4d2cc7e31ce720f5821c4b4eab853bb77f002b8b79baf3103360c98",
+    "item-08.json": "c3f506930cf9020a790798c99adab0aef21a8ac99ea6f07a6a2fc2869cb2c195",
+    "item-09.json": "58934b7868ef01904a20e02feec4ae8826a378d3fee8b7ccd94bcc96e5ce1906",
+    "item-10.json": "2c551cbc71a7c1bb10ba85145a97c1612dc431dd705cbe05460ab0c205840e4f",
+    "item-11.json": "af97430728e19857db24c807b376733fc14d4bb254a3a50dc9056d17779044d7",
+    "item-12.json": "bb5bb00d5c549d73d002c20f33f367551d3233d1ba2050101e7f2c98298899ce",
+    "item-13.json": "c24f47048dc577a5b617171e96f1b6df318f8897c6f49ff8d7237d48af449f34",
+    "item-14.json": "f0b7b92881b6af82eb4a5fb8c1a4bff480363a9dfab4cfa65f5ad74a88e332eb",
+    "item-15.json": "33befaac9933ce81140aa6a911b27fd383b51513724fa8cf4588878ba78edc1e",
+    "item-16.json": "b0a3bd085060b71a4ec6b598f38f023c68faa1f5ba4ba9429271d344912785e3",
+    "item-17.json": "a1dc604fbcf53550457139ec3f41d9ba8fde99cf6ec7117c4a31b01466133d76",
+    "item-18.json": "6539f73281df635ea1d478f74e8090fcaae303cf96441effa001938c1d490758",
+    "item-19.json": "082adecbca1e994cbadc73d7c9c43a2847d616aa537282e7e4c1258f0d18927d",
+    "item-20.json": "c1ea96a66d2b4727d0fae7b2a50e72354002761c67e710bfd1553a60fea01cfb",
+    "item-21.json": "ef1d505eb2724dd00de977c92dda34e5126706e2a8a97ab1b3678438a4cfa910",
+    "item-22.json": "a52857c97c7c52ac16c0248a1fa417c6fc4e268ef227bc1b6062f96ab77083e4",
+    "item-23.json": "a141240ca89efe72788104091a159440e1e5cff2e26c535ecbc85190e50eb472",
+    "item-24.json": "ec8f476e5987b844f03c755bc2a097dae96a1df449c27518d10b4c02e2764ca1"
+  },
+  "unresolved_classification_items": [
+    8,
+    16
+  ],
+  "human_time_savings": null,
+  "quality_improvement": null,
+  "limitations": [
+    "AI explanations and suggested conclusions preceded final approvals.",
+    "Repeated excerpts and prior exposure were disclosed; this was not a blinded or independent assessment.",
+    "No usable unassisted baseline, paired timing, or completed standardized assisted-form comparison exists.",
+    "Earlier records have different field shapes; no missing route, flag, timing or quality-rating fields have been invented.",
+    "Approvals do not close original adjudications or alter frozen scores."
+  ]
+}

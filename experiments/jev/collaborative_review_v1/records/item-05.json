@@ -1,0 +1,25 @@
+{
+  "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+  "unit_id": "P020/trust__monitoring",
+  "source_request_sha256": "2369eae927df6c6585438d53360f9a156a71e2f4c6b4a0be935dacc1e2d487c3",
+  "source_response_sha256": "6ee774c8401d12e982e7c2fd77ec69760da732387125e019a0555fa43ac5b66a",
+  "draft_author": "Codex",
+  "human_approval": "approved",
+  "approval_evidence": {
+    "source": "user message in this chat",
+    "text": "Approved",
+    "scope": "item 5 indeterminate assessment and no issue identified with Jev answer"
+  },
+  "human_active_seconds": null,
+  "eligible_for_unassisted_time_comparison": false,
+  "assessment": {
+    "conclusion": "indeterminate",
+    "route": "NO_ISSUE_IDENTIFIED",
+    "notes": "The packet supplies no record for monitoring. This does not establish whether monitoring occurred. No issue identified with the observed indeterminate answer under the supplied criteria. Missing documentation must not be treated as proof of failure."
+  },
+  "collaborative_review": {
+    "initial_user_choice": "A: monitoring did not occur",
+    "discussion": "Assistant explained that absence of documentation does not establish absence of monitoring and disclosed the observed choice and provisional reference. User acknowledged the distinction and approved the indeterminate assessment.",
+    "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+  }
+}

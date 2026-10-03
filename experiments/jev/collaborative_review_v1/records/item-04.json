@@ -1,0 +1,29 @@
+{
+  "record_type": "AI_ASSISTED_DRAFT_NOT_UNASSISTED_BASELINE",
+  "unit_id": "A-cancel-0/control__authority",
+  "source_request_sha256": "26677b62135e5a33ade44cbe4d6d9b962156e1df90978987efb761b5f904090d",
+  "source_response_sha256": "42bc76fca3245ae1f3b01c6fbd56913eb62a41ff559aa1af4941af78bbac5473",
+  "draft_author": "Codex",
+  "human_approval": "approved",
+  "human_active_seconds": null,
+  "eligible_for_unassisted_time_comparison": false,
+  "assessment": {
+    "route": "MULTIPLE_PLAUSIBLE",
+    "question_tension": "FLAG",
+    "missingness_risk": "FLAG",
+    "partial_boundary": "FLAG",
+    "notes": "The permission register documents a grant of binding cancellation authority. It does not document use or an operational result. Under the supplied criteria, partially_supported is better supported than unsupported because the grant supplies a declaration or incomplete demonstration, while no contrary observation or unsuccessful attempt is supplied. No recorded use does not establish that cancellation was attempted, failed, or was unavailable. The question combines permission, use and effect, creating potential tension with partial-support grading. Review the model application and the question/partial-state boundary without inferring the cause of the observed choice. MULTIPLE_PLAUSIBLE identifies possible review explanations, not equal evidential support for both labels. No final disposition is assigned or original record closed."
+  },
+  "approval_evidence": {
+    "source": "user message in this chat",
+    "text": "Approved",
+    "scope": "item 4 partially-supported conclusion and stated question concern after collaborative discussion"
+  },
+  "collaborative_review": {
+    "initial_user_choice": "B: reviewer lacked cancellation permission",
+    "discussion": "Assistant distinguished documented permission from missing evidence of use, then corrected its wording about whether cancellation could succeed as beyond the direct record. User confirmed understanding and approved the proposed partially-supported conclusion.",
+    "final_approved_conclusion": "Partially supported: cancellation permission is documented, but use and effect are not demonstrated. Missing records do not prove failure. Question clarity warrants review; cause of Jev disagreement remains unresolved.",
+    "timing": "unmeasured",
+    "status_boundary": "Later collaborative review; does not revise the closed pilot comparison or original adjudication."
+  }
+}

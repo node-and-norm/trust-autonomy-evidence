@@ -1,0 +1,25 @@
+{
+  "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+  "unit_id": "H02/trust__harm_correction",
+  "source_request_sha256": "7c5e4fc40dbeaad43d4966b5863377a67e804e4961a62ad97fcd2bd366b7f98e",
+  "source_response_sha256": "5a951eb18073b457bb6c2136eec73aa49624b5479dcbaee57fca385f2a3f4c37",
+  "draft_author": "Codex",
+  "human_approval": "approved",
+  "approval_evidence": {
+    "source": "user message in this chat",
+    "text": "make sense. approved.",
+    "scope": "item 11 partially-supported conclusion and missing-evidence concern"
+  },
+  "human_active_seconds": null,
+  "eligible_for_unassisted_time_comparison": false,
+  "assessment": {
+    "conclusion": "partially_supported",
+    "notes": "The procedure specifies a required remedy, but delivery is not demonstrated. No unsuccessful attempt is documented. Preserve concern that missing delivery evidence may be confused with failure; the cause of Jev disagreement remains unresolved."
+  },
+  "collaborative_review": {
+    "initial_user_choice": "C: an attempted remedy failed",
+    "user_reported_first_thought": "A was the first thought; user reported a last-minute decision to submit C. This is retrospective self-report, not a recorded initial A answer.",
+    "discussion": "Assistant distinguished missing delivery confirmation from documented failure, explained the partial-support criterion, and disclosed Jev/reference disagreement. User reconsidered after discussion and approved the proposed conclusion.",
+    "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+  }
+}

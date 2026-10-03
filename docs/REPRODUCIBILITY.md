@@ -89,17 +89,31 @@ script without `--check` on main: it writes historical audit output paths.
 
 ## Check the offline Jev experiments
 
+Use the Python 3.12 environment and dependencies specified above. These commands
+run tests or verify saved outputs; none invokes live Jev inference.
+
 ```sh
-python -m unittest discover -s experiments/jev/tests -v
-python -m unittest discover -s experiments/jev/evidence_v1/tests -v
+python -B -m unittest discover -s experiments/jev/tests -v
+python -B -m unittest discover -s experiments/jev/evidence_v1/tests -v
+python -B -m unittest discover -s experiments/jev/evidence_v2/tests -v
+python -B -m unittest discover -s experiments/jev/live_v1/tests -v
+python -B -m unittest discover -s experiments/jev/review_queue_v1/tests -v
+python -B -m experiments.jev.live_results_v1.verify
+python -B -m experiments.jev.review_queue_results_v1.verify
+python -B -m experiments.jev.collaborative_review_v1.verify
 ```
 
-Without the optional SDK, two v1 transport tests are expected to skip. The
-remaining v1 tests and the evidence-reconstruction tests should pass. These
-checks use mock responses and establish pipeline behavior only. See the
-[experiment protocol](../experiments/jev/evidence_v1/PROTOCOL.md) and
-[human-review handoff](../experiments/jev/review_evidence_v1/README.md) for the
-prespecified methods and incomplete human-review work.
+SDK-specific tests may skip without the optional SDK. The review-form syntax test
+uses Node.js; consult its test output for availability. Passing mock tests does
+not establish model accuracy. The collaborative preservation verifier uses only
+the Python standard library and checks saved approvals, hashes and cohort identity;
+it does not authenticate human statements independently.
+
+See the [current Jev guide](jev-experiments.md) for the phase map, executed results,
+omitted timed comparison and later collaborative review. Historical frozen
+review handoffs describe their original methods, not a completed independent
+review. The collaborative package's verification note records an additional local
+historical-replay attempt that was not confirmed; do not count it as a pass.
 
 ## License source and attribution
 

@@ -1,0 +1,24 @@
+{
+  "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+  "unit_id": "P022/trust__evidence_completeness",
+  "source_request_sha256": "262d345d48dfea469c99b5fcdc3d2b0555045652beda2417d99f392235e66b24",
+  "source_response_sha256": "f89b0072bcfd5c506d4002aa5fec8f1856b16dae94a42f1e92db6644b1e14d21",
+  "draft_author": "Codex",
+  "human_approval": "approved",
+  "approval_evidence": {
+    "source": "user message in this chat",
+    "text": "approved",
+    "scope": "item 19 indeterminate assessment and missing-versus-contrary-evidence concern"
+  },
+  "human_active_seconds": null,
+  "eligible_for_unassisted_time_comparison": false,
+  "assessment": {
+    "conclusion": "indeterminate",
+    "notes": "No completeness-check record is supplied. This does not establish that a check failed or found the inventory incomplete. Flag the distinction between missing evidence and contrary evidence; the cause of Jev disagreement remains unresolved."
+  },
+  "collaborative_review": {
+    "initial_user_choice": "B: packet does not establish whether completeness was independently checked",
+    "discussion": "Assistant agreed, explained indeterminate under the supplied criteria and disclosed reference agreement and Jev unsupported answer. User approved the assessment and note.",
+    "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+  }
+}
