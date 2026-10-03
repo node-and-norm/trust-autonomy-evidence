@@ -60,3 +60,11 @@ The current README, software citation and research status now link the first liv
 Jev synthetic results and post-output diagnostics. The paper version, paper DOI,
 original releases and both prior snapshot manifests remain unchanged. The same
 three-file navigation checkpoint is refreshed; no research artifact is resealed.
+
+## Post-pilot collaborative-review navigation
+
+Current README and research status now link the separate 24-item collaborative
+review and current Jev guide. This distinguishes the omitted timed comparison
+from later AI-assisted author review. Only the existing three-file navigation
+checkpoint is refreshed; the citation bytes, released snapshots and frozen
+experiment files remain unchanged. The latest published release remains v0.17.2.

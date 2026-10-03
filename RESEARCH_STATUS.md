@@ -6,7 +6,7 @@
 
 **Latest DOI-archived preprint:** [v0.17.0](https://doi.org/10.5281/zenodo.22970968), deposited on Zenodo 26 September 2026; original paper publication 6 September 2026.
 
-**Working checkpoint:** v0.17.2 live evidence-v2 results and post-output diagnostics; v0.17.0 regulatory crosswalk and preprint preserved.
+**Working checkpoint:** v0.17.2 published live results, followed by the review-assistance pilot and a separately preserved 24-item collaborative author review; v0.17.0 paper preserved.
 
 **Next target:** Update the existing arXiv submission, then test the method prospectively on one contemporary trace-based case or regulatory-sandbox exercise
 
@@ -17,6 +17,10 @@
 **Navigation correction:** The repository release is v0.17.2; the current preprint and preferred paper citation remain v0.17.0. Earlier version identifiers below name preserved research inputs and historical checkpoints.
 
 The first live Jev evidence-v2 run attempted all 282 scheduled requests: 260 valid, 22 invalid, and no retries. Primary reconstruction agreement is 198/231 valid determinations, with 231/252 coverage. Probability-sum failures and partial-state disagreements are examined in a separate post-output report; all 1,079 adjudication records remain open UNRESOLVED. The author accepted the results for merge and release. This is author review of AI-assisted work, not independent review or delayed unassisted consistency. See [results](experiments/jev/live_results_v1/REPORT.md), [diagnostics](experiments/jev/live_followup_v1/README.md), and [release scope](release/v0.17.2-release-notes.md).
+
+## Later Jev review checkpoint
+
+The review-assistance pilot produced 70 valid responses from 72 attempts. Its planned timed human comparison was omitted. A later collaborative review completed 24 author-approved assessments or bounded interpretations with Codex assistance; items 8 and 16 retain unresolved classifications. Prior exposure and the assistant’s explanations prevent treating this as independent validation or an unassisted baseline. Human time savings and quality improvement remain unmeasured. No original adjudication is closed and no original score changes. See the [current guide](docs/jev-experiments.md), [pilot closure](experiments/jev/review_queue_results_v1/README.md), and [separate review record](experiments/jev/collaborative_review_v1/README.md).
 
 ## Current maturity
 
