@@ -1,5 +1,6 @@
 {
-  "pilot_outputs_observed": false,
+  "mock_outputs_observed": true,
+  "pilot_live_outputs_observed": false,
   "prior_live_001_observed": true,
   "sha256": {
     ".github/workflows/jev-review-queue.yml": "e7b4472823511584b2a4455b70e7b977a3e8af5e2e0860c0ef9bcca8a317f0d9",
