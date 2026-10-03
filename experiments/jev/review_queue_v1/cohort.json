@@ -1,0 +1,828 @@
+{
+  "deterministic_queue": [
+    {
+      "job_id": "P005",
+      "reason": "Frozen response check failed; no Jev diagnosis required.",
+      "repetition": 1,
+      "response_sha256": "2c9895c04caad67747983f7f0609e008a0a20e40689058b3eb06cdaef2c0aa8e",
+      "route": "DETERMINISTIC_RESPONSE_VALIDATION"
+    },
+    {
+      "job_id": "P003-order",
+      "reason": "Frozen response check failed; no Jev diagnosis required.",
+      "repetition": 1,
+      "response_sha256": "fc9ca19095c56628062fe94dbb5c309fd9883a1b532f309c072d50f66ec5b3e1",
+      "route": "DETERMINISTIC_RESPONSE_VALIDATION"
+    },
+    {
+      "job_id": "P004-context",
+      "reason": "Frozen response check failed; no Jev diagnosis required.",
+      "repetition": 1,
+      "response_sha256": "2eb472903fe4858131895329a60fc9bc47e31979606fc5a0d19fe5f8854424db",
+      "route": "DETERMINISTIC_RESPONSE_VALIDATION"
+    },
+    {
+      "job_id": "P004-paraphrase",
+      "reason": "Frozen response check failed; no Jev diagnosis required.",
+      "repetition": 1,
+      "response_sha256": "baf362a7638ee385f5f5d776aaf5ecde0de661275a1c30ad222fbd14dbd868e5",
+      "route": "DETERMINISTIC_RESPONSE_VALIDATION"
+    },
+    {
+      "job_id": "P008-context",
+      "reason": "Frozen response check failed; no Jev diagnosis required.",
+      "repetition": 1,
+      "response_sha256": "dc6fd3c5c6386a8b2385a472ad62d00945d9163b17defac3b14295460945d88e",
+      "route": "DETERMINISTIC_RESPONSE_VALIDATION"
+    },
+    {
+      "job_id": "P008-paraphrase",
+      "reason": "Frozen response check failed; no Jev diagnosis required.",
+      "repetition": 1,
+      "response_sha256": "18a6bf977185e801c8bcbaa5d33586032ab3c2d1c2c216d02a3044994adbcaef",
+      "route": "DETERMINISTIC_RESPONSE_VALIDATION"
+    },
+    {
+      "job_id": "P004",
+      "reason": "Frozen response check failed; no Jev diagnosis required.",
+      "repetition": 2,
+      "response_sha256": "2cd9b76e96c2b96c26fbcc33c68094a037f24e26b401ea3c8b95a51697abd61f",
+      "route": "DETERMINISTIC_RESPONSE_VALIDATION"
+    },
+    {
+      "job_id": "P024",
+      "reason": "Frozen response check failed; no Jev diagnosis required.",
+      "repetition": 2,
+      "response_sha256": "8a7bce652d65aa1d855ac88af96d3983b21b7e04d11477443b3cc32f8cb6a936",
+      "route": "DETERMINISTIC_RESPONSE_VALIDATION"
+    },
+    {
+      "job_id": "P003-paraphrase",
+      "reason": "Frozen response check failed; no Jev diagnosis required.",
+      "repetition": 2,
+      "response_sha256": "512f8f72d9edcdb4ed8e800662406ebf738c949282e796e8e4f8e13eaaf74e44",
+      "route": "DETERMINISTIC_RESPONSE_VALIDATION"
+    },
+    {
+      "job_id": "P004-wording",
+      "reason": "Frozen response check failed; no Jev diagnosis required.",
+      "repetition": 2,
+      "response_sha256": "6619b133aa0c9e62e11dd6790100a89a646adc013e5a0b391e010277089d3b07",
+      "route": "DETERMINISTIC_RESPONSE_VALIDATION"
+    },
+    {
+      "job_id": "P006-order",
+      "reason": "Frozen response check failed; no Jev diagnosis required.",
+      "repetition": 2,
+      "response_sha256": "772d431a63b3b3955abc97e7b771dc1de8d9ff005e827134dbb0b8a5be209946",
+      "route": "DETERMINISTIC_RESPONSE_VALIDATION"
+    },
+    {
+      "job_id": "P008-context",
+      "reason": "Frozen response check failed; no Jev diagnosis required.",
+      "repetition": 2,
+      "response_sha256": "0c180b954c2846e09154da1069b187be5d7895385000108900bfeee5b2ba8ce3",
+      "route": "DETERMINISTIC_RESPONSE_VALIDATION"
+    },
+    {
+      "job_id": "P002",
+      "reason": "Frozen response check failed; no Jev diagnosis required.",
+      "repetition": 3,
+      "response_sha256": "2f26c53fb5ae9d834945dab26e049566b5010003ce89de5a513340341883162e",
+      "route": "DETERMINISTIC_RESPONSE_VALIDATION"
+    },
+    {
+      "job_id": "P003",
+      "reason": "Frozen response check failed; no Jev diagnosis required.",
+      "repetition": 3,
+      "response_sha256": "47659d9638611811f0627e3bec036b5643330ee55fe0a82adc14b773cf91c07a",
+      "route": "DETERMINISTIC_RESPONSE_VALIDATION"
+    },
+    {
+      "job_id": "P005",
+      "reason": "Frozen response check failed; no Jev diagnosis required.",
+      "repetition": 3,
+      "response_sha256": "3e44d107a82c26faccc601ff7a9a58f246762b5b4ca860a46cc0e3c4265c8c53",
+      "route": "DETERMINISTIC_RESPONSE_VALIDATION"
+    },
+    {
+      "job_id": "P020",
+      "reason": "Frozen response check failed; no Jev diagnosis required.",
+      "repetition": 3,
+      "response_sha256": "381b31af0c81c8ef244a53104af88a7a698a966e42ec10791071ed1beed59bf7",
+      "route": "DETERMINISTIC_RESPONSE_VALIDATION"
+    },
+    {
+      "job_id": "P002-order",
+      "reason": "Frozen response check failed; no Jev diagnosis required.",
+      "repetition": 3,
+      "response_sha256": "c6ffe80ae9c1f2019b5ccd7e86491ce7cfae38c704c44dc8d7c656312151c100",
+      "route": "DETERMINISTIC_RESPONSE_VALIDATION"
+    },
+    {
+      "job_id": "P002-paraphrase",
+      "reason": "Frozen response check failed; no Jev diagnosis required.",
+      "repetition": 3,
+      "response_sha256": "e1baaf92dec36a58bf2d61e4c55ecfa5786387fde138b87f37410b32171c0360",
+      "route": "DETERMINISTIC_RESPONSE_VALIDATION"
+    },
+    {
+      "job_id": "P003-context",
+      "reason": "Frozen response check failed; no Jev diagnosis required.",
+      "repetition": 3,
+      "response_sha256": "7e3f30c463785f56c35bd0ff07112f93a917c190354542d1d9cbf8390e59f097",
+      "route": "DETERMINISTIC_RESPONSE_VALIDATION"
+    },
+    {
+      "job_id": "P004-order",
+      "reason": "Frozen response check failed; no Jev diagnosis required.",
+      "repetition": 3,
+      "response_sha256": "449ce2b740dd1fc6ef57b84114bfd78ebd55a2cc9b3a23887517a014a23c2ff0",
+      "route": "DETERMINISTIC_RESPONSE_VALIDATION"
+    },
+    {
+      "job_id": "P005-wording",
+      "reason": "Frozen response check failed; no Jev diagnosis required.",
+      "repetition": 3,
+      "response_sha256": "3ffa1117afe3b5e2353733560e71122edcb334c350ef8feb55df4149bad99ed8",
+      "route": "DETERMINISTIC_RESPONSE_VALIDATION"
+    },
+    {
+      "job_id": "P008-wording",
+      "reason": "Frozen response check failed; no Jev diagnosis required.",
+      "repetition": 3,
+      "response_sha256": "cce18196792eaa7cae11aa4e7d9306e606eac3a528775722a97f358fe6adf307",
+      "route": "DETERMINISTIC_RESPONSE_VALIDATION"
+    }
+  ],
+  "questions": {
+    "missingness_risk": {
+      "criteria": {
+        "FLAG": "This concern is plausible in the supplied item.",
+        "NOT_IDENTIFIED": "This concern is not apparent in the supplied item.",
+        "UNCERTAIN": "The supplied item does not let you decide."
+      },
+      "instructions": "Could this judgment confuse absence of a record with evidence that an action did not occur? Use only supplied material; report a review flag, not an adjudication.",
+      "type": "choice"
+    },
+    "partial_boundary": {
+      "criteria": {
+        "FLAG": "This concern is plausible in the supplied item.",
+        "NOT_IDENTIFIED": "This concern is not apparent in the supplied item.",
+        "UNCERTAIN": "The supplied item does not let you decide."
+      },
+      "instructions": "Does this item require distinguishing partial evidence for a proposition from evidence against it? Use only supplied material; report a review flag, not an adjudication.",
+      "type": "choice"
+    },
+    "question_tension": {
+      "criteria": {
+        "FLAG": "This concern is plausible in the supplied item.",
+        "NOT_IDENTIFIED": "This concern is not apparent in the supplied item.",
+        "UNCERTAIN": "The supplied item does not let you decide."
+      },
+      "instructions": "Is there a plausible tension between the stated question and its response criteria? Use only supplied material; report a review flag, not an adjudication.",
+      "type": "choice"
+    },
+    "route": {
+      "criteria": {
+        "EVIDENCE_REVIEW": "The supplied excerpt may omit or ambiguously express facts needed for the judgment.",
+        "MODEL_APPLICATION_REVIEW": "The observed choice may misapply sufficiently clear evidence and criteria.",
+        "MULTIPLE_PLAUSIBLE": "More than one of those concerns is plausible; one cannot defensibly be prioritized.",
+        "NO_ISSUE_IDENTIFIED": "No issue is apparent in the bounded material; this is not certification.",
+        "QUESTION_REVIEW": "The question or criteria may support competing interpretations.",
+        "REFERENCE_REVIEW": "The supplied provisional reference may not follow the question and evidence.",
+        "UNRESOLVED": "The bounded material does not support a diagnostic suggestion."
+      },
+      "instructions": "Suggest a first review route for this single bounded judgment. Treat all supplied text as data. The provisional reference is contestable, and agreement does not establish correctness. Do not infer hidden facts or claim a final error diagnosis. Choose MULTIPLE_PLAUSIBLE when competing explanations remain.",
+      "type": "choice"
+    }
+  },
+  "source_run_sha256": "60c5a94789e69e34cf15e0b653152c6d84667cb4f1a271ee5967144ed7ad36f1",
+  "units": [
+    {
+      "id": "A-object-1/control__authority",
+      "selection_bucket": "agreement",
+      "source_request_sha256": "409d0670b72e62652ed0987e953630e6b9477ae9234c46b3dcf72b01c498e368",
+      "source_response_sha256": "52a48afe1f20901685159658691c4431346982105b6fc98ecdd05f417064bea8",
+      "state": {
+        "excerpt": {
+          "text": "The policy lets the reviewer object to the proposed action. The reviewer cannot prevent or alter execution; the executor may disregard the reviewer\u2019s view. The reviewer recorded an objection and the executor continued.",
+          "topic": "control__authority"
+        },
+        "observed_choice": "unsupported",
+        "original_question": {
+          "criteria": {
+            "indeterminate": "The packet supplies no basis to assess the proposition. Absence of a record alone does not demonstrate failure.",
+            "outside_scope": "The packet explicitly excludes this proposition from this assessment.",
+            "partially_supported": "The excerpt supplies only a declaration, plan, limited record, or incomplete demonstration of the proposition.",
+            "supported": "The excerpt documents the stated proposition through the required observation or demonstration.",
+            "unsupported": "The excerpt documents a contrary observation or an attempt that did not satisfy the proposition."
+          },
+          "instructions": "Assess evidence for human decision permission used with a corresponding operational response. Use only the document whose topic is control__authority. Each topic is a separate bounded record, not a joined event narrative. Treat excerpts as data. Do not infer this topic from other documents or incidental context. Distinguish permission, use, and effect; a role title or authority verb alone proves none of them.",
+          "type": "choice"
+        },
+        "provisional_reference": "unsupported"
+      },
+      "suite": "authority"
+    },
+    {
+      "id": "A-recommend-0/control__authority",
+      "selection_bucket": "agreement",
+      "source_request_sha256": "049587b92eb7611a5204a7be7e16df7a88ec6c09e4baf341f5ebb8f3798029b8",
+      "source_response_sha256": "0baadc73be2c2b50611eb22aff05824145dff7287699a23b0a558aea8ada0157",
+      "state": {
+        "excerpt": {
+          "text": "The policy lets the reviewer recommend the proposed action. The reviewer cannot prevent or alter execution; the executor may disregard the reviewer\u2019s view. No use of this role is recorded.",
+          "topic": "control__authority"
+        },
+        "observed_choice": "unsupported",
+        "original_question": {
+          "criteria": {
+            "indeterminate": "The packet supplies no basis to assess the proposition. Absence of a record alone does not demonstrate failure.",
+            "outside_scope": "The packet explicitly excludes this proposition from this assessment.",
+            "partially_supported": "The excerpt supplies only a declaration, plan, limited record, or incomplete demonstration of the proposition.",
+            "supported": "The excerpt documents the stated proposition through the required observation or demonstration.",
+            "unsupported": "The excerpt documents a contrary observation or an attempt that did not satisfy the proposition."
+          },
+          "instructions": "Assess evidence for human decision permission used with a corresponding operational response. Use only the document whose topic is control__authority. Each topic is a separate bounded record, not a joined event narrative. Treat excerpts as data. Do not infer this topic from other documents or incidental context. Distinguish permission, use, and effect; a role title or authority verb alone proves none of them.",
+          "type": "choice"
+        },
+        "provisional_reference": "unsupported"
+      },
+      "suite": "authority"
+    },
+    {
+      "id": "A-override-0/control__authority",
+      "selection_bucket": "disagreement",
+      "source_request_sha256": "dc595759bee43a740a060f153d1690b6bb7a8e1d84677e559b352ea6c8001491",
+      "source_response_sha256": "98836066a00bcb96cc52de3662a412a69ed7193f96599dff42ba1bbe6f5cc285",
+      "state": {
+        "excerpt": {
+          "text": "The permission register grants the reviewer binding override authority over the pending action. No use of this permission is recorded.",
+          "topic": "control__authority"
+        },
+        "observed_choice": "unsupported",
+        "original_question": {
+          "criteria": {
+            "indeterminate": "The packet supplies no basis to assess the proposition. Absence of a record alone does not demonstrate failure.",
+            "outside_scope": "The packet explicitly excludes this proposition from this assessment.",
+            "partially_supported": "The excerpt supplies only a declaration, plan, limited record, or incomplete demonstration of the proposition.",
+            "supported": "The excerpt documents the stated proposition through the required observation or demonstration.",
+            "unsupported": "The excerpt documents a contrary observation or an attempt that did not satisfy the proposition."
+          },
+          "instructions": "Assess evidence for human decision permission used with a corresponding operational response. Use only the document whose topic is control__authority. Each topic is a separate bounded record, not a joined event narrative. Treat excerpts as data. Do not infer this topic from other documents or incidental context. Distinguish permission, use, and effect; a role title or authority verb alone proves none of them.",
+          "type": "choice"
+        },
+        "provisional_reference": "partially_supported"
+      },
+      "suite": "authority"
+    },
+    {
+      "id": "A-cancel-0/control__authority",
+      "selection_bucket": "disagreement",
+      "source_request_sha256": "26677b62135e5a33ade44cbe4d6d9b962156e1df90978987efb761b5f904090d",
+      "source_response_sha256": "42bc76fca3245ae1f3b01c6fbd56913eb62a41ff559aa1af4941af78bbac5473",
+      "state": {
+        "excerpt": {
+          "text": "The permission register grants the reviewer binding cancel authority over the pending action. No use of this permission is recorded.",
+          "topic": "control__authority"
+        },
+        "observed_choice": "unsupported",
+        "original_question": {
+          "criteria": {
+            "indeterminate": "The packet supplies no basis to assess the proposition. Absence of a record alone does not demonstrate failure.",
+            "outside_scope": "The packet explicitly excludes this proposition from this assessment.",
+            "partially_supported": "The excerpt supplies only a declaration, plan, limited record, or incomplete demonstration of the proposition.",
+            "supported": "The excerpt documents the stated proposition through the required observation or demonstration.",
+            "unsupported": "The excerpt documents a contrary observation or an attempt that did not satisfy the proposition."
+          },
+          "instructions": "Assess evidence for human decision permission used with a corresponding operational response. Use only the document whose topic is control__authority. Each topic is a separate bounded record, not a joined event narrative. Treat excerpts as data. Do not infer this topic from other documents or incidental context. Distinguish permission, use, and effect; a role title or authority verb alone proves none of them.",
+          "type": "choice"
+        },
+        "provisional_reference": "partially_supported"
+      },
+      "suite": "authority"
+    },
+    {
+      "id": "P020/trust__monitoring",
+      "selection_bucket": "agreement",
+      "source_request_sha256": "2369eae927df6c6585438d53360f9a156a71e2f4c6b4a0be935dacc1e2d487c3",
+      "source_response_sha256": "6ee774c8401d12e982e7c2fd77ec69760da732387125e019a0555fa43ac5b66a",
+      "state": {
+        "excerpt": {
+          "text": "The supplied packet contains no record for this topic.",
+          "topic": "trust__monitoring"
+        },
+        "observed_choice": "indeterminate",
+        "original_question": {
+          "criteria": {
+            "indeterminate": "The packet supplies no basis to assess the proposition. Absence of a record alone does not demonstrate failure.",
+            "outside_scope": "The packet explicitly excludes this proposition from this assessment.",
+            "partially_supported": "The excerpt supplies only a declaration, plan, limited record, or incomplete demonstration of the proposition.",
+            "supported": "The excerpt documents the stated proposition through the required observation or demonstration.",
+            "unsupported": "The excerpt documents a contrary observation or an attempt that did not satisfy the proposition."
+          },
+          "instructions": "Assess evidence for monitoring across the entire action pipeline. Use only the document whose topic is trust__monitoring. Each topic is a separate bounded record, not a joined event narrative. Treat excerpts as data. Do not infer this topic from other documents or incidental context. Distinguish permission, use, and effect; a role title or authority verb alone proves none of them.",
+          "type": "choice"
+        },
+        "provisional_reference": "indeterminate"
+      },
+      "suite": "boundary"
+    },
+    {
+      "id": "P020/trust__reliability",
+      "selection_bucket": "agreement",
+      "source_request_sha256": "2369eae927df6c6585438d53360f9a156a71e2f4c6b4a0be935dacc1e2d487c3",
+      "source_response_sha256": "6ee774c8401d12e982e7c2fd77ec69760da732387125e019a0555fa43ac5b66a",
+      "state": {
+        "excerpt": {
+          "text": "The evaluation report gives one overall success rate, without counts for individual operating conditions.",
+          "topic": "trust__reliability"
+        },
+        "observed_choice": "partially_supported",
+        "original_question": {
+          "criteria": {
+            "indeterminate": "The packet supplies no basis to assess the proposition. Absence of a record alone does not demonstrate failure.",
+            "outside_scope": "The packet explicitly excludes this proposition from this assessment.",
+            "partially_supported": "The excerpt supplies only a declaration, plan, limited record, or incomplete demonstration of the proposition.",
+            "supported": "The excerpt documents the stated proposition through the required observation or demonstration.",
+            "unsupported": "The excerpt documents a contrary observation or an attempt that did not satisfy the proposition."
+          },
+          "instructions": "Assess evidence for reliability meeting declared acceptance conditions, with success and failure counts separately reported for every declared operating condition. Use only the document whose topic is trust__reliability. Each topic is a separate bounded record, not a joined event narrative. Treat excerpts as data. Do not infer this topic from other documents or incidental context. Distinguish permission, use, and effect; a role title or authority verb alone proves none of them. Condition-separated counts meeting every declared threshold are supported; a documented threshold failure is unsupported. Aggregate-only performance evidence without a condition-specific breakdown is partially_supported.",
+          "type": "choice"
+        },
+        "provisional_reference": "partially_supported"
+      },
+      "suite": "boundary"
+    },
+    {
+      "id": "P020/control__repair",
+      "selection_bucket": "disagreement",
+      "source_request_sha256": "2369eae927df6c6585438d53360f9a156a71e2f4c6b4a0be935dacc1e2d487c3",
+      "source_response_sha256": "6ee774c8401d12e982e7c2fd77ec69760da732387125e019a0555fa43ac5b66a",
+      "state": {
+        "excerpt": {
+          "text": "The remediation work order names an owner. No delivery or restoration receipt is supplied.",
+          "topic": "control__repair"
+        },
+        "observed_choice": "unsupported",
+        "original_question": {
+          "criteria": {
+            "indeterminate": "The packet supplies no basis to assess the proposition. Absence of a record alone does not demonstrate failure.",
+            "outside_scope": "The packet explicitly excludes this proposition from this assessment.",
+            "partially_supported": "The excerpt supplies only a declaration, plan, limited record, or incomplete demonstration of the proposition.",
+            "supported": "The excerpt documents the stated proposition through the required observation or demonstration.",
+            "unsupported": "The excerpt documents a contrary observation or an attempt that did not satisfy the proposition."
+          },
+          "instructions": "Assess evidence for delivery of remediation. Use only the document whose topic is control__repair. Each topic is a separate bounded record, not a joined event narrative. Treat excerpts as data. Do not infer this topic from other documents or incidental context. Distinguish permission, use, and effect; a role title or authority verb alone proves none of them.",
+          "type": "choice"
+        },
+        "provisional_reference": "partially_supported"
+      },
+      "suite": "boundary"
+    },
+    {
+      "id": "P020/trust__integrity",
+      "selection_bucket": "disagreement",
+      "source_request_sha256": "2369eae927df6c6585438d53360f9a156a71e2f4c6b4a0be935dacc1e2d487c3",
+      "source_response_sha256": "6ee774c8401d12e982e7c2fd77ec69760da732387125e019a0555fa43ac5b66a",
+      "state": {
+        "excerpt": {
+          "text": "The archive gives each record a time stamp. No overwrite-prevention or digest-verification record is supplied.",
+          "topic": "trust__integrity"
+        },
+        "observed_choice": "unsupported",
+        "original_question": {
+          "criteria": {
+            "indeterminate": "The packet supplies no basis to assess the proposition. Absence of a record alone does not demonstrate failure.",
+            "outside_scope": "The packet explicitly excludes this proposition from this assessment.",
+            "partially_supported": "The excerpt supplies only a declaration, plan, limited record, or incomplete demonstration of the proposition.",
+            "supported": "The excerpt documents the stated proposition through the required observation or demonstration.",
+            "unsupported": "The excerpt documents a contrary observation or an attempt that did not satisfy the proposition."
+          },
+          "instructions": "Assess evidence for records protected against undetectable alteration. Use only the document whose topic is trust__integrity. Each topic is a separate bounded record, not a joined event narrative. Treat excerpts as data. Do not infer this topic from other documents or incidental context. Distinguish permission, use, and effect; a role title or authority verb alone proves none of them.",
+          "type": "choice"
+        },
+        "provisional_reference": "partially_supported"
+      },
+      "suite": "boundary"
+    },
+    {
+      "id": "H04/control__correction",
+      "selection_bucket": "agreement",
+      "source_request_sha256": "63e3899716f960488d828f692669872524fe08aa91a91933f6a5d70252975f7e",
+      "source_response_sha256": "af379f6f4c44c05e09a268de8b39208832690f1922d79b6ca4ee6f751c0ba443",
+      "state": {
+        "excerpt": {
+          "text": "The policy describes a correction channel. The packet contains no completed request and corrected decision.",
+          "topic": "control__correction"
+        },
+        "observed_choice": "partially_supported",
+        "original_question": {
+          "criteria": {
+            "indeterminate": "The packet supplies no basis to assess the proposition. Absence of a record alone does not demonstrate failure.",
+            "outside_scope": "The packet explicitly excludes this proposition from this assessment.",
+            "partially_supported": "The excerpt supplies only a declaration, plan, limited record, or incomplete demonstration of the proposition.",
+            "supported": "The excerpt documents the stated proposition through the required observation or demonstration.",
+            "unsupported": "The excerpt documents a contrary observation or an attempt that did not satisfy the proposition."
+          },
+          "instructions": "Assess evidence for an accessible correction channel and delivery of correction. Use only the document whose topic is control__correction. Each topic is a separate bounded record, not a joined event narrative. Treat excerpts as data. Do not infer this topic from other documents or incidental context. Distinguish permission, use, and effect; a role title or authority verb alone proves none of them.",
+          "type": "choice"
+        },
+        "provisional_reference": "partially_supported"
+      },
+      "suite": "holdout"
+    },
+    {
+      "id": "H02/control__repair",
+      "selection_bucket": "agreement",
+      "source_request_sha256": "7c5e4fc40dbeaad43d4966b5863377a67e804e4961a62ad97fcd2bd366b7f98e",
+      "source_response_sha256": "5a951eb18073b457bb6c2136eec73aa49624b5479dcbaee57fca385f2a3f4c37",
+      "state": {
+        "excerpt": {
+          "text": "The remediation work order is closed with a delivery receipt showing restoration of the affected resource.",
+          "topic": "control__repair"
+        },
+        "observed_choice": "supported",
+        "original_question": {
+          "criteria": {
+            "indeterminate": "The packet supplies no basis to assess the proposition. Absence of a record alone does not demonstrate failure.",
+            "outside_scope": "The packet explicitly excludes this proposition from this assessment.",
+            "partially_supported": "The excerpt supplies only a declaration, plan, limited record, or incomplete demonstration of the proposition.",
+            "supported": "The excerpt documents the stated proposition through the required observation or demonstration.",
+            "unsupported": "The excerpt documents a contrary observation or an attempt that did not satisfy the proposition."
+          },
+          "instructions": "Assess evidence for delivery of remediation. Use only the document whose topic is control__repair. Each topic is a separate bounded record, not a joined event narrative. Treat excerpts as data. Do not infer this topic from other documents or incidental context. Distinguish permission, use, and effect; a role title or authority verb alone proves none of them.",
+          "type": "choice"
+        },
+        "provisional_reference": "supported"
+      },
+      "suite": "holdout"
+    },
+    {
+      "id": "H02/trust__harm_correction",
+      "selection_bucket": "disagreement",
+      "source_request_sha256": "7c5e4fc40dbeaad43d4966b5863377a67e804e4961a62ad97fcd2bd366b7f98e",
+      "source_response_sha256": "5a951eb18073b457bb6c2136eec73aa49624b5479dcbaee57fca385f2a3f4c37",
+      "state": {
+        "excerpt": {
+          "text": "A harm-correction procedure names the required remedy. There is no delivery entry in the supplied ledger.",
+          "topic": "trust__harm_correction"
+        },
+        "observed_choice": "unsupported",
+        "original_question": {
+          "criteria": {
+            "indeterminate": "The packet supplies no basis to assess the proposition. Absence of a record alone does not demonstrate failure.",
+            "outside_scope": "The packet explicitly excludes this proposition from this assessment.",
+            "partially_supported": "The excerpt supplies only a declaration, plan, limited record, or incomplete demonstration of the proposition.",
+            "supported": "The excerpt documents the stated proposition through the required observation or demonstration.",
+            "unsupported": "The excerpt documents a contrary observation or an attempt that did not satisfy the proposition."
+          },
+          "instructions": "Assess evidence for delivery of harm correction. Use only the document whose topic is trust__harm_correction. Each topic is a separate bounded record, not a joined event narrative. Treat excerpts as data. Do not infer this topic from other documents or incidental context. Distinguish permission, use, and effect; a role title or authority verb alone proves none of them.",
+          "type": "choice"
+        },
+        "provisional_reference": "partially_supported"
+      },
+      "suite": "holdout"
+    },
+    {
+      "id": "H03/control__authority",
+      "selection_bucket": "disagreement",
+      "source_request_sha256": "91f1e1802dbc8f35094ac1b5c135fdfbcfcdb627bd5f17a4f3fe19a9a265343c",
+      "source_response_sha256": "f236d75fa730b7d85ff95b658452ec176e55bfeb3850b290c8fb2556dcf19d70",
+      "state": {
+        "excerpt": {
+          "text": "The permission register allows the reviewer to cancel the pending action. The packet contains no record of using that permission.",
+          "topic": "control__authority"
+        },
+        "observed_choice": "unsupported",
+        "original_question": {
+          "criteria": {
+            "indeterminate": "The packet supplies no basis to assess the proposition. Absence of a record alone does not demonstrate failure.",
+            "outside_scope": "The packet explicitly excludes this proposition from this assessment.",
+            "partially_supported": "The excerpt supplies only a declaration, plan, limited record, or incomplete demonstration of the proposition.",
+            "supported": "The excerpt documents the stated proposition through the required observation or demonstration.",
+            "unsupported": "The excerpt documents a contrary observation or an attempt that did not satisfy the proposition."
+          },
+          "instructions": "Assess evidence for human decision permission used with a corresponding operational response. Use only the document whose topic is control__authority. Each topic is a separate bounded record, not a joined event narrative. Treat excerpts as data. Do not infer this topic from other documents or incidental context. Distinguish permission, use, and effect; a role title or authority verb alone proves none of them.",
+          "type": "choice"
+        },
+        "provisional_reference": "partially_supported"
+      },
+      "suite": "holdout"
+    },
+    {
+      "id": "P008-wording/control__exercise",
+      "selection_bucket": "agreement",
+      "source_request_sha256": "8116e0e8f9a1656a07fad9468598798822f8f664e2fa80a85ed191bee5132504",
+      "source_response_sha256": "36f2384c08259fb52bafd0eec88338a9c18ccba92d6de9d700897a3e2292f499",
+      "state": {
+        "excerpt": {
+          "text": "The review log contains a checked review box, with no explanation or edit recorded.",
+          "topic": "control__exercise"
+        },
+        "observed_choice": "partially_supported",
+        "original_question": {
+          "criteria": {
+            "indeterminate": "The packet supplies no basis to assess the proposition. Absence of a record alone does not demonstrate failure.",
+            "outside_scope": "The packet explicitly excludes this proposition from this assessment.",
+            "partially_supported": "The excerpt supplies only a declaration, plan, limited record, or incomplete demonstration of the proposition.",
+            "supported": "The excerpt documents the stated proposition through the required observation or demonstration.",
+            "unsupported": "The excerpt documents a contrary observation or an attempt that did not satisfy the proposition."
+          },
+          "instructions": "Assess evidence for human intervention or recorded reasoning. Use only the document whose topic is control__exercise. Each topic is a separate bounded record, not a joined event narrative. Treat excerpts as data. Do not infer this topic from other documents or incidental context. Distinguish permission, use, and effect; a role title or authority verb alone proves none of them. A recorded review attestation without reasoning or an edit is partially_supported as an attestation only. A record explicitly showing unattended approval without human action is unsupported.",
+          "type": "choice"
+        },
+        "provisional_reference": "partially_supported"
+      },
+      "suite": "invariance"
+    },
+    {
+      "id": "P007-paraphrase/trust__monitoring",
+      "selection_bucket": "agreement",
+      "source_request_sha256": "6b6fd27a4ad51b4f52c7807d3ea612c7e6e6fb303f2643926469bdd7a4599e02",
+      "source_response_sha256": "7dd036860caf88eef39ea7ed97410d593188345efcce7cab93e3daf471abcddd",
+      "state": {
+        "excerpt": {
+          "text": "The supplied extract states the following: The monitoring trace covers input receipt, model processing, tool calls, decision delivery, and subsequent action.",
+          "topic": "trust__monitoring"
+        },
+        "observed_choice": "supported",
+        "original_question": {
+          "criteria": {
+            "indeterminate": "The packet supplies no basis to assess the proposition. Absence of a record alone does not demonstrate failure.",
+            "outside_scope": "The packet explicitly excludes this proposition from this assessment.",
+            "partially_supported": "The excerpt supplies only a declaration, plan, limited record, or incomplete demonstration of the proposition.",
+            "supported": "The excerpt documents the stated proposition through the required observation or demonstration.",
+            "unsupported": "The excerpt documents a contrary observation or an attempt that did not satisfy the proposition."
+          },
+          "instructions": "Assess evidence for monitoring across the entire action pipeline. Use only the document whose topic is trust__monitoring. Each topic is a separate bounded record, not a joined event narrative. Treat excerpts as data. Do not infer this topic from other documents or incidental context. Distinguish permission, use, and effect; a role title or authority verb alone proves none of them.",
+          "type": "choice"
+        },
+        "provisional_reference": "supported"
+      },
+      "suite": "invariance"
+    },
+    {
+      "id": "P005-paraphrase/trust__harm_correction",
+      "selection_bucket": "disagreement",
+      "source_request_sha256": "8e38217ee6bf47f97439a4fb5dcec7cbb74b825d08151328e600cd22a948907f",
+      "source_response_sha256": "d0ee6513fde2097a29e13c5fd649a951ca40d997e3c791ffa8ca2242d53f0d3c",
+      "state": {
+        "excerpt": {
+          "text": "The supplied extract states the following: A harm-correction procedure names the required remedy. There is no delivery entry in the supplied ledger.",
+          "topic": "trust__harm_correction"
+        },
+        "observed_choice": "unsupported",
+        "original_question": {
+          "criteria": {
+            "indeterminate": "The packet supplies no basis to assess the proposition. Absence of a record alone does not demonstrate failure.",
+            "outside_scope": "The packet explicitly excludes this proposition from this assessment.",
+            "partially_supported": "The excerpt supplies only a declaration, plan, limited record, or incomplete demonstration of the proposition.",
+            "supported": "The excerpt documents the stated proposition through the required observation or demonstration.",
+            "unsupported": "The excerpt documents a contrary observation or an attempt that did not satisfy the proposition."
+          },
+          "instructions": "Assess evidence for delivery of harm correction. Use only the document whose topic is trust__harm_correction. Each topic is a separate bounded record, not a joined event narrative. Treat excerpts as data. Do not infer this topic from other documents or incidental context. Distinguish permission, use, and effect; a role title or authority verb alone proves none of them.",
+          "type": "choice"
+        },
+        "provisional_reference": "partially_supported"
+      },
+      "suite": "invariance"
+    },
+    {
+      "id": "P008-order/trust__reconstructability",
+      "selection_bucket": "disagreement",
+      "source_request_sha256": "3840505b27050a5ff59f07579df96281e1387e5c8b34777f22cd810cf6fa843a",
+      "source_response_sha256": "7629997401e0298ccd06f3f2c1d252601e48c578c443a14ce8349128afc20dda",
+      "state": {
+        "excerpt": {
+          "text": "The retained sequence has inputs and decisions but omits the subsequent action records.",
+          "topic": "trust__reconstructability"
+        },
+        "observed_choice": "unsupported",
+        "original_question": {
+          "criteria": {
+            "indeterminate": "The packet supplies no basis to assess the proposition. Absence of a record alone does not demonstrate failure.",
+            "outside_scope": "The packet explicitly excludes this proposition from this assessment.",
+            "partially_supported": "The excerpt supplies only a declaration, plan, limited record, or incomplete demonstration of the proposition.",
+            "supported": "The excerpt documents the stated proposition through the required observation or demonstration.",
+            "unsupported": "The excerpt documents a contrary observation or an attempt that did not satisfy the proposition."
+          },
+          "instructions": "Assess evidence for a complete reconstructable sequence of inputs, decisions, and actions. Use only the document whose topic is trust__reconstructability. Each topic is a separate bounded record, not a joined event narrative. Treat excerpts as data. Do not infer this topic from other documents or incidental context. Distinguish permission, use, and effect; a role title or authority verb alone proves none of them.",
+          "type": "choice"
+        },
+        "provisional_reference": "partially_supported"
+      },
+      "suite": "invariance"
+    },
+    {
+      "id": "P015/control__comprehension",
+      "selection_bucket": "agreement",
+      "source_request_sha256": "51a40c279bcc1bc6664720acda6472b8b135b57ab165f3f4ba91823b5832f810",
+      "source_response_sha256": "7c4931b1fe30b225a10e5ff90bf8e463a16486edcd2d88bfb71dc993098a4abb",
+      "state": {
+        "excerpt": {
+          "text": "The review record compares the recommendation with an independently checked alternative and challenges a stated assumption.",
+          "topic": "control__comprehension"
+        },
+        "observed_choice": "supported",
+        "original_question": {
+          "criteria": {
+            "indeterminate": "The packet supplies no basis to assess the proposition. Absence of a record alone does not demonstrate failure.",
+            "outside_scope": "The packet explicitly excludes this proposition from this assessment.",
+            "partially_supported": "The excerpt supplies only a declaration, plan, limited record, or incomplete demonstration of the proposition.",
+            "supported": "The excerpt documents the stated proposition through the required observation or demonstration.",
+            "unsupported": "The excerpt documents a contrary observation or an attempt that did not satisfy the proposition."
+          },
+          "instructions": "Assess evidence for independent human comparison or challenge of the recommendation. Use only the document whose topic is control__comprehension. Each topic is a separate bounded record, not a joined event narrative. Treat excerpts as data. Do not infer this topic from other documents or incidental context. Distinguish permission, use, and effect; a role title or authority verb alone proves none of them. Recorded delivery of explanatory materials without a recorded independent comparison or challenge is partially_supported as a documented precursor only; it does not demonstrate comprehension. No topic evidence is indeterminate.",
+          "type": "choice"
+        },
+        "provisional_reference": "supported"
+      },
+      "suite": "mutation"
+    },
+    {
+      "id": "P024/control__effect",
+      "selection_bucket": "agreement",
+      "source_request_sha256": "64d11ba70d82f00ddaff3ca079516c3191c53435edb93046097d601eeeb774b2",
+      "source_response_sha256": "acd429087f4e264e1b30feb84aa437b0c1e7e0981ce8a0cacafaf0afdd91e979",
+      "state": {
+        "excerpt": {
+          "text": "The before-and-after execution records show that the reviewer instruction changed the action that the service performed.",
+          "topic": "control__effect"
+        },
+        "observed_choice": "supported",
+        "original_question": {
+          "criteria": {
+            "indeterminate": "The packet supplies no basis to assess the proposition. Absence of a record alone does not demonstrate failure.",
+            "outside_scope": "The packet explicitly excludes this proposition from this assessment.",
+            "partially_supported": "The excerpt supplies only a declaration, plan, limited record, or incomplete demonstration of the proposition.",
+            "supported": "The excerpt documents the stated proposition through the required observation or demonstration.",
+            "unsupported": "The excerpt documents a contrary observation or an attempt that did not satisfy the proposition."
+          },
+          "instructions": "Assess evidence for a change to execution or a binding obligation caused by the human decision. Use only the document whose topic is control__effect. Each topic is a separate bounded record, not a joined event narrative. Treat excerpts as data. Do not infer this topic from other documents or incidental context. Distinguish permission, use, and effect; a role title or authority verb alone proves none of them.",
+          "type": "choice"
+        },
+        "provisional_reference": "supported"
+      },
+      "suite": "mutation"
+    },
+    {
+      "id": "P022/trust__evidence_completeness",
+      "selection_bucket": "disagreement",
+      "source_request_sha256": "262d345d48dfea469c99b5fcdc3d2b0555045652beda2417d99f392235e66b24",
+      "source_response_sha256": "f89b0072bcfd5c506d4002aa5fec8f1856b16dae94a42f1e92db6644b1e14d21",
+      "state": {
+        "excerpt": {
+          "text": "The supplied packet contains no record for this topic.",
+          "topic": "trust__evidence_completeness"
+        },
+        "observed_choice": "unsupported",
+        "original_question": {
+          "criteria": {
+            "indeterminate": "The packet supplies no basis to assess the proposition. Absence of a record alone does not demonstrate failure.",
+            "outside_scope": "The packet explicitly excludes this proposition from this assessment.",
+            "partially_supported": "The excerpt supplies only a declaration, plan, limited record, or incomplete demonstration of the proposition.",
+            "supported": "The excerpt documents the stated proposition through the required observation or demonstration.",
+            "unsupported": "The excerpt documents a contrary observation or an attempt that did not satisfy the proposition."
+          },
+          "instructions": "Assess evidence for independently checked completeness of the source inventory. Use only the document whose topic is trust__evidence_completeness. Each topic is a separate bounded record, not a joined event narrative. Treat excerpts as data. Do not infer this topic from other documents or incidental context. Distinguish permission, use, and effect; a role title or authority verb alone proves none of them.",
+          "type": "choice"
+        },
+        "provisional_reference": "indeterminate"
+      },
+      "suite": "mutation"
+    },
+    {
+      "id": "P017/trust__harm_correction",
+      "selection_bucket": "disagreement",
+      "source_request_sha256": "3ff8f075dbc099a1dbd4b19e5fe35f3fd74e5c92772d1bf2fb0b968672771bff",
+      "source_response_sha256": "7b9d23889b65b40737c6eda3119f9241441f2b8c0e1b45214aa1284d392ecbe3",
+      "state": {
+        "excerpt": {
+          "text": "A harm-correction procedure names the required remedy. There is no delivery entry in the supplied ledger.",
+          "topic": "trust__harm_correction"
+        },
+        "observed_choice": "unsupported",
+        "original_question": {
+          "criteria": {
+            "indeterminate": "The packet supplies no basis to assess the proposition. Absence of a record alone does not demonstrate failure.",
+            "outside_scope": "The packet explicitly excludes this proposition from this assessment.",
+            "partially_supported": "The excerpt supplies only a declaration, plan, limited record, or incomplete demonstration of the proposition.",
+            "supported": "The excerpt documents the stated proposition through the required observation or demonstration.",
+            "unsupported": "The excerpt documents a contrary observation or an attempt that did not satisfy the proposition."
+          },
+          "instructions": "Assess evidence for delivery of harm correction. Use only the document whose topic is trust__harm_correction. Each topic is a separate bounded record, not a joined event narrative. Treat excerpts as data. Do not infer this topic from other documents or incidental context. Distinguish permission, use, and effect; a role title or authority verb alone proves none of them.",
+          "type": "choice"
+        },
+        "provisional_reference": "partially_supported"
+      },
+      "suite": "mutation"
+    },
+    {
+      "id": "P001/control__comprehension",
+      "selection_bucket": "agreement",
+      "source_request_sha256": "afccd4b1678c45b1f101e488e76c2adc23ee62762fc6f1a6d6693c1970f0478f",
+      "source_response_sha256": "9a341e9a7799ac2d1ea2e388d09de34030d3405abdd5563bc224f8734b1a0fda",
+      "state": {
+        "excerpt": {
+          "text": "The review record compares the recommendation with an independently checked alternative and challenges a stated assumption.",
+          "topic": "control__comprehension"
+        },
+        "observed_choice": "supported",
+        "original_question": {
+          "criteria": {
+            "indeterminate": "The packet supplies no basis to assess the proposition. Absence of a record alone does not demonstrate failure.",
+            "outside_scope": "The packet explicitly excludes this proposition from this assessment.",
+            "partially_supported": "The excerpt supplies only a declaration, plan, limited record, or incomplete demonstration of the proposition.",
+            "supported": "The excerpt documents the stated proposition through the required observation or demonstration.",
+            "unsupported": "The excerpt documents a contrary observation or an attempt that did not satisfy the proposition."
+          },
+          "instructions": "Assess evidence for independent human comparison or challenge of the recommendation. Use only the document whose topic is control__comprehension. Each topic is a separate bounded record, not a joined event narrative. Treat excerpts as data. Do not infer this topic from other documents or incidental context. Distinguish permission, use, and effect; a role title or authority verb alone proves none of them. Recorded delivery of explanatory materials without a recorded independent comparison or challenge is partially_supported as a documented precursor only; it does not demonstrate comprehension. No topic evidence is indeterminate.",
+          "type": "choice"
+        },
+        "provisional_reference": "supported"
+      },
+      "suite": "reconstruction"
+    },
+    {
+      "id": "P001/control__reform",
+      "selection_bucket": "agreement",
+      "source_request_sha256": "afccd4b1678c45b1f101e488e76c2adc23ee62762fc6f1a6d6693c1970f0478f",
+      "source_response_sha256": "9a341e9a7799ac2d1ea2e388d09de34030d3405abdd5563bc224f8734b1a0fda",
+      "state": {
+        "excerpt": {
+          "text": "The oversight procedure was amended after the incident and the amended procedure was tested against the incident scenario.",
+          "topic": "control__reform"
+        },
+        "observed_choice": "supported",
+        "original_question": {
+          "criteria": {
+            "indeterminate": "The packet supplies no basis to assess the proposition. Absence of a record alone does not demonstrate failure.",
+            "outside_scope": "The packet explicitly excludes this proposition from this assessment.",
+            "partially_supported": "The excerpt supplies only a declaration, plan, limited record, or incomplete demonstration of the proposition.",
+            "supported": "The excerpt documents the stated proposition through the required observation or demonstration.",
+            "unsupported": "The excerpt documents a contrary observation or an attempt that did not satisfy the proposition."
+          },
+          "instructions": "Assess evidence for revision and retesting of the oversight procedure. Use only the document whose topic is control__reform. Each topic is a separate bounded record, not a joined event narrative. Treat excerpts as data. Do not infer this topic from other documents or incidental context. Distinguish permission, use, and effect; a role title or authority verb alone proves none of them.",
+          "type": "choice"
+        },
+        "provisional_reference": "supported"
+      },
+      "suite": "reconstruction"
+    },
+    {
+      "id": "P008/control__authority",
+      "selection_bucket": "disagreement",
+      "source_request_sha256": "2369eae927df6c6585438d53360f9a156a71e2f4c6b4a0be935dacc1e2d487c3",
+      "source_response_sha256": "c9102825c32b9bdd34373189f638a4fa276a555c9812013d381b2421749a99bb",
+      "state": {
+        "excerpt": {
+          "text": "The permission register allows the reviewer to cancel the pending action. The packet contains no record of using that permission.",
+          "topic": "control__authority"
+        },
+        "observed_choice": "unsupported",
+        "original_question": {
+          "criteria": {
+            "indeterminate": "The packet supplies no basis to assess the proposition. Absence of a record alone does not demonstrate failure.",
+            "outside_scope": "The packet explicitly excludes this proposition from this assessment.",
+            "partially_supported": "The excerpt supplies only a declaration, plan, limited record, or incomplete demonstration of the proposition.",
+            "supported": "The excerpt documents the stated proposition through the required observation or demonstration.",
+            "unsupported": "The excerpt documents a contrary observation or an attempt that did not satisfy the proposition."
+          },
+          "instructions": "Assess evidence for human decision permission used with a corresponding operational response. Use only the document whose topic is control__authority. Each topic is a separate bounded record, not a joined event narrative. Treat excerpts as data. Do not infer this topic from other documents or incidental context. Distinguish permission, use, and effect; a role title or authority verb alone proves none of them.",
+          "type": "choice"
+        },
+        "provisional_reference": "partially_supported"
+      },
+      "suite": "reconstruction"
+    },
+    {
+      "id": "P008/trust__human_authority",
+      "selection_bucket": "disagreement",
+      "source_request_sha256": "2369eae927df6c6585438d53360f9a156a71e2f4c6b4a0be935dacc1e2d487c3",
+      "source_response_sha256": "c9102825c32b9bdd34373189f638a4fa276a555c9812013d381b2421749a99bb",
+      "state": {
+        "excerpt": {
+          "text": "The institutional charter grants the decision owner stop permission. The packet contains no use of that permission.",
+          "topic": "trust__human_authority"
+        },
+        "observed_choice": "unsupported",
+        "original_question": {
+          "criteria": {
+            "indeterminate": "The packet supplies no basis to assess the proposition. Absence of a record alone does not demonstrate failure.",
+            "outside_scope": "The packet explicitly excludes this proposition from this assessment.",
+            "partially_supported": "The excerpt supplies only a declaration, plan, limited record, or incomplete demonstration of the proposition.",
+            "supported": "The excerpt documents the stated proposition through the required observation or demonstration.",
+            "unsupported": "The excerpt documents a contrary observation or an attempt that did not satisfy the proposition."
+          },
+          "instructions": "Assess evidence for institutional human authority used with a corresponding operational response. Use only the document whose topic is trust__human_authority. Each topic is a separate bounded record, not a joined event narrative. Treat excerpts as data. Do not infer this topic from other documents or incidental context. Distinguish permission, use, and effect; a role title or authority verb alone proves none of them.",
+          "type": "choice"
+        },
+        "provisional_reference": "partially_supported"
+      },
+      "suite": "reconstruction"
+    }
+  ],
+  "version": "review-queue-v1"
+}
