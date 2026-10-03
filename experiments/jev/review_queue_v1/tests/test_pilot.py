@@ -8,6 +8,19 @@ from experiments.jev.review_queue_v1 import pilot as p
 
 
 class PilotTests(unittest.TestCase):
+    def test_generated_form_javascript_parses(self):
+        import tempfile
+        import subprocess
+        from pathlib import Path
+        from experiments.jev.review_queue_v1.forms import render
+        node=shutil.which('node')
+        if not node:self.skipTest('Node unavailable for static JavaScript syntax check')
+        with tempfile.TemporaryDirectory() as directory:
+            path=Path(directory)/'form.html';render(path)
+            script=path.read_text().split('<script>',1)[1].split('</script>',1)[0]
+            result=subprocess.run([node,'--check'],input=script,text=True,capture_output=True)
+            self.assertEqual(result.returncode,0,result.stderr)
+
     def test_selection_and_wire_boundaries(self):
         c=p.verify()
         self.assertEqual(len(c['units']),24)

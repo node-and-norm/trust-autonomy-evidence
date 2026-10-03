@@ -9,7 +9,7 @@ def render(output, assistance=None):
     cohort=verify()
     data={'units':cohort['units'],'questions':cohort['questions'],'assistance':assistance,
           'source_run_sha256':cohort['source_run_sha256']}
-    template='''<!doctype html><meta charset="utf-8"><title>Jev review pilot</title>
+    template=r'''<!doctype html><meta charset="utf-8"><title>Jev review pilot</title>
 <style>body{font:17px system-ui;max-width:950px;margin:40px auto;padding:20px;color:#172c3b}pre{white-space:pre-wrap;background:#f2f5f7;padding:20px}button,select,input,textarea{font:inherit;margin:8px;padding:8px}textarea{width:90%;height:90px}fieldset{margin:15px 0}#hint{border-left:5px solid #946018;padding:14px}label{display:block}</style>
 <h1 id="title"></h1><p>This is author review of AI assistance, not independent adjudication. No original scores or records are changed. Timers are editable browser records, not independently verified. Export before closing this tab.</p>
 <label>Reviewer name <input id="reviewer"></label><label>Have you already seen item-level pilot suggestions? <select id="exposure"><option value="">Select</option><option>no</option><option>yes</option><option>uncertain</option></select></label>
