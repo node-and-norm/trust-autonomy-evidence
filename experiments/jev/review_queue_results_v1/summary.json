@@ -1,0 +1,227 @@
+{
+  "deterministic_source_requests": 22,
+  "human_time_saving": null,
+  "interpretation": "Diagnostic assistance only; no independent adjudication, causal speedup or accuracy claim.",
+  "median_attempt_seconds": 0.16812056199887593,
+  "mode": "live",
+  "repetitions": [
+    {
+      "changed_questions": [
+        "question_tension",
+        "route"
+      ],
+      "evaluable": true,
+      "unit_id": "A-object-1/control__authority"
+    },
+    {
+      "changed_questions": null,
+      "evaluable": false,
+      "unit_id": "A-recommend-0/control__authority"
+    },
+    {
+      "changed_questions": [],
+      "evaluable": true,
+      "unit_id": "A-override-0/control__authority"
+    },
+    {
+      "changed_questions": [],
+      "evaluable": true,
+      "unit_id": "A-cancel-0/control__authority"
+    },
+    {
+      "changed_questions": [],
+      "evaluable": true,
+      "unit_id": "P020/trust__monitoring"
+    },
+    {
+      "changed_questions": [],
+      "evaluable": true,
+      "unit_id": "P020/trust__reliability"
+    },
+    {
+      "changed_questions": [],
+      "evaluable": true,
+      "unit_id": "P020/control__repair"
+    },
+    {
+      "changed_questions": [],
+      "evaluable": true,
+      "unit_id": "P020/trust__integrity"
+    },
+    {
+      "changed_questions": null,
+      "evaluable": false,
+      "unit_id": "H04/control__correction"
+    },
+    {
+      "changed_questions": [],
+      "evaluable": true,
+      "unit_id": "H02/control__repair"
+    },
+    {
+      "changed_questions": [],
+      "evaluable": true,
+      "unit_id": "H02/trust__harm_correction"
+    },
+    {
+      "changed_questions": [],
+      "evaluable": true,
+      "unit_id": "H03/control__authority"
+    },
+    {
+      "changed_questions": [],
+      "evaluable": true,
+      "unit_id": "P008-wording/control__exercise"
+    },
+    {
+      "changed_questions": [],
+      "evaluable": true,
+      "unit_id": "P007-paraphrase/trust__monitoring"
+    },
+    {
+      "changed_questions": [],
+      "evaluable": true,
+      "unit_id": "P005-paraphrase/trust__harm_correction"
+    },
+    {
+      "changed_questions": [],
+      "evaluable": true,
+      "unit_id": "P008-order/trust__reconstructability"
+    },
+    {
+      "changed_questions": [],
+      "evaluable": true,
+      "unit_id": "P015/control__comprehension"
+    },
+    {
+      "changed_questions": [],
+      "evaluable": true,
+      "unit_id": "P024/control__effect"
+    },
+    {
+      "changed_questions": [
+        "route"
+      ],
+      "evaluable": true,
+      "unit_id": "P022/trust__evidence_completeness"
+    },
+    {
+      "changed_questions": [],
+      "evaluable": true,
+      "unit_id": "P017/trust__harm_correction"
+    },
+    {
+      "changed_questions": [],
+      "evaluable": true,
+      "unit_id": "P001/control__comprehension"
+    },
+    {
+      "changed_questions": [],
+      "evaluable": true,
+      "unit_id": "P001/control__reform"
+    },
+    {
+      "changed_questions": [],
+      "evaluable": true,
+      "unit_id": "P008/control__authority"
+    },
+    {
+      "changed_questions": [],
+      "evaluable": true,
+      "unit_id": "P008/trust__human_authority"
+    }
+  ],
+  "resolved_versions": [
+    "jev-1.13.0"
+  ],
+  "review_quality": null,
+  "scheduled": 72,
+  "scheduled_execution_seconds": 13.465602,
+  "sections": [
+    {
+      "choices": {
+        "missingness_risk": {
+          "FLAG": 12,
+          "NOT_IDENTIFIED": 11
+        },
+        "partial_boundary": {
+          "FLAG": 17,
+          "NOT_IDENTIFIED": 6
+        },
+        "question_tension": {
+          "FLAG": 14,
+          "NOT_IDENTIFIED": 9
+        },
+        "route": {
+          "EVIDENCE_REVIEW": 5,
+          "MODEL_APPLICATION_REVIEW": 1,
+          "NO_ISSUE_IDENTIFIED": 4,
+          "REFERENCE_REVIEW": 13
+        }
+      },
+      "repetition": 1,
+      "resolved_model": "jev-1.13.0",
+      "scheduled": 24,
+      "valid": 23
+    },
+    {
+      "choices": {
+        "missingness_risk": {
+          "FLAG": 13,
+          "NOT_IDENTIFIED": 10
+        },
+        "partial_boundary": {
+          "FLAG": 17,
+          "NOT_IDENTIFIED": 6
+        },
+        "question_tension": {
+          "FLAG": 16,
+          "NOT_IDENTIFIED": 7
+        },
+        "route": {
+          "EVIDENCE_REVIEW": 5,
+          "MODEL_APPLICATION_REVIEW": 2,
+          "NO_ISSUE_IDENTIFIED": 4,
+          "REFERENCE_REVIEW": 12
+        }
+      },
+      "repetition": 2,
+      "resolved_model": "jev-1.13.0",
+      "scheduled": 24,
+      "valid": 23
+    },
+    {
+      "choices": {
+        "missingness_risk": {
+          "FLAG": 13,
+          "NOT_IDENTIFIED": 11
+        },
+        "partial_boundary": {
+          "FLAG": 18,
+          "NOT_IDENTIFIED": 6
+        },
+        "question_tension": {
+          "FLAG": 15,
+          "NOT_IDENTIFIED": 9
+        },
+        "route": {
+          "EVIDENCE_REVIEW": 5,
+          "MODEL_APPLICATION_REVIEW": 2,
+          "MULTIPLE_PLAUSIBLE": 1,
+          "NO_ISSUE_IDENTIFIED": 4,
+          "REFERENCE_REVIEW": 12
+        }
+      },
+      "repetition": 3,
+      "resolved_model": "jev-1.13.0",
+      "scheduled": 24,
+      "valid": 24
+    }
+  ],
+  "statuses": {
+    "invalid": 2,
+    "ok": 70
+  },
+  "summed_attempt_seconds": 12.784456088011211,
+  "timing_boundary": "Execution timestamps exclude initial corpus verification and human/setup/checking overhead."
+}
