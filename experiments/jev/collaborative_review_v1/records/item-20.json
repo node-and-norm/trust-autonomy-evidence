@@ -1,0 +1,24 @@
+{
+  "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+  "unit_id": "P017/trust__harm_correction",
+  "source_request_sha256": "3ff8f075dbc099a1dbd4b19e5fe35f3fd74e5c92772d1bf2fb0b968672771bff",
+  "source_response_sha256": "7b9d23889b65b40737c6eda3119f9241441f2b8c0e1b45214aa1284d392ecbe3",
+  "draft_author": "Codex",
+  "human_approval": "approved",
+  "approval_evidence": {
+    "source": "user message in this chat",
+    "text": "approved.",
+    "scope": "item 20 partially-supported assessment, missing-delivery concern and prior-exposure disclosure"
+  },
+  "human_active_seconds": null,
+  "eligible_for_unassisted_time_comparison": false,
+  "assessment": {
+    "conclusion": "partially_supported",
+    "notes": "A remedy is declared; delivery is not demonstrated. Missing delivery documentation does not establish a failed attempt. The cause of Jev disagreement remains unresolved. Prior exposure to identical wording is disclosed."
+  },
+  "collaborative_review": {
+    "initial_user_choice": "A: remedy specified, delivery not demonstrated",
+    "discussion": "Assistant disclosed prior exposure to repeated wording, then agreed with the bounded reading, explained partial support under the criteria and disclosed reference agreement and Jev unsupported answer. User approved the assessment and note.",
+    "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+  }
+}

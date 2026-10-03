@@ -1,0 +1,22 @@
+{
+  "record_type": "AI_ASSISTED_DRAFT_NOT_UNASSISTED_BASELINE",
+  "unit_id": "A-recommend-0/control__authority",
+  "source_request_sha256": "049587b92eb7611a5204a7be7e16df7a88ec6c09e4baf341f5ebb8f3798029b8",
+  "source_response_sha256": "0baadc73be2c2b50611eb22aff05824145dff7287699a23b0a558aea8ada0157",
+  "draft_author": "Codex",
+  "human_approval": "approved",
+  "human_active_seconds": null,
+  "eligible_for_unassisted_time_comparison": false,
+  "assessment": {
+    "route": "NO_ISSUE_IDENTIFIED",
+    "question_tension": "NOT_IDENTIFIED",
+    "missingness_risk": "NOT_IDENTIFIED",
+    "partial_boundary": "NOT_IDENTIFIED",
+    "notes": "The policy explicitly limits the reviewer to a recommendation that the executor may disregard and denies permission to prevent or alter execution. This affirmative limitation supports the unsupported classification for operational decision authority. No use of the role is recorded; that absence does not establish that the reviewer never acted or that an attempted intervention failed. The assessment rests on the explicit permission limit, not missing action records. No material ambiguity or concern identified within the bounded excerpt under the stated operational-authority interpretation. The observed choice and provisional reference agree; their agreement alone is not evidence of correctness. This draft does not close an original adjudication record."
+  },
+  "approval_evidence": {
+    "source": "user message in this chat",
+    "text": "Approved.",
+    "scope": "item 2 draft assessment"
+  }
+}

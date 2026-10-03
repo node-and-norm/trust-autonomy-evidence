@@ -1,0 +1,22 @@
+{
+  "record_type": "AI_ASSISTED_DRAFT_NOT_UNASSISTED_BASELINE",
+  "unit_id": "A-override-0/control__authority",
+  "source_request_sha256": "dc595759bee43a740a060f153d1690b6bb7a8e1d84677e559b352ea6c8001491",
+  "source_response_sha256": "98836066a00bcb96cc52de3662a412a69ed7193f96599dff42ba1bbe6f5cc285",
+  "draft_author": "Codex",
+  "human_approval": "approved",
+  "human_active_seconds": null,
+  "eligible_for_unassisted_time_comparison": false,
+  "assessment": {
+    "route": "MULTIPLE_PLAUSIBLE",
+    "question_tension": "FLAG",
+    "missingness_risk": "FLAG",
+    "partial_boundary": "FLAG",
+    "notes": "The permission register supplies affirmative documentary evidence of binding override permission, but neither use nor operational effect is documented. Under the supplied criteria, partially_supported is better supported than unsupported: a declaration or incomplete demonstration qualifies for partial support, whereas unsupported requires contrary evidence or an unsuccessful attempt. Neither is supplied. The question combines permission, use and effect, creating a potential tension with grading incomplete evidence as partial support. Flag the risk of treating no recorded use as failure; the raw choice alone does not reveal the model reasoning. Review both the model application and the question/partial-state boundary. MULTIPLE_PLAUSIBLE refers to plausible review routes or explanations, not equal support for the two labels. No final model-error or question-defect disposition is assigned and no original record is closed."
+  },
+  "approval_evidence": {
+    "source": "user message in this chat",
+    "text": "Approve.",
+    "scope": "item 3 draft assessment"
+  }
+}

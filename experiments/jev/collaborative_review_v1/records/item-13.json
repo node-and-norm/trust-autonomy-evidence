@@ -1,0 +1,24 @@
+{
+  "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+  "unit_id": "P008-wording/control__exercise",
+  "source_request_sha256": "8116e0e8f9a1656a07fad9468598798822f8f664e2fa80a85ed191bee5132504",
+  "source_response_sha256": "36f2384c08259fb52bafd0eec88338a9c18ccba92d6de9d700897a3e2292f499",
+  "draft_author": "Codex",
+  "human_approval": "approved",
+  "approval_evidence": {
+    "source": "user message in this chat",
+    "text": "approved.",
+    "scope": "item 13 partially-supported assessment and bounded no-concern note"
+  },
+  "human_active_seconds": null,
+  "eligible_for_unassisted_time_comparison": false,
+  "assessment": {
+    "conclusion": "partially_supported",
+    "notes": "The checkbox supplies a review attestation only. No reasoning or edit is documented, and the record does not prove unattended approval. No ambiguity or concern identified under the supplied criteria."
+  },
+  "collaborative_review": {
+    "initial_user_choice": "B: checkbox records acknowledgement of review, but no reasoning or edit is documented",
+    "discussion": "Assistant agreed, explained the explicit partial-support criterion for an attestation alone, and disclosed Jev/reference agreement. User approved the assessment and note.",
+    "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+  }
+}

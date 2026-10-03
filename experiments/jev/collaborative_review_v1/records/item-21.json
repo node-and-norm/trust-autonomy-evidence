@@ -1,0 +1,25 @@
+{
+  "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+  "unit_id": "P001/control__comprehension",
+  "source_request_sha256": "afccd4b1678c45b1f101e488e76c2adc23ee62762fc6f1a6d6693c1970f0478f",
+  "source_response_sha256": "9a341e9a7799ac2d1ea2e388d09de34030d3405abdd5563bc224f8734b1a0fda",
+  "draft_author": "Codex",
+  "human_approval": "approved",
+  "approval_evidence": {
+    "source": "user message in this chat",
+    "text": "approved.",
+    "scope": "item 21 supported assessment and repeated-excerpt disclosure"
+  },
+  "human_active_seconds": null,
+  "eligible_for_unassisted_time_comparison": false,
+  "assessment": {
+    "conclusion": "supported",
+    "notes": "Independent comparison and an assumption challenge are recorded. This does not establish that the reasoning was correct. Prior exposure to the identical excerpt in item 17 is disclosed."
+  },
+  "collaborative_review": {
+    "initial_user_choice": "B: independent comparison and an assumption challenge are recorded",
+    "user_clarification": "User recognized that the excerpt had been reviewed earlier.",
+    "discussion": "Assistant confirmed identical wording from item 17 in a separate experiment item, agreed with the bounded interpretation, and disclosed Jev/reference agreement. User approved the assessment and exposure note.",
+    "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+  }
+}

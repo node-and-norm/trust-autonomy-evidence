@@ -1,0 +1,24 @@
+{
+  "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+  "unit_id": "P020/control__repair",
+  "source_request_sha256": "2369eae927df6c6585438d53360f9a156a71e2f4c6b4a0be935dacc1e2d487c3",
+  "source_response_sha256": "6ee774c8401d12e982e7c2fd77ec69760da732387125e019a0555fa43ac5b66a",
+  "draft_author": "Codex",
+  "human_approval": "approved",
+  "approval_evidence": {
+    "source": "user message in this chat",
+    "text": "approved",
+    "scope": "item 7 partially-supported assessment and stated review concerns"
+  },
+  "human_active_seconds": null,
+  "eligible_for_unassisted_time_comparison": false,
+  "assessment": {
+    "conclusion": "partially_supported",
+    "notes": "The work order names an owner, but delivery is not demonstrated. Missing confirmation does not prove remediation failed. Review whether Jev treated missing delivery evidence as failure, and whether the question clearly distinguishes planned work from completed remediation. The cause of the disagreement remains unresolved."
+  },
+  "collaborative_review": {
+    "initial_user_choice": "D: unsure; requested discussion",
+    "discussion": "Assistant distinguished assignment of responsibility from demonstrated delivery and explained the partial-support criterion. Assistant disclosed Jev answered unsupported and the provisional reference was partially_supported. User confirmed understanding and approved the assessment and concerns.",
+    "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+  "unit_id": "P020/trust__integrity",
+  "source_request_sha256": "2369eae927df6c6585438d53360f9a156a71e2f4c6b4a0be935dacc1e2d487c3",
+  "source_response_sha256": "6ee774c8401d12e982e7c2fd77ec69760da732387125e019a0555fa43ac5b66a",
+  "draft_author": "Codex",
+  "human_approval": "approved",
+  "approval_evidence": {
+    "source": "user message in this chat",
+    "text": "make sense. approved.",
+    "scope": "item 8 bounded interpretation and preservation of classification ambiguity; no final five-state classification approved"
+  },
+  "human_active_seconds": null,
+  "eligible_for_unassisted_time_comparison": false,
+  "assessment": {
+    "conclusion": null,
+    "interpretation": "Timestamps are documented, but protection against undetected alteration is not established. No actual alteration is reported.",
+    "notes": "A timestamp alone does not demonstrate overwrite prevention or integrity verification. No records demonstrating either safeguard are supplied, but missing records do not prove alteration or safeguard failure. Preserve ambiguity about whether timestamps supply meaningful partial evidence for the integrity proposition. The provisional reference is partially_supported and Jev answered unsupported; neither is ratified as a final classification by this approval."
+  },
+  "collaborative_review": {
+    "initial_user_choice": "D: unsure; requested discussion",
+    "discussion": "Assistant explained timestamps, overwrite prevention and digest verification; proposed bounded reading B and flagged uncertainty about the partial-support reference. User confirmed understanding and approved with that ambiguity preserved.",
+    "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+  }
+}

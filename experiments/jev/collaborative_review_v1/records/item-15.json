@@ -1,0 +1,24 @@
+{
+  "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+  "unit_id": "P005-paraphrase/trust__harm_correction",
+  "source_request_sha256": "8e38217ee6bf47f97439a4fb5dcec7cbb74b825d08151328e600cd22a948907f",
+  "source_response_sha256": "d0ee6513fde2097a29e13c5fd649a951ca40d997e3c791ffa8ca2242d53f0d3c",
+  "draft_author": "Codex",
+  "human_approval": "approved",
+  "approval_evidence": {
+    "source": "user message in this chat",
+    "text": "approved.",
+    "scope": "item 15 partially-supported assessment and missing-delivery documentation concern"
+  },
+  "human_active_seconds": null,
+  "eligible_for_unassisted_time_comparison": false,
+  "assessment": {
+    "conclusion": "partially_supported",
+    "notes": "The procedure supplies a declared remedy, but delivery is not demonstrated. Missing delivery documentation does not establish a failed attempt. The introductory wording adds no evidence of delivery; the cause of Jev disagreement remains unresolved."
+  },
+  "collaborative_review": {
+    "initial_user_choice": "B: remedy specified, delivery not demonstrated",
+    "discussion": "Assistant agreed with the bounded reading, explained partial support under the supplied criteria, and disclosed the reference agreement and Jev unsupported answer. User approved the assessment and note.",
+    "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+  }
+}

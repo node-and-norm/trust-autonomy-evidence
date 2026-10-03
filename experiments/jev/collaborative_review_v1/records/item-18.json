@@ -1,0 +1,24 @@
+{
+  "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+  "unit_id": "P024/control__effect",
+  "source_request_sha256": "64d11ba70d82f00ddaff3ca079516c3191c53435edb93046097d601eeeb774b2",
+  "source_response_sha256": "acd429087f4e264e1b30feb84aa437b0c1e7e0981ce8a0cacafaf0afdd91e979",
+  "draft_author": "Codex",
+  "human_approval": "approved",
+  "approval_evidence": {
+    "source": "user message in this chat",
+    "text": "approved.",
+    "scope": "item 18 supported assessment and bounded no-concern note"
+  },
+  "human_active_seconds": null,
+  "eligible_for_unassisted_time_comparison": false,
+  "assessment": {
+    "conclusion": "supported",
+    "notes": "A change to execution caused by the reviewer instruction is documented in the supplied excerpt. No ambiguity or concern identified for this proposition. The record does not establish that the change improved the outcome or prevented harm."
+  },
+  "collaborative_review": {
+    "initial_user_choice": "B: excerpt documents reviewer instruction changed executed action",
+    "discussion": "Assistant agreed with the bounded reading and disclosed Jev/reference agreement, distinguishing execution change from beneficial outcome or harm prevention. User approved the assessment and note.",
+    "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "record_type": "COLLABORATIVE_AI_ASSISTED_AUTHOR_REVIEW",
+  "unit_id": "P008/control__authority",
+  "source_request_sha256": "2369eae927df6c6585438d53360f9a156a71e2f4c6b4a0be935dacc1e2d487c3",
+  "source_response_sha256": "c9102825c32b9bdd34373189f638a4fa276a555c9812013d381b2421749a99bb",
+  "draft_author": "Codex",
+  "human_approval": "approved",
+  "approval_evidence": {
+    "source": "user message in this chat",
+    "text": "approved.",
+    "scope": "item 23 partially-supported assessment, missing-use concern and repeated-excerpt disclosure"
+  },
+  "human_active_seconds": null,
+  "eligible_for_unassisted_time_comparison": false,
+  "assessment": {
+    "conclusion": "partially_supported",
+    "notes": "Cancellation permission is documented; its use and effect are not demonstrated. Missing evidence of use does not establish absent permission or a failed intervention. The cause of Jev disagreement remains unresolved. Prior exposure to the identical excerpt in item 12 is disclosed."
+  },
+  "collaborative_review": {
+    "initial_user_choice": "B: cancellation permission documented, use and effect not demonstrated",
+    "discussion": "Assistant disclosed identical wording from item 12, agreed with the bounded interpretation, and disclosed reference agreement and Jev unsupported answer. User approved the assessment and note.",
+    "status_boundary": "Later collaborative review; no original adjudication closure or revision of the omitted human comparison."
+  }
+}

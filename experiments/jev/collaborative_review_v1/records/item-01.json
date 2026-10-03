@@ -1,0 +1,22 @@
+{
+  "record_type": "AI_ASSISTED_DRAFT_NOT_UNASSISTED_BASELINE",
+  "unit_id": "A-object-1/control__authority",
+  "source_request_sha256": "409d0670b72e62652ed0987e953630e6b9477ae9234c46b3dcf72b01c498e368",
+  "source_response_sha256": "52a48afe1f20901685159658691c4431346982105b6fc98ecdd05f417064bea8",
+  "draft_author": "Codex",
+  "human_approval": "approved",
+  "human_active_seconds": null,
+  "eligible_for_unassisted_time_comparison": false,
+  "assessment": {
+    "route": "NO_ISSUE_IDENTIFIED",
+    "question_tension": "NOT_IDENTIFIED",
+    "missingness_risk": "NOT_IDENTIFIED",
+    "partial_boundary": "NOT_IDENTIFIED",
+    "notes": "The excerpt explicitly says the reviewer cannot prevent or alter execution and that the executor may disregard an objection. An objection was recorded and execution continued. This supplies affirmative contrary evidence for the stated operational-authority proposition, rather than merely omitting evidence. The observed unsupported choice and provisional reference are consistent with that bounded record. No material ambiguity or concern identified for this item. The right to object is present, but it does not demonstrate permission to control execution. This assessment does not generalize beyond the supplied excerpt or close an original adjudication record."
+  },
+  "approval_evidence": {
+    "source": "user message in this chat",
+    "text": "Approved.",
+    "scope": "item 1 draft assessment"
+  }
+}
