@@ -1,21 +1,21 @@
 cff-version: 1.2.0
-message: "For the current paper, cite the preferred v0.17.0 Zenodo preprint below. Repository release v0.17.1 is a separate software checkpoint."
+message: "For the current paper, cite the preferred v0.17.0 Zenodo preprint below. Repository release v0.17.2 is a separate software checkpoint."
 title: "Trust, Autonomy, and Evidence"
 type: software
-version: 0.17.1
-date-released: 2026-09-26
+version: 0.17.2
+date-released: 2026-10-02
 authors:
   - family-names: Banasihan
     given-names: Mark Julius
     orcid: "https://orcid.org/0009-0001-8121-2878"
 repository-code: "https://github.com/node-and-norm/trust-autonomy-evidence"
-url: "https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.17.1"
+url: "https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.17.2"
 license: Apache-2.0
 abstract: "A research repository defining evidence for justified reliance and practical human control, with synthetic validation, versioned public-case reconstruction, a formal literature search, a full methods manuscript, journal-style figures and tables, claim traceability, and executable integrity audits."
 identifiers:
   - type: url
-    value: "https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.17.1"
-    description: "Versioned GitHub repository release v0.17.1; preferred paper remains v0.17.0"
+    value: "https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.17.2"
+    description: "Versioned GitHub repository release v0.17.2; preferred paper remains v0.17.0"
   - type: doi
     value: "10.5281/zenodo.22970968"
     description: "Current v0.17.0 preprint version"

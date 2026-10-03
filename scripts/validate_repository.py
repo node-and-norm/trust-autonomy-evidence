@@ -15,7 +15,7 @@ from jsonschema import Draft202012Validator, FormatChecker
 
 
 ROOT = Path(__file__).resolve().parents[1]
-REPOSITORY_VERSION = "0.17.1"
+REPOSITORY_VERSION = "0.17.2"
 WORKING_VERSION = "0.17.0"
 FIGURE_VERSION = "0.16.0"
 PUBLIC_CASE_VERSION = "0.3.0"
