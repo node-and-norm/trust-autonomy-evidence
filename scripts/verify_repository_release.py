@@ -1,4 +1,4 @@
-"""Check the complete v0.17.1 Git snapshot without freezing future working files."""
+"""Check repository release snapshots without freezing future working files."""
 import argparse
 import hashlib
 import io
@@ -16,8 +16,11 @@ def check(archive):
         files={m.name:tar.extractfile(m).read() for m in tar.getmembers() if m.isfile()}
         if any(not (m.isfile() or m.isdir()) for m in tar.getmembers()):
             raise ValueError('unsupported non-regular Git snapshot entry')
-    manifest=json.loads(files.pop(MANIFEST))
-    if manifest['version']!='0.17.1' or manifest['paper_version']!='0.17.0':
+    candidates=[v for v in ('0.17.1','0.17.2') if f'release/v{v}-manifest.json' in files]
+    if not candidates:raise ValueError('repository release manifest missing')
+    release_version=candidates[-1]
+    manifest=json.loads(files.pop(f'release/v{release_version}-manifest.json'))
+    if manifest['version']!=release_version or manifest['paper_version']!='0.17.0':
         raise ValueError('unexpected version boundary')
     if set(files)!=set(manifest['files']):raise ValueError('snapshot inventory differs')
     for name,data in files.items():
@@ -29,10 +32,10 @@ def check(archive):
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--ref',default='v0.17.1');args=parser.parse_args()
+    parser.add_argument('--ref',default='v0.17.2');args=parser.parse_args()
     commit=subprocess.check_output(['git','rev-parse','--verify',args.ref+'^{commit}'],cwd=ROOT,text=True).strip()
     archive=subprocess.check_output(['git','archive','--format=tar',commit],cwd=ROOT)
     count=check(archive)
-    print(f'Repository release snapshot: PASS (v0.17.1; {count} files; commit {commit})')
+    print(f'Repository release snapshot: PASS ({args.ref}; {count} files; commit {commit})')
 
 if __name__=='__main__':main()

@@ -1,12 +1,12 @@
 # Research Status
 
-**Version:** 0.17.1
+**Version:** 0.17.2
 
-**Latest GitHub release:** [v0.17.1](https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.17.1), 26 September 2026; repository and offline experiment update. Current paper: v0.17.0.
+**Latest GitHub release:** [v0.17.2](https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.17.2), 2 October 2026; repository and first live synthetic Jev results update. Current paper: v0.17.0.
 
 **Latest DOI-archived preprint:** [v0.17.0](https://doi.org/10.5281/zenodo.22970968), deposited on Zenodo 26 September 2026; original paper publication 6 September 2026.
 
-**Working checkpoint:** v0.17.1 reproducibility and author-reviewed AI-assisted evidence-v2; v0.17.0 regulatory crosswalk and preprint preserved.
+**Working checkpoint:** v0.17.2 live evidence-v2 results and post-output diagnostics; v0.17.0 regulatory crosswalk and preprint preserved.
 
 **Next target:** Update the existing arXiv submission, then test the method prospectively on one contemporary trace-based case or regulatory-sandbox exercise
 
@@ -14,9 +14,9 @@
 
 **Research checkpoint date:** 6 September 2026
 
-**Navigation correction:** The repository release is v0.17.1; the current preprint and preferred paper citation remain v0.17.0. Earlier version identifiers below name preserved research inputs and historical checkpoints.
+**Navigation correction:** The repository release is v0.17.2; the current preprint and preferred paper citation remain v0.17.0. Earlier version identifiers below name preserved research inputs and historical checkpoints.
 
-The offline Jev successor has author-approved wording corrections and passing offline controls. Its review basis is author review of AI assistance; independent review and delayed unassisted author consistency are not claimed. See [release scope](release/v0.17.1-release-notes.md).
+The first live Jev evidence-v2 run attempted all 282 scheduled requests: 260 valid, 22 invalid, and no retries. Primary reconstruction agreement is 198/231 valid determinations, with 231/252 coverage. Probability-sum failures and partial-state disagreements are examined in a separate post-output report; all 1,079 adjudication records remain open UNRESOLVED. The author accepted the results for merge and release. This is author review of AI-assisted work, not independent review or delayed unassisted consistency. See [results](experiments/jev/live_results_v1/REPORT.md), [diagnostics](experiments/jev/live_followup_v1/README.md), and [release scope](release/v0.17.2-release-notes.md).
 
 ## Current maturity
 

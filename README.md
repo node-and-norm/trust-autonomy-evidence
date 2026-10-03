@@ -4,7 +4,7 @@
 
 An evidence architecture for bounded reliance.
 
-[![Status: Working Research](https://img.shields.io/badge/status-working%20research-5b6cff)](RESEARCH_STATUS.md) [![Version: 0.17.1](https://img.shields.io/github/v/release/node-and-norm/trust-autonomy-evidence?display_name=tag&label=release)](https://github.com/node-and-norm/trust-autonomy-evidence/releases) [![Paper DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22970968.svg)](https://doi.org/10.5281/zenodo.22970968) [![Validation](https://github.com/node-and-norm/trust-autonomy-evidence/actions/workflows/validate.yml/badge.svg)](https://github.com/node-and-norm/trust-autonomy-evidence/actions/workflows/validate.yml) [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-green)](LICENSE) [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--8121--2878-brightgreen)](https://orcid.org/0009-0001-8121-2878)
+[![Status: Working Research](https://img.shields.io/badge/status-working%20research-5b6cff)](RESEARCH_STATUS.md) [![Version: 0.17.2](https://img.shields.io/github/v/release/node-and-norm/trust-autonomy-evidence?display_name=tag&label=release)](https://github.com/node-and-norm/trust-autonomy-evidence/releases) [![Paper DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22970968.svg)](https://doi.org/10.5281/zenodo.22970968) [![Validation](https://github.com/node-and-norm/trust-autonomy-evidence/actions/workflows/validate.yml/badge.svg)](https://github.com/node-and-norm/trust-autonomy-evidence/actions/workflows/validate.yml) [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-green)](LICENSE) [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--8121--2878-brightgreen)](https://orcid.org/0009-0001-8121-2878)
 
 </div>
 
@@ -16,12 +16,12 @@ An evidence architecture for bounded reliance.
 
 ## At a glance
 
-Repository v0.17.1 adds reproducibility tools and the [author-reviewed, AI-assisted Jev successor](experiments/jev/evidence_v2/README.md). See the [release notes](release/v0.17.1-release-notes.md). The paper remains v0.17.0; no new empirical result or independent-validation claim is made.
+Repository v0.17.2 preserves the [first live Jev evidence-v2 results](experiments/jev/live_results_v1/REPORT.md) and [post-output diagnostics](experiments/jev/live_followup_v1/README.md): 282 requests attempted, 260 valid and 22 invalid. Primary reconstruction agreement is 198/231 valid determinations (85.7%), with 231/252 coverage (91.7%). See the [release notes](release/v0.17.2-release-notes.md). The paper remains v0.17.0; these authored synthetic agreements do not establish independent or real-world validation.
 
 | Research checkpoint | Current account |
 | :--- | :--- |
 | Research question | What evidence justifies reliance, and what evidence shows that institutional authority can detect, interrupt, correct, and repair AI-system actions? |
-| Current repository release and paper | [v0.17.1 repository release](https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.17.1) · paper v0.17.0 · [30-page preprint](paper/preprints/preprints-compiled-v0.17.0.pdf) · [source archive](paper/preprints/preprints-source-v0.17.0.zip) |
+| Current repository release and paper | [v0.17.2 repository release](https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.17.2) · paper v0.17.0 · [30-page preprint](paper/preprints/preprints-compiled-v0.17.0.pdf) · [source archive](paper/preprints/preprints-source-v0.17.0.zip) |
 | Case-level result | **0 pass / 2 fail / 1 unresolved** in v0.17.0, carrying forward the v0.16.0 rule and results: both Patriot cases fail; Oko is unresolved. |
 | Internal validation | All **252 determinations** and **12 original mutation tests** pass under the committed contract. |
 | Open exceptions | **Five inherited base-audit exceptions**: no independent assessment, incomplete literature-search coverage, two direct-query source limits, untested contemporary transfer, and external venue status. **Two policy-crosswalk exceptions**: incomplete legal/standards coverage and untested prospective application. |
@@ -440,7 +440,7 @@ The current preprint is **v0.17.0**, archived on Zenodo with version DOI [10.528
 
 > Banasihan, M. J. (2026). *From Formal Authority to Practical Human Control: A traceable method for reconstructing human control in automated decisions* (Version v0.17.0) [Preprint]. Zenodo. [https://doi.org/10.5281/zenodo.22970968](https://doi.org/10.5281/zenodo.22970968)
 
-Use the version DOI above to cite this paper. The [paper’s all-versions DOI](https://doi.org/10.5281/zenodo.21926004) follows the latest archived paper version. The [repository archive DOI](https://doi.org/10.5281/zenodo.21841127) identifies the separate software/repository collection. Repository release [v0.17.1](https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.17.1) includes later offline research tools; the paper remains v0.17.0. Machine-readable metadata is in [CITATION.cff](CITATION.cff).
+Use the version DOI above to cite this paper. The [paper’s all-versions DOI](https://doi.org/10.5281/zenodo.21926004) follows the latest archived paper version. The [repository archive DOI](https://doi.org/10.5281/zenodo.21841127) identifies the separate software/repository collection. Repository release [v0.17.2](https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.17.2) includes the later live synthetic Jev results and reproducibility tools; the paper remains v0.17.0. Machine-readable metadata is in [CITATION.cff](CITATION.cff).
 
 ## Author
 

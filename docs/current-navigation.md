@@ -1,6 +1,6 @@
 # Current navigation and the v0.17.0 release
 
-The repository release is v0.17.1 (26 September 2026). The current preprint remains v0.17.0, published on 6 September 2026.
+The repository release is v0.17.2 (2 October 2026). The current preprint remains v0.17.0, published on 6 September 2026.
 The preferred citation, current PDF and compile receipt now agree across the root
 README, citation metadata, research status and existing paper entry points.
 Repository URLs use node-and-norm; the author profile remains mj3b.
@@ -53,3 +53,10 @@ Run the repository's existing validation workflow and
 Negative tests reject unrecorded navigation changes, missing/expanded checkpoints,
 wrong release baselines and research-artifact changes. They also verify that the
 v0.17.0 manifest itself still equals its tagged copy.
+
+## v0.17.2 current navigation
+
+The current README, software citation and research status now link the first live
+Jev synthetic results and post-output diagnostics. The paper version, paper DOI,
+original releases and both prior snapshot manifests remain unchanged. The same
+three-file navigation checkpoint is refreshed; no research artifact is resealed.

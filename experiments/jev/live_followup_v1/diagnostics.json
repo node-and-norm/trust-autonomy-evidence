@@ -1,0 +1,5666 @@
+{
+  "analysis_type": "post-output descriptive diagnostics; no adjusted scores or dispositions",
+  "excluded_determinations": 462,
+  "invalid_requests": 22,
+  "partial_state_sections": [
+    {
+      "constructs": [
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "A-delay-0",
+              "response_file": "A-delay-0-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "A-suspend-0",
+              "response_file": "A-suspend-0-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "A-cancel-0",
+              "response_file": "A-cancel-0-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "A-override-0",
+              "response_file": "A-override-0-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "A-approval-required-0",
+              "response_file": "A-approval-required-0-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 5
+          },
+          "question_id": "control__authority",
+          "scheduled_partial": 5,
+          "valid_partial": 5
+        }
+      ],
+      "repetition": 1,
+      "suite": "authority"
+    },
+    {
+      "constructs": [
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "control__access",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P020",
+              "response_file": "P020-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "control__authority",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "control__comprehension",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P020",
+              "response_file": "P020-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "control__correction",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "control__effect",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "control__exercise",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "control__feasibility",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P020",
+              "response_file": "P020-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "control__repair",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "trust__capability",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P020",
+              "response_file": "P020-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__evidence_completeness",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P020",
+              "response_file": "P020-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__harm_correction",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P020",
+              "response_file": "P020-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__human_authority",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "trust__identity",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P020",
+              "response_file": "P020-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__integrity",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P020",
+              "response_file": "P020-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__reconstructability",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "trust__reliability",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "trust__scope",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        }
+      ],
+      "repetition": 1,
+      "suite": "boundary"
+    },
+    {
+      "constructs": [
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "control__access",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H03",
+              "response_file": "H03-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "control__authority",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H04",
+              "response_file": "H04-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "control__comprehension",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "control__correction",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "control__effect",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "control__exercise",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 2
+          },
+          "question_id": "control__feasibility",
+          "scheduled_partial": 2,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H02",
+              "response_file": "H02-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "H06",
+              "response_file": "H06-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 2
+          },
+          "question_id": "control__reform",
+          "scheduled_partial": 2,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H03",
+              "response_file": "H03-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "control__repair",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "trust__capability",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H02",
+              "response_file": "H02-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "H06",
+              "response_file": "H06-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 2
+          },
+          "question_id": "trust__evidence_completeness",
+          "scheduled_partial": 2,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H01",
+              "response_file": "H01-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__governance_update",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H02",
+              "response_file": "H02-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "H06",
+              "response_file": "H06-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 2
+          },
+          "question_id": "trust__harm_correction",
+          "scheduled_partial": 2,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H05",
+              "response_file": "H05-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__human_authority",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 2
+          },
+          "question_id": "trust__identity",
+          "scheduled_partial": 2,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H04",
+              "response_file": "H04-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__integrity",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H01",
+              "response_file": "H01-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__monitoring",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H03",
+              "response_file": "H03-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__reconstructability",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "trust__reliability",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H01",
+              "response_file": "H01-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__scope",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H03",
+              "response_file": "H03-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__uncertainty",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        }
+      ],
+      "repetition": 1,
+      "suite": "holdout"
+    },
+    {
+      "constructs": [
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 10
+          },
+          "question_id": "control__access",
+          "scheduled_partial": 12,
+          "valid_partial": 10
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-order",
+              "response_file": "P002-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-paraphrase",
+              "response_file": "P002-paraphrase-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-order",
+              "response_file": "P005-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-wording",
+              "response_file": "P005-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-context",
+              "response_file": "P005-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-paraphrase",
+              "response_file": "P005-paraphrase-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P006-order",
+              "response_file": "P006-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P006-wording",
+              "response_file": "P006-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P006-context",
+              "response_file": "P006-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P006-paraphrase",
+              "response_file": "P006-paraphrase-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-order",
+              "response_file": "P008-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-wording",
+              "response_file": "P008-wording-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 14
+          },
+          "question_id": "control__authority",
+          "scheduled_partial": 16,
+          "valid_partial": 14
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P005-order",
+              "response_file": "P005-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-wording",
+              "response_file": "P005-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-context",
+              "response_file": "P005-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-paraphrase",
+              "response_file": "P005-paraphrase-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "partially_supported": 6,
+            "unsupported": 4
+          },
+          "question_id": "control__comprehension",
+          "scheduled_partial": 12,
+          "valid_partial": 10
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-wording",
+              "response_file": "P005-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-context",
+              "response_file": "P005-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-paraphrase",
+              "response_file": "P005-paraphrase-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-wording",
+              "response_file": "P007-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-context",
+              "response_file": "P007-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-wording",
+              "response_file": "P008-wording-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "partially_supported": 6,
+            "unsupported": 8
+          },
+          "question_id": "control__correction",
+          "scheduled_partial": 16,
+          "valid_partial": 14
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 6
+          },
+          "question_id": "control__effect",
+          "scheduled_partial": 8,
+          "valid_partial": 6
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 6
+          },
+          "question_id": "control__exercise",
+          "scheduled_partial": 8,
+          "valid_partial": 6
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 6
+          },
+          "question_id": "control__feasibility",
+          "scheduled_partial": 8,
+          "valid_partial": 6
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-order",
+              "response_file": "P002-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-paraphrase",
+              "response_file": "P002-paraphrase-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-order",
+              "response_file": "P005-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-wording",
+              "response_file": "P005-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-context",
+              "response_file": "P005-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-paraphrase",
+              "response_file": "P005-paraphrase-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-order",
+              "response_file": "P007-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-wording",
+              "response_file": "P007-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-context",
+              "response_file": "P007-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-paraphrase",
+              "response_file": "P007-paraphrase-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 12
+          },
+          "question_id": "control__reform",
+          "scheduled_partial": 12,
+          "valid_partial": 12
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-order",
+              "response_file": "P002-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-paraphrase",
+              "response_file": "P002-paraphrase-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-order",
+              "response_file": "P005-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-wording",
+              "response_file": "P005-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-context",
+              "response_file": "P005-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-paraphrase",
+              "response_file": "P005-paraphrase-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-wording",
+              "response_file": "P007-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-context",
+              "response_file": "P007-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-paraphrase",
+              "response_file": "P007-paraphrase-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-order",
+              "response_file": "P008-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-wording",
+              "response_file": "P008-wording-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "partially_supported": 1,
+            "unsupported": 13
+          },
+          "question_id": "control__repair",
+          "scheduled_partial": 16,
+          "valid_partial": 14
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P010-context",
+              "response_file": "P010-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-paraphrase",
+              "response_file": "P010-paraphrase-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "partially_supported": 8,
+            "unsupported": 2
+          },
+          "question_id": "trust__capability",
+          "scheduled_partial": 12,
+          "valid_partial": 10
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-order",
+              "response_file": "P002-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-paraphrase",
+              "response_file": "P002-paraphrase-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-order",
+              "response_file": "P005-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-wording",
+              "response_file": "P005-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-context",
+              "response_file": "P005-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-paraphrase",
+              "response_file": "P005-paraphrase-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-order",
+              "response_file": "P007-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-wording",
+              "response_file": "P007-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-context",
+              "response_file": "P007-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-paraphrase",
+              "response_file": "P007-paraphrase-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-order",
+              "response_file": "P008-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-wording",
+              "response_file": "P008-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-order",
+              "response_file": "P010-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-wording",
+              "response_file": "P010-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-context",
+              "response_file": "P010-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-paraphrase",
+              "response_file": "P010-paraphrase-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 18
+          },
+          "question_id": "trust__evidence_completeness",
+          "scheduled_partial": 20,
+          "valid_partial": 18
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-order",
+              "response_file": "P002-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-paraphrase",
+              "response_file": "P002-paraphrase-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-order",
+              "response_file": "P005-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-wording",
+              "response_file": "P005-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-context",
+              "response_file": "P005-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-paraphrase",
+              "response_file": "P005-paraphrase-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-order",
+              "response_file": "P007-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-wording",
+              "response_file": "P007-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-context",
+              "response_file": "P007-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-paraphrase",
+              "response_file": "P007-paraphrase-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 12
+          },
+          "question_id": "trust__governance_update",
+          "scheduled_partial": 12,
+          "valid_partial": 12
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-order",
+              "response_file": "P002-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-paraphrase",
+              "response_file": "P002-paraphrase-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-order",
+              "response_file": "P005-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-wording",
+              "response_file": "P005-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-context",
+              "response_file": "P005-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-paraphrase",
+              "response_file": "P005-paraphrase-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-order",
+              "response_file": "P007-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-wording",
+              "response_file": "P007-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-context",
+              "response_file": "P007-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-paraphrase",
+              "response_file": "P007-paraphrase-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-order",
+              "response_file": "P008-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-wording",
+              "response_file": "P008-wording-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 14
+          },
+          "question_id": "trust__harm_correction",
+          "scheduled_partial": 16,
+          "valid_partial": 14
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-order",
+              "response_file": "P002-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-paraphrase",
+              "response_file": "P002-paraphrase-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-order",
+              "response_file": "P005-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-wording",
+              "response_file": "P005-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-context",
+              "response_file": "P005-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-paraphrase",
+              "response_file": "P005-paraphrase-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-order",
+              "response_file": "P008-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-wording",
+              "response_file": "P008-wording-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 10
+          },
+          "question_id": "trust__human_authority",
+          "scheduled_partial": 12,
+          "valid_partial": 10
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 6
+          },
+          "question_id": "trust__identity",
+          "scheduled_partial": 8,
+          "valid_partial": 6
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-order",
+              "response_file": "P002-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-paraphrase",
+              "response_file": "P002-paraphrase-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-order",
+              "response_file": "P008-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-wording",
+              "response_file": "P008-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-order",
+              "response_file": "P010-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-wording",
+              "response_file": "P010-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-context",
+              "response_file": "P010-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-paraphrase",
+              "response_file": "P010-paraphrase-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 10
+          },
+          "question_id": "trust__integrity",
+          "scheduled_partial": 12,
+          "valid_partial": 10
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-order",
+              "response_file": "P002-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-paraphrase",
+              "response_file": "P002-paraphrase-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-order",
+              "response_file": "P005-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-wording",
+              "response_file": "P005-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-context",
+              "response_file": "P005-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-paraphrase",
+              "response_file": "P005-paraphrase-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P006-order",
+              "response_file": "P006-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P006-wording",
+              "response_file": "P006-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P006-context",
+              "response_file": "P006-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P006-paraphrase",
+              "response_file": "P006-paraphrase-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 12
+          },
+          "question_id": "trust__monitoring",
+          "scheduled_partial": 12,
+          "valid_partial": 12
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-order",
+              "response_file": "P002-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-paraphrase",
+              "response_file": "P002-paraphrase-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-order",
+              "response_file": "P007-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-wording",
+              "response_file": "P007-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-context",
+              "response_file": "P007-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-paraphrase",
+              "response_file": "P007-paraphrase-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-order",
+              "response_file": "P008-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-wording",
+              "response_file": "P008-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-order",
+              "response_file": "P010-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-wording",
+              "response_file": "P010-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-context",
+              "response_file": "P010-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-paraphrase",
+              "response_file": "P010-paraphrase-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 14
+          },
+          "question_id": "trust__reconstructability",
+          "scheduled_partial": 16,
+          "valid_partial": 14
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 10
+          },
+          "question_id": "trust__reliability",
+          "scheduled_partial": 12,
+          "valid_partial": 10
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 6
+          },
+          "question_id": "trust__scope",
+          "scheduled_partial": 8,
+          "valid_partial": 6
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-order",
+              "response_file": "P002-order-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-paraphrase",
+              "response_file": "P002-paraphrase-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 4
+          },
+          "question_id": "trust__uncertainty",
+          "scheduled_partial": 4,
+          "valid_partial": 4
+        }
+      ],
+      "repetition": 1,
+      "suite": "invariance"
+    },
+    {
+      "constructs": [
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P017",
+              "response_file": "P017-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "control__correction",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P017",
+              "response_file": "P017-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__harm_correction",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        }
+      ],
+      "repetition": 1,
+      "suite": "mutation"
+    },
+    {
+      "constructs": [
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 2
+          },
+          "question_id": "control__access",
+          "scheduled_partial": 3,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002",
+              "response_file": "P002-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P006",
+              "response_file": "P006-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008",
+              "response_file": "P008-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 3
+          },
+          "question_id": "control__authority",
+          "scheduled_partial": 4,
+          "valid_partial": 3
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 2
+          },
+          "question_id": "control__comprehension",
+          "scheduled_partial": 3,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002",
+              "response_file": "P002-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007",
+              "response_file": "P007-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008",
+              "response_file": "P008-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 3
+          },
+          "question_id": "control__correction",
+          "scheduled_partial": 4,
+          "valid_partial": 3
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 2
+          },
+          "question_id": "control__effect",
+          "scheduled_partial": 2,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 2
+          },
+          "question_id": "control__exercise",
+          "scheduled_partial": 2,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 2
+          },
+          "question_id": "control__feasibility",
+          "scheduled_partial": 2,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002",
+              "response_file": "P002-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007",
+              "response_file": "P007-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 2
+          },
+          "question_id": "control__reform",
+          "scheduled_partial": 3,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002",
+              "response_file": "P002-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007",
+              "response_file": "P007-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008",
+              "response_file": "P008-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 3
+          },
+          "question_id": "control__repair",
+          "scheduled_partial": 4,
+          "valid_partial": 3
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 3
+          },
+          "question_id": "trust__capability",
+          "scheduled_partial": 3,
+          "valid_partial": 3
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002",
+              "response_file": "P002-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007",
+              "response_file": "P007-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008",
+              "response_file": "P008-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010",
+              "response_file": "P010-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 4
+          },
+          "question_id": "trust__evidence_completeness",
+          "scheduled_partial": 5,
+          "valid_partial": 4
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002",
+              "response_file": "P002-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007",
+              "response_file": "P007-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 2
+          },
+          "question_id": "trust__governance_update",
+          "scheduled_partial": 3,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002",
+              "response_file": "P002-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007",
+              "response_file": "P007-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008",
+              "response_file": "P008-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 3
+          },
+          "question_id": "trust__harm_correction",
+          "scheduled_partial": 4,
+          "valid_partial": 3
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002",
+              "response_file": "P002-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008",
+              "response_file": "P008-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 2
+          },
+          "question_id": "trust__human_authority",
+          "scheduled_partial": 3,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 2
+          },
+          "question_id": "trust__identity",
+          "scheduled_partial": 2,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002",
+              "response_file": "P002-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008",
+              "response_file": "P008-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010",
+              "response_file": "P010-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 3
+          },
+          "question_id": "trust__integrity",
+          "scheduled_partial": 3,
+          "valid_partial": 3
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002",
+              "response_file": "P002-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P006",
+              "response_file": "P006-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 2
+          },
+          "question_id": "trust__monitoring",
+          "scheduled_partial": 3,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002",
+              "response_file": "P002-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007",
+              "response_file": "P007-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008",
+              "response_file": "P008-r1.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010",
+              "response_file": "P010-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 4
+          },
+          "question_id": "trust__reconstructability",
+          "scheduled_partial": 4,
+          "valid_partial": 4
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 3
+          },
+          "question_id": "trust__reliability",
+          "scheduled_partial": 3,
+          "valid_partial": 3
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 2
+          },
+          "question_id": "trust__scope",
+          "scheduled_partial": 2,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002",
+              "response_file": "P002-r1.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__uncertainty",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        }
+      ],
+      "repetition": 1,
+      "suite": "reconstruction"
+    },
+    {
+      "constructs": [
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "A-delay-0",
+              "response_file": "A-delay-0-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "A-suspend-0",
+              "response_file": "A-suspend-0-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "A-cancel-0",
+              "response_file": "A-cancel-0-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "A-override-0",
+              "response_file": "A-override-0-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "A-approval-required-0",
+              "response_file": "A-approval-required-0-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 5
+          },
+          "question_id": "control__authority",
+          "scheduled_partial": 5,
+          "valid_partial": 5
+        }
+      ],
+      "repetition": 2,
+      "suite": "authority"
+    },
+    {
+      "constructs": [
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "control__access",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P020",
+              "response_file": "P020-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "control__authority",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P020",
+              "response_file": "P020-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "control__comprehension",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P020",
+              "response_file": "P020-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "control__correction",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "control__effect",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "control__exercise",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "control__feasibility",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P020",
+              "response_file": "P020-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "control__repair",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "trust__capability",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P020",
+              "response_file": "P020-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__evidence_completeness",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P020",
+              "response_file": "P020-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__harm_correction",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P020",
+              "response_file": "P020-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__human_authority",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "trust__identity",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P020",
+              "response_file": "P020-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__integrity",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P020",
+              "response_file": "P020-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__reconstructability",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "trust__reliability",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "trust__scope",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        }
+      ],
+      "repetition": 2,
+      "suite": "boundary"
+    },
+    {
+      "constructs": [
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "control__access",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H03",
+              "response_file": "H03-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "control__authority",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H04",
+              "response_file": "H04-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "control__comprehension",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "control__correction",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "control__effect",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "control__exercise",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 2
+          },
+          "question_id": "control__feasibility",
+          "scheduled_partial": 2,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H02",
+              "response_file": "H02-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "H06",
+              "response_file": "H06-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 2
+          },
+          "question_id": "control__reform",
+          "scheduled_partial": 2,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "control__repair",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "trust__capability",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H02",
+              "response_file": "H02-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "H06",
+              "response_file": "H06-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 2
+          },
+          "question_id": "trust__evidence_completeness",
+          "scheduled_partial": 2,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H01",
+              "response_file": "H01-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__governance_update",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H02",
+              "response_file": "H02-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "H06",
+              "response_file": "H06-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 2
+          },
+          "question_id": "trust__harm_correction",
+          "scheduled_partial": 2,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H05",
+              "response_file": "H05-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__human_authority",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 2
+          },
+          "question_id": "trust__identity",
+          "scheduled_partial": 2,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H04",
+              "response_file": "H04-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__integrity",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H01",
+              "response_file": "H01-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__monitoring",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H03",
+              "response_file": "H03-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__reconstructability",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "trust__reliability",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H01",
+              "response_file": "H01-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__scope",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H03",
+              "response_file": "H03-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__uncertainty",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        }
+      ],
+      "repetition": 2,
+      "suite": "holdout"
+    },
+    {
+      "constructs": [
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 11
+          },
+          "question_id": "control__access",
+          "scheduled_partial": 12,
+          "valid_partial": 11
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-order",
+              "response_file": "P002-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-paraphrase",
+              "response_file": "P002-paraphrase-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-order",
+              "response_file": "P005-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-wording",
+              "response_file": "P005-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-context",
+              "response_file": "P005-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-paraphrase",
+              "response_file": "P005-paraphrase-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P006-wording",
+              "response_file": "P006-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P006-context",
+              "response_file": "P006-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P006-paraphrase",
+              "response_file": "P006-paraphrase-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-order",
+              "response_file": "P008-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-wording",
+              "response_file": "P008-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-paraphrase",
+              "response_file": "P008-paraphrase-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 14
+          },
+          "question_id": "control__authority",
+          "scheduled_partial": 16,
+          "valid_partial": 14
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P005-order",
+              "response_file": "P005-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-wording",
+              "response_file": "P005-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-context",
+              "response_file": "P005-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-paraphrase",
+              "response_file": "P005-paraphrase-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-paraphrase",
+              "response_file": "P008-paraphrase-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "partially_supported": 6,
+            "unsupported": 5
+          },
+          "question_id": "control__comprehension",
+          "scheduled_partial": 12,
+          "valid_partial": 11
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-wording",
+              "response_file": "P005-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-context",
+              "response_file": "P005-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-paraphrase",
+              "response_file": "P005-paraphrase-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-wording",
+              "response_file": "P007-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-context",
+              "response_file": "P007-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-wording",
+              "response_file": "P008-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-paraphrase",
+              "response_file": "P008-paraphrase-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "partially_supported": 6,
+            "unsupported": 9
+          },
+          "question_id": "control__correction",
+          "scheduled_partial": 16,
+          "valid_partial": 15
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 7
+          },
+          "question_id": "control__effect",
+          "scheduled_partial": 8,
+          "valid_partial": 7
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 7
+          },
+          "question_id": "control__exercise",
+          "scheduled_partial": 8,
+          "valid_partial": 7
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 7
+          },
+          "question_id": "control__feasibility",
+          "scheduled_partial": 8,
+          "valid_partial": 7
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-order",
+              "response_file": "P002-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-paraphrase",
+              "response_file": "P002-paraphrase-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-order",
+              "response_file": "P005-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-wording",
+              "response_file": "P005-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-context",
+              "response_file": "P005-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-paraphrase",
+              "response_file": "P005-paraphrase-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-order",
+              "response_file": "P007-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-wording",
+              "response_file": "P007-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-context",
+              "response_file": "P007-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-paraphrase",
+              "response_file": "P007-paraphrase-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 12
+          },
+          "question_id": "control__reform",
+          "scheduled_partial": 12,
+          "valid_partial": 12
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-paraphrase",
+              "response_file": "P002-paraphrase-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-order",
+              "response_file": "P005-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-wording",
+              "response_file": "P005-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-context",
+              "response_file": "P005-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-paraphrase",
+              "response_file": "P005-paraphrase-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-order",
+              "response_file": "P007-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-wording",
+              "response_file": "P007-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-context",
+              "response_file": "P007-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-paraphrase",
+              "response_file": "P007-paraphrase-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-order",
+              "response_file": "P008-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-wording",
+              "response_file": "P008-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-paraphrase",
+              "response_file": "P008-paraphrase-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "partially_supported": 2,
+            "unsupported": 13
+          },
+          "question_id": "control__repair",
+          "scheduled_partial": 16,
+          "valid_partial": 15
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-wording",
+              "response_file": "P010-wording-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "partially_supported": 9,
+            "unsupported": 2
+          },
+          "question_id": "trust__capability",
+          "scheduled_partial": 12,
+          "valid_partial": 11
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-order",
+              "response_file": "P002-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-paraphrase",
+              "response_file": "P002-paraphrase-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-order",
+              "response_file": "P005-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-wording",
+              "response_file": "P005-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-context",
+              "response_file": "P005-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-paraphrase",
+              "response_file": "P005-paraphrase-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-order",
+              "response_file": "P007-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-wording",
+              "response_file": "P007-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-context",
+              "response_file": "P007-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-paraphrase",
+              "response_file": "P007-paraphrase-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-order",
+              "response_file": "P008-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-wording",
+              "response_file": "P008-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-paraphrase",
+              "response_file": "P008-paraphrase-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-order",
+              "response_file": "P010-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-wording",
+              "response_file": "P010-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-context",
+              "response_file": "P010-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-paraphrase",
+              "response_file": "P010-paraphrase-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 19
+          },
+          "question_id": "trust__evidence_completeness",
+          "scheduled_partial": 20,
+          "valid_partial": 19
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-order",
+              "response_file": "P002-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-paraphrase",
+              "response_file": "P002-paraphrase-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-order",
+              "response_file": "P005-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-wording",
+              "response_file": "P005-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-context",
+              "response_file": "P005-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-paraphrase",
+              "response_file": "P005-paraphrase-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-order",
+              "response_file": "P007-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-wording",
+              "response_file": "P007-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-context",
+              "response_file": "P007-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-paraphrase",
+              "response_file": "P007-paraphrase-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 12
+          },
+          "question_id": "trust__governance_update",
+          "scheduled_partial": 12,
+          "valid_partial": 12
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-order",
+              "response_file": "P002-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-paraphrase",
+              "response_file": "P002-paraphrase-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-order",
+              "response_file": "P005-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-wording",
+              "response_file": "P005-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-context",
+              "response_file": "P005-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-paraphrase",
+              "response_file": "P005-paraphrase-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-order",
+              "response_file": "P007-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-wording",
+              "response_file": "P007-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-context",
+              "response_file": "P007-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-paraphrase",
+              "response_file": "P007-paraphrase-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-order",
+              "response_file": "P008-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-wording",
+              "response_file": "P008-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-paraphrase",
+              "response_file": "P008-paraphrase-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 15
+          },
+          "question_id": "trust__harm_correction",
+          "scheduled_partial": 16,
+          "valid_partial": 15
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-order",
+              "response_file": "P002-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-paraphrase",
+              "response_file": "P002-paraphrase-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-order",
+              "response_file": "P005-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-wording",
+              "response_file": "P005-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-context",
+              "response_file": "P005-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-paraphrase",
+              "response_file": "P005-paraphrase-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-order",
+              "response_file": "P008-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-wording",
+              "response_file": "P008-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-paraphrase",
+              "response_file": "P008-paraphrase-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 11
+          },
+          "question_id": "trust__human_authority",
+          "scheduled_partial": 12,
+          "valid_partial": 11
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 7
+          },
+          "question_id": "trust__identity",
+          "scheduled_partial": 8,
+          "valid_partial": 7
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-order",
+              "response_file": "P002-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-paraphrase",
+              "response_file": "P002-paraphrase-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-order",
+              "response_file": "P008-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-wording",
+              "response_file": "P008-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-paraphrase",
+              "response_file": "P008-paraphrase-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-order",
+              "response_file": "P010-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-wording",
+              "response_file": "P010-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-context",
+              "response_file": "P010-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-paraphrase",
+              "response_file": "P010-paraphrase-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 11
+          },
+          "question_id": "trust__integrity",
+          "scheduled_partial": 12,
+          "valid_partial": 11
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-order",
+              "response_file": "P002-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-paraphrase",
+              "response_file": "P002-paraphrase-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-order",
+              "response_file": "P005-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-wording",
+              "response_file": "P005-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-context",
+              "response_file": "P005-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-paraphrase",
+              "response_file": "P005-paraphrase-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P006-wording",
+              "response_file": "P006-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P006-context",
+              "response_file": "P006-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P006-paraphrase",
+              "response_file": "P006-paraphrase-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 11
+          },
+          "question_id": "trust__monitoring",
+          "scheduled_partial": 12,
+          "valid_partial": 11
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-order",
+              "response_file": "P002-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-paraphrase",
+              "response_file": "P002-paraphrase-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-order",
+              "response_file": "P007-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-wording",
+              "response_file": "P007-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-context",
+              "response_file": "P007-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-paraphrase",
+              "response_file": "P007-paraphrase-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-order",
+              "response_file": "P008-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-wording",
+              "response_file": "P008-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-paraphrase",
+              "response_file": "P008-paraphrase-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-order",
+              "response_file": "P010-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-wording",
+              "response_file": "P010-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-context",
+              "response_file": "P010-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-paraphrase",
+              "response_file": "P010-paraphrase-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 15
+          },
+          "question_id": "trust__reconstructability",
+          "scheduled_partial": 16,
+          "valid_partial": 15
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 11
+          },
+          "question_id": "trust__reliability",
+          "scheduled_partial": 12,
+          "valid_partial": 11
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 7
+          },
+          "question_id": "trust__scope",
+          "scheduled_partial": 8,
+          "valid_partial": 7
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-order",
+              "response_file": "P002-order-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-paraphrase",
+              "response_file": "P002-paraphrase-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 4
+          },
+          "question_id": "trust__uncertainty",
+          "scheduled_partial": 4,
+          "valid_partial": 4
+        }
+      ],
+      "repetition": 2,
+      "suite": "invariance"
+    },
+    {
+      "constructs": [
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P017",
+              "response_file": "P017-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "control__correction",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P017",
+              "response_file": "P017-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__harm_correction",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        }
+      ],
+      "repetition": 2,
+      "suite": "mutation"
+    },
+    {
+      "constructs": [
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 3
+          },
+          "question_id": "control__access",
+          "scheduled_partial": 3,
+          "valid_partial": 3
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002",
+              "response_file": "P002-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005",
+              "response_file": "P005-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P006",
+              "response_file": "P006-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008",
+              "response_file": "P008-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 4
+          },
+          "question_id": "control__authority",
+          "scheduled_partial": 4,
+          "valid_partial": 4
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P005",
+              "response_file": "P005-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "partially_supported": 2,
+            "unsupported": 1
+          },
+          "question_id": "control__comprehension",
+          "scheduled_partial": 3,
+          "valid_partial": 3
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002",
+              "response_file": "P002-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005",
+              "response_file": "P005-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007",
+              "response_file": "P007-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008",
+              "response_file": "P008-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 4
+          },
+          "question_id": "control__correction",
+          "scheduled_partial": 4,
+          "valid_partial": 4
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 2
+          },
+          "question_id": "control__effect",
+          "scheduled_partial": 2,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 2
+          },
+          "question_id": "control__exercise",
+          "scheduled_partial": 2,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 2
+          },
+          "question_id": "control__feasibility",
+          "scheduled_partial": 2,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002",
+              "response_file": "P002-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005",
+              "response_file": "P005-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007",
+              "response_file": "P007-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 3
+          },
+          "question_id": "control__reform",
+          "scheduled_partial": 3,
+          "valid_partial": 3
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002",
+              "response_file": "P002-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005",
+              "response_file": "P005-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007",
+              "response_file": "P007-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008",
+              "response_file": "P008-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 4
+          },
+          "question_id": "control__repair",
+          "scheduled_partial": 4,
+          "valid_partial": 4
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 3
+          },
+          "question_id": "trust__capability",
+          "scheduled_partial": 3,
+          "valid_partial": 3
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002",
+              "response_file": "P002-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005",
+              "response_file": "P005-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007",
+              "response_file": "P007-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008",
+              "response_file": "P008-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010",
+              "response_file": "P010-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 5
+          },
+          "question_id": "trust__evidence_completeness",
+          "scheduled_partial": 5,
+          "valid_partial": 5
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002",
+              "response_file": "P002-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005",
+              "response_file": "P005-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007",
+              "response_file": "P007-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 3
+          },
+          "question_id": "trust__governance_update",
+          "scheduled_partial": 3,
+          "valid_partial": 3
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002",
+              "response_file": "P002-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005",
+              "response_file": "P005-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007",
+              "response_file": "P007-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008",
+              "response_file": "P008-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 4
+          },
+          "question_id": "trust__harm_correction",
+          "scheduled_partial": 4,
+          "valid_partial": 4
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002",
+              "response_file": "P002-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005",
+              "response_file": "P005-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008",
+              "response_file": "P008-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 3
+          },
+          "question_id": "trust__human_authority",
+          "scheduled_partial": 3,
+          "valid_partial": 3
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 2
+          },
+          "question_id": "trust__identity",
+          "scheduled_partial": 2,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002",
+              "response_file": "P002-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008",
+              "response_file": "P008-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010",
+              "response_file": "P010-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 3
+          },
+          "question_id": "trust__integrity",
+          "scheduled_partial": 3,
+          "valid_partial": 3
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002",
+              "response_file": "P002-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005",
+              "response_file": "P005-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P006",
+              "response_file": "P006-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 3
+          },
+          "question_id": "trust__monitoring",
+          "scheduled_partial": 3,
+          "valid_partial": 3
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002",
+              "response_file": "P002-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007",
+              "response_file": "P007-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008",
+              "response_file": "P008-r2.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010",
+              "response_file": "P010-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 4
+          },
+          "question_id": "trust__reconstructability",
+          "scheduled_partial": 4,
+          "valid_partial": 4
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 3
+          },
+          "question_id": "trust__reliability",
+          "scheduled_partial": 3,
+          "valid_partial": 3
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 2
+          },
+          "question_id": "trust__scope",
+          "scheduled_partial": 2,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002",
+              "response_file": "P002-r2.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__uncertainty",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        }
+      ],
+      "repetition": 2,
+      "suite": "reconstruction"
+    },
+    {
+      "constructs": [
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "A-delay-0",
+              "response_file": "A-delay-0-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "A-suspend-0",
+              "response_file": "A-suspend-0-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "A-cancel-0",
+              "response_file": "A-cancel-0-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "A-override-0",
+              "response_file": "A-override-0-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "A-approval-required-0",
+              "response_file": "A-approval-required-0-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 5
+          },
+          "question_id": "control__authority",
+          "scheduled_partial": 5,
+          "valid_partial": 5
+        }
+      ],
+      "repetition": 3,
+      "suite": "authority"
+    },
+    {
+      "constructs": [
+        {
+          "disagreements": [],
+          "predictions": {},
+          "question_id": "control__access",
+          "scheduled_partial": 1,
+          "valid_partial": 0
+        },
+        {
+          "disagreements": [],
+          "predictions": {},
+          "question_id": "control__authority",
+          "scheduled_partial": 1,
+          "valid_partial": 0
+        },
+        {
+          "disagreements": [],
+          "predictions": {},
+          "question_id": "control__comprehension",
+          "scheduled_partial": 1,
+          "valid_partial": 0
+        },
+        {
+          "disagreements": [],
+          "predictions": {},
+          "question_id": "control__correction",
+          "scheduled_partial": 1,
+          "valid_partial": 0
+        },
+        {
+          "disagreements": [],
+          "predictions": {},
+          "question_id": "control__effect",
+          "scheduled_partial": 1,
+          "valid_partial": 0
+        },
+        {
+          "disagreements": [],
+          "predictions": {},
+          "question_id": "control__exercise",
+          "scheduled_partial": 1,
+          "valid_partial": 0
+        },
+        {
+          "disagreements": [],
+          "predictions": {},
+          "question_id": "control__feasibility",
+          "scheduled_partial": 1,
+          "valid_partial": 0
+        },
+        {
+          "disagreements": [],
+          "predictions": {},
+          "question_id": "control__repair",
+          "scheduled_partial": 1,
+          "valid_partial": 0
+        },
+        {
+          "disagreements": [],
+          "predictions": {},
+          "question_id": "trust__capability",
+          "scheduled_partial": 1,
+          "valid_partial": 0
+        },
+        {
+          "disagreements": [],
+          "predictions": {},
+          "question_id": "trust__evidence_completeness",
+          "scheduled_partial": 1,
+          "valid_partial": 0
+        },
+        {
+          "disagreements": [],
+          "predictions": {},
+          "question_id": "trust__harm_correction",
+          "scheduled_partial": 1,
+          "valid_partial": 0
+        },
+        {
+          "disagreements": [],
+          "predictions": {},
+          "question_id": "trust__human_authority",
+          "scheduled_partial": 1,
+          "valid_partial": 0
+        },
+        {
+          "disagreements": [],
+          "predictions": {},
+          "question_id": "trust__identity",
+          "scheduled_partial": 1,
+          "valid_partial": 0
+        },
+        {
+          "disagreements": [],
+          "predictions": {},
+          "question_id": "trust__integrity",
+          "scheduled_partial": 1,
+          "valid_partial": 0
+        },
+        {
+          "disagreements": [],
+          "predictions": {},
+          "question_id": "trust__reconstructability",
+          "scheduled_partial": 1,
+          "valid_partial": 0
+        },
+        {
+          "disagreements": [],
+          "predictions": {},
+          "question_id": "trust__reliability",
+          "scheduled_partial": 1,
+          "valid_partial": 0
+        },
+        {
+          "disagreements": [],
+          "predictions": {},
+          "question_id": "trust__scope",
+          "scheduled_partial": 1,
+          "valid_partial": 0
+        }
+      ],
+      "repetition": 3,
+      "suite": "boundary"
+    },
+    {
+      "constructs": [
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "control__access",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H03",
+              "response_file": "H03-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "control__authority",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "control__comprehension",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "control__correction",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "control__effect",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "control__exercise",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 2
+          },
+          "question_id": "control__feasibility",
+          "scheduled_partial": 2,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H02",
+              "response_file": "H02-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "H06",
+              "response_file": "H06-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 2
+          },
+          "question_id": "control__reform",
+          "scheduled_partial": 2,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "control__repair",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "trust__capability",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H02",
+              "response_file": "H02-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "H06",
+              "response_file": "H06-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 2
+          },
+          "question_id": "trust__evidence_completeness",
+          "scheduled_partial": 2,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H01",
+              "response_file": "H01-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__governance_update",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H02",
+              "response_file": "H02-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "H06",
+              "response_file": "H06-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 2
+          },
+          "question_id": "trust__harm_correction",
+          "scheduled_partial": 2,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H05",
+              "response_file": "H05-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__human_authority",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 2
+          },
+          "question_id": "trust__identity",
+          "scheduled_partial": 2,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H04",
+              "response_file": "H04-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__integrity",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H01",
+              "response_file": "H01-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__monitoring",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H03",
+              "response_file": "H03-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__reconstructability",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "trust__reliability",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H01",
+              "response_file": "H01-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__scope",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "H03",
+              "response_file": "H03-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__uncertainty",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        }
+      ],
+      "repetition": 3,
+      "suite": "holdout"
+    },
+    {
+      "constructs": [
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 8
+          },
+          "question_id": "control__access",
+          "scheduled_partial": 12,
+          "valid_partial": 8
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-order",
+              "response_file": "P005-order-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-context",
+              "response_file": "P005-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-paraphrase",
+              "response_file": "P005-paraphrase-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P006-order",
+              "response_file": "P006-order-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P006-wording",
+              "response_file": "P006-wording-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P006-context",
+              "response_file": "P006-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P006-paraphrase",
+              "response_file": "P006-paraphrase-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-order",
+              "response_file": "P008-order-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-context",
+              "response_file": "P008-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-paraphrase",
+              "response_file": "P008-paraphrase-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 12
+          },
+          "question_id": "control__authority",
+          "scheduled_partial": 16,
+          "valid_partial": 12
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P005-order",
+              "response_file": "P005-order-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-context",
+              "response_file": "P005-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-paraphrase",
+              "response_file": "P005-paraphrase-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-context",
+              "response_file": "P008-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-paraphrase",
+              "response_file": "P008-paraphrase-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "partially_supported": 3,
+            "unsupported": 5
+          },
+          "question_id": "control__comprehension",
+          "scheduled_partial": 12,
+          "valid_partial": 8
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-context",
+              "response_file": "P005-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-paraphrase",
+              "response_file": "P005-paraphrase-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-wording",
+              "response_file": "P007-wording-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-context",
+              "response_file": "P007-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-context",
+              "response_file": "P008-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-paraphrase",
+              "response_file": "P008-paraphrase-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "partially_supported": 4,
+            "unsupported": 8
+          },
+          "question_id": "control__correction",
+          "scheduled_partial": 16,
+          "valid_partial": 12
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 5
+          },
+          "question_id": "control__effect",
+          "scheduled_partial": 8,
+          "valid_partial": 5
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 5
+          },
+          "question_id": "control__exercise",
+          "scheduled_partial": 8,
+          "valid_partial": 5
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 5
+          },
+          "question_id": "control__feasibility",
+          "scheduled_partial": 8,
+          "valid_partial": 5
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-order",
+              "response_file": "P005-order-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-context",
+              "response_file": "P005-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-paraphrase",
+              "response_file": "P005-paraphrase-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-order",
+              "response_file": "P007-order-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-wording",
+              "response_file": "P007-wording-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-context",
+              "response_file": "P007-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-paraphrase",
+              "response_file": "P007-paraphrase-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 9
+          },
+          "question_id": "control__reform",
+          "scheduled_partial": 12,
+          "valid_partial": 9
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-context",
+              "response_file": "P005-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-paraphrase",
+              "response_file": "P005-paraphrase-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-wording",
+              "response_file": "P007-wording-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-context",
+              "response_file": "P007-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-paraphrase",
+              "response_file": "P007-paraphrase-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-context",
+              "response_file": "P008-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-paraphrase",
+              "response_file": "P008-paraphrase-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "partially_supported": 4,
+            "unsupported": 8
+          },
+          "question_id": "control__repair",
+          "scheduled_partial": 16,
+          "valid_partial": 12
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P008-context",
+              "response_file": "P008-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-paraphrase",
+              "response_file": "P008-paraphrase-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-context",
+              "response_file": "P010-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-paraphrase",
+              "response_file": "P010-paraphrase-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "partially_supported": 5,
+            "unsupported": 4
+          },
+          "question_id": "trust__capability",
+          "scheduled_partial": 12,
+          "valid_partial": 9
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-order",
+              "response_file": "P005-order-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-context",
+              "response_file": "P005-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-paraphrase",
+              "response_file": "P005-paraphrase-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-order",
+              "response_file": "P007-order-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-wording",
+              "response_file": "P007-wording-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-context",
+              "response_file": "P007-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-paraphrase",
+              "response_file": "P007-paraphrase-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-order",
+              "response_file": "P008-order-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-context",
+              "response_file": "P008-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-paraphrase",
+              "response_file": "P008-paraphrase-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-order",
+              "response_file": "P010-order-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-wording",
+              "response_file": "P010-wording-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-context",
+              "response_file": "P010-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-paraphrase",
+              "response_file": "P010-paraphrase-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 16
+          },
+          "question_id": "trust__evidence_completeness",
+          "scheduled_partial": 20,
+          "valid_partial": 16
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-order",
+              "response_file": "P005-order-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-context",
+              "response_file": "P005-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-paraphrase",
+              "response_file": "P005-paraphrase-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-order",
+              "response_file": "P007-order-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-wording",
+              "response_file": "P007-wording-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-context",
+              "response_file": "P007-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-paraphrase",
+              "response_file": "P007-paraphrase-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 9
+          },
+          "question_id": "trust__governance_update",
+          "scheduled_partial": 12,
+          "valid_partial": 9
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-order",
+              "response_file": "P005-order-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-context",
+              "response_file": "P005-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-paraphrase",
+              "response_file": "P005-paraphrase-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-order",
+              "response_file": "P007-order-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-wording",
+              "response_file": "P007-wording-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-context",
+              "response_file": "P007-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-paraphrase",
+              "response_file": "P007-paraphrase-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-order",
+              "response_file": "P008-order-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-context",
+              "response_file": "P008-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-paraphrase",
+              "response_file": "P008-paraphrase-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 12
+          },
+          "question_id": "trust__harm_correction",
+          "scheduled_partial": 16,
+          "valid_partial": 12
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-order",
+              "response_file": "P005-order-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-context",
+              "response_file": "P005-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-paraphrase",
+              "response_file": "P005-paraphrase-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-order",
+              "response_file": "P008-order-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-context",
+              "response_file": "P008-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-paraphrase",
+              "response_file": "P008-paraphrase-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 8
+          },
+          "question_id": "trust__human_authority",
+          "scheduled_partial": 12,
+          "valid_partial": 8
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 5
+          },
+          "question_id": "trust__identity",
+          "scheduled_partial": 8,
+          "valid_partial": 5
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-order",
+              "response_file": "P008-order-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-context",
+              "response_file": "P008-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-paraphrase",
+              "response_file": "P008-paraphrase-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-order",
+              "response_file": "P010-order-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-wording",
+              "response_file": "P010-wording-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-context",
+              "response_file": "P010-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-paraphrase",
+              "response_file": "P010-paraphrase-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 9
+          },
+          "question_id": "trust__integrity",
+          "scheduled_partial": 12,
+          "valid_partial": 9
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-order",
+              "response_file": "P005-order-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-context",
+              "response_file": "P005-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P005-paraphrase",
+              "response_file": "P005-paraphrase-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P006-order",
+              "response_file": "P006-order-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P006-wording",
+              "response_file": "P006-wording-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P006-context",
+              "response_file": "P006-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P006-paraphrase",
+              "response_file": "P006-paraphrase-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 9
+          },
+          "question_id": "trust__monitoring",
+          "scheduled_partial": 12,
+          "valid_partial": 9
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-order",
+              "response_file": "P007-order-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-wording",
+              "response_file": "P007-wording-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-context",
+              "response_file": "P007-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P007-paraphrase",
+              "response_file": "P007-paraphrase-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-order",
+              "response_file": "P008-order-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-context",
+              "response_file": "P008-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008-paraphrase",
+              "response_file": "P008-paraphrase-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-order",
+              "response_file": "P010-order-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-wording",
+              "response_file": "P010-wording-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-context",
+              "response_file": "P010-context-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010-paraphrase",
+              "response_file": "P010-paraphrase-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 13
+          },
+          "question_id": "trust__reconstructability",
+          "scheduled_partial": 16,
+          "valid_partial": 13
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 9
+          },
+          "question_id": "trust__reliability",
+          "scheduled_partial": 12,
+          "valid_partial": 9
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 5
+          },
+          "question_id": "trust__scope",
+          "scheduled_partial": 8,
+          "valid_partial": 5
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P002-wording",
+              "response_file": "P002-wording-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P002-context",
+              "response_file": "P002-context-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 2
+          },
+          "question_id": "trust__uncertainty",
+          "scheduled_partial": 4,
+          "valid_partial": 2
+        }
+      ],
+      "repetition": 3,
+      "suite": "invariance"
+    },
+    {
+      "constructs": [
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P017",
+              "response_file": "P017-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "control__correction",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P017",
+              "response_file": "P017-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__harm_correction",
+          "scheduled_partial": 1,
+          "valid_partial": 1
+        }
+      ],
+      "repetition": 3,
+      "suite": "mutation"
+    },
+    {
+      "constructs": [
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "control__access",
+          "scheduled_partial": 3,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P006",
+              "response_file": "P006-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008",
+              "response_file": "P008-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 2
+          },
+          "question_id": "control__authority",
+          "scheduled_partial": 4,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "control__comprehension",
+          "scheduled_partial": 3,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P007",
+              "response_file": "P007-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008",
+              "response_file": "P008-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 2
+          },
+          "question_id": "control__correction",
+          "scheduled_partial": 4,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "control__effect",
+          "scheduled_partial": 2,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "control__exercise",
+          "scheduled_partial": 2,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "control__feasibility",
+          "scheduled_partial": 2,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P007",
+              "response_file": "P007-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "control__reform",
+          "scheduled_partial": 3,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P007",
+              "response_file": "P007-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008",
+              "response_file": "P008-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 2
+          },
+          "question_id": "control__repair",
+          "scheduled_partial": 4,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 2
+          },
+          "question_id": "trust__capability",
+          "scheduled_partial": 3,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P007",
+              "response_file": "P007-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008",
+              "response_file": "P008-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010",
+              "response_file": "P010-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 3
+          },
+          "question_id": "trust__evidence_completeness",
+          "scheduled_partial": 5,
+          "valid_partial": 3
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P007",
+              "response_file": "P007-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__governance_update",
+          "scheduled_partial": 3,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P007",
+              "response_file": "P007-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008",
+              "response_file": "P008-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 2
+          },
+          "question_id": "trust__harm_correction",
+          "scheduled_partial": 4,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P008",
+              "response_file": "P008-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__human_authority",
+          "scheduled_partial": 3,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "trust__identity",
+          "scheduled_partial": 2,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P008",
+              "response_file": "P008-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010",
+              "response_file": "P010-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 2
+          },
+          "question_id": "trust__integrity",
+          "scheduled_partial": 3,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P006",
+              "response_file": "P006-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 1
+          },
+          "question_id": "trust__monitoring",
+          "scheduled_partial": 3,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [
+            {
+              "choice": "unsupported",
+              "job_id": "P007",
+              "response_file": "P007-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P008",
+              "response_file": "P008-r3.response.json"
+            },
+            {
+              "choice": "unsupported",
+              "job_id": "P010",
+              "response_file": "P010-r3.response.json"
+            }
+          ],
+          "predictions": {
+            "unsupported": 3
+          },
+          "question_id": "trust__reconstructability",
+          "scheduled_partial": 4,
+          "valid_partial": 3
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 2
+          },
+          "question_id": "trust__reliability",
+          "scheduled_partial": 3,
+          "valid_partial": 2
+        },
+        {
+          "disagreements": [],
+          "predictions": {
+            "partially_supported": 1
+          },
+          "question_id": "trust__scope",
+          "scheduled_partial": 2,
+          "valid_partial": 1
+        },
+        {
+          "disagreements": [],
+          "predictions": {},
+          "question_id": "trust__uncertainty",
+          "scheduled_partial": 1,
+          "valid_partial": 0
+        }
+      ],
+      "repetition": 3,
+      "suite": "reconstruction"
+    }
+  ],
+  "probability_failures": [
+    {
+      "job_id": "P005",
+      "probability_sum": 0.9900000000000001,
+      "question_id": "control__effect",
+      "repetition": 1,
+      "request_sha256": "b651d608ce2e598b4612b342b9fcb430a94c57df3e0230fe21c94b4320362258",
+      "response_sha256": "2c9895c04caad67747983f7f0609e008a0a20e40689058b3eb06cdaef2c0aa8e"
+    },
+    {
+      "job_id": "P003-order",
+      "probability_sum": 0.9900000000000001,
+      "question_id": "trust__capability",
+      "repetition": 1,
+      "request_sha256": "c7e848781ffe2e5c10443da2c89d089fc33b0ffac44a574c95d895bf8af1312a",
+      "response_sha256": "fc9ca19095c56628062fe94dbb5c309fd9883a1b532f309c072d50f66ec5b3e1"
+    },
+    {
+      "job_id": "P003-order",
+      "probability_sum": 0.9900000000000001,
+      "question_id": "trust__identity",
+      "repetition": 1,
+      "request_sha256": "c7e848781ffe2e5c10443da2c89d089fc33b0ffac44a574c95d895bf8af1312a",
+      "response_sha256": "fc9ca19095c56628062fe94dbb5c309fd9883a1b532f309c072d50f66ec5b3e1"
+    },
+    {
+      "job_id": "P004-context",
+      "probability_sum": 0.9900000000000001,
+      "question_id": "trust__human_authority",
+      "repetition": 1,
+      "request_sha256": "0d2c147a686c39637f26915c83bd34a7af4e577e3b0e4c91a996217674c757b2",
+      "response_sha256": "2eb472903fe4858131895329a60fc9bc47e31979606fc5a0d19fe5f8854424db"
+    },
+    {
+      "job_id": "P004-paraphrase",
+      "probability_sum": 0.9900000000000001,
+      "question_id": "control__exercise",
+      "repetition": 1,
+      "request_sha256": "e39d9263072369a128dd2f000f15f5c8b9d56a89eab093842d9aa6cde071d21e",
+      "response_sha256": "baf362a7638ee385f5f5d776aaf5ecde0de661275a1c30ad222fbd14dbd868e5"
+    },
+    {
+      "job_id": "P008-context",
+      "probability_sum": 0.9900000000000001,
+      "question_id": "control__reform",
+      "repetition": 1,
+      "request_sha256": "eb3b5ede0408b3eab31575a9b8f402f691dcb56b2a7a922439cc1c36d28506c5",
+      "response_sha256": "dc6fd3c5c6386a8b2385a472ad62d00945d9163b17defac3b14295460945d88e"
+    },
+    {
+      "job_id": "P008-paraphrase",
+      "probability_sum": 0.9900000000000001,
+      "question_id": "trust__scope",
+      "repetition": 1,
+      "request_sha256": "e22486cb295416bba9527ed2f481335389b9e62bbe747e3e3e19407571c3c883",
+      "response_sha256": "18a6bf977185e801c8bcbaa5d33586032ab3c2d1c2c216d02a3044994adbcaef"
+    },
+    {
+      "job_id": "P004",
+      "probability_sum": 0.9900000000000001,
+      "question_id": "trust__scope",
+      "repetition": 2,
+      "request_sha256": "743d7fa6ac91478b55e38d115161f973c10508b1e78f55470efd69b7ad3f821d",
+      "response_sha256": "2cd9b76e96c2b96c26fbcc33c68094a037f24e26b401ea3c8b95a51697abd61f"
+    },
+    {
+      "job_id": "P024",
+      "probability_sum": 0.9900000000000001,
+      "question_id": "control__reform",
+      "repetition": 2,
+      "request_sha256": "64d11ba70d82f00ddaff3ca079516c3191c53435edb93046097d601eeeb774b2",
+      "response_sha256": "8a7bce652d65aa1d855ac88af96d3983b21b7e04d11477443b3cc32f8cb6a936"
+    },
+    {
+      "job_id": "P003-paraphrase",
+      "probability_sum": 0.9900000000000001,
+      "question_id": "trust__human_authority",
+      "repetition": 2,
+      "request_sha256": "d1a7d7370f49c0f01a93e34a1ad05d7ac9dce0ab03f548db12ca5f49f898eb95",
+      "response_sha256": "512f8f72d9edcdb4ed8e800662406ebf738c949282e796e8e4f8e13eaaf74e44"
+    },
+    {
+      "job_id": "P004-wording",
+      "probability_sum": 0.9900000000000001,
+      "question_id": "control__authority",
+      "repetition": 2,
+      "request_sha256": "426f08767b760d52cfbc6ae7a02e63da9892033a8c6616cf13b47681934c4dde",
+      "response_sha256": "6619b133aa0c9e62e11dd6790100a89a646adc013e5a0b391e010277089d3b07"
+    },
+    {
+      "job_id": "P006-order",
+      "probability_sum": 0.9900000000000001,
+      "question_id": "trust__scope",
+      "repetition": 2,
+      "request_sha256": "2965991065fbafa5d6eb24b314391d0ee9b2edf88541096e0b4aee7388dd5bb9",
+      "response_sha256": "772d431a63b3b3955abc97e7b771dc1de8d9ff005e827134dbb0b8a5be209946"
+    },
+    {
+      "job_id": "P008-context",
+      "probability_sum": 0.9900000000000001,
+      "question_id": "trust__scope",
+      "repetition": 2,
+      "request_sha256": "eb3b5ede0408b3eab31575a9b8f402f691dcb56b2a7a922439cc1c36d28506c5",
+      "response_sha256": "0c180b954c2846e09154da1069b187be5d7895385000108900bfeee5b2ba8ce3"
+    },
+    {
+      "job_id": "P002",
+      "probability_sum": 0.9900000000000001,
+      "question_id": "trust__harm_correction",
+      "repetition": 3,
+      "request_sha256": "139bcc7d90ffa7a8a065581656106633bab79f954ee5cb5331fe183f395c54d8",
+      "response_sha256": "2f26c53fb5ae9d834945dab26e049566b5010003ce89de5a513340341883162e"
+    },
+    {
+      "job_id": "P003",
+      "probability_sum": 0.9900000000000001,
+      "question_id": "control__correction",
+      "repetition": 3,
+      "request_sha256": "9e4581f2858b99f47506e944628c72e53718643e137a464298445609abf0b6c4",
+      "response_sha256": "47659d9638611811f0627e3bec036b5643330ee55fe0a82adc14b773cf91c07a"
+    },
+    {
+      "job_id": "P005",
+      "probability_sum": 0.9900000000000001,
+      "question_id": "control__effect",
+      "repetition": 3,
+      "request_sha256": "b651d608ce2e598b4612b342b9fcb430a94c57df3e0230fe21c94b4320362258",
+      "response_sha256": "3e44d107a82c26faccc601ff7a9a58f246762b5b4ca860a46cc0e3c4265c8c53"
+    },
+    {
+      "job_id": "P020",
+      "probability_sum": 0.9900000000000001,
+      "question_id": "trust__governance_update",
+      "repetition": 3,
+      "request_sha256": "2369eae927df6c6585438d53360f9a156a71e2f4c6b4a0be935dacc1e2d487c3",
+      "response_sha256": "381b31af0c81c8ef244a53104af88a7a698a966e42ec10791071ed1beed59bf7"
+    },
+    {
+      "job_id": "P002-order",
+      "probability_sum": 0.9900000000000001,
+      "question_id": "control__authority",
+      "repetition": 3,
+      "request_sha256": "4bb53d6ea6fec961f1f8d76a06938622ca16f03850584c133ce6d06b79725d79",
+      "response_sha256": "c6ffe80ae9c1f2019b5ccd7e86491ce7cfae38c704c44dc8d7c656312151c100"
+    },
+    {
+      "job_id": "P002-paraphrase",
+      "probability_sum": 0.9900000000000001,
+      "question_id": "control__authority",
+      "repetition": 3,
+      "request_sha256": "71a0e041b33491336278e9a917f4221d836d4685ff0ddc86b7387f23e17795e1",
+      "response_sha256": "e1baaf92dec36a58bf2d61e4c55ecfa5786387fde138b87f37410b32171c0360"
+    },
+    {
+      "job_id": "P003-context",
+      "probability_sum": 0.9900000000000001,
+      "question_id": "control__correction",
+      "repetition": 3,
+      "request_sha256": "600116175a7b43b1fc05b2d32fdc0ff9814eb928f98e2337ceb6b53a4b36ee67",
+      "response_sha256": "7e3f30c463785f56c35bd0ff07112f93a917c190354542d1d9cbf8390e59f097"
+    },
+    {
+      "job_id": "P004-order",
+      "probability_sum": 0.9900000000000001,
+      "question_id": "trust__governance_update",
+      "repetition": 3,
+      "request_sha256": "33adbf10e283f8c842ebd44368e52ff14f9d47b88b74e5db462892f70c63c553",
+      "response_sha256": "449ce2b740dd1fc6ef57b84114bfd78ebd55a2cc9b3a23887517a014a23c2ff0"
+    },
+    {
+      "job_id": "P005-wording",
+      "probability_sum": 0.9900000000000001,
+      "question_id": "control__effect",
+      "repetition": 3,
+      "request_sha256": "a28b4b79c82b30930c082038fab96bd01e1363d5e72e19c9217c1808798d3a2e",
+      "response_sha256": "3ffa1117afe3b5e2353733560e71122edcb334c350ef8feb55df4149bad99ed8"
+    },
+    {
+      "job_id": "P008-wording",
+      "probability_sum": 0.9900000000000001,
+      "question_id": "control__authority",
+      "repetition": 3,
+      "request_sha256": "8116e0e8f9a1656a07fad9468598798822f8f664e2fa80a85ed191bee5132504",
+      "response_sha256": "cce18196792eaa7cae11aa4e7d9306e606eac3a528775722a97f358fe6adf307"
+    }
+  ],
+  "report_sha256": "eb8e537393e58a8fa9b4932019946c05ff2a7cf15517fb8bf052011b4d4d8d71",
+  "run_sha256": "60c5a94789e69e34cf15e0b653152c6d84667cb4f1a271ee5967144ed7ad36f1"
+}
