@@ -18,7 +18,7 @@ QUESTION = (
     "public incident record?"
 )
 VERSION_DOI = "10.5281/zenodo.21865007"
-REPOSITORY_VERSION = "0.17.0"
+REPOSITORY_VERSION = "0.18.0"
 PAPER_FILES = (
     "paper/README.md",
     "paper/paper-charter.md",
