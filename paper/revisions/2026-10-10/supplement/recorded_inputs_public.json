@@ -1,0 +1,167 @@
+{
+  "schema_version": 3,
+  "supplement_id": "additional-reassessment-v2-public-2026-10-10",
+  "status": "public_release_candidate_pending_packaging_check",
+  "condition_order": [
+    "access",
+    "comprehension",
+    "authority",
+    "feasibility",
+    "exercise",
+    "propagation"
+  ],
+  "aggregation_rule": {
+    "priority": [
+      "any_U",
+      "all_S",
+      "otherwise_P_or_I"
+    ],
+    "any_U": "Fail",
+    "all_S": "Pass",
+    "otherwise_P_or_I": "Unresolved",
+    "change_from_released_rule": "none"
+  },
+  "case_names": {
+    "TAE-PUB-001": "Oko",
+    "TAE-PUB-002": "ZG710",
+    "TAE-PUB-003": "F/A-18C"
+  },
+  "previous_supplement": {
+    "file": "Staged_Aggregation_Reproducibility_original.zip.b64",
+    "sha256": "9ddfa8651d14e5a9f041ce906215e7fc8e3152bdd22d848a7270ea9d6e90ac76",
+    "original_filename": "Staged_Aggregation_Reproducibility.zip",
+    "recorded_inputs_member": "reproducibility/recorded_inputs.json",
+    "recorded_inputs_sha256": "6f06fb8d5052fe76a569dcc05dec2a17b9c5122ff453a75e12ef3d9d2eaef12a",
+    "results_member": "reproducibility/results.json",
+    "ledger_member": "reproducibility/author_case_derivation_ledger.txt",
+    "ledger_sha256": "a7ad4f0870eeea07e21229613ae820bf5611f03c36f0774c41d10e992f2a76d5",
+    "relationship": "Exact preserved original ZIP. Stage 1, Stage 2 and historical result records remain immutable. Stage 3 remains unapproved."
+  },
+  "additional_source": {
+    "file": "additional_reassessment_source_snapshot.txt",
+    "sha256": "774f0f553a9a8dfdef39ac4812c0b7fdf11af0fd1c06025719f33fc871415f2a",
+    "status": "Preserved rationale snapshot predating author approval. Its provisional wording records its historical state; public_author_approval.json records the subsequent 10 October 2026 approval of the bounded additional reassessment."
+  },
+  "additional_reassessment": {
+    "assessment_id": "additional_zg710_reassessment_v2",
+    "base_stage": "stage_2",
+    "adoption_status": "author_approved_revised_preprint_and_additional_reassessment",
+    "result_status": "conditional_on_accepted_assessor_judgments_and_retained_Stage_2_inputs",
+    "stage_3_amendments_adopted": false,
+    "rows": [
+      {
+        "case_id": "TAE-PUB-001",
+        "states": [
+          "P",
+          "P",
+          "P",
+          "P",
+          "P",
+          "P"
+        ]
+      },
+      {
+        "case_id": "TAE-PUB-002",
+        "states": [
+          "P",
+          "I",
+          [
+            "P",
+            "I"
+          ],
+          [
+            "P",
+            "I"
+          ],
+          [
+            "P",
+            "I"
+          ],
+          [
+            "P",
+            "I"
+          ]
+        ]
+      },
+      {
+        "case_id": "TAE-PUB-003",
+        "states": [
+          "P",
+          "I",
+          [
+            "P",
+            "I"
+          ],
+          "I",
+          "I",
+          [
+            "P",
+            "I"
+          ]
+        ]
+      }
+    ],
+    "changes_from_stage_2": [
+      {
+        "case_id": "TAE-PUB-002",
+        "condition": "comprehension",
+        "from": "U",
+        "to": "I",
+        "basis": "Approved interpretation: inspected evidence insufficiently establishes the necessary-failure inference; no substantive positive human-capacity component identified."
+      },
+      {
+        "case_id": "TAE-PUB-002",
+        "condition": "feasibility",
+        "from": "U",
+        "to": [
+          "P",
+          "I"
+        ],
+        "basis": "Approved rejection of an adequately established necessary-failure inference. P/I remains an unresolved positive-component and eligibility judgment for the original informed-intervention option."
+      },
+      {
+        "case_id": "TAE-PUB-002",
+        "condition": "exercise",
+        "from": "U",
+        "to": [
+          "P",
+          "I"
+        ],
+        "basis": "Approved rejection of an adequately established event-specific failure inference under active judgment OR intervention. P/I remains unresolved; no mandatory action-plus-evaluation amendment adopted."
+      }
+    ],
+    "dependencies": [
+      "ZG710 access remains P; authority and propagation remain the Stage 2 P/I alternatives. Those cells are carried forward, not newly adjudicated by the additional approval.",
+      "Oko and F/A-18C retain every Stage 2 input. Four F/A-18C authority/propagation assignments combine with 16 ZG710 assignments to produce 64 joint assignments.",
+      "Comprehension I is the newly approved assessor judgment. Feasibility and exercise are approved as unresolved P/I alternatives, not uniquely selected P or I.",
+      "The released classification-to-destruction boundary, strict direct-contemporaneous S gate and original active-judgment-or-intervention criterion remain. No broader Stage 3 amendment is adopted.",
+      "The released assessment already addresses crew authority and actions. Crew-level evidence can address the same proposition within that framing; it does not establish individual cognition.",
+      "Documented adverse evidence and strongest retained-U arguments remain. If any necessary-condition failure is justified, U requires Fail regardless of other unknowns."
+    ]
+  },
+  "counterfactuals": {
+    "base": "additional_zg710_reassessment_v2",
+    "case_id": "TAE-PUB-002",
+    "conditions": [
+      "comprehension",
+      "feasibility",
+      "exercise"
+    ],
+    "replacement": "U",
+    "status": "rule_illustrations_only_not_adopted_states_or_empirical_sensitivity_analysis"
+  },
+  "limits": [
+    "Mechanical reproduction of supplied labels and alternatives does not validate source evidence, assessor interpretation, coding validity, or historical truth.",
+    "The author approved the revised preprint and specified additional reassessment on 10 October 2026. Aggregation remains conditional on those interpretations and retained Stage 2 inputs; calculation does not independently establish them.",
+    "P/I sets are unresolved alternative assignments, not a fifth state and not probabilities. Cartesian enumeration makes no independence claim about the evidence.",
+    "The unchanged rule is any U => Fail; otherwise all S => Pass; otherwise Unresolved. P/I never overrides U.",
+    "Jev and the collaborative review are not independent empirical validation.",
+    "This is a separately versioned public-packaging derivative prepared for final packaging review. Its scientific inputs and historical packages are unchanged; no upload, publication, or resubmission is performed by the checker."
+  ],
+  "public_approval": {
+    "file": "public_author_approval.json",
+    "sha256": "4673d98fc52ba6888c064a70be2ca4948d4f685c9216a143f593608b0a5646e9",
+    "approval_date": "2026-10-10",
+    "author": "Mark Julius Banasihan"
+  }
+}

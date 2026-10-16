@@ -1,0 +1,49 @@
+{
+  "revision": "2026-10-10",
+  "repository_release": "v0.18.0",
+  "release_prepared": "2026-10-16",
+  "author_approved": true,
+  "approval_date": "2026-10-10",
+  "preprint_pages": 46,
+  "pdf_sha256": "881aa58249ec7ebfcd3fa8fcda493821d0ecc8b5e038c499d2044121b9120edb",
+  "source_archive_sha256": "7fa4a8344c10b00c810ffc86290a479f3c79b229947b1b7c799673598582a5cc",
+  "pdf_provenance": "Exact author-supplied latest PDF; arXiv compiler output with submission stamp.",
+  "source_provenance": "Exact source downloaded from authenticated arXiv submission 7973196 on 2026-10-10 and retained locally.",
+  "normalized_comparison_to_retained_approved_public_pdf": "same manuscript text after removing page headers, page numbers, layout hyphens and arXiv submission stamp",
+  "historical_archive_decoded_sha256": "9ddfa8651d14e5a9f041ce906215e7fc8e3152bdd22d848a7270ea9d6e90ac76",
+  "scientific_dispositions": {
+    "historical": [
+      0,
+      2,
+      1
+    ],
+    "limited_correction": [
+      0,
+      1,
+      2
+    ],
+    "additional_conditional": [
+      0,
+      0,
+      3
+    ],
+    "additional_joint_assignments": 64,
+    "stage_3_amendments_adopted": false
+  },
+  "publication": {
+    "arxiv_submission_id": "7973196",
+    "last_authenticated_status": "processing",
+    "last_authenticated_check": "2026-10-10",
+    "author_reported_2026_10_16": "may be on hold",
+    "current_authenticated_status": "not verified",
+    "public_article_id": null,
+    "historical_paper_doi": "10.5281/zenodo.22970968",
+    "revised_paper_doi": null
+  },
+  "limits": [
+    "Reproduction and hashes do not independently validate historical sources or assessor judgments.",
+    "P/I alternatives and the original 1,079 Jev adjudications remain unresolved.",
+    "No live Jev calls were made for closeout.",
+    "Public release approval is not independent reliability or publication acceptance."
+  ]
+}

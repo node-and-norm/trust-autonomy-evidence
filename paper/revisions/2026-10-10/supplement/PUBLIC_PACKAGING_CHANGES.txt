@@ -1,0 +1,48 @@
+PUBLIC PACKAGING CHANGE RECORD
+10 October 2026
+Version: additional-reassessment-v2-public-2026-10-10
+
+This is a separately versioned public derivative of the reviewed additional
+reassessment supplement. The original private package is preserved separately.
+
+Privacy and packaging changes
+1. Replaced the private approval record with public_author_approval.json, naming
+   the author and the approval date 10 October 2026, bounded scientific scope,
+   empirical-validation limit, and pending final packaging check.
+2. Removed the private transcript, chat identifier and time-of-day provenance from
+   current input and result metadata. The checker now validates a public approval
+   statement and date rather than private communication identifiers.
+3. Changed current filenames and the package identifier to mark the public
+   derivative. Input schema version 3 reflects the public approval schema; it is
+   a metadata change, not a condition-definition or aggregation-rule change.
+4. Regenerated affected source/input/checker provenance hashes, both saved results,
+   and the nine-content-file manifest. The public ZIP uses date-only member
+   timestamps, without archive comments, member comments, or extra metadata.
+
+Unchanged scientific content
+The case identities, ordered six conditions, states and alternatives, three
+additional ZG710 changes, full case boundaries, aggregation rule, conditional
+status, counterfactual illustrations and substantive limitations are unchanged.
+The calculation functions, rule tests and historical-comparison data are retained.
+The public approval does not resolve individual P/I choices or adopt Stage 3.
+
+Preserved historical materials
+The embedded Staged_Aggregation_Reproducibility_original.zip remains byte-identical
+at SHA-256 9ddfa8651d14e5a9f041ce906215e7fc8e3152bdd22d848a7270ea9d6e90ac76.
+Its seven files, original manifest and saved calculations remain intact. Historical
+review/pending labels accurately describe that artifact's original status. Its
+unadopted Stage 3 matrix is not the additional reassessment adopted here.
+The additional rationale snapshot also remains byte-identical, at SHA-256
+774f0f553a9a8dfdef39ac4812c0b7fdf11af0fd1c06025719f33fc871415f2a.
+
+Recursive privacy inspection found no private approval transcript, communication
+identifier, absolute local path or private URL in the preserved historical ZIP.
+Public source URLs, Git identifiers, evidence dates, source-to-rule reasoning and
+the explicit limits of AI-assisted review remain as scientific provenance.
+
+Preparation status
+The author approved the revised preprint and additional reassessment on
+10 October 2026. This derivative is prepared for the final packaging check before
+any upload, publication or resubmission. Those actions are not performed here.
+
+ArXiv transport derivative, 10 October 2026: encoded the unchanged historical ZIP as Base64 text because arXiv automatically expands nested archive bytes regardless of extension. The checker decodes in memory before the same hash and member checks. Updated only transport handling, filename reference and instructions; regenerated outputs and manifest. Scientific states and calculation functions remain unchanged. The separately verified public release ZIP remains unchanged.

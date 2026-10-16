@@ -1,0 +1,173 @@
+ADDITIONAL REASSESSMENT REPRODUCIBILITY SUPPLEMENT V2 PUBLIC DERIVATIVE
+Author approved 10 October 2026; public packaging candidate; calculation-only verification.
+The result remains conditional on assessor judgments and retained Stage 2 inputs.
+Evidence and coding validity are NOT independently validated. Stage 3 remains unapproved.
+Condition order: access, comprehension, authority, feasibility, exercise, propagation
+Unchanged rule: any U => Fail; otherwise all S => Pass; otherwise Unresolved.
+Original ZIP SHA-256: 9ddfa8651d14e5a9f041ce906215e7fc8e3152bdd22d848a7270ea9d6e90ac76
+
+stage_1
+Status: unchanged_archived_comparison
+  Oko: Unresolved; assignments=1
+    P/P/P/P/P/P => Unresolved; unresolved blockers: access=P, comprehension=P, authority=P, feasibility=P, exercise=P, propagation=P
+  ZG710: Fail; assignments=1
+    P/U/S/U/U/U => Fail; decisive U: comprehension=U, feasibility=U, exercise=U, propagation=U
+  F/A-18C: Fail; assignments=1
+    P/I/S/I/I/U => Fail; decisive U: propagation=U
+  Joint assignments: 1
+  Case-result vector invariant: True
+  Totals: [{"Fail": 2, "Pass": 0, "Unresolved": 1}]
+  Cell-count ranges: {"I": {"max": 3, "min": 3}, "P": {"max": 8, "min": 8}, "S": {"max": 2, "min": 2}, "U": {"max": 5, "min": 5}}
+
+stage_2
+Status: unchanged_archived_comparison
+  Oko: Unresolved; assignments=1
+    P/P/P/P/P/P => Unresolved; unresolved blockers: access=P, comprehension=P, authority=P, feasibility=P, exercise=P, propagation=P
+  ZG710: Fail; assignments=4
+    P/U/P/U/U/P => Fail; decisive U: comprehension=U, feasibility=U, exercise=U
+    P/U/P/U/U/I => Fail; decisive U: comprehension=U, feasibility=U, exercise=U
+    P/U/I/U/U/P => Fail; decisive U: comprehension=U, feasibility=U, exercise=U
+    P/U/I/U/U/I => Fail; decisive U: comprehension=U, feasibility=U, exercise=U
+  F/A-18C: Unresolved; assignments=4
+    P/I/P/I/I/P => Unresolved; unresolved blockers: access=P, comprehension=I, authority=P, feasibility=I, exercise=I, propagation=P
+    P/I/P/I/I/I => Unresolved; unresolved blockers: access=P, comprehension=I, authority=P, feasibility=I, exercise=I, propagation=I
+    P/I/I/I/I/P => Unresolved; unresolved blockers: access=P, comprehension=I, authority=I, feasibility=I, exercise=I, propagation=P
+    P/I/I/I/I/I => Unresolved; unresolved blockers: access=P, comprehension=I, authority=I, feasibility=I, exercise=I, propagation=I
+  Joint assignments: 16
+  Case-result vector invariant: True
+  Totals: [{"Fail": 1, "Pass": 0, "Unresolved": 2}]
+  Cell-count ranges: {"I": {"max": 7, "min": 3}, "P": {"max": 12, "min": 8}, "S": {"max": 0, "min": 0}, "U": {"max": 3, "min": 3}}
+
+additional_zg710_reassessment_v2
+Status: conditional_on_accepted_assessor_judgments_and_retained_Stage_2_inputs
+  Oko: Unresolved; assignments=1
+    P/P/P/P/P/P => Unresolved; unresolved blockers: access=P, comprehension=P, authority=P, feasibility=P, exercise=P, propagation=P
+  ZG710: Unresolved; assignments=16
+    P/I/P/P/P/P => Unresolved; unresolved blockers: access=P, comprehension=I, authority=P, feasibility=P, exercise=P, propagation=P
+    P/I/P/P/P/I => Unresolved; unresolved blockers: access=P, comprehension=I, authority=P, feasibility=P, exercise=P, propagation=I
+    P/I/P/P/I/P => Unresolved; unresolved blockers: access=P, comprehension=I, authority=P, feasibility=P, exercise=I, propagation=P
+    P/I/P/P/I/I => Unresolved; unresolved blockers: access=P, comprehension=I, authority=P, feasibility=P, exercise=I, propagation=I
+    P/I/P/I/P/P => Unresolved; unresolved blockers: access=P, comprehension=I, authority=P, feasibility=I, exercise=P, propagation=P
+    P/I/P/I/P/I => Unresolved; unresolved blockers: access=P, comprehension=I, authority=P, feasibility=I, exercise=P, propagation=I
+    P/I/P/I/I/P => Unresolved; unresolved blockers: access=P, comprehension=I, authority=P, feasibility=I, exercise=I, propagation=P
+    P/I/P/I/I/I => Unresolved; unresolved blockers: access=P, comprehension=I, authority=P, feasibility=I, exercise=I, propagation=I
+    P/I/I/P/P/P => Unresolved; unresolved blockers: access=P, comprehension=I, authority=I, feasibility=P, exercise=P, propagation=P
+    P/I/I/P/P/I => Unresolved; unresolved blockers: access=P, comprehension=I, authority=I, feasibility=P, exercise=P, propagation=I
+    P/I/I/P/I/P => Unresolved; unresolved blockers: access=P, comprehension=I, authority=I, feasibility=P, exercise=I, propagation=P
+    P/I/I/P/I/I => Unresolved; unresolved blockers: access=P, comprehension=I, authority=I, feasibility=P, exercise=I, propagation=I
+    P/I/I/I/P/P => Unresolved; unresolved blockers: access=P, comprehension=I, authority=I, feasibility=I, exercise=P, propagation=P
+    P/I/I/I/P/I => Unresolved; unresolved blockers: access=P, comprehension=I, authority=I, feasibility=I, exercise=P, propagation=I
+    P/I/I/I/I/P => Unresolved; unresolved blockers: access=P, comprehension=I, authority=I, feasibility=I, exercise=I, propagation=P
+    P/I/I/I/I/I => Unresolved; unresolved blockers: access=P, comprehension=I, authority=I, feasibility=I, exercise=I, propagation=I
+  F/A-18C: Unresolved; assignments=4
+    P/I/P/I/I/P => Unresolved; unresolved blockers: access=P, comprehension=I, authority=P, feasibility=I, exercise=I, propagation=P
+    P/I/P/I/I/I => Unresolved; unresolved blockers: access=P, comprehension=I, authority=P, feasibility=I, exercise=I, propagation=I
+    P/I/I/I/I/P => Unresolved; unresolved blockers: access=P, comprehension=I, authority=I, feasibility=I, exercise=I, propagation=P
+    P/I/I/I/I/I => Unresolved; unresolved blockers: access=P, comprehension=I, authority=I, feasibility=I, exercise=I, propagation=I
+  Joint assignments: 64
+  Case-result vector invariant: True
+  Totals: [{"Fail": 0, "Pass": 0, "Unresolved": 3}]
+  Cell-count ranges: {"I": {"max": 10, "min": 4}, "P": {"max": 14, "min": 8}, "S": {"max": 0, "min": 0}, "U": {"max": 0, "min": 0}}
+
+single_U_at_comprehension
+Status: rule_illustrations_only_not_adopted_states_or_empirical_sensitivity_analysis
+  Oko: Unresolved; assignments=1
+    P/P/P/P/P/P => Unresolved; unresolved blockers: access=P, comprehension=P, authority=P, feasibility=P, exercise=P, propagation=P
+  ZG710: Fail; assignments=16
+    P/U/P/P/P/P => Fail; decisive U: comprehension=U
+    P/U/P/P/P/I => Fail; decisive U: comprehension=U
+    P/U/P/P/I/P => Fail; decisive U: comprehension=U
+    P/U/P/P/I/I => Fail; decisive U: comprehension=U
+    P/U/P/I/P/P => Fail; decisive U: comprehension=U
+    P/U/P/I/P/I => Fail; decisive U: comprehension=U
+    P/U/P/I/I/P => Fail; decisive U: comprehension=U
+    P/U/P/I/I/I => Fail; decisive U: comprehension=U
+    P/U/I/P/P/P => Fail; decisive U: comprehension=U
+    P/U/I/P/P/I => Fail; decisive U: comprehension=U
+    P/U/I/P/I/P => Fail; decisive U: comprehension=U
+    P/U/I/P/I/I => Fail; decisive U: comprehension=U
+    P/U/I/I/P/P => Fail; decisive U: comprehension=U
+    P/U/I/I/P/I => Fail; decisive U: comprehension=U
+    P/U/I/I/I/P => Fail; decisive U: comprehension=U
+    P/U/I/I/I/I => Fail; decisive U: comprehension=U
+  F/A-18C: Unresolved; assignments=4
+    P/I/P/I/I/P => Unresolved; unresolved blockers: access=P, comprehension=I, authority=P, feasibility=I, exercise=I, propagation=P
+    P/I/P/I/I/I => Unresolved; unresolved blockers: access=P, comprehension=I, authority=P, feasibility=I, exercise=I, propagation=I
+    P/I/I/I/I/P => Unresolved; unresolved blockers: access=P, comprehension=I, authority=I, feasibility=I, exercise=I, propagation=P
+    P/I/I/I/I/I => Unresolved; unresolved blockers: access=P, comprehension=I, authority=I, feasibility=I, exercise=I, propagation=I
+  Joint assignments: 64
+  Case-result vector invariant: True
+  Totals: [{"Fail": 1, "Pass": 0, "Unresolved": 2}]
+  Cell-count ranges: {"I": {"max": 9, "min": 3}, "P": {"max": 14, "min": 8}, "S": {"max": 0, "min": 0}, "U": {"max": 1, "min": 1}}
+
+single_U_at_feasibility
+Status: rule_illustrations_only_not_adopted_states_or_empirical_sensitivity_analysis
+  Oko: Unresolved; assignments=1
+    P/P/P/P/P/P => Unresolved; unresolved blockers: access=P, comprehension=P, authority=P, feasibility=P, exercise=P, propagation=P
+  ZG710: Fail; assignments=8
+    P/I/P/U/P/P => Fail; decisive U: feasibility=U
+    P/I/P/U/P/I => Fail; decisive U: feasibility=U
+    P/I/P/U/I/P => Fail; decisive U: feasibility=U
+    P/I/P/U/I/I => Fail; decisive U: feasibility=U
+    P/I/I/U/P/P => Fail; decisive U: feasibility=U
+    P/I/I/U/P/I => Fail; decisive U: feasibility=U
+    P/I/I/U/I/P => Fail; decisive U: feasibility=U
+    P/I/I/U/I/I => Fail; decisive U: feasibility=U
+  F/A-18C: Unresolved; assignments=4
+    P/I/P/I/I/P => Unresolved; unresolved blockers: access=P, comprehension=I, authority=P, feasibility=I, exercise=I, propagation=P
+    P/I/P/I/I/I => Unresolved; unresolved blockers: access=P, comprehension=I, authority=P, feasibility=I, exercise=I, propagation=I
+    P/I/I/I/I/P => Unresolved; unresolved blockers: access=P, comprehension=I, authority=I, feasibility=I, exercise=I, propagation=P
+    P/I/I/I/I/I => Unresolved; unresolved blockers: access=P, comprehension=I, authority=I, feasibility=I, exercise=I, propagation=I
+  Joint assignments: 32
+  Case-result vector invariant: True
+  Totals: [{"Fail": 1, "Pass": 0, "Unresolved": 2}]
+  Cell-count ranges: {"I": {"max": 9, "min": 4}, "P": {"max": 13, "min": 8}, "S": {"max": 0, "min": 0}, "U": {"max": 1, "min": 1}}
+
+single_U_at_exercise
+Status: rule_illustrations_only_not_adopted_states_or_empirical_sensitivity_analysis
+  Oko: Unresolved; assignments=1
+    P/P/P/P/P/P => Unresolved; unresolved blockers: access=P, comprehension=P, authority=P, feasibility=P, exercise=P, propagation=P
+  ZG710: Fail; assignments=8
+    P/I/P/P/U/P => Fail; decisive U: exercise=U
+    P/I/P/P/U/I => Fail; decisive U: exercise=U
+    P/I/P/I/U/P => Fail; decisive U: exercise=U
+    P/I/P/I/U/I => Fail; decisive U: exercise=U
+    P/I/I/P/U/P => Fail; decisive U: exercise=U
+    P/I/I/P/U/I => Fail; decisive U: exercise=U
+    P/I/I/I/U/P => Fail; decisive U: exercise=U
+    P/I/I/I/U/I => Fail; decisive U: exercise=U
+  F/A-18C: Unresolved; assignments=4
+    P/I/P/I/I/P => Unresolved; unresolved blockers: access=P, comprehension=I, authority=P, feasibility=I, exercise=I, propagation=P
+    P/I/P/I/I/I => Unresolved; unresolved blockers: access=P, comprehension=I, authority=P, feasibility=I, exercise=I, propagation=I
+    P/I/I/I/I/P => Unresolved; unresolved blockers: access=P, comprehension=I, authority=I, feasibility=I, exercise=I, propagation=P
+    P/I/I/I/I/I => Unresolved; unresolved blockers: access=P, comprehension=I, authority=I, feasibility=I, exercise=I, propagation=I
+  Joint assignments: 32
+  Case-result vector invariant: True
+  Totals: [{"Fail": 1, "Pass": 0, "Unresolved": 2}]
+  Cell-count ranges: {"I": {"max": 9, "min": 4}, "P": {"max": 13, "min": 8}, "S": {"max": 0, "min": 0}, "U": {"max": 1, "min": 1}}
+
+DEPENDENCIES
+- ZG710 access remains P; authority and propagation remain the Stage 2 P/I alternatives. Those cells are carried forward, not newly adjudicated by the additional approval.
+- Oko and F/A-18C retain every Stage 2 input. Four F/A-18C authority/propagation assignments combine with 16 ZG710 assignments to produce 64 joint assignments.
+- Comprehension I is the newly approved assessor judgment. Feasibility and exercise are approved as unresolved P/I alternatives, not uniquely selected P or I.
+- The released classification-to-destruction boundary, strict direct-contemporaneous S gate and original active-judgment-or-intervention criterion remain. No broader Stage 3 amendment is adopted.
+- The released assessment already addresses crew authority and actions. Crew-level evidence can address the same proposition within that framing; it does not establish individual cognition.
+- Documented adverse evidence and strongest retained-U arguments remain. If any necessary-condition failure is justified, U requires Fail regardless of other unknowns.
+
+SELF-TESTS: PASS
+- {"counts": {"Fail": 3367, "Pass": 1, "Unresolved": 728}, "name": "all_4096_legal_rows", "passed": true}
+- {"name": "explicit_U_dominance_at_all_six_positions", "passed": true, "rows": 1458}
+- {"name": "all_S_and_12_single_unknown_cases", "passed": true}
+- {"name": "invalid_or_missing_state_rejection", "passed": true, "rows": 14}
+- {"duplicate_key": 1, "invalid_mutations": 15, "missing_fields": 70, "name": "input_schema_and_scope_rejection", "passed": true}
+- {"name": "original_Stage_1_and_Stage_2_regression", "passed": true, "stages": 2}
+- {"name": "additional_64_assignments_and_3_retained_U_illustrations", "passed": true}
+- {"in_memory_mutations": 2, "name": "computed_results_depend_on_input_states", "passed": true}
+
+LIMITATIONS
+- Mechanical reproduction of supplied labels and alternatives does not validate source evidence, assessor interpretation, coding validity, or historical truth.
+- The author approved the revised preprint and specified additional reassessment on 10 October 2026. Aggregation remains conditional on those interpretations and retained Stage 2 inputs; calculation does not independently establish them.
+- P/I sets are unresolved alternative assignments, not a fifth state and not probabilities. Cartesian enumeration makes no independence claim about the evidence.
+- The unchanged rule is any U => Fail; otherwise all S => Pass; otherwise Unresolved. P/I never overrides U.
+- Jev and the collaborative review are not independent empirical validation.
+- This is a separately versioned public-packaging derivative prepared for final packaging review. Its scientific inputs and historical packages are unchanged; no upload, publication, or resubmission is performed by the checker.
