@@ -1,0 +1,2859 @@
+{
+  "status": "PASS: mechanical checks only",
+  "provenance": {
+    "inputs_file": "recorded_inputs.json",
+    "inputs_sha256": "6f06fb8d5052fe76a569dcc05dec2a17b9c5122ff453a75e12ef3d9d2eaef12a",
+    "ledger_file": "author_case_derivation_ledger.txt",
+    "ledger_sha256": "a7ad4f0870eeea07e21229613ae820bf5611f03c36f0774c41d10e992f2a76d5",
+    "checker_file": "check_staged_aggregation.py",
+    "checker_sha256": "e5f12d24f4d6312f2bb17e45e515a4090af3c41aa4f2fbdd41ddfae80b4fc9bd"
+  },
+  "condition_order": [
+    "access",
+    "comprehension",
+    "authority",
+    "feasibility",
+    "exercise",
+    "propagation"
+  ],
+  "aggregation_rule": {
+    "priority": [
+      "any_U",
+      "all_S",
+      "otherwise_P_or_I"
+    ],
+    "any_U": "Fail",
+    "all_S": "Pass",
+    "otherwise_P_or_I": "Unresolved",
+    "change_from_released_rule": "none"
+  },
+  "self_tests": {
+    "status": "PASS",
+    "test_groups": [
+      {
+        "name": "all_4_to_the_6_valid_rows",
+        "passed": true,
+        "rows": 4096,
+        "result_counts": {
+          "Pass": 1,
+          "Fail": 3367,
+          "Unresolved": 728
+        }
+      },
+      {
+        "name": "explicit_single_U_dominance",
+        "passed": true,
+        "rows": 1458
+      },
+      {
+        "name": "explicit_all_S_and_unknown_cases",
+        "passed": true,
+        "all_S_rows": 1,
+        "single_unknown_rows": 12
+      },
+      {
+        "name": "invalid_or_missing_state_rejection",
+        "passed": true,
+        "rejections": 14
+      },
+      {
+        "name": "input_field_validation",
+        "passed": true,
+        "missing_field_rejections": 120,
+        "invalid_input_rejections": 16,
+        "duplicate_JSON_key_rejections": 1
+      },
+      {
+        "name": "input_driven_computation",
+        "passed": true,
+        "in_memory_mutations": 2
+      },
+      {
+        "name": "three_labeled_ZG710_single_U_counterfactuals",
+        "passed": true,
+        "illustrations": 3
+      }
+    ]
+  },
+  "calculations": {
+    "main_stages": [
+      {
+        "stage_id": "stage_1",
+        "title": "Stage 1: released historical baseline",
+        "status": "released_historical",
+        "author_approval": "historical_record",
+        "source_section": "Released inputs and results",
+        "interpretation": "Preserves the historical recorded states and results without revalidation.",
+        "cases": [
+          {
+            "case_id": "TAE-PUB-001",
+            "case_name": "Oko",
+            "recorded_state_cells": [
+              "P",
+              "P",
+              "P",
+              "P",
+              "P",
+              "P"
+            ],
+            "alternative_count": 1,
+            "aggregate_invariant": true,
+            "possible_results": [
+              "Unresolved"
+            ],
+            "alternatives": [
+              {
+                "variant_id": 1,
+                "states": [
+                  "P",
+                  "P",
+                  "P",
+                  "P",
+                  "P",
+                  "P"
+                ],
+                "result": "Unresolved",
+                "state_counts": {
+                  "S": 0,
+                  "P": 6,
+                  "U": 0,
+                  "I": 0
+                },
+                "decisive_U_cells": [],
+                "unresolved_blocking_cells": [
+                  {
+                    "condition": "access",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "comprehension",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "authority",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "feasibility",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "exercise",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "propagation",
+                    "state": "P"
+                  }
+                ],
+                "nondecisive_P_I_cells_when_Fail": [],
+                "reason": "No U is present; the listed P/I cells prevent an all-S Pass."
+              }
+            ]
+          },
+          {
+            "case_id": "TAE-PUB-002",
+            "case_name": "ZG710",
+            "recorded_state_cells": [
+              "P",
+              "U",
+              "S",
+              "U",
+              "U",
+              "U"
+            ],
+            "alternative_count": 1,
+            "aggregate_invariant": true,
+            "possible_results": [
+              "Fail"
+            ],
+            "alternatives": [
+              {
+                "variant_id": 1,
+                "states": [
+                  "P",
+                  "U",
+                  "S",
+                  "U",
+                  "U",
+                  "U"
+                ],
+                "result": "Fail",
+                "state_counts": {
+                  "S": 1,
+                  "P": 1,
+                  "U": 4,
+                  "I": 0
+                },
+                "decisive_U_cells": [
+                  {
+                    "condition": "comprehension",
+                    "state": "U"
+                  },
+                  {
+                    "condition": "feasibility",
+                    "state": "U"
+                  },
+                  {
+                    "condition": "exercise",
+                    "state": "U"
+                  },
+                  {
+                    "condition": "propagation",
+                    "state": "U"
+                  }
+                ],
+                "unresolved_blocking_cells": [],
+                "nondecisive_P_I_cells_when_Fail": [
+                  {
+                    "condition": "access",
+                    "state": "P"
+                  }
+                ],
+                "reason": "Any U is sufficient for Fail; P/I elsewhere cannot override it."
+              }
+            ]
+          },
+          {
+            "case_id": "TAE-PUB-003",
+            "case_name": "F/A-18C",
+            "recorded_state_cells": [
+              "P",
+              "I",
+              "S",
+              "I",
+              "I",
+              "U"
+            ],
+            "alternative_count": 1,
+            "aggregate_invariant": true,
+            "possible_results": [
+              "Fail"
+            ],
+            "alternatives": [
+              {
+                "variant_id": 1,
+                "states": [
+                  "P",
+                  "I",
+                  "S",
+                  "I",
+                  "I",
+                  "U"
+                ],
+                "result": "Fail",
+                "state_counts": {
+                  "S": 1,
+                  "P": 1,
+                  "U": 1,
+                  "I": 3
+                },
+                "decisive_U_cells": [
+                  {
+                    "condition": "propagation",
+                    "state": "U"
+                  }
+                ],
+                "unresolved_blocking_cells": [],
+                "nondecisive_P_I_cells_when_Fail": [
+                  {
+                    "condition": "access",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "comprehension",
+                    "state": "I"
+                  },
+                  {
+                    "condition": "feasibility",
+                    "state": "I"
+                  },
+                  {
+                    "condition": "exercise",
+                    "state": "I"
+                  }
+                ],
+                "reason": "Any U is sufficient for Fail; P/I elsewhere cannot override it."
+              }
+            ]
+          }
+        ],
+        "joint_assignment_count": 1,
+        "case_result_vector_invariant": true,
+        "case_result_counts_invariant": true,
+        "possible_case_result_counts": [
+          {
+            "Pass": 0,
+            "Fail": 2,
+            "Unresolved": 1
+          }
+        ],
+        "cell_state_count_ranges": {
+          "S": {
+            "min": 2,
+            "max": 2
+          },
+          "P": {
+            "min": 8,
+            "max": 8
+          },
+          "U": {
+            "min": 5,
+            "max": 5
+          },
+          "I": {
+            "min": 3,
+            "max": 3
+          }
+        },
+        "joint_assignments": [
+          {
+            "combination_id": 1,
+            "case_variant_ids": {
+              "TAE-PUB-001": 1,
+              "TAE-PUB-002": 1,
+              "TAE-PUB-003": 1
+            },
+            "case_results": {
+              "TAE-PUB-001": "Unresolved",
+              "TAE-PUB-002": "Fail",
+              "TAE-PUB-003": "Fail"
+            },
+            "case_result_counts": {
+              "Pass": 0,
+              "Fail": 2,
+              "Unresolved": 1
+            },
+            "cell_state_counts": {
+              "S": 2,
+              "P": 8,
+              "U": 5,
+              "I": 3
+            }
+          }
+        ]
+      },
+      {
+        "stage_id": "stage_2",
+        "title": "Stage 2: limited original-framework corrections",
+        "status": "conditional_state_sets",
+        "author_approval": "pending",
+        "source_section": "Stage 2 provisional state sets",
+        "interpretation": "Authority and propagation are unresolved P/I choices for each Patriot case. All other released cells are retained, not freshly validated. ZG710 Fail is conditional on retaining at least one non-propagation U.",
+        "cases": [
+          {
+            "case_id": "TAE-PUB-001",
+            "case_name": "Oko",
+            "recorded_state_cells": [
+              "P",
+              "P",
+              "P",
+              "P",
+              "P",
+              "P"
+            ],
+            "alternative_count": 1,
+            "aggregate_invariant": true,
+            "possible_results": [
+              "Unresolved"
+            ],
+            "alternatives": [
+              {
+                "variant_id": 1,
+                "states": [
+                  "P",
+                  "P",
+                  "P",
+                  "P",
+                  "P",
+                  "P"
+                ],
+                "result": "Unresolved",
+                "state_counts": {
+                  "S": 0,
+                  "P": 6,
+                  "U": 0,
+                  "I": 0
+                },
+                "decisive_U_cells": [],
+                "unresolved_blocking_cells": [
+                  {
+                    "condition": "access",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "comprehension",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "authority",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "feasibility",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "exercise",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "propagation",
+                    "state": "P"
+                  }
+                ],
+                "nondecisive_P_I_cells_when_Fail": [],
+                "reason": "No U is present; the listed P/I cells prevent an all-S Pass."
+              }
+            ]
+          },
+          {
+            "case_id": "TAE-PUB-002",
+            "case_name": "ZG710",
+            "recorded_state_cells": [
+              "P",
+              "U",
+              [
+                "P",
+                "I"
+              ],
+              "U",
+              "U",
+              [
+                "P",
+                "I"
+              ]
+            ],
+            "alternative_count": 4,
+            "aggregate_invariant": true,
+            "possible_results": [
+              "Fail"
+            ],
+            "alternatives": [
+              {
+                "variant_id": 1,
+                "states": [
+                  "P",
+                  "U",
+                  "P",
+                  "U",
+                  "U",
+                  "P"
+                ],
+                "result": "Fail",
+                "state_counts": {
+                  "S": 0,
+                  "P": 3,
+                  "U": 3,
+                  "I": 0
+                },
+                "decisive_U_cells": [
+                  {
+                    "condition": "comprehension",
+                    "state": "U"
+                  },
+                  {
+                    "condition": "feasibility",
+                    "state": "U"
+                  },
+                  {
+                    "condition": "exercise",
+                    "state": "U"
+                  }
+                ],
+                "unresolved_blocking_cells": [],
+                "nondecisive_P_I_cells_when_Fail": [
+                  {
+                    "condition": "access",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "authority",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "propagation",
+                    "state": "P"
+                  }
+                ],
+                "reason": "Any U is sufficient for Fail; P/I elsewhere cannot override it."
+              },
+              {
+                "variant_id": 2,
+                "states": [
+                  "P",
+                  "U",
+                  "P",
+                  "U",
+                  "U",
+                  "I"
+                ],
+                "result": "Fail",
+                "state_counts": {
+                  "S": 0,
+                  "P": 2,
+                  "U": 3,
+                  "I": 1
+                },
+                "decisive_U_cells": [
+                  {
+                    "condition": "comprehension",
+                    "state": "U"
+                  },
+                  {
+                    "condition": "feasibility",
+                    "state": "U"
+                  },
+                  {
+                    "condition": "exercise",
+                    "state": "U"
+                  }
+                ],
+                "unresolved_blocking_cells": [],
+                "nondecisive_P_I_cells_when_Fail": [
+                  {
+                    "condition": "access",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "authority",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "propagation",
+                    "state": "I"
+                  }
+                ],
+                "reason": "Any U is sufficient for Fail; P/I elsewhere cannot override it."
+              },
+              {
+                "variant_id": 3,
+                "states": [
+                  "P",
+                  "U",
+                  "I",
+                  "U",
+                  "U",
+                  "P"
+                ],
+                "result": "Fail",
+                "state_counts": {
+                  "S": 0,
+                  "P": 2,
+                  "U": 3,
+                  "I": 1
+                },
+                "decisive_U_cells": [
+                  {
+                    "condition": "comprehension",
+                    "state": "U"
+                  },
+                  {
+                    "condition": "feasibility",
+                    "state": "U"
+                  },
+                  {
+                    "condition": "exercise",
+                    "state": "U"
+                  }
+                ],
+                "unresolved_blocking_cells": [],
+                "nondecisive_P_I_cells_when_Fail": [
+                  {
+                    "condition": "access",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "authority",
+                    "state": "I"
+                  },
+                  {
+                    "condition": "propagation",
+                    "state": "P"
+                  }
+                ],
+                "reason": "Any U is sufficient for Fail; P/I elsewhere cannot override it."
+              },
+              {
+                "variant_id": 4,
+                "states": [
+                  "P",
+                  "U",
+                  "I",
+                  "U",
+                  "U",
+                  "I"
+                ],
+                "result": "Fail",
+                "state_counts": {
+                  "S": 0,
+                  "P": 1,
+                  "U": 3,
+                  "I": 2
+                },
+                "decisive_U_cells": [
+                  {
+                    "condition": "comprehension",
+                    "state": "U"
+                  },
+                  {
+                    "condition": "feasibility",
+                    "state": "U"
+                  },
+                  {
+                    "condition": "exercise",
+                    "state": "U"
+                  }
+                ],
+                "unresolved_blocking_cells": [],
+                "nondecisive_P_I_cells_when_Fail": [
+                  {
+                    "condition": "access",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "authority",
+                    "state": "I"
+                  },
+                  {
+                    "condition": "propagation",
+                    "state": "I"
+                  }
+                ],
+                "reason": "Any U is sufficient for Fail; P/I elsewhere cannot override it."
+              }
+            ]
+          },
+          {
+            "case_id": "TAE-PUB-003",
+            "case_name": "F/A-18C",
+            "recorded_state_cells": [
+              "P",
+              "I",
+              [
+                "P",
+                "I"
+              ],
+              "I",
+              "I",
+              [
+                "P",
+                "I"
+              ]
+            ],
+            "alternative_count": 4,
+            "aggregate_invariant": true,
+            "possible_results": [
+              "Unresolved"
+            ],
+            "alternatives": [
+              {
+                "variant_id": 1,
+                "states": [
+                  "P",
+                  "I",
+                  "P",
+                  "I",
+                  "I",
+                  "P"
+                ],
+                "result": "Unresolved",
+                "state_counts": {
+                  "S": 0,
+                  "P": 3,
+                  "U": 0,
+                  "I": 3
+                },
+                "decisive_U_cells": [],
+                "unresolved_blocking_cells": [
+                  {
+                    "condition": "access",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "comprehension",
+                    "state": "I"
+                  },
+                  {
+                    "condition": "authority",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "feasibility",
+                    "state": "I"
+                  },
+                  {
+                    "condition": "exercise",
+                    "state": "I"
+                  },
+                  {
+                    "condition": "propagation",
+                    "state": "P"
+                  }
+                ],
+                "nondecisive_P_I_cells_when_Fail": [],
+                "reason": "No U is present; the listed P/I cells prevent an all-S Pass."
+              },
+              {
+                "variant_id": 2,
+                "states": [
+                  "P",
+                  "I",
+                  "P",
+                  "I",
+                  "I",
+                  "I"
+                ],
+                "result": "Unresolved",
+                "state_counts": {
+                  "S": 0,
+                  "P": 2,
+                  "U": 0,
+                  "I": 4
+                },
+                "decisive_U_cells": [],
+                "unresolved_blocking_cells": [
+                  {
+                    "condition": "access",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "comprehension",
+                    "state": "I"
+                  },
+                  {
+                    "condition": "authority",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "feasibility",
+                    "state": "I"
+                  },
+                  {
+                    "condition": "exercise",
+                    "state": "I"
+                  },
+                  {
+                    "condition": "propagation",
+                    "state": "I"
+                  }
+                ],
+                "nondecisive_P_I_cells_when_Fail": [],
+                "reason": "No U is present; the listed P/I cells prevent an all-S Pass."
+              },
+              {
+                "variant_id": 3,
+                "states": [
+                  "P",
+                  "I",
+                  "I",
+                  "I",
+                  "I",
+                  "P"
+                ],
+                "result": "Unresolved",
+                "state_counts": {
+                  "S": 0,
+                  "P": 2,
+                  "U": 0,
+                  "I": 4
+                },
+                "decisive_U_cells": [],
+                "unresolved_blocking_cells": [
+                  {
+                    "condition": "access",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "comprehension",
+                    "state": "I"
+                  },
+                  {
+                    "condition": "authority",
+                    "state": "I"
+                  },
+                  {
+                    "condition": "feasibility",
+                    "state": "I"
+                  },
+                  {
+                    "condition": "exercise",
+                    "state": "I"
+                  },
+                  {
+                    "condition": "propagation",
+                    "state": "P"
+                  }
+                ],
+                "nondecisive_P_I_cells_when_Fail": [],
+                "reason": "No U is present; the listed P/I cells prevent an all-S Pass."
+              },
+              {
+                "variant_id": 4,
+                "states": [
+                  "P",
+                  "I",
+                  "I",
+                  "I",
+                  "I",
+                  "I"
+                ],
+                "result": "Unresolved",
+                "state_counts": {
+                  "S": 0,
+                  "P": 1,
+                  "U": 0,
+                  "I": 5
+                },
+                "decisive_U_cells": [],
+                "unresolved_blocking_cells": [
+                  {
+                    "condition": "access",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "comprehension",
+                    "state": "I"
+                  },
+                  {
+                    "condition": "authority",
+                    "state": "I"
+                  },
+                  {
+                    "condition": "feasibility",
+                    "state": "I"
+                  },
+                  {
+                    "condition": "exercise",
+                    "state": "I"
+                  },
+                  {
+                    "condition": "propagation",
+                    "state": "I"
+                  }
+                ],
+                "nondecisive_P_I_cells_when_Fail": [],
+                "reason": "No U is present; the listed P/I cells prevent an all-S Pass."
+              }
+            ]
+          }
+        ],
+        "joint_assignment_count": 16,
+        "case_result_vector_invariant": true,
+        "case_result_counts_invariant": true,
+        "possible_case_result_counts": [
+          {
+            "Pass": 0,
+            "Fail": 1,
+            "Unresolved": 2
+          }
+        ],
+        "cell_state_count_ranges": {
+          "S": {
+            "min": 0,
+            "max": 0
+          },
+          "P": {
+            "min": 8,
+            "max": 12
+          },
+          "U": {
+            "min": 3,
+            "max": 3
+          },
+          "I": {
+            "min": 3,
+            "max": 7
+          }
+        },
+        "joint_assignments": [
+          {
+            "combination_id": 1,
+            "case_variant_ids": {
+              "TAE-PUB-001": 1,
+              "TAE-PUB-002": 1,
+              "TAE-PUB-003": 1
+            },
+            "case_results": {
+              "TAE-PUB-001": "Unresolved",
+              "TAE-PUB-002": "Fail",
+              "TAE-PUB-003": "Unresolved"
+            },
+            "case_result_counts": {
+              "Pass": 0,
+              "Fail": 1,
+              "Unresolved": 2
+            },
+            "cell_state_counts": {
+              "S": 0,
+              "P": 12,
+              "U": 3,
+              "I": 3
+            }
+          },
+          {
+            "combination_id": 2,
+            "case_variant_ids": {
+              "TAE-PUB-001": 1,
+              "TAE-PUB-002": 1,
+              "TAE-PUB-003": 2
+            },
+            "case_results": {
+              "TAE-PUB-001": "Unresolved",
+              "TAE-PUB-002": "Fail",
+              "TAE-PUB-003": "Unresolved"
+            },
+            "case_result_counts": {
+              "Pass": 0,
+              "Fail": 1,
+              "Unresolved": 2
+            },
+            "cell_state_counts": {
+              "S": 0,
+              "P": 11,
+              "U": 3,
+              "I": 4
+            }
+          },
+          {
+            "combination_id": 3,
+            "case_variant_ids": {
+              "TAE-PUB-001": 1,
+              "TAE-PUB-002": 1,
+              "TAE-PUB-003": 3
+            },
+            "case_results": {
+              "TAE-PUB-001": "Unresolved",
+              "TAE-PUB-002": "Fail",
+              "TAE-PUB-003": "Unresolved"
+            },
+            "case_result_counts": {
+              "Pass": 0,
+              "Fail": 1,
+              "Unresolved": 2
+            },
+            "cell_state_counts": {
+              "S": 0,
+              "P": 11,
+              "U": 3,
+              "I": 4
+            }
+          },
+          {
+            "combination_id": 4,
+            "case_variant_ids": {
+              "TAE-PUB-001": 1,
+              "TAE-PUB-002": 1,
+              "TAE-PUB-003": 4
+            },
+            "case_results": {
+              "TAE-PUB-001": "Unresolved",
+              "TAE-PUB-002": "Fail",
+              "TAE-PUB-003": "Unresolved"
+            },
+            "case_result_counts": {
+              "Pass": 0,
+              "Fail": 1,
+              "Unresolved": 2
+            },
+            "cell_state_counts": {
+              "S": 0,
+              "P": 10,
+              "U": 3,
+              "I": 5
+            }
+          },
+          {
+            "combination_id": 5,
+            "case_variant_ids": {
+              "TAE-PUB-001": 1,
+              "TAE-PUB-002": 2,
+              "TAE-PUB-003": 1
+            },
+            "case_results": {
+              "TAE-PUB-001": "Unresolved",
+              "TAE-PUB-002": "Fail",
+              "TAE-PUB-003": "Unresolved"
+            },
+            "case_result_counts": {
+              "Pass": 0,
+              "Fail": 1,
+              "Unresolved": 2
+            },
+            "cell_state_counts": {
+              "S": 0,
+              "P": 11,
+              "U": 3,
+              "I": 4
+            }
+          },
+          {
+            "combination_id": 6,
+            "case_variant_ids": {
+              "TAE-PUB-001": 1,
+              "TAE-PUB-002": 2,
+              "TAE-PUB-003": 2
+            },
+            "case_results": {
+              "TAE-PUB-001": "Unresolved",
+              "TAE-PUB-002": "Fail",
+              "TAE-PUB-003": "Unresolved"
+            },
+            "case_result_counts": {
+              "Pass": 0,
+              "Fail": 1,
+              "Unresolved": 2
+            },
+            "cell_state_counts": {
+              "S": 0,
+              "P": 10,
+              "U": 3,
+              "I": 5
+            }
+          },
+          {
+            "combination_id": 7,
+            "case_variant_ids": {
+              "TAE-PUB-001": 1,
+              "TAE-PUB-002": 2,
+              "TAE-PUB-003": 3
+            },
+            "case_results": {
+              "TAE-PUB-001": "Unresolved",
+              "TAE-PUB-002": "Fail",
+              "TAE-PUB-003": "Unresolved"
+            },
+            "case_result_counts": {
+              "Pass": 0,
+              "Fail": 1,
+              "Unresolved": 2
+            },
+            "cell_state_counts": {
+              "S": 0,
+              "P": 10,
+              "U": 3,
+              "I": 5
+            }
+          },
+          {
+            "combination_id": 8,
+            "case_variant_ids": {
+              "TAE-PUB-001": 1,
+              "TAE-PUB-002": 2,
+              "TAE-PUB-003": 4
+            },
+            "case_results": {
+              "TAE-PUB-001": "Unresolved",
+              "TAE-PUB-002": "Fail",
+              "TAE-PUB-003": "Unresolved"
+            },
+            "case_result_counts": {
+              "Pass": 0,
+              "Fail": 1,
+              "Unresolved": 2
+            },
+            "cell_state_counts": {
+              "S": 0,
+              "P": 9,
+              "U": 3,
+              "I": 6
+            }
+          },
+          {
+            "combination_id": 9,
+            "case_variant_ids": {
+              "TAE-PUB-001": 1,
+              "TAE-PUB-002": 3,
+              "TAE-PUB-003": 1
+            },
+            "case_results": {
+              "TAE-PUB-001": "Unresolved",
+              "TAE-PUB-002": "Fail",
+              "TAE-PUB-003": "Unresolved"
+            },
+            "case_result_counts": {
+              "Pass": 0,
+              "Fail": 1,
+              "Unresolved": 2
+            },
+            "cell_state_counts": {
+              "S": 0,
+              "P": 11,
+              "U": 3,
+              "I": 4
+            }
+          },
+          {
+            "combination_id": 10,
+            "case_variant_ids": {
+              "TAE-PUB-001": 1,
+              "TAE-PUB-002": 3,
+              "TAE-PUB-003": 2
+            },
+            "case_results": {
+              "TAE-PUB-001": "Unresolved",
+              "TAE-PUB-002": "Fail",
+              "TAE-PUB-003": "Unresolved"
+            },
+            "case_result_counts": {
+              "Pass": 0,
+              "Fail": 1,
+              "Unresolved": 2
+            },
+            "cell_state_counts": {
+              "S": 0,
+              "P": 10,
+              "U": 3,
+              "I": 5
+            }
+          },
+          {
+            "combination_id": 11,
+            "case_variant_ids": {
+              "TAE-PUB-001": 1,
+              "TAE-PUB-002": 3,
+              "TAE-PUB-003": 3
+            },
+            "case_results": {
+              "TAE-PUB-001": "Unresolved",
+              "TAE-PUB-002": "Fail",
+              "TAE-PUB-003": "Unresolved"
+            },
+            "case_result_counts": {
+              "Pass": 0,
+              "Fail": 1,
+              "Unresolved": 2
+            },
+            "cell_state_counts": {
+              "S": 0,
+              "P": 10,
+              "U": 3,
+              "I": 5
+            }
+          },
+          {
+            "combination_id": 12,
+            "case_variant_ids": {
+              "TAE-PUB-001": 1,
+              "TAE-PUB-002": 3,
+              "TAE-PUB-003": 4
+            },
+            "case_results": {
+              "TAE-PUB-001": "Unresolved",
+              "TAE-PUB-002": "Fail",
+              "TAE-PUB-003": "Unresolved"
+            },
+            "case_result_counts": {
+              "Pass": 0,
+              "Fail": 1,
+              "Unresolved": 2
+            },
+            "cell_state_counts": {
+              "S": 0,
+              "P": 9,
+              "U": 3,
+              "I": 6
+            }
+          },
+          {
+            "combination_id": 13,
+            "case_variant_ids": {
+              "TAE-PUB-001": 1,
+              "TAE-PUB-002": 4,
+              "TAE-PUB-003": 1
+            },
+            "case_results": {
+              "TAE-PUB-001": "Unresolved",
+              "TAE-PUB-002": "Fail",
+              "TAE-PUB-003": "Unresolved"
+            },
+            "case_result_counts": {
+              "Pass": 0,
+              "Fail": 1,
+              "Unresolved": 2
+            },
+            "cell_state_counts": {
+              "S": 0,
+              "P": 10,
+              "U": 3,
+              "I": 5
+            }
+          },
+          {
+            "combination_id": 14,
+            "case_variant_ids": {
+              "TAE-PUB-001": 1,
+              "TAE-PUB-002": 4,
+              "TAE-PUB-003": 2
+            },
+            "case_results": {
+              "TAE-PUB-001": "Unresolved",
+              "TAE-PUB-002": "Fail",
+              "TAE-PUB-003": "Unresolved"
+            },
+            "case_result_counts": {
+              "Pass": 0,
+              "Fail": 1,
+              "Unresolved": 2
+            },
+            "cell_state_counts": {
+              "S": 0,
+              "P": 9,
+              "U": 3,
+              "I": 6
+            }
+          },
+          {
+            "combination_id": 15,
+            "case_variant_ids": {
+              "TAE-PUB-001": 1,
+              "TAE-PUB-002": 4,
+              "TAE-PUB-003": 3
+            },
+            "case_results": {
+              "TAE-PUB-001": "Unresolved",
+              "TAE-PUB-002": "Fail",
+              "TAE-PUB-003": "Unresolved"
+            },
+            "case_result_counts": {
+              "Pass": 0,
+              "Fail": 1,
+              "Unresolved": 2
+            },
+            "cell_state_counts": {
+              "S": 0,
+              "P": 9,
+              "U": 3,
+              "I": 6
+            }
+          },
+          {
+            "combination_id": 16,
+            "case_variant_ids": {
+              "TAE-PUB-001": 1,
+              "TAE-PUB-002": 4,
+              "TAE-PUB-003": 4
+            },
+            "case_results": {
+              "TAE-PUB-001": "Unresolved",
+              "TAE-PUB-002": "Fail",
+              "TAE-PUB-003": "Unresolved"
+            },
+            "case_result_counts": {
+              "Pass": 0,
+              "Fail": 1,
+              "Unresolved": 2
+            },
+            "cell_state_counts": {
+              "S": 0,
+              "P": 8,
+              "U": 3,
+              "I": 7
+            }
+          }
+        ]
+      },
+      {
+        "stage_id": "stage_3",
+        "title": "Stage 3: full amended proposal, conditional and unadopted",
+        "status": "conditional_unadopted",
+        "author_approval": "pending",
+        "source_section": "Stage 3D Conditional aggregate and retained-failure alternatives",
+        "interpretation": "Requires adoption of evidence, construct and boundary amendments and all row-level judgments. Author approval has not been given. The three disputed non-propagation ZG710 U removals do not follow from propagation correction alone.",
+        "cases": [
+          {
+            "case_id": "TAE-PUB-001",
+            "case_name": "Oko",
+            "recorded_state_cells": [
+              "S",
+              "P",
+              "P",
+              "S",
+              "S",
+              "S"
+            ],
+            "alternative_count": 1,
+            "aggregate_invariant": true,
+            "possible_results": [
+              "Unresolved"
+            ],
+            "alternatives": [
+              {
+                "variant_id": 1,
+                "states": [
+                  "S",
+                  "P",
+                  "P",
+                  "S",
+                  "S",
+                  "S"
+                ],
+                "result": "Unresolved",
+                "state_counts": {
+                  "S": 4,
+                  "P": 2,
+                  "U": 0,
+                  "I": 0
+                },
+                "decisive_U_cells": [],
+                "unresolved_blocking_cells": [
+                  {
+                    "condition": "comprehension",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "authority",
+                    "state": "P"
+                  }
+                ],
+                "nondecisive_P_I_cells_when_Fail": [],
+                "reason": "No U is present; the listed P/I cells prevent an all-S Pass."
+              }
+            ]
+          },
+          {
+            "case_id": "TAE-PUB-002",
+            "case_name": "ZG710",
+            "recorded_state_cells": [
+              "P",
+              "I",
+              "P",
+              "P",
+              "P",
+              "S"
+            ],
+            "alternative_count": 1,
+            "aggregate_invariant": true,
+            "possible_results": [
+              "Unresolved"
+            ],
+            "alternatives": [
+              {
+                "variant_id": 1,
+                "states": [
+                  "P",
+                  "I",
+                  "P",
+                  "P",
+                  "P",
+                  "S"
+                ],
+                "result": "Unresolved",
+                "state_counts": {
+                  "S": 1,
+                  "P": 4,
+                  "U": 0,
+                  "I": 1
+                },
+                "decisive_U_cells": [],
+                "unresolved_blocking_cells": [
+                  {
+                    "condition": "access",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "comprehension",
+                    "state": "I"
+                  },
+                  {
+                    "condition": "authority",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "feasibility",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "exercise",
+                    "state": "P"
+                  }
+                ],
+                "nondecisive_P_I_cells_when_Fail": [],
+                "reason": "No U is present; the listed P/I cells prevent an all-S Pass."
+              }
+            ]
+          },
+          {
+            "case_id": "TAE-PUB-003",
+            "case_name": "F/A-18C",
+            "recorded_state_cells": [
+              "P",
+              "I",
+              "P",
+              "P",
+              "P",
+              "P"
+            ],
+            "alternative_count": 1,
+            "aggregate_invariant": true,
+            "possible_results": [
+              "Unresolved"
+            ],
+            "alternatives": [
+              {
+                "variant_id": 1,
+                "states": [
+                  "P",
+                  "I",
+                  "P",
+                  "P",
+                  "P",
+                  "P"
+                ],
+                "result": "Unresolved",
+                "state_counts": {
+                  "S": 0,
+                  "P": 5,
+                  "U": 0,
+                  "I": 1
+                },
+                "decisive_U_cells": [],
+                "unresolved_blocking_cells": [
+                  {
+                    "condition": "access",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "comprehension",
+                    "state": "I"
+                  },
+                  {
+                    "condition": "authority",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "feasibility",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "exercise",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "propagation",
+                    "state": "P"
+                  }
+                ],
+                "nondecisive_P_I_cells_when_Fail": [],
+                "reason": "No U is present; the listed P/I cells prevent an all-S Pass."
+              }
+            ]
+          }
+        ],
+        "joint_assignment_count": 1,
+        "case_result_vector_invariant": true,
+        "case_result_counts_invariant": true,
+        "possible_case_result_counts": [
+          {
+            "Pass": 0,
+            "Fail": 0,
+            "Unresolved": 3
+          }
+        ],
+        "cell_state_count_ranges": {
+          "S": {
+            "min": 5,
+            "max": 5
+          },
+          "P": {
+            "min": 11,
+            "max": 11
+          },
+          "U": {
+            "min": 0,
+            "max": 0
+          },
+          "I": {
+            "min": 2,
+            "max": 2
+          }
+        },
+        "joint_assignments": [
+          {
+            "combination_id": 1,
+            "case_variant_ids": {
+              "TAE-PUB-001": 1,
+              "TAE-PUB-002": 1,
+              "TAE-PUB-003": 1
+            },
+            "case_results": {
+              "TAE-PUB-001": "Unresolved",
+              "TAE-PUB-002": "Unresolved",
+              "TAE-PUB-003": "Unresolved"
+            },
+            "case_result_counts": {
+              "Pass": 0,
+              "Fail": 0,
+              "Unresolved": 3
+            },
+            "cell_state_counts": {
+              "S": 5,
+              "P": 11,
+              "U": 0,
+              "I": 2
+            }
+          }
+        ]
+      }
+    ],
+    "propagation_only_diagnostic": {
+      "stage_id": "propagation_only",
+      "title": "Propagation-only diagnostic",
+      "status": "aggregation_only_not_adopted",
+      "author_approval": "not_applicable",
+      "source_section": "Propagation-only subdiagnostic, before correction 2B",
+      "interpretation": "Aggregation-only diagnostic; S is not asserted to be evidence-eligible under the released framework. All non-propagation cells retain their Stage 1 state.",
+      "cases": [
+        {
+          "case_id": "TAE-PUB-001",
+          "case_name": "Oko",
+          "recorded_state_cells": [
+            "P",
+            "P",
+            "P",
+            "P",
+            "P",
+            "P"
+          ],
+          "alternative_count": 1,
+          "aggregate_invariant": true,
+          "possible_results": [
+            "Unresolved"
+          ],
+          "alternatives": [
+            {
+              "variant_id": 1,
+              "states": [
+                "P",
+                "P",
+                "P",
+                "P",
+                "P",
+                "P"
+              ],
+              "result": "Unresolved",
+              "state_counts": {
+                "S": 0,
+                "P": 6,
+                "U": 0,
+                "I": 0
+              },
+              "decisive_U_cells": [],
+              "unresolved_blocking_cells": [
+                {
+                  "condition": "access",
+                  "state": "P"
+                },
+                {
+                  "condition": "comprehension",
+                  "state": "P"
+                },
+                {
+                  "condition": "authority",
+                  "state": "P"
+                },
+                {
+                  "condition": "feasibility",
+                  "state": "P"
+                },
+                {
+                  "condition": "exercise",
+                  "state": "P"
+                },
+                {
+                  "condition": "propagation",
+                  "state": "P"
+                }
+              ],
+              "nondecisive_P_I_cells_when_Fail": [],
+              "reason": "No U is present; the listed P/I cells prevent an all-S Pass."
+            }
+          ]
+        },
+        {
+          "case_id": "TAE-PUB-002",
+          "case_name": "ZG710",
+          "recorded_state_cells": [
+            "P",
+            "U",
+            "S",
+            "U",
+            "U",
+            [
+              "S",
+              "P",
+              "I"
+            ]
+          ],
+          "alternative_count": 3,
+          "aggregate_invariant": true,
+          "possible_results": [
+            "Fail"
+          ],
+          "alternatives": [
+            {
+              "variant_id": 1,
+              "states": [
+                "P",
+                "U",
+                "S",
+                "U",
+                "U",
+                "S"
+              ],
+              "result": "Fail",
+              "state_counts": {
+                "S": 2,
+                "P": 1,
+                "U": 3,
+                "I": 0
+              },
+              "decisive_U_cells": [
+                {
+                  "condition": "comprehension",
+                  "state": "U"
+                },
+                {
+                  "condition": "feasibility",
+                  "state": "U"
+                },
+                {
+                  "condition": "exercise",
+                  "state": "U"
+                }
+              ],
+              "unresolved_blocking_cells": [],
+              "nondecisive_P_I_cells_when_Fail": [
+                {
+                  "condition": "access",
+                  "state": "P"
+                }
+              ],
+              "reason": "Any U is sufficient for Fail; P/I elsewhere cannot override it."
+            },
+            {
+              "variant_id": 2,
+              "states": [
+                "P",
+                "U",
+                "S",
+                "U",
+                "U",
+                "P"
+              ],
+              "result": "Fail",
+              "state_counts": {
+                "S": 1,
+                "P": 2,
+                "U": 3,
+                "I": 0
+              },
+              "decisive_U_cells": [
+                {
+                  "condition": "comprehension",
+                  "state": "U"
+                },
+                {
+                  "condition": "feasibility",
+                  "state": "U"
+                },
+                {
+                  "condition": "exercise",
+                  "state": "U"
+                }
+              ],
+              "unresolved_blocking_cells": [],
+              "nondecisive_P_I_cells_when_Fail": [
+                {
+                  "condition": "access",
+                  "state": "P"
+                },
+                {
+                  "condition": "propagation",
+                  "state": "P"
+                }
+              ],
+              "reason": "Any U is sufficient for Fail; P/I elsewhere cannot override it."
+            },
+            {
+              "variant_id": 3,
+              "states": [
+                "P",
+                "U",
+                "S",
+                "U",
+                "U",
+                "I"
+              ],
+              "result": "Fail",
+              "state_counts": {
+                "S": 1,
+                "P": 1,
+                "U": 3,
+                "I": 1
+              },
+              "decisive_U_cells": [
+                {
+                  "condition": "comprehension",
+                  "state": "U"
+                },
+                {
+                  "condition": "feasibility",
+                  "state": "U"
+                },
+                {
+                  "condition": "exercise",
+                  "state": "U"
+                }
+              ],
+              "unresolved_blocking_cells": [],
+              "nondecisive_P_I_cells_when_Fail": [
+                {
+                  "condition": "access",
+                  "state": "P"
+                },
+                {
+                  "condition": "propagation",
+                  "state": "I"
+                }
+              ],
+              "reason": "Any U is sufficient for Fail; P/I elsewhere cannot override it."
+            }
+          ]
+        },
+        {
+          "case_id": "TAE-PUB-003",
+          "case_name": "F/A-18C",
+          "recorded_state_cells": [
+            "P",
+            "I",
+            "S",
+            "I",
+            "I",
+            [
+              "S",
+              "P",
+              "I"
+            ]
+          ],
+          "alternative_count": 3,
+          "aggregate_invariant": true,
+          "possible_results": [
+            "Unresolved"
+          ],
+          "alternatives": [
+            {
+              "variant_id": 1,
+              "states": [
+                "P",
+                "I",
+                "S",
+                "I",
+                "I",
+                "S"
+              ],
+              "result": "Unresolved",
+              "state_counts": {
+                "S": 2,
+                "P": 1,
+                "U": 0,
+                "I": 3
+              },
+              "decisive_U_cells": [],
+              "unresolved_blocking_cells": [
+                {
+                  "condition": "access",
+                  "state": "P"
+                },
+                {
+                  "condition": "comprehension",
+                  "state": "I"
+                },
+                {
+                  "condition": "feasibility",
+                  "state": "I"
+                },
+                {
+                  "condition": "exercise",
+                  "state": "I"
+                }
+              ],
+              "nondecisive_P_I_cells_when_Fail": [],
+              "reason": "No U is present; the listed P/I cells prevent an all-S Pass."
+            },
+            {
+              "variant_id": 2,
+              "states": [
+                "P",
+                "I",
+                "S",
+                "I",
+                "I",
+                "P"
+              ],
+              "result": "Unresolved",
+              "state_counts": {
+                "S": 1,
+                "P": 2,
+                "U": 0,
+                "I": 3
+              },
+              "decisive_U_cells": [],
+              "unresolved_blocking_cells": [
+                {
+                  "condition": "access",
+                  "state": "P"
+                },
+                {
+                  "condition": "comprehension",
+                  "state": "I"
+                },
+                {
+                  "condition": "feasibility",
+                  "state": "I"
+                },
+                {
+                  "condition": "exercise",
+                  "state": "I"
+                },
+                {
+                  "condition": "propagation",
+                  "state": "P"
+                }
+              ],
+              "nondecisive_P_I_cells_when_Fail": [],
+              "reason": "No U is present; the listed P/I cells prevent an all-S Pass."
+            },
+            {
+              "variant_id": 3,
+              "states": [
+                "P",
+                "I",
+                "S",
+                "I",
+                "I",
+                "I"
+              ],
+              "result": "Unresolved",
+              "state_counts": {
+                "S": 1,
+                "P": 1,
+                "U": 0,
+                "I": 4
+              },
+              "decisive_U_cells": [],
+              "unresolved_blocking_cells": [
+                {
+                  "condition": "access",
+                  "state": "P"
+                },
+                {
+                  "condition": "comprehension",
+                  "state": "I"
+                },
+                {
+                  "condition": "feasibility",
+                  "state": "I"
+                },
+                {
+                  "condition": "exercise",
+                  "state": "I"
+                },
+                {
+                  "condition": "propagation",
+                  "state": "I"
+                }
+              ],
+              "nondecisive_P_I_cells_when_Fail": [],
+              "reason": "No U is present; the listed P/I cells prevent an all-S Pass."
+            }
+          ]
+        }
+      ],
+      "joint_assignment_count": 9,
+      "case_result_vector_invariant": true,
+      "case_result_counts_invariant": true,
+      "possible_case_result_counts": [
+        {
+          "Pass": 0,
+          "Fail": 1,
+          "Unresolved": 2
+        }
+      ],
+      "cell_state_count_ranges": {
+        "S": {
+          "min": 2,
+          "max": 4
+        },
+        "P": {
+          "min": 8,
+          "max": 10
+        },
+        "U": {
+          "min": 3,
+          "max": 3
+        },
+        "I": {
+          "min": 3,
+          "max": 5
+        }
+      },
+      "joint_assignments": [
+        {
+          "combination_id": 1,
+          "case_variant_ids": {
+            "TAE-PUB-001": 1,
+            "TAE-PUB-002": 1,
+            "TAE-PUB-003": 1
+          },
+          "case_results": {
+            "TAE-PUB-001": "Unresolved",
+            "TAE-PUB-002": "Fail",
+            "TAE-PUB-003": "Unresolved"
+          },
+          "case_result_counts": {
+            "Pass": 0,
+            "Fail": 1,
+            "Unresolved": 2
+          },
+          "cell_state_counts": {
+            "S": 4,
+            "P": 8,
+            "U": 3,
+            "I": 3
+          }
+        },
+        {
+          "combination_id": 2,
+          "case_variant_ids": {
+            "TAE-PUB-001": 1,
+            "TAE-PUB-002": 1,
+            "TAE-PUB-003": 2
+          },
+          "case_results": {
+            "TAE-PUB-001": "Unresolved",
+            "TAE-PUB-002": "Fail",
+            "TAE-PUB-003": "Unresolved"
+          },
+          "case_result_counts": {
+            "Pass": 0,
+            "Fail": 1,
+            "Unresolved": 2
+          },
+          "cell_state_counts": {
+            "S": 3,
+            "P": 9,
+            "U": 3,
+            "I": 3
+          }
+        },
+        {
+          "combination_id": 3,
+          "case_variant_ids": {
+            "TAE-PUB-001": 1,
+            "TAE-PUB-002": 1,
+            "TAE-PUB-003": 3
+          },
+          "case_results": {
+            "TAE-PUB-001": "Unresolved",
+            "TAE-PUB-002": "Fail",
+            "TAE-PUB-003": "Unresolved"
+          },
+          "case_result_counts": {
+            "Pass": 0,
+            "Fail": 1,
+            "Unresolved": 2
+          },
+          "cell_state_counts": {
+            "S": 3,
+            "P": 8,
+            "U": 3,
+            "I": 4
+          }
+        },
+        {
+          "combination_id": 4,
+          "case_variant_ids": {
+            "TAE-PUB-001": 1,
+            "TAE-PUB-002": 2,
+            "TAE-PUB-003": 1
+          },
+          "case_results": {
+            "TAE-PUB-001": "Unresolved",
+            "TAE-PUB-002": "Fail",
+            "TAE-PUB-003": "Unresolved"
+          },
+          "case_result_counts": {
+            "Pass": 0,
+            "Fail": 1,
+            "Unresolved": 2
+          },
+          "cell_state_counts": {
+            "S": 3,
+            "P": 9,
+            "U": 3,
+            "I": 3
+          }
+        },
+        {
+          "combination_id": 5,
+          "case_variant_ids": {
+            "TAE-PUB-001": 1,
+            "TAE-PUB-002": 2,
+            "TAE-PUB-003": 2
+          },
+          "case_results": {
+            "TAE-PUB-001": "Unresolved",
+            "TAE-PUB-002": "Fail",
+            "TAE-PUB-003": "Unresolved"
+          },
+          "case_result_counts": {
+            "Pass": 0,
+            "Fail": 1,
+            "Unresolved": 2
+          },
+          "cell_state_counts": {
+            "S": 2,
+            "P": 10,
+            "U": 3,
+            "I": 3
+          }
+        },
+        {
+          "combination_id": 6,
+          "case_variant_ids": {
+            "TAE-PUB-001": 1,
+            "TAE-PUB-002": 2,
+            "TAE-PUB-003": 3
+          },
+          "case_results": {
+            "TAE-PUB-001": "Unresolved",
+            "TAE-PUB-002": "Fail",
+            "TAE-PUB-003": "Unresolved"
+          },
+          "case_result_counts": {
+            "Pass": 0,
+            "Fail": 1,
+            "Unresolved": 2
+          },
+          "cell_state_counts": {
+            "S": 2,
+            "P": 9,
+            "U": 3,
+            "I": 4
+          }
+        },
+        {
+          "combination_id": 7,
+          "case_variant_ids": {
+            "TAE-PUB-001": 1,
+            "TAE-PUB-002": 3,
+            "TAE-PUB-003": 1
+          },
+          "case_results": {
+            "TAE-PUB-001": "Unresolved",
+            "TAE-PUB-002": "Fail",
+            "TAE-PUB-003": "Unresolved"
+          },
+          "case_result_counts": {
+            "Pass": 0,
+            "Fail": 1,
+            "Unresolved": 2
+          },
+          "cell_state_counts": {
+            "S": 3,
+            "P": 8,
+            "U": 3,
+            "I": 4
+          }
+        },
+        {
+          "combination_id": 8,
+          "case_variant_ids": {
+            "TAE-PUB-001": 1,
+            "TAE-PUB-002": 3,
+            "TAE-PUB-003": 2
+          },
+          "case_results": {
+            "TAE-PUB-001": "Unresolved",
+            "TAE-PUB-002": "Fail",
+            "TAE-PUB-003": "Unresolved"
+          },
+          "case_result_counts": {
+            "Pass": 0,
+            "Fail": 1,
+            "Unresolved": 2
+          },
+          "cell_state_counts": {
+            "S": 2,
+            "P": 9,
+            "U": 3,
+            "I": 4
+          }
+        },
+        {
+          "combination_id": 9,
+          "case_variant_ids": {
+            "TAE-PUB-001": 1,
+            "TAE-PUB-002": 3,
+            "TAE-PUB-003": 3
+          },
+          "case_results": {
+            "TAE-PUB-001": "Unresolved",
+            "TAE-PUB-002": "Fail",
+            "TAE-PUB-003": "Unresolved"
+          },
+          "case_result_counts": {
+            "Pass": 0,
+            "Fail": 1,
+            "Unresolved": 2
+          },
+          "cell_state_counts": {
+            "S": 2,
+            "P": 8,
+            "U": 3,
+            "I": 5
+          }
+        }
+      ]
+    },
+    "single_U_rule_illustrations": [
+      {
+        "stage_id": "zg710_single_comprehension_u",
+        "title": "comprehension: counterfactual single-U rule illustration",
+        "status": "rule_illustration_not_adopted",
+        "author_approval": "not_applicable",
+        "source_section": "Stage 3D Conditional aggregate and retained-failure alternatives",
+        "interpretation": "Counterfactual single-U rule illustration, not adopted historical states or empirical sensitivity analysis.",
+        "cases": [
+          {
+            "case_id": "TAE-PUB-001",
+            "case_name": "Oko",
+            "recorded_state_cells": [
+              "S",
+              "P",
+              "P",
+              "S",
+              "S",
+              "S"
+            ],
+            "alternative_count": 1,
+            "aggregate_invariant": true,
+            "possible_results": [
+              "Unresolved"
+            ],
+            "alternatives": [
+              {
+                "variant_id": 1,
+                "states": [
+                  "S",
+                  "P",
+                  "P",
+                  "S",
+                  "S",
+                  "S"
+                ],
+                "result": "Unresolved",
+                "state_counts": {
+                  "S": 4,
+                  "P": 2,
+                  "U": 0,
+                  "I": 0
+                },
+                "decisive_U_cells": [],
+                "unresolved_blocking_cells": [
+                  {
+                    "condition": "comprehension",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "authority",
+                    "state": "P"
+                  }
+                ],
+                "nondecisive_P_I_cells_when_Fail": [],
+                "reason": "No U is present; the listed P/I cells prevent an all-S Pass."
+              }
+            ]
+          },
+          {
+            "case_id": "TAE-PUB-002",
+            "case_name": "ZG710",
+            "recorded_state_cells": [
+              "P",
+              "U",
+              "P",
+              "P",
+              "P",
+              "S"
+            ],
+            "alternative_count": 1,
+            "aggregate_invariant": true,
+            "possible_results": [
+              "Fail"
+            ],
+            "alternatives": [
+              {
+                "variant_id": 1,
+                "states": [
+                  "P",
+                  "U",
+                  "P",
+                  "P",
+                  "P",
+                  "S"
+                ],
+                "result": "Fail",
+                "state_counts": {
+                  "S": 1,
+                  "P": 4,
+                  "U": 1,
+                  "I": 0
+                },
+                "decisive_U_cells": [
+                  {
+                    "condition": "comprehension",
+                    "state": "U"
+                  }
+                ],
+                "unresolved_blocking_cells": [],
+                "nondecisive_P_I_cells_when_Fail": [
+                  {
+                    "condition": "access",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "authority",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "feasibility",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "exercise",
+                    "state": "P"
+                  }
+                ],
+                "reason": "Any U is sufficient for Fail; P/I elsewhere cannot override it."
+              }
+            ]
+          },
+          {
+            "case_id": "TAE-PUB-003",
+            "case_name": "F/A-18C",
+            "recorded_state_cells": [
+              "P",
+              "I",
+              "P",
+              "P",
+              "P",
+              "P"
+            ],
+            "alternative_count": 1,
+            "aggregate_invariant": true,
+            "possible_results": [
+              "Unresolved"
+            ],
+            "alternatives": [
+              {
+                "variant_id": 1,
+                "states": [
+                  "P",
+                  "I",
+                  "P",
+                  "P",
+                  "P",
+                  "P"
+                ],
+                "result": "Unresolved",
+                "state_counts": {
+                  "S": 0,
+                  "P": 5,
+                  "U": 0,
+                  "I": 1
+                },
+                "decisive_U_cells": [],
+                "unresolved_blocking_cells": [
+                  {
+                    "condition": "access",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "comprehension",
+                    "state": "I"
+                  },
+                  {
+                    "condition": "authority",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "feasibility",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "exercise",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "propagation",
+                    "state": "P"
+                  }
+                ],
+                "nondecisive_P_I_cells_when_Fail": [],
+                "reason": "No U is present; the listed P/I cells prevent an all-S Pass."
+              }
+            ]
+          }
+        ],
+        "joint_assignment_count": 1,
+        "case_result_vector_invariant": true,
+        "case_result_counts_invariant": true,
+        "possible_case_result_counts": [
+          {
+            "Pass": 0,
+            "Fail": 1,
+            "Unresolved": 2
+          }
+        ],
+        "cell_state_count_ranges": {
+          "S": {
+            "min": 5,
+            "max": 5
+          },
+          "P": {
+            "min": 11,
+            "max": 11
+          },
+          "U": {
+            "min": 1,
+            "max": 1
+          },
+          "I": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        "joint_assignments": [
+          {
+            "combination_id": 1,
+            "case_variant_ids": {
+              "TAE-PUB-001": 1,
+              "TAE-PUB-002": 1,
+              "TAE-PUB-003": 1
+            },
+            "case_results": {
+              "TAE-PUB-001": "Unresolved",
+              "TAE-PUB-002": "Fail",
+              "TAE-PUB-003": "Unresolved"
+            },
+            "case_result_counts": {
+              "Pass": 0,
+              "Fail": 1,
+              "Unresolved": 2
+            },
+            "cell_state_counts": {
+              "S": 5,
+              "P": 11,
+              "U": 1,
+              "I": 1
+            }
+          }
+        ]
+      },
+      {
+        "stage_id": "zg710_single_feasibility_u",
+        "title": "feasibility: counterfactual single-U rule illustration",
+        "status": "rule_illustration_not_adopted",
+        "author_approval": "not_applicable",
+        "source_section": "Stage 3D Conditional aggregate and retained-failure alternatives",
+        "interpretation": "Counterfactual single-U rule illustration, not adopted historical states or empirical sensitivity analysis.",
+        "cases": [
+          {
+            "case_id": "TAE-PUB-001",
+            "case_name": "Oko",
+            "recorded_state_cells": [
+              "S",
+              "P",
+              "P",
+              "S",
+              "S",
+              "S"
+            ],
+            "alternative_count": 1,
+            "aggregate_invariant": true,
+            "possible_results": [
+              "Unresolved"
+            ],
+            "alternatives": [
+              {
+                "variant_id": 1,
+                "states": [
+                  "S",
+                  "P",
+                  "P",
+                  "S",
+                  "S",
+                  "S"
+                ],
+                "result": "Unresolved",
+                "state_counts": {
+                  "S": 4,
+                  "P": 2,
+                  "U": 0,
+                  "I": 0
+                },
+                "decisive_U_cells": [],
+                "unresolved_blocking_cells": [
+                  {
+                    "condition": "comprehension",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "authority",
+                    "state": "P"
+                  }
+                ],
+                "nondecisive_P_I_cells_when_Fail": [],
+                "reason": "No U is present; the listed P/I cells prevent an all-S Pass."
+              }
+            ]
+          },
+          {
+            "case_id": "TAE-PUB-002",
+            "case_name": "ZG710",
+            "recorded_state_cells": [
+              "P",
+              "I",
+              "P",
+              "U",
+              "P",
+              "S"
+            ],
+            "alternative_count": 1,
+            "aggregate_invariant": true,
+            "possible_results": [
+              "Fail"
+            ],
+            "alternatives": [
+              {
+                "variant_id": 1,
+                "states": [
+                  "P",
+                  "I",
+                  "P",
+                  "U",
+                  "P",
+                  "S"
+                ],
+                "result": "Fail",
+                "state_counts": {
+                  "S": 1,
+                  "P": 3,
+                  "U": 1,
+                  "I": 1
+                },
+                "decisive_U_cells": [
+                  {
+                    "condition": "feasibility",
+                    "state": "U"
+                  }
+                ],
+                "unresolved_blocking_cells": [],
+                "nondecisive_P_I_cells_when_Fail": [
+                  {
+                    "condition": "access",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "comprehension",
+                    "state": "I"
+                  },
+                  {
+                    "condition": "authority",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "exercise",
+                    "state": "P"
+                  }
+                ],
+                "reason": "Any U is sufficient for Fail; P/I elsewhere cannot override it."
+              }
+            ]
+          },
+          {
+            "case_id": "TAE-PUB-003",
+            "case_name": "F/A-18C",
+            "recorded_state_cells": [
+              "P",
+              "I",
+              "P",
+              "P",
+              "P",
+              "P"
+            ],
+            "alternative_count": 1,
+            "aggregate_invariant": true,
+            "possible_results": [
+              "Unresolved"
+            ],
+            "alternatives": [
+              {
+                "variant_id": 1,
+                "states": [
+                  "P",
+                  "I",
+                  "P",
+                  "P",
+                  "P",
+                  "P"
+                ],
+                "result": "Unresolved",
+                "state_counts": {
+                  "S": 0,
+                  "P": 5,
+                  "U": 0,
+                  "I": 1
+                },
+                "decisive_U_cells": [],
+                "unresolved_blocking_cells": [
+                  {
+                    "condition": "access",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "comprehension",
+                    "state": "I"
+                  },
+                  {
+                    "condition": "authority",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "feasibility",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "exercise",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "propagation",
+                    "state": "P"
+                  }
+                ],
+                "nondecisive_P_I_cells_when_Fail": [],
+                "reason": "No U is present; the listed P/I cells prevent an all-S Pass."
+              }
+            ]
+          }
+        ],
+        "joint_assignment_count": 1,
+        "case_result_vector_invariant": true,
+        "case_result_counts_invariant": true,
+        "possible_case_result_counts": [
+          {
+            "Pass": 0,
+            "Fail": 1,
+            "Unresolved": 2
+          }
+        ],
+        "cell_state_count_ranges": {
+          "S": {
+            "min": 5,
+            "max": 5
+          },
+          "P": {
+            "min": 10,
+            "max": 10
+          },
+          "U": {
+            "min": 1,
+            "max": 1
+          },
+          "I": {
+            "min": 2,
+            "max": 2
+          }
+        },
+        "joint_assignments": [
+          {
+            "combination_id": 1,
+            "case_variant_ids": {
+              "TAE-PUB-001": 1,
+              "TAE-PUB-002": 1,
+              "TAE-PUB-003": 1
+            },
+            "case_results": {
+              "TAE-PUB-001": "Unresolved",
+              "TAE-PUB-002": "Fail",
+              "TAE-PUB-003": "Unresolved"
+            },
+            "case_result_counts": {
+              "Pass": 0,
+              "Fail": 1,
+              "Unresolved": 2
+            },
+            "cell_state_counts": {
+              "S": 5,
+              "P": 10,
+              "U": 1,
+              "I": 2
+            }
+          }
+        ]
+      },
+      {
+        "stage_id": "zg710_single_exercise_u",
+        "title": "exercise: counterfactual single-U rule illustration",
+        "status": "rule_illustration_not_adopted",
+        "author_approval": "not_applicable",
+        "source_section": "Stage 3D Conditional aggregate and retained-failure alternatives",
+        "interpretation": "Counterfactual single-U rule illustration, not adopted historical states or empirical sensitivity analysis.",
+        "cases": [
+          {
+            "case_id": "TAE-PUB-001",
+            "case_name": "Oko",
+            "recorded_state_cells": [
+              "S",
+              "P",
+              "P",
+              "S",
+              "S",
+              "S"
+            ],
+            "alternative_count": 1,
+            "aggregate_invariant": true,
+            "possible_results": [
+              "Unresolved"
+            ],
+            "alternatives": [
+              {
+                "variant_id": 1,
+                "states": [
+                  "S",
+                  "P",
+                  "P",
+                  "S",
+                  "S",
+                  "S"
+                ],
+                "result": "Unresolved",
+                "state_counts": {
+                  "S": 4,
+                  "P": 2,
+                  "U": 0,
+                  "I": 0
+                },
+                "decisive_U_cells": [],
+                "unresolved_blocking_cells": [
+                  {
+                    "condition": "comprehension",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "authority",
+                    "state": "P"
+                  }
+                ],
+                "nondecisive_P_I_cells_when_Fail": [],
+                "reason": "No U is present; the listed P/I cells prevent an all-S Pass."
+              }
+            ]
+          },
+          {
+            "case_id": "TAE-PUB-002",
+            "case_name": "ZG710",
+            "recorded_state_cells": [
+              "P",
+              "I",
+              "P",
+              "P",
+              "U",
+              "S"
+            ],
+            "alternative_count": 1,
+            "aggregate_invariant": true,
+            "possible_results": [
+              "Fail"
+            ],
+            "alternatives": [
+              {
+                "variant_id": 1,
+                "states": [
+                  "P",
+                  "I",
+                  "P",
+                  "P",
+                  "U",
+                  "S"
+                ],
+                "result": "Fail",
+                "state_counts": {
+                  "S": 1,
+                  "P": 3,
+                  "U": 1,
+                  "I": 1
+                },
+                "decisive_U_cells": [
+                  {
+                    "condition": "exercise",
+                    "state": "U"
+                  }
+                ],
+                "unresolved_blocking_cells": [],
+                "nondecisive_P_I_cells_when_Fail": [
+                  {
+                    "condition": "access",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "comprehension",
+                    "state": "I"
+                  },
+                  {
+                    "condition": "authority",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "feasibility",
+                    "state": "P"
+                  }
+                ],
+                "reason": "Any U is sufficient for Fail; P/I elsewhere cannot override it."
+              }
+            ]
+          },
+          {
+            "case_id": "TAE-PUB-003",
+            "case_name": "F/A-18C",
+            "recorded_state_cells": [
+              "P",
+              "I",
+              "P",
+              "P",
+              "P",
+              "P"
+            ],
+            "alternative_count": 1,
+            "aggregate_invariant": true,
+            "possible_results": [
+              "Unresolved"
+            ],
+            "alternatives": [
+              {
+                "variant_id": 1,
+                "states": [
+                  "P",
+                  "I",
+                  "P",
+                  "P",
+                  "P",
+                  "P"
+                ],
+                "result": "Unresolved",
+                "state_counts": {
+                  "S": 0,
+                  "P": 5,
+                  "U": 0,
+                  "I": 1
+                },
+                "decisive_U_cells": [],
+                "unresolved_blocking_cells": [
+                  {
+                    "condition": "access",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "comprehension",
+                    "state": "I"
+                  },
+                  {
+                    "condition": "authority",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "feasibility",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "exercise",
+                    "state": "P"
+                  },
+                  {
+                    "condition": "propagation",
+                    "state": "P"
+                  }
+                ],
+                "nondecisive_P_I_cells_when_Fail": [],
+                "reason": "No U is present; the listed P/I cells prevent an all-S Pass."
+              }
+            ]
+          }
+        ],
+        "joint_assignment_count": 1,
+        "case_result_vector_invariant": true,
+        "case_result_counts_invariant": true,
+        "possible_case_result_counts": [
+          {
+            "Pass": 0,
+            "Fail": 1,
+            "Unresolved": 2
+          }
+        ],
+        "cell_state_count_ranges": {
+          "S": {
+            "min": 5,
+            "max": 5
+          },
+          "P": {
+            "min": 10,
+            "max": 10
+          },
+          "U": {
+            "min": 1,
+            "max": 1
+          },
+          "I": {
+            "min": 2,
+            "max": 2
+          }
+        },
+        "joint_assignments": [
+          {
+            "combination_id": 1,
+            "case_variant_ids": {
+              "TAE-PUB-001": 1,
+              "TAE-PUB-002": 1,
+              "TAE-PUB-003": 1
+            },
+            "case_results": {
+              "TAE-PUB-001": "Unresolved",
+              "TAE-PUB-002": "Fail",
+              "TAE-PUB-003": "Unresolved"
+            },
+            "case_result_counts": {
+              "Pass": 0,
+              "Fail": 1,
+              "Unresolved": 2
+            },
+            "cell_state_counts": {
+              "S": 5,
+              "P": 10,
+              "U": 1,
+              "I": 2
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "limitations": [
+    "The checker tests arithmetic over supplied categorical labels; it does not validate the evidence, states, or historical source-to-condition inferences.",
+    "State sets are alternative assignments drawn from S/P/U/I, not a fifth state. Cartesian enumeration asserts no probabilities or evidentiary independence.",
+    "A U is decisive even if P or I occurs elsewhere. P/I cells block Pass only when no U is present.",
+    "No historical assessments are overwritten. Stage 3 and the labeled rule illustrations remain unadopted.",
+    "The frozen cutoff and source provenance are reproduced from the ledger. This package does not independently retrieve or authenticate the historical repository blobs or source evidence."
+  ]
+}

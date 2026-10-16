@@ -1,0 +1,131 @@
+STAGED AGGREGATION: MECHANICAL REPRODUCTION
+This checks recorded labels, not the evidence or the validity of those labels.
+Stage 3 is conditional and unadopted; historical assessments remain unchanged.
+Order: access, comprehension, authority, feasibility, exercise, propagation
+Rule: any U => Fail; otherwise all S => Pass; otherwise P/I => Unresolved.
+Input SHA-256: 6f06fb8d5052fe76a569dcc05dec2a17b9c5122ff453a75e12ef3d9d2eaef12a
+Ledger SHA-256: a7ad4f0870eeea07e21229613ae820bf5611f03c36f0774c41d10e992f2a76d5
+
+Stage 1: released historical baseline
+Status: released_historical
+Preserves the historical recorded states and results without revalidation.
+  Oko: Unresolved; 1 assignment(s); invariant=True
+    P/P/P/P/P/P => Unresolved; unresolved blockers: access=P, comprehension=P, authority=P, feasibility=P, exercise=P, propagation=P
+  ZG710: Fail; 1 assignment(s); invariant=True
+    P/U/S/U/U/U => Fail; decisive U cells: comprehension=U, feasibility=U, exercise=U, propagation=U
+  F/A-18C: Fail; 1 assignment(s); invariant=True
+    P/I/S/I/I/U => Fail; decisive U cells: propagation=U
+  Joint assignments enumerated: 1
+  Case-result vector invariant: True
+  Possible totals: 0 Pass, 2 Fail, 1 Unresolved
+  Cell-count ranges: S=2, P=8, U=5, I=3
+
+Stage 2: limited original-framework corrections
+Status: conditional_state_sets
+Authority and propagation are unresolved P/I choices for each Patriot case. All other released cells are retained, not freshly validated. ZG710 Fail is conditional on retaining at least one non-propagation U.
+  Oko: Unresolved; 1 assignment(s); invariant=True
+    P/P/P/P/P/P => Unresolved; unresolved blockers: access=P, comprehension=P, authority=P, feasibility=P, exercise=P, propagation=P
+  ZG710: Fail; 4 assignment(s); invariant=True
+    P/U/P/U/U/P => Fail; decisive U cells: comprehension=U, feasibility=U, exercise=U
+    P/U/P/U/U/I => Fail; decisive U cells: comprehension=U, feasibility=U, exercise=U
+    P/U/I/U/U/P => Fail; decisive U cells: comprehension=U, feasibility=U, exercise=U
+    P/U/I/U/U/I => Fail; decisive U cells: comprehension=U, feasibility=U, exercise=U
+  F/A-18C: Unresolved; 4 assignment(s); invariant=True
+    P/I/P/I/I/P => Unresolved; unresolved blockers: access=P, comprehension=I, authority=P, feasibility=I, exercise=I, propagation=P
+    P/I/P/I/I/I => Unresolved; unresolved blockers: access=P, comprehension=I, authority=P, feasibility=I, exercise=I, propagation=I
+    P/I/I/I/I/P => Unresolved; unresolved blockers: access=P, comprehension=I, authority=I, feasibility=I, exercise=I, propagation=P
+    P/I/I/I/I/I => Unresolved; unresolved blockers: access=P, comprehension=I, authority=I, feasibility=I, exercise=I, propagation=I
+  Joint assignments enumerated: 16
+  Case-result vector invariant: True
+  Possible totals: 0 Pass, 1 Fail, 2 Unresolved
+  Cell-count ranges: S=0, P=8..12, U=3, I=3..7
+
+Stage 3: full amended proposal, conditional and unadopted
+Status: conditional_unadopted
+Requires adoption of evidence, construct and boundary amendments and all row-level judgments. Author approval has not been given. The three disputed non-propagation ZG710 U removals do not follow from propagation correction alone.
+  Oko: Unresolved; 1 assignment(s); invariant=True
+    S/P/P/S/S/S => Unresolved; unresolved blockers: comprehension=P, authority=P
+  ZG710: Unresolved; 1 assignment(s); invariant=True
+    P/I/P/P/P/S => Unresolved; unresolved blockers: access=P, comprehension=I, authority=P, feasibility=P, exercise=P
+  F/A-18C: Unresolved; 1 assignment(s); invariant=True
+    P/I/P/P/P/P => Unresolved; unresolved blockers: access=P, comprehension=I, authority=P, feasibility=P, exercise=P, propagation=P
+  Joint assignments enumerated: 1
+  Case-result vector invariant: True
+  Possible totals: 0 Pass, 0 Fail, 3 Unresolved
+  Cell-count ranges: S=5, P=11, U=0, I=2
+
+Propagation-only diagnostic
+Status: aggregation_only_not_adopted
+Aggregation-only diagnostic; S is not asserted to be evidence-eligible under the released framework. All non-propagation cells retain their Stage 1 state.
+  Oko: Unresolved; 1 assignment(s); invariant=True
+    P/P/P/P/P/P => Unresolved; unresolved blockers: access=P, comprehension=P, authority=P, feasibility=P, exercise=P, propagation=P
+  ZG710: Fail; 3 assignment(s); invariant=True
+    P/U/S/U/U/S => Fail; decisive U cells: comprehension=U, feasibility=U, exercise=U
+    P/U/S/U/U/P => Fail; decisive U cells: comprehension=U, feasibility=U, exercise=U
+    P/U/S/U/U/I => Fail; decisive U cells: comprehension=U, feasibility=U, exercise=U
+  F/A-18C: Unresolved; 3 assignment(s); invariant=True
+    P/I/S/I/I/S => Unresolved; unresolved blockers: access=P, comprehension=I, feasibility=I, exercise=I
+    P/I/S/I/I/P => Unresolved; unresolved blockers: access=P, comprehension=I, feasibility=I, exercise=I, propagation=P
+    P/I/S/I/I/I => Unresolved; unresolved blockers: access=P, comprehension=I, feasibility=I, exercise=I, propagation=I
+  Joint assignments enumerated: 9
+  Case-result vector invariant: True
+  Possible totals: 0 Pass, 1 Fail, 2 Unresolved
+  Cell-count ranges: S=2..4, P=8..10, U=3, I=3..5
+
+comprehension: counterfactual single-U rule illustration
+Status: rule_illustration_not_adopted
+Counterfactual single-U rule illustration, not adopted historical states or empirical sensitivity analysis.
+  Oko: Unresolved; 1 assignment(s); invariant=True
+    S/P/P/S/S/S => Unresolved; unresolved blockers: comprehension=P, authority=P
+  ZG710: Fail; 1 assignment(s); invariant=True
+    P/U/P/P/P/S => Fail; decisive U cells: comprehension=U
+  F/A-18C: Unresolved; 1 assignment(s); invariant=True
+    P/I/P/P/P/P => Unresolved; unresolved blockers: access=P, comprehension=I, authority=P, feasibility=P, exercise=P, propagation=P
+  Joint assignments enumerated: 1
+  Case-result vector invariant: True
+  Possible totals: 0 Pass, 1 Fail, 2 Unresolved
+  Cell-count ranges: S=5, P=11, U=1, I=1
+
+feasibility: counterfactual single-U rule illustration
+Status: rule_illustration_not_adopted
+Counterfactual single-U rule illustration, not adopted historical states or empirical sensitivity analysis.
+  Oko: Unresolved; 1 assignment(s); invariant=True
+    S/P/P/S/S/S => Unresolved; unresolved blockers: comprehension=P, authority=P
+  ZG710: Fail; 1 assignment(s); invariant=True
+    P/I/P/U/P/S => Fail; decisive U cells: feasibility=U
+  F/A-18C: Unresolved; 1 assignment(s); invariant=True
+    P/I/P/P/P/P => Unresolved; unresolved blockers: access=P, comprehension=I, authority=P, feasibility=P, exercise=P, propagation=P
+  Joint assignments enumerated: 1
+  Case-result vector invariant: True
+  Possible totals: 0 Pass, 1 Fail, 2 Unresolved
+  Cell-count ranges: S=5, P=10, U=1, I=2
+
+exercise: counterfactual single-U rule illustration
+Status: rule_illustration_not_adopted
+Counterfactual single-U rule illustration, not adopted historical states or empirical sensitivity analysis.
+  Oko: Unresolved; 1 assignment(s); invariant=True
+    S/P/P/S/S/S => Unresolved; unresolved blockers: comprehension=P, authority=P
+  ZG710: Fail; 1 assignment(s); invariant=True
+    P/I/P/P/U/S => Fail; decisive U cells: exercise=U
+  F/A-18C: Unresolved; 1 assignment(s); invariant=True
+    P/I/P/P/P/P => Unresolved; unresolved blockers: access=P, comprehension=I, authority=P, feasibility=P, exercise=P, propagation=P
+  Joint assignments enumerated: 1
+  Case-result vector invariant: True
+  Possible totals: 0 Pass, 1 Fail, 2 Unresolved
+  Cell-count ranges: S=5, P=10, U=1, I=2
+
+SELF-TESTS: PASS
+  all_4_to_the_6_valid_rows: PASS; {"result_counts": {"Fail": 3367, "Pass": 1, "Unresolved": 728}, "rows": 4096}
+  explicit_single_U_dominance: PASS; {"rows": 1458}
+  explicit_all_S_and_unknown_cases: PASS; {"all_S_rows": 1, "single_unknown_rows": 12}
+  invalid_or_missing_state_rejection: PASS; {"rejections": 14}
+  input_field_validation: PASS; {"duplicate_JSON_key_rejections": 1, "invalid_input_rejections": 16, "missing_field_rejections": 120}
+  input_driven_computation: PASS; {"in_memory_mutations": 2}
+  three_labeled_ZG710_single_U_counterfactuals: PASS; {"illustrations": 3}
+
+LIMITATIONS
+  The checker tests arithmetic over supplied categorical labels; it does not validate the evidence, states, or historical source-to-condition inferences.
+  State sets are alternative assignments drawn from S/P/U/I, not a fifth state. Cartesian enumeration asserts no probabilities or evidentiary independence.
+  A U is decisive even if P or I occurs elsewhere. P/I cells block Pass only when no U is present.
+  No historical assessments are overwritten. Stage 3 and the labeled rule illustrations remain unadopted.
+  The frozen cutoff and source provenance are reproduced from the ledger. This package does not independently retrieve or authenticate the historical repository blobs or source evidence.

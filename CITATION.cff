@@ -1,24 +1,27 @@
 cff-version: 1.2.0
-message: "For the current paper, cite the preferred v0.17.0 Zenodo preprint below. Repository release v0.17.2 is a separate software checkpoint."
+message: "For the approved 2026-10-10 paper revision, cite DOI 10.5281/zenodo.23423847 below. Repository release v0.18.0 preserves its source and evidence; older paper DOIs identify historical versions."
 title: "Trust, Autonomy, and Evidence"
 type: software
-version: 0.17.2
-date-released: 2026-10-02
+version: 0.18.0
+date-released: 2026-10-16
 authors:
   - family-names: Banasihan
     given-names: Mark Julius
     orcid: "https://orcid.org/0009-0001-8121-2878"
 repository-code: "https://github.com/node-and-norm/trust-autonomy-evidence"
-url: "https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.17.2"
+url: "https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.18.0"
 license: Apache-2.0
 abstract: "A research repository defining evidence for justified reliance and practical human control, with synthetic validation, versioned public-case reconstruction, a formal literature search, a full methods manuscript, journal-style figures and tables, claim traceability, and executable integrity audits."
 identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23423847"
+    description: "Approved 2026-10-10 preprint revision, published on Zenodo 2026-10-16"
   - type: url
-    value: "https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.17.2"
-    description: "Versioned GitHub repository release v0.17.2; preferred paper remains v0.17.0"
+    value: "https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.18.0"
+    description: "Versioned GitHub repository release v0.18.0 containing the approved 2026-10-10 paper revision"
   - type: doi
     value: "10.5281/zenodo.22970968"
-    description: "Current v0.17.0 preprint version"
+    description: "Historical v0.17.0 preprint version; not the 2026-10-10 revision"
   - type: doi
     value: "10.5281/zenodo.21926004"
     description: "All versions of the preprint; separate from the repository archive"
@@ -28,11 +31,11 @@ identifiers:
 preferred-citation:
   type: article
   title: "From Formal Authority to Practical Human Control: A traceable method for reconstructing human control in automated decisions"
-  version: 0.17.0
+  version: "2026-10-10"
   year: 2026
   authors:
     - family-names: Banasihan
       given-names: Mark Julius
       orcid: "https://orcid.org/0009-0001-8121-2878"
-  doi: "10.5281/zenodo.22970968"
-  url: "https://doi.org/10.5281/zenodo.22970968"
+  doi: "10.5281/zenodo.23423847"
+  url: "https://doi.org/10.5281/zenodo.23423847"

@@ -1,0 +1,268 @@
+{
+  "schema_version": 1,
+  "purpose": "Mechanical reproduction of recorded categorical states only; not validation of evidence, source-to-condition judgments, or historical truth.",
+  "scope": "Private author-review packet only. No manuscript, repository, historical assessment, or released result is changed by this checker.",
+  "source": {
+    "file": "author_case_derivation_ledger.txt",
+    "sha256": "a7ad4f0870eeea07e21229613ae820bf5611f03c36f0774c41d10e992f2a76d5",
+    "description": "Authoritative final case derivation ledger; preserved byte-for-byte."
+  },
+  "baseline": {
+    "version": "v0.17.0",
+    "commit": "781f7806a626cd4e4fffbe4d453d9d5365b835f9",
+    "evidence_cutoff": "2026-08-06T23:59:59Z",
+    "aggregation_introduced": "v0.16"
+  },
+  "condition_order": [
+    "access",
+    "comprehension",
+    "authority",
+    "feasibility",
+    "exercise",
+    "propagation"
+  ],
+  "historical_field_aliases": {
+    "propagation": "effect"
+  },
+  "aggregation_rule": {
+    "priority": [
+      "any_U",
+      "all_S",
+      "otherwise_P_or_I"
+    ],
+    "any_U": "Fail",
+    "all_S": "Pass",
+    "otherwise_P_or_I": "Unresolved",
+    "change_from_released_rule": "none"
+  },
+  "cases": [
+    {
+      "case_id": "TAE-PUB-001",
+      "name": "Oko",
+      "baseline_path": "assessments/v0.6.0/TAE-PUB-001-oko-1983.json",
+      "baseline_git_blob": "984d900f181f74598b7eb0f613f6c1bd17053872"
+    },
+    {
+      "case_id": "TAE-PUB-002",
+      "name": "ZG710",
+      "baseline_path": "cases/TAE-PUB-002-patriot-zg710-2003/assessment.json",
+      "baseline_git_blob": "d2277c64814481298d650b9bce670bb39a597874"
+    },
+    {
+      "case_id": "TAE-PUB-003",
+      "name": "F/A-18C",
+      "baseline_path": "cases/TAE-PUB-003-patriot-fa18-2003/assessment.json",
+      "baseline_git_blob": "7220405c74eb5d76a8d084fdf13e39084d90a1ef"
+    }
+  ],
+  "stages": [
+    {
+      "stage_id": "stage_1",
+      "title": "Stage 1: released historical baseline",
+      "status": "released_historical",
+      "author_approval": "historical_record",
+      "source_section": "Released inputs and results",
+      "interpretation": "Preserves the historical recorded states and results without revalidation.",
+      "rows": [
+        {
+          "case_id": "TAE-PUB-001",
+          "states": [
+            "P",
+            "P",
+            "P",
+            "P",
+            "P",
+            "P"
+          ],
+          "source_state_expression": "P / P / P / P / P / P",
+          "source_quote": "Oko: P / P / P / P / P / P. Zero U and six P, therefore Unresolved."
+        },
+        {
+          "case_id": "TAE-PUB-002",
+          "states": [
+            "P",
+            "U",
+            "S",
+            "U",
+            "U",
+            "U"
+          ],
+          "source_state_expression": "P / U / S / U / U / U",
+          "source_quote": "ZG710: P / U / S / U / U / U. Four U, therefore Fail despite access P."
+        },
+        {
+          "case_id": "TAE-PUB-003",
+          "states": [
+            "P",
+            "I",
+            "S",
+            "I",
+            "I",
+            "U"
+          ],
+          "source_state_expression": "P / I / S / I / I / U",
+          "source_quote": "F/A-18C: P / I / S / I / I / U. One U, therefore Fail despite three I."
+        }
+      ]
+    },
+    {
+      "stage_id": "stage_2",
+      "title": "Stage 2: limited original-framework corrections",
+      "status": "conditional_state_sets",
+      "author_approval": "pending",
+      "source_section": "Stage 2 provisional state sets",
+      "interpretation": "Authority and propagation are unresolved P/I choices for each Patriot case. All other released cells are retained, not freshly validated. ZG710 Fail is conditional on retaining at least one non-propagation U.",
+      "rows": [
+        {
+          "case_id": "TAE-PUB-001",
+          "states": [
+            "P",
+            "P",
+            "P",
+            "P",
+            "P",
+            "P"
+          ],
+          "source_state_expression": "P / P / P / P / P / P",
+          "source_quote": "Oko: P / P / P / P / P / P → Unresolved."
+        },
+        {
+          "case_id": "TAE-PUB-002",
+          "states": [
+            "P",
+            "U",
+            [
+              "P",
+              "I"
+            ],
+            "U",
+            "U",
+            [
+              "P",
+              "I"
+            ]
+          ],
+          "source_state_expression": "P / U / {P,I} / U / U / {P,I}",
+          "source_quote": "ZG710: P / U / {P,I} / U / U / {P,I} → Fail for every allowed replacement."
+        },
+        {
+          "case_id": "TAE-PUB-003",
+          "states": [
+            "P",
+            "I",
+            [
+              "P",
+              "I"
+            ],
+            "I",
+            "I",
+            [
+              "P",
+              "I"
+            ]
+          ],
+          "source_state_expression": "P / I / {P,I} / I / I / {P,I}",
+          "source_quote": "F/A-18C: P / I / {P,I} / I / I / {P,I} → Unresolved for every allowed replacement."
+        }
+      ]
+    },
+    {
+      "stage_id": "stage_3",
+      "title": "Stage 3: full amended proposal, conditional and unadopted",
+      "status": "conditional_unadopted",
+      "author_approval": "pending",
+      "source_section": "Stage 3D Conditional aggregate and retained-failure alternatives",
+      "interpretation": "Requires adoption of evidence, construct and boundary amendments and all row-level judgments. Author approval has not been given. The three disputed non-propagation ZG710 U removals do not follow from propagation correction alone.",
+      "rows": [
+        {
+          "case_id": "TAE-PUB-001",
+          "states": [
+            "S",
+            "P",
+            "P",
+            "S",
+            "S",
+            "S"
+          ],
+          "source_state_expression": "S/P/P/S/S/S",
+          "source_quote": "Oko S/P/P/S/S/S → 0 U, 2 unresolved states → Unresolved."
+        },
+        {
+          "case_id": "TAE-PUB-002",
+          "states": [
+            "P",
+            "I",
+            "P",
+            "P",
+            "P",
+            "S"
+          ],
+          "source_state_expression": "P/I/P/P/P/S",
+          "source_quote": "ZG710 P/I/P/P/P/S → 0 U, 5 unresolved states → Unresolved."
+        },
+        {
+          "case_id": "TAE-PUB-003",
+          "states": [
+            "P",
+            "I",
+            "P",
+            "P",
+            "P",
+            "P"
+          ],
+          "source_state_expression": "P/I/P/P/P/P",
+          "source_quote": "F/A-18C P/I/P/P/P/P → 0 U, 6 unresolved states → Unresolved."
+        }
+      ]
+    }
+  ],
+  "propagation_only_diagnostic": {
+    "diagnostic_id": "propagation_only",
+    "base_stage": "stage_1",
+    "condition": "propagation",
+    "case_ids": [
+      "TAE-PUB-002",
+      "TAE-PUB-003"
+    ],
+    "allowed_replacements": [
+      "S",
+      "P",
+      "I"
+    ],
+    "label": "Aggregation-only diagnostic; S is not asserted to be evidence-eligible under the released framework. All non-propagation cells retain their Stage 1 state.",
+    "source_section": "Propagation-only subdiagnostic, before correction 2B"
+  },
+  "rule_illustrations": [
+    {
+      "illustration_id": "zg710_single_comprehension_u",
+      "base_stage": "stage_3",
+      "case_id": "TAE-PUB-002",
+      "condition": "comprehension",
+      "replacement": "U",
+      "label": "Counterfactual single-U rule illustration, not adopted historical states or empirical sensitivity analysis."
+    },
+    {
+      "illustration_id": "zg710_single_feasibility_u",
+      "base_stage": "stage_3",
+      "case_id": "TAE-PUB-002",
+      "condition": "feasibility",
+      "replacement": "U",
+      "label": "Counterfactual single-U rule illustration, not adopted historical states or empirical sensitivity analysis."
+    },
+    {
+      "illustration_id": "zg710_single_exercise_u",
+      "base_stage": "stage_3",
+      "case_id": "TAE-PUB-002",
+      "condition": "exercise",
+      "replacement": "U",
+      "label": "Counterfactual single-U rule illustration, not adopted historical states or empirical sensitivity analysis."
+    }
+  ],
+  "limitations": [
+    "The checker tests arithmetic over supplied categorical labels; it does not validate the evidence, states, or historical source-to-condition inferences.",
+    "State sets are alternative assignments drawn from S/P/U/I, not a fifth state. Cartesian enumeration asserts no probabilities or evidentiary independence.",
+    "A U is decisive even if P or I occurs elsewhere. P/I cells block Pass only when no U is present.",
+    "No historical assessments are overwritten. Stage 3 and the labeled rule illustrations remain unadopted.",
+    "The frozen cutoff and source provenance are reproduced from the ledger. This package does not independently retrieve or authenticate the historical repository blobs or source evidence."
+  ]
+}

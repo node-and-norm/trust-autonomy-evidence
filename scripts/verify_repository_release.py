@@ -16,11 +16,12 @@ def check(archive):
         files={m.name:tar.extractfile(m).read() for m in tar.getmembers() if m.isfile()}
         if any(not (m.isfile() or m.isdir()) for m in tar.getmembers()):
             raise ValueError('unsupported non-regular Git snapshot entry')
-    candidates=[v for v in ('0.17.1','0.17.2') if f'release/v{v}-manifest.json' in files]
+    candidates=[v for v in ('0.17.1','0.17.2','0.18.0') if f'release/v{v}-manifest.json' in files]
     if not candidates:raise ValueError('repository release manifest missing')
     release_version=candidates[-1]
     manifest=json.loads(files.pop(f'release/v{release_version}-manifest.json'))
-    if manifest['version']!=release_version or manifest['paper_version']!='0.17.0':
+    expected_paper = '2026-10-10' if release_version == '0.18.0' else '0.17.0'
+    if manifest['version']!=release_version or manifest['paper_version']!=expected_paper:
         raise ValueError('unexpected version boundary')
     if set(files)!=set(manifest['files']):raise ValueError('snapshot inventory differs')
     for name,data in files.items():
@@ -32,7 +33,7 @@ def check(archive):
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--ref',default='v0.17.2');args=parser.parse_args()
+    parser.add_argument('--ref',default='v0.18.0');args=parser.parse_args()
     commit=subprocess.check_output(['git','rev-parse','--verify',args.ref+'^{commit}'],cwd=ROOT,text=True).strip()
     archive=subprocess.check_output(['git','archive','--format=tar',commit],cwd=ROOT)
     count=check(archive)

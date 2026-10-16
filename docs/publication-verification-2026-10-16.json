@@ -1,0 +1,38 @@
+{
+  "checked": "2026-10-16",
+  "paper_doi": "10.5281/zenodo.23423847",
+  "record_id": 23423847,
+  "concept_doi": "10.5281/zenodo.21926004",
+  "version": "2026-10-10",
+  "public_url": "https://zenodo.org/records/23423847",
+  "files": {
+    "SHA256SUMS_PREPRINT.txt": {
+      "bytes": 420,
+      "sha256": "810b1e5a0865966b681fc5aa9b0cc7b8585285ebe2ebdc4521e5f09a02022b28"
+    },
+    "TAE_2026-10-10_reproducibility.zip": {
+      "bytes": 106289,
+      "sha256": "e2f3c2537a196f0513cd480e81a3702e8589f8146dcd60c96c1c032937592407"
+    },
+    "From_Formal_Authority_to_Practical_Human_Control_2026-10-10.pdf": {
+      "bytes": 3652535,
+      "sha256": "881aa58249ec7ebfcd3fa8fcda493821d0ecc8b5e038c499d2044121b9120edb"
+    },
+    "TAE_2026-10-10_source.tar.gz": {
+      "bytes": 3578412,
+      "sha256": "7fa4a8344c10b00c810ffc86290a479f3c79b229947b1b7c799673598582a5cc"
+    },
+    "README_PREPRINT_ARCHIVE.txt": {
+      "bytes": 1744,
+      "sha256": "ffbd4c6d517d63ddc78e9815ebe7cf955644beb647ef7ab4c6ba2b1bbedd46c2"
+    }
+  },
+  "arxiv": {
+    "submission_id": "7973196",
+    "status": "on_hold",
+    "checked": "2026-10-16",
+    "source": "Author directly read the authenticated account status and reported it in this session.",
+    "agent_browser_verification": false
+  },
+  "boundary": "Public file identity and calculation reproduction do not independently validate scientific judgments or imply arXiv acceptance."
+}

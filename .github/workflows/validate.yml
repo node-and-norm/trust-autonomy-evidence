@@ -28,5 +28,7 @@ jobs:
         run: python scripts/validate_paper.py
       - name: Validate frozen release snapshots
         run: python scripts/validate_release_snapshot.py
+      - name: Verify approved October reassessment and closeout package
+        run: python scripts/verify_reassessment_release.py
       - name: Navigation, license, and isolated historical replay tests
         run: python -m unittest discover -s tests -p 'test_*.py' -v

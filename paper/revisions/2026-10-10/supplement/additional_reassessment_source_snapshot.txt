@@ -1,0 +1,29 @@
+Additional reassessment of three ZG710 conditions
+
+Provisional author review, separate from the historical baseline and unchanged Stage 2 comparison. Preserve the original classification-to-destruction boundary and its informed-challenge claim. The adverse findings remain evidence; their inference to a necessary failure remains unresolved.
+
+Released rules: P means “some required elements are present and a material gap remains”; U means “available evidence contradicts the stage or shows the condition was absent”; I means “the packet lacks enough evidence to decide.” Rejecting a U inference does not automatically establish I or P. S still requires direct contemporaneous evidence; U has no symmetrical gate. Later evidence supporting P needs explicit eligibility adjudication under the incompletely specified policy.
+
+Condition | Released criterion | Proposed disposition and evidence-to-rule reasoning | Strongest retained-U argument and present limitation
+
+Comprehension | “Could the authority interpret output, limits, uncertainty, and alternatives?” Minimum: “Role-appropriate materials and evidence that the person could use them under the operating conditions.” | Recommend I on the inspected packet: no substantive human interpretation/capacity component has been identified. T2 §4, p.2, reports an operational sequence, not demonstrated interpretation. P requires acceptance of a specifically established capacity component and genuine remaining gap; operating the system alone does not establish one. | T2 §11, p.3, documents preparation deficiencies; T4 p.4 describes undistributed fallibility information and problematic user beliefs. U follows if these establish this crew's lack of usable limitations understanding, a necessary component. That event-level inference remains unresolved: deficient preparation does not itself establish deficient capacity. No proof of total incapacity is required, and basic ability would not cancel this failure.
+
+Feasibility | “Could authority be exercised within operational conditions?” Minimum: “Sufficient time, staffing, access, and response path.” | P/I pending positive-component adjudication. T2 §4, p.2, supplies an actual crew action route; §§11–12, p.3, discuss delay and a radio relay. P requires specifying the precommitment function this route/resource establishes for the original informed-intervention option and scoped actor, with another requirement unresolved. I follows if that connection cannot be established. Successful launch alone does not prove a feasible informed challenge. | T2 §§11–12 and 14, pp.3–4, document timing, communications, air-picture and identification constraints. Combined constraints could defeat an indispensable information/response function, justifying U. The function and its unavailable timely route remain unestablished. T4 p.7 also conflicts with T2 on timing context and ARM/TBM classification; no complete margin is calculable. Neither short time nor one functioning route settles feasibility.
+
+Exercise | “Is there evidence of active judgment or intervention?” Minimum: “Contemporaneous decision or review record.” Failure indicator: “Automatic approval or retrospective rationale.” | P/I pending semantics and eligibility. If T2 §4, p.2, crew launch qualifies as intervention, its admitted attribution supplies a positive premise; P needs a genuine remaining original/documentary gap, not mandatory evaluation. Whether launch qualifies under this criterion and its automatic-approval indicator remains unresolved; no separate judgment component is established. I applies if neither branch has a supported component. | T4 pp.4–5 links automation misuse and uncritical acquiescence to the broader incidents. U requires event-specific attribution defeating the original criterion, including its intervention branch. Missing evaluation alone cannot establish U while qualifying intervention remains; equally, relabeling automatic approval cannot bypass the failure indicator. That attribution remains unresolved. Absence of independent challenge is insufficient alone because challenge was stronger evidence.
+
+Amendments kept separate
+
+D: changing necessary capacity, imposing action-plus-evaluation or mandatory challenge; B/D: replacing informed challenge with simple withholding; B: substituting collective-role evidence for individual capacity; A: admitting later reconstruction as S. None is adopted here. Resolving ambiguity is an explicit interpretive judgment; adopting a new rule or eligibility policy must be recorded as an amendment.
+
+Conditional case consequence
+
+Only if all three U inferences are rejected and each replacement justified as P/I, alongside Stage 2's non-U cells, does ZG710 become Unresolved. Any established necessary U retains Fail. No conclusion is approved.
+
+Pinned definitions and original rationales
+https://github.com/node-and-norm/trust-autonomy-evidence/blob/781f7806a626cd4e4fffbe4d453d9d5365b835f9/protocols/practical-human-control-test.md
+https://github.com/node-and-norm/trust-autonomy-evidence/blob/781f7806a626cd4e4fffbe4d453d9d5365b835f9/cases/TAE-PUB-002-patriot-zg710-2003/assessment.json
+T2
+https://assets.publishing.service.gov.uk/media/5a78e39b40f0b62b22cbd9a5/maas03_02_tornado_zg710_22mar03.pdf
+T4
+https://www.govinfo.gov/content/pkg/GOVPUB-D101-PURL-gpo58824/pdf/GOVPUB-D101-PURL-gpo58824.pdf

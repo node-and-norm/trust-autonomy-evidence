@@ -4,7 +4,7 @@
 
 An evidence architecture for bounded reliance.
 
-[![Status: Working Research](https://img.shields.io/badge/status-working%20research-5b6cff)](RESEARCH_STATUS.md) [![Version: 0.17.2](https://img.shields.io/github/v/release/node-and-norm/trust-autonomy-evidence?display_name=tag&label=release)](https://github.com/node-and-norm/trust-autonomy-evidence/releases) [![Paper DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22970968.svg)](https://doi.org/10.5281/zenodo.22970968) [![Validation](https://github.com/node-and-norm/trust-autonomy-evidence/actions/workflows/validate.yml/badge.svg)](https://github.com/node-and-norm/trust-autonomy-evidence/actions/workflows/validate.yml) [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-green)](LICENSE) [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--8121--2878-brightgreen)](https://orcid.org/0009-0001-8121-2878)
+[![Status: Research Phase Closed](https://img.shields.io/badge/status-research%20phase%20closed-5b6cff)](RESEARCH_STATUS.md) [![Version: 0.18.0](https://img.shields.io/github/v/release/node-and-norm/trust-autonomy-evidence?display_name=tag&label=release)](https://github.com/node-and-norm/trust-autonomy-evidence/releases) [![Approved paper revision: 2026-10-10](https://img.shields.io/badge/paper-2026--10--10-5b6cff)](paper/revisions/2026-10-10/README.md) [![Validation](https://github.com/node-and-norm/trust-autonomy-evidence/actions/workflows/validate.yml/badge.svg)](https://github.com/node-and-norm/trust-autonomy-evidence/actions/workflows/validate.yml) [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-green)](LICENSE) [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--8121--2878-brightgreen)](https://orcid.org/0009-0001-8121-2878)
 
 </div>
 
@@ -16,15 +16,17 @@ An evidence architecture for bounded reliance.
 
 ## At a glance
 
-Repository v0.17.2 preserves the [first live Jev evidence-v2 results](experiments/jev/live_results_v1/REPORT.md) and [post-output diagnostics](experiments/jev/live_followup_v1/README.md): 282 requests attempted, 260 valid and 22 invalid. Primary reconstruction agreement is 198/231 valid determinations (85.7%), with 231/252 coverage (91.7%). See the [release notes](release/v0.17.2-release-notes.md). The paper remains v0.17.0; these authored synthetic agreements do not establish independent or real-world validation.
+Repository **v0.18.0** archives the author-approved **10 October 2026 paper revision** and closes the current methods demonstration and initial Jev research phase. Start with the [46-page preprint](paper/revisions/2026-10-10/preprint.pdf), [source and reproducibility supplement](paper/revisions/2026-10-10/README.md), [release notes](release/v0.18.0-release-notes.md), and [phase closeout](docs/research-phase-closeout-2026-10-16.md).
 
-Later work includes the [review-assistance pilot](experiments/jev/review_queue_results_v1/README.md) and a separate [24-item collaborative author review](experiments/jev/collaborative_review_v1/README.md). The timed human comparison was omitted; time savings and quality improvement remain unmeasured. See the [current Jev experiment guide](docs/jev-experiments.md) for phase boundaries, results and unresolved questions.
+The revision preserves the historical findings and separately reports limited corrections and the additional ZG710 reassessment. Under the retained coding alternatives, all 64 joint assignments yield **0 Pass / 0 Fail / 3 Unresolved**. That is a conditional documentary result; it establishes neither that practical control worked nor that it was absent. Any justified failure of a necessary condition still produces Fail. Broader Stage 3 construct amendments remain unadopted.
+
+The [first live Jev experiment](experiments/jev/live_results_v1/REPORT.md) attempted 282 requests: 260 valid and 22 invalid. Primary reconstruction agreement is 198/231 valid determinations (85.7%), with 231/252 coverage (91.7%). The [review-assistance pilot](experiments/jev/review_queue_results_v1/README.md) and [24-item collaborative author review](experiments/jev/collaborative_review_v1/README.md) remain separate records. All 1,079 original Jev adjudications remain UNRESOLVED. Human time savings and quality improvement remain unmeasured. See the [Jev experiment guide](docs/jev-experiments.md).
 
 | Research checkpoint | Current account |
 | :--- | :--- |
 | Research question | What evidence justifies reliance, and what evidence shows that institutional authority can detect, interrupt, correct, and repair AI-system actions? |
-| Current repository release and paper | [v0.17.2 repository release](https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.17.2) · paper v0.17.0 · [30-page preprint](paper/preprints/preprints-compiled-v0.17.0.pdf) · [source archive](paper/preprints/preprints-source-v0.17.0.zip) |
-| Case-level result | **0 pass / 2 fail / 1 unresolved** in v0.17.0, carrying forward the v0.16.0 rule and results: both Patriot cases fail; Oko is unresolved. |
+| Current repository release and paper | [v0.18.0 repository release](https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.18.0) · [approved 2026-10-10 revision](paper/revisions/2026-10-10/README.md) · [46-page preprint](paper/revisions/2026-10-10/preprint.pdf) |
+| Case-level results | Historical baseline: **0 Pass / 2 Fail / 1 Unresolved**. Limited corrections: **0 / 1 / 2**, across all 16 assignments. Additional reassessment: **0 / 0 / 3**, conditional across all 64 assignments. Original releases and case files remain preserved. |
 | Internal validation | All **252 determinations** and **12 original mutation tests** pass under the committed contract. |
 | Open exceptions | **Five inherited base-audit exceptions**: no independent assessment, incomplete literature-search coverage, two direct-query source limits, untested contemporary transfer, and external venue status. **Two policy-crosswalk exceptions**: incomplete legal/standards coverage and untested prospective application. |
 
@@ -34,7 +36,7 @@ These results establish internal contract behavior and traceability for the incl
 
 ### Reviewer
 
-1. [Current v0.17.0 preprint](paper/preprints/preprints-compiled-v0.17.0.pdf)
+1. [Current approved preprint and reassessment supplement](paper/revisions/2026-10-10/README.md)
 2. [Material claims and evidence](CLAIMS.md)
 3. [Validity threats and limits](LIMITATIONS.md)
 4. [v0.17.0 policy-extension audit](audits/v0.17.0-policy-crosswalk/audit-report.md)
@@ -50,7 +52,7 @@ These results establish internal contract behavior and traceability for the incl
 
 1. [Research question and conceptual model](research/trust-autonomy-and-evidence.md)
 2. [Bounded policy crosswalk and claim limits](release/v0.17.0-release-notes.md)
-3. [Current public-case report](reports/public-case-reconstruction-v0.6.0.md)
+3. [Approved reassessment and preserved historical case reports](paper/revisions/2026-10-10/README.md)
 4. [Research boundaries](#research-boundaries)
 
 ## The problem
@@ -65,7 +67,9 @@ The project develops an evidence architecture for bounded reliance. It identifie
 
 ## Current contribution
 
-The current release and preprint are **v0.17.0**. The [policy crosswalk](paper/policy-and-standards-crosswalk-v0.17.0.md) adds five bounded claims, eight official-source records, and nine detected mutation controls. Its [two open exceptions](audits/v0.17.0-policy-crosswalk/exceptions.md) preserve the limits on legal/standards coverage and prospective application. The v0.16.0 base audit and historical case results remain the supporting record.
+The current repository release is **v0.18.0**. The [approved 2026-10-10 paper revision](paper/revisions/2026-10-10/README.md) adds a separately versioned reassessment, public approval statement, correction ledger, and reproducibility checks without replacing historical case artifacts or the sealed synthetic oracle. The methods and initial Jev phase is closed; independent replication, contemporary transfer, and measured human benefits are future studies.
+
+The preserved v0.17.0 [policy crosswalk](paper/policy-and-standards-crosswalk-v0.17.0.md) adds five bounded claims, eight official-source records, and nine detected mutation controls. Its [two open exceptions](audits/v0.17.0-policy-crosswalk/exceptions.md) preserve the limits on legal/standards coverage and prospective application. The v0.16.0 base audit and historical case results remain the supporting record.
 
 All 252 determinations and 12 original mutation tests pass under the committed contract. The v0.6.0 adjudication detects all six prespecified corruptions. The v0.16 integrity audit maps 40 material claims and detects all 39 prespecified claim-map corruptions. Five exceptions remain: no independent assessment, incomplete literature-search coverage, two direct-query source limits, untested contemporary transfer, and external venue status. The inaccessible-record recovery population contains 1,087 records; 107 outcomes are recorded and 980 remain open. Five forward-citation sources may support only their recorded propositions, two remain background-only, and six are quarantined. These results establish internal contract behavior and traceability for the included artifacts. They do not establish independent reliability, field validity, institutional effectiveness, source truth, universal originality, or improved outcomes.
 
@@ -79,7 +83,7 @@ All 252 determinations and 12 original mutation tests pass under the committed c
 | 4 | A documentary test for practical human control across information access, comprehension capacity, intervention authority, intervention feasibility, exercised judgment, execution propagation, correction, repair, and reform. |
 | 5 | A solo-validation suite containing 12 synthetic cases, 252 prespecified determinations, 12 mutation tests, three invariance tests, and sealed oracle artifacts. |
 | 6 | A frozen public-case selection protocol with preserved candidate inputs, search output, exclusions, and selection decisions. |
-| 7 | Three public evidence packets covering a successful pre-action intervention, formal authority without practical force, and an action sequence whose cause remains indeterminate. |
+| 7 | Three preserved public evidence packets, with their original assessments and a separately versioned reassessment that keeps historical and revised judgments visible. |
 | 8 | A frozen research agenda focused on practical authority, evidence sufficiency, and interacting control conditions. |
 | 9 | A publication figure set containing six main figures, four appendix figures, ten derived data tables, formal captions, reading guides, and artifact-integrity checks. |
 | 10 | A machine-readable map connecting 40 material claims to exact evidence locations, human support states, evidence-fitness judgments, dependencies, limitations, and reversal conditions. |
@@ -101,11 +105,26 @@ All 252 determinations and 12 original mutation tests pass under the committed c
 | 26 | A frozen 13-source proposition-review protocol with five bounded manuscript permissions, two background-only decisions, six quarantines, corrected source identities, and seven added negative controls. |
 | 27 | A professional single-column LaTeX package with navy-and-black journal styling, ten color figures, structured tables, a deterministic 12-member source archive, metadata, source lineage, and explicit compilation and author-review gates. |
 | 28 | A formal case-level rule, a deterministic result builder, a proposed timing margin, construct-derivation and institutional-interpretation tables, and an evidence-controlled manuscript rebuild. |
-| 29 | A five-claim, eight-source policy crosswalk with author attestation, nine detected mutations, a prospective regulatory-sandbox design, and an arXiv-ready v0.17.0 preprint package. |
+| 29 | A five-claim, eight-source policy crosswalk with author attestation, nine detected mutations, a prospective regulatory-sandbox design, and the preserved v0.17.0 preprint package. |
+| 30 | An approved 2026-10-10 paper revision, staged historical and revised results, public reproducibility supplement, and phase closeout with explicit validation limits. |
 
 ### Release history
 
-These entries describe their original checkpoints. Older version numbers identify preserved historical artifacts; v0.17.0 is the current release and paper.
+These entries describe their original checkpoints. The current repository release is v0.18.0; the approved paper revision is dated 2026-10-10. Older version numbers identify preserved historical artifacts.
+
+<details open>
+<summary>v0.18.0: Approved reassessment archive and research-phase closeout</summary>
+
+[Version 0.18.0](release/v0.18.0-release-notes.md) archives the approved paper, source and public supplement. It separates the historical 0/2/1 result, limited-correction 0/1/2 result, and conditional additional-reassessment 0/0/3 result. The original aggregation rule, historical releases, sealed oracle and Jev results remain preserved. The current research phase closes with independent reliability, contemporary transfer and human time/quality benefits still unestablished.
+
+</details>
+
+<details>
+<summary>v0.17.2 and later Jev checkpoints</summary>
+
+[Version 0.17.2](release/v0.17.2-release-notes.md) records the first live synthetic Jev results and post-output diagnostics. Subsequent merged records preserve the review-assistance pilot and collaborative author review. No initial score or original adjudication is changed by the v0.18.0 closeout.
+
+</details>
 
 <details open>
 <summary>v0.17.0: Bounded policy crosswalk and prospective sandbox design</summary>
@@ -119,9 +138,9 @@ These entries describe their original checkpoints. Older version numbers identif
 
 [Version 0.16.0](release/v0.16.0-release-notes.md) rebuilds the methods paper around the institutional problem and formalizes the case-level decision rule. It preserves the public [v0.14.0 Zenodo preprint](https://doi.org/10.5281/zenodo.21926005), the v0.15.0 venue package, and the released case states. The new result is derived from those states: Oko is unresolved, both Patriot cases fail, and no selected case passes the complete event-control rule.
 
-Version 0.16.1 aligned the repository citation, formula register, figure metadata, audit protocol links, and Overleaf compile receipt with the v0.16.0 research package. Version 0.16.2 is a maintenance candidate that creates one current-paper entry point, adds an external-review guide, moves the retired v0.15.0 delivery files into a labeled archive, and restores three historical v0.14.0 delivery artifacts to their released hashes. It changes no manuscript claim, case state, case-level result, or figure interpretation.
+Version 0.16.1 aligned the repository citation, formula register, figure metadata, audit protocol links, and Overleaf compile receipt with the v0.16.0 research package. Version 0.16.2 was a maintenance checkpoint that created the then-current paper entry point, added an external-review guide, moved retired v0.15.0 delivery files into a labeled archive, and restored three historical v0.14.0 delivery artifacts to their released hashes. It changed no manuscript claim, case state, case-level result, or figure interpretation.
 
-The v0.16.0 working paper responds to the venue outcome by clarifying the research contribution without overstating novelty. It explains why each methodological control exists, adds the complete six-stage rule, derives the three case-level results from released data, and states what institutions may and may not infer from pass, fail, and unresolved outcomes. Its exact source compiles to a 30-page review PDF with zero errors, no overfull or underfull boxes, and no displays after References. Full author review remains open. The Preprints.org decline remains an external screening event and supplies no evidence that the internal controls failed.
+The v0.16.0 working paper responds to the venue outcome by clarifying the research contribution without overstating novelty. It explains why each methodological control exists, adds the complete six-stage rule, derives the three case-level results from released data, and states what institutions may and may not infer from pass, fail, and unresolved outcomes. Its exact source compiles to a 30-page review PDF with zero errors, no overfull or underfull boxes, and no displays after References. Full author review was open at that checkpoint. The Preprints.org decline remains an external screening event and supplies no evidence that the internal controls failed.
 
 </details>
 
@@ -142,7 +161,7 @@ The v0.14.0 public preprint closes that locator-level gate. Five sources receive
 <details>
 <summary>v0.13.0: Forward-citation screening and proposition-review gate</summary>
 
-The v0.13.0 candidate closes that frozen screening queue with 13 close records, 22 background records, 11 single-component exclusions, and 25 topic exclusions. All 71 decisions record a mechanism-specific rationale, source basis, locator, decision owner, date, assistance disclosure, and claim-permission state. Screening grants no proposition support. The 13 close sources now enter a separate locator-level review gate.
+The v0.13.0 candidate closes that frozen screening queue with 13 close records, 22 background records, 11 single-component exclusions, and 25 topic exclusions. All 71 decisions record a mechanism-specific rationale, source basis, locator, decision owner, date, assistance disclosure, and claim-permission state. Screening grants no proposition support. At that checkpoint, the 13 close sources entered a separate locator-level review gate; v0.14.0 records its later decisions.
 
 </details>
 
@@ -171,7 +190,7 @@ Post-release work has assigned a terminal state to all 27 retained-close sources
 
 ## Featured figure
 
-Figure 2 compares whether assigned human authority became practical control in three historical cases.
+The figure below preserves the **historical baseline**. The [approved revision](paper/revisions/2026-10-10/preprint.pdf) presents the staged comparison, including the conditional additional reassessment; use it for the current conclusions.
 
 [![Practical-control chain across three public cases](figures/generated/fig-2-practical-control-chain.png)](figures/generated/fig-2-practical-control-chain.svg)
 
@@ -185,22 +204,22 @@ Each packet contains evidence that a human held a formal role. The assessed stre
 2. Could they understand it?
 3. Did they have authority to intervene?
 4. Was intervention realistically possible in the available time?
-5. Did they intervene?
+5. Did they exercise active judgment or intervene?
 6. Did the intervention propagate into execution?
 
-In the current v0.6.0 assessment, every Oko stage from access through execution propagation is partially supported. Retrospective participant accounts describe Stanislav Petrov receiving the warning, questioning it, reporting a false alarm, and affecting the decision path. No located contemporaneous command log or official incident record independently records those stages. The partial cells preserve both the account and that missing evidence. Under the v0.16.0 case-level rule, Oko is unresolved.
+In the preserved v0.6.0 assessment, every Oko stage from access through execution propagation is partially supported. Retrospective participant accounts describe Stanislav Petrov receiving the warning, questioning it, reporting a false alarm, and affecting the decision path. No located contemporaneous command log or official incident record independently records those stages. The partial cells preserve both the account and that missing evidence. Under the v0.16.0 case-level rule, Oko is unresolved.
 
-In the Patriot ZG710 case, a human authorized the engagement. The evidence indicates weak comprehension and no feasible or exercised challenge before launch. Execution propagation is also unsupported. The case fails the event-control rule.
+In the historical Patriot ZG710 assessment, a human authorized the engagement. The released baseline coded comprehension, intervention feasibility, exercise and execution propagation as Unsupported, producing Fail. The current revision separately reassesses those judgments and their evidence; it does not replace the released packet.
 
-In the F/A-18C case, the public record confirms human authority and some access to information. Missing records prevent conclusions about what operators saw, understood, or could have done in time. Open diamonds marked `I` mean “the packet cannot decide.” Gray crosses marked `U` record evidence that a condition failed. Unsupported execution propagation makes the case fail the event-control rule.
+In the historical F/A-18C assessment, authority and some information access were recorded, while other conditions were uncertain. Open diamonds marked `I` mean “the packet cannot decide.” Gray crosses marked `U` record the released Unsupported judgments. Its propagation code produced the historical Fail result; the later limited correction removes that harm-based failure inference and yields Unresolved.
 
 The later reforms shown in both Patriot cases indicate institutional learning. They could not repair the losses already caused.
 
 The central lesson is that assigning a human role does not establish practical control. Institutions need separate evidence for timely information, comprehension, authority, opportunity, intervention, and execution propagation.
 
-The current figure derives this pattern from the [27 plotted states](figures/data/fig-2-practical-control-chain.csv). Oko records partial support across the six event-level stages. Both Patriot packets support formal authority, while the other practical conditions are unsupported or unresolved. The [deterministic case result](assessments/event-control-results-v0.16.0.json) and [figure methods](reports/figure-methods.md#derivation-of-the-central-lesson) preserve the formal derivation.
+The historical figure derives this pattern from the [27 plotted states](figures/data/fig-2-practical-control-chain.csv). Oko records partial support across the six event-level stages. Both Patriot packets support formal authority, while the other practical conditions are unsupported or unresolved. The [deterministic case result](assessments/event-control-results-v0.16.0.json) and [figure methods](reports/figure-methods.md#derivation-of-the-central-lesson) preserve the formal derivation.
 
-The paper-stage [PR #11 pressure test](paper/review-record-pr11.md) identified the Oko protocol mismatch. The [v0.6 adjudication](reports/oko-evidence-adjudication-v0.6.0.md) resolves it through six reclassifications made under a protocol frozen before reassessment. The decision corrects the current assessment and does not add missing historical evidence.
+The paper-stage [PR #11 pressure test](paper/review-record-pr11.md) identified the Oko protocol mismatch. The [v0.6 adjudication](reports/oko-evidence-adjudication-v0.6.0.md) resolves it through six reclassifications made under a protocol frozen before reassessment. That historical decision corrected the then-current assessment and added no missing historical evidence. The later 2026-10-10 reassessment is preserved separately.
 
 The figure shows this pattern across three historical cases. It supplies no estimate of how often these failures occur and no prediction of performance in current AI systems.
 
@@ -247,10 +266,11 @@ The matrix uses categorical states and letter labels so color is not the only si
 | [`research/agenda-discovery-log-v0.11.0.md`](research/agenda-discovery-log-v0.11.0.md) | Records retrieval findings about inspectability, preserved provenance, parallel intervention paths, and the Patriot-adjacent close source. |
 | [`research/agenda-discovery-log-v0.12.0.md`](research/agenda-discovery-log-v0.12.0.md) | Records why retrieval, screening, access, duplicate handling, and independent assessment remain separate gates. |
 | [`paper/`](paper/) | Develops the methods paper, formal search, claim register, literature audit, structured tables, references, and publication decisions. |
-| [`paper/README.md`](paper/README.md) | Provides the single entry point to the latest paper, current source, GitHub edition, and earlier packages. |
-| [`paper/REVIEW.md`](paper/REVIEW.md) | Gives reviewers and prospective arXiv endorsers one current PDF, a category-fit summary, evidence paths, and focused review questions. |
+| [`paper/revisions/2026-10-10/README.md`](paper/revisions/2026-10-10/README.md) | Provides the current approved paper, source, public supplement and verification record. |
+| [`paper/README.md`](paper/README.md) | Preserves the earlier paper-workspace entry point and historical packages. |
+| [`paper/REVIEW.md`](paper/REVIEW.md) | Preserves the earlier review guide, category-fit summary, evidence paths, and focused review questions. |
 | [`paper/archive/`](paper/archive/) | Indexes earlier paper packages and stores the retired v0.15.0 delivery files. |
-| [`paper/preprints/preprints-compiled-v0.17.0.pdf`](paper/preprints/preprints-compiled-v0.17.0.pdf) | Provides the current 30-page v0.17.0 preprint compiled from its exact source archive. |
+| [`paper/preprints/preprints-compiled-v0.17.0.pdf`](paper/preprints/preprints-compiled-v0.17.0.pdf) | Preserves the historical 30-page v0.17.0 preprint compiled from its exact source archive. |
 | [`paper/preprints/compile-receipt-v0.17.0.json`](paper/preprints/compile-receipt-v0.17.0.json) | Records the v0.17.0 compiler identity, source and PDF hashes, 30-page output, placement checks, and author-approved visual review. |
 | [`paper/preprints/overleaf-compile-receipt.json`](paper/preprints/overleaf-compile-receipt.json) | Preserves the historical 30-page v0.16.0 XeLaTeX compilation and full-page visual review in Overleaf. |
 | [`paper/manuscript-reader.md`](paper/manuscript-reader.md) | Renders the manuscript's citation identifiers as clickable author-year citations with a reference list. |
@@ -267,7 +287,7 @@ The matrix uses categorical states and letter labels so color is not the only si
 | [`paper/data/direct-query-retrieval-evidence-v0.11.0.json`](paper/data/direct-query-retrieval-evidence-v0.11.0.json) | Records the route, locator, review basis, source observations, decision, assistance, and limit for each direct-query record. |
 | [`paper/forward-citation-retrieval-tranche-v0.12.0.md`](paper/forward-citation-retrieval-tranche-v0.12.0.md) | Reports 102 retrieval outcomes, 71 open author decisions, access limits, duplicate handling, and the next gate. |
 | [`paper/data/forward-citation-retrieval-evidence-v0.12.0.json`](paper/data/forward-citation-retrieval-evidence-v0.12.0.json) | Records the route, outcome, source observation, review basis, assistance, and claim limit for every selected forward citation. |
-| [`paper/data/forward-citation-author-review-queue-v0.12.0.csv`](paper/data/forward-citation-author-review-queue-v0.12.0.csv) | Holds 71 recovered-content records with blank author decisions and no claim permission. |
+| [`paper/data/forward-citation-author-review-queue-v0.12.0.csv`](paper/data/forward-citation-author-review-queue-v0.12.0.csv) | Preserves the original 71-record queue before decisions; the v0.13.0 screening and v0.14.0 proposition records contain later outcomes. |
 | [`paper/data/author-screening-gate-v0.8.0.json`](paper/data/author-screening-gate-v0.8.0.json) | Preserves the open author-gate checkpoint published in v0.8.0. |
 | [`paper/data/author-screening-gate-v0.9.0.json`](paper/data/author-screening-gate-v0.9.0.json) | Stores the closed gate, final decision counts, and Figure 5 eligibility state. |
 | [`paper/tables.md`](paper/tables.md) | Publishes compact exact-value tables with captions, notes, and interpretation boundaries. |
@@ -327,9 +347,9 @@ The matrix uses categorical states and letter labels so color is not the only si
 
 | Path | Purpose |
 | :--- | :--- |
-| [`assessments/event-control-results-v0.16.0.json`](assessments/event-control-results-v0.16.0.json) | Stores the deterministic result: zero pass, two fail, and one unresolved case under the formal rule. |
+| [`assessments/event-control-results-v0.16.0.json`](assessments/event-control-results-v0.16.0.json) | Preserves the historical deterministic result: zero pass, two fail, and one unresolved case under the formal rule. |
 | [`analysis/`](analysis/) | Implements deterministic assessment logic and builders for the publication figures and claim-evidence matrix. |
-| [`assessments/`](assessments/) | Stores generated results plus the current v0.6 Oko assessment and change ledger. |
+| [`assessments/`](assessments/) | Stores historical generated results, the v0.6 Oko assessment and its change ledger; the approved revision is separate. |
 | [`reports/`](reports/) | Publishes the solo-validation and three-case reconstruction results with explicit claim boundaries. |
 
 </details>
@@ -362,6 +382,7 @@ The matrix uses categorical states and letter labels so color is not the only si
 
 | Path | Purpose |
 | :--- | :--- |
+| [`release/v0.18.0-release-notes.md`](release/v0.18.0-release-notes.md) | Records the approved reassessment archive, phase closeout, preserved results and remaining limitations. |
 | [`release/v0.17.0-release-notes.md`](release/v0.17.0-release-notes.md) | Explains the bounded policy crosswalk, prospective validation design, preprint package, integrity results, and claim limits. |
 | [`release/v0.17.0-manifest.json`](release/v0.17.0-manifest.json) | Seals the v0.17.0 manuscript, source package, compiled PDF, policy evidence, attestation, mutations, and audit artifacts. |
 | [`release/v0.16.1-release-notes.md`](release/v0.16.1-release-notes.md) | Explains the maintenance alignment, preserved v0.16.0 findings, and version boundary. |
@@ -402,7 +423,7 @@ The matrix uses categorical states and letter labels so color is not the only si
 
 ## How to read the repository
 
-Start with [Trust, Autonomy, and Evidence](research/trust-autonomy-and-evidence.md). Use the [Trust Evidence Register](evidence/trust-evidence-register.md) to translate a reliance claim into inspectable evidence. Read the [current public-case report](reports/public-case-reconstruction-v0.6.0.md), [CLAIMS.md](CLAIMS.md), and [LIMITATIONS.md](LIMITATIONS.md) before applying the model.
+Start with [Trust, Autonomy, and Evidence](research/trust-autonomy-and-evidence.md). Use the [Trust Evidence Register](evidence/trust-evidence-register.md) to translate a reliance claim into inspectable evidence. Read the [approved paper revision](paper/revisions/2026-10-10/README.md), [preserved public-case report](reports/public-case-reconstruction-v0.6.0.md), [CLAIMS.md](CLAIMS.md), and [LIMITATIONS.md](LIMITATIONS.md) before applying the model. Historical claim and figure records retain their original scope; the current reassessment is separately versioned.
 
 The five protocols define solo validation, public-case reconstruction, practical-control assessment, claim-evidence integrity, and future independent evaluation. The public-case selection register must record its freeze commit before candidate screening begins. The mapping files show how this project relates to existing public artifacts without transferring claims among them.
 
@@ -417,7 +438,7 @@ python -m pip install -r requirements-dev.txt
 python scripts/validate_repository.py
 ```
 
-The repository validator checks required release files, internal links, version alignment, schemas, source references, sealed packet and release hashes, selection invariants, current case interactions, 252 oracle comparisons, 12 original mutation tests, six adjudication controls, 39 base claim-integrity controls, nine policy-crosswalk mutation controls, formal-search consistency, literature support, and figure integrity. The paper validator checks author identity, question alignment, at least 45 bibliography entries, the archived v0.6 DOI, current claim eligibility, and the originality-language boundary. Successful runs end with `repository validation: PASS`, `chain-of-evidence audits: PASS_WITH_EXCEPTIONS`, and `paper validation: PASS`.
+The repository validator checks required release files, internal links, version alignment, schemas, source references, sealed packet and release hashes, selection invariants, historical case interactions, 252 oracle comparisons, 12 original mutation tests, six adjudication controls, 39 base claim-integrity controls, nine policy-crosswalk mutation controls, formal-search consistency, literature support, and figure integrity. The paper validator checks author identity, question alignment, at least 45 bibliography entries, the archived v0.6 DOI, current claim eligibility, and the originality-language boundary. Successful runs end with `repository validation: PASS`, `chain-of-evidence audits: PASS_WITH_EXCEPTIONS`, and `paper validation: PASS`. These original checks retain their historical scope; the [current revision verification record](paper/revisions/2026-10-10/VERIFICATION.json) records the separate approved-reassessment checks.
 
 ## Research boundaries
 
@@ -438,11 +459,11 @@ Contributions should identify the proposition being changed, the evidence suppor
 
 ## Citation
 
-The current preprint is **v0.17.0**, archived on Zenodo with version DOI [10.5281/zenodo.22970968](https://doi.org/10.5281/zenodo.22970968):
+The current approved preprint revision is dated **10 October 2026**, published on Zenodo on **16 October 2026**, and preserved in the [v0.18.0 repository release](https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.18.0):
 
-> Banasihan, M. J. (2026). *From Formal Authority to Practical Human Control: A traceable method for reconstructing human control in automated decisions* (Version v0.17.0) [Preprint]. Zenodo. [https://doi.org/10.5281/zenodo.22970968](https://doi.org/10.5281/zenodo.22970968)
+> Banasihan, M. J. (2026). *From Formal Authority to Practical Human Control: A traceable method for reconstructing human control in automated decisions* (Revision 2026-10-10) [Preprint]. Zenodo. [https://doi.org/10.5281/zenodo.23423847](https://doi.org/10.5281/zenodo.23423847).
 
-Use the version DOI above to cite this paper. The [paper’s all-versions DOI](https://doi.org/10.5281/zenodo.21926004) follows the latest archived paper version. The [repository archive DOI](https://doi.org/10.5281/zenodo.21841127) identifies the separate software/repository collection. Repository release [v0.17.2](https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.17.2) includes the later live synthetic Jev results and reproducibility tools; the paper remains v0.17.0. Machine-readable metadata is in [CITATION.cff](CITATION.cff).
+The earlier v0.17.0 preprint remains under its historical DOI [10.5281/zenodo.22970968](https://doi.org/10.5281/zenodo.22970968); the v0.14.0 DOI [10.5281/zenodo.21926005](https://doi.org/10.5281/zenodo.21926005) identifies its own earlier paper. The [paper all-versions DOI](https://doi.org/10.5281/zenodo.21926004) and [repository archive DOI](https://doi.org/10.5281/zenodo.21841127) identify separate collections. The author confirmed arXiv submission 7973196 is on hold on 16 October; no public arXiv article identifier or announcement is claimed. See [CITATION.cff](CITATION.cff) and [research status](RESEARCH_STATUS.md).
 
 ## Author
 
