@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "For the approved 2026-10-10 paper revision, use the preferred citation below. Repository release v0.18.0 archives this revision; older Zenodo DOIs identify historical records."
+message: "For the approved 2026-10-10 paper revision, cite DOI 10.5281/zenodo.23423847 below. Repository release v0.18.0 preserves its source and evidence; older paper DOIs identify historical versions."
 title: "Trust, Autonomy, and Evidence"
 type: software
 version: 0.18.0
@@ -13,6 +13,9 @@ url: "https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.1
 license: Apache-2.0
 abstract: "A research repository defining evidence for justified reliance and practical human control, with synthetic validation, versioned public-case reconstruction, a formal literature search, a full methods manuscript, journal-style figures and tables, claim traceability, and executable integrity audits."
 identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23423847"
+    description: "Approved 2026-10-10 preprint revision, published on Zenodo 2026-10-16"
   - type: url
     value: "https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.18.0"
     description: "Versioned GitHub repository release v0.18.0 containing the approved 2026-10-10 paper revision"
@@ -21,7 +24,7 @@ identifiers:
     description: "Historical v0.17.0 preprint version; not the 2026-10-10 revision"
   - type: doi
     value: "10.5281/zenodo.21926004"
-    description: "Preprint concept DOI; separate from the repository archive and not confirmation of a new deposit"
+    description: "All versions of the preprint; separate from the repository archive"
   - type: doi
     value: "10.5281/zenodo.21841127"
     description: "Zenodo concept DOI for archived repository versions"
@@ -34,4 +37,5 @@ preferred-citation:
     - family-names: Banasihan
       given-names: Mark Julius
       orcid: "https://orcid.org/0009-0001-8121-2878"
-  url: "https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.18.0"
+  doi: "10.5281/zenodo.23423847"
+  url: "https://doi.org/10.5281/zenodo.23423847"

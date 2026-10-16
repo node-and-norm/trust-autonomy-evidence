@@ -5,6 +5,10 @@ Authority to Practical Human Control** and its reproducibility supplement. The
 repository v0.18.0 closeout release makes this dated revision the current paper.
 It does not overwrite the historical v0.17.0 manuscript or case assessments.
 
+The revised paper was published on Zenodo on 16 October 2026 at
+[10.5281/zenodo.23423847](https://doi.org/10.5281/zenodo.23423847).
+The arXiv submission remains on hold, confirmed by the author on 16 October.
+
 | Artifact | Purpose |
 | --- | --- |
 | [preprint.pdf](preprint.pdf) | Exact latest PDF supplied by the author for release; 46 pages, including the arXiv submission stamp. |

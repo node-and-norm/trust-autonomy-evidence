@@ -33,12 +33,12 @@ oracles remain unchanged.
 | Record | Verified state and remaining action |
 | --- | --- |
 | GitHub | v0.18.0 publishes the dated revision and this closeout; earlier tags and release findings remain preserved. |
-| arXiv submission `7973196` | Last authenticated confirmation: submitted and processing on 10 October 2026. On 16 October the author reported it may be on hold. Authenticated current status could not be checked with the available connection. No public article identifier or announcement is asserted. |
-| Separate Zenodo paper history | Public API checked 16 October: latest paper record remains v0.17.0, DOI `10.5281/zenodo.22970968`, concept `10.5281/zenodo.21926004`. The October revision requires a new owner-authenticated version; the older DOI must not be represented as identifying the revised PDF. |
+| arXiv submission `7973196` | **On hold**, confirmed by the author from the authenticated account on 16 October. This is the author's direct observation; automated browser verification was unavailable. Previous automated confirmation: processing on 10 October. No public article identifier or announcement is asserted. |
+| Separate Zenodo paper history | October revision published on 16 October: DOI [10.5281/zenodo.23423847](https://doi.org/10.5281/zenodo.23423847), within paper concept `10.5281/zenodo.21926004`. All five public downloads match the approved files. Historical v0.17.0 remains under `10.5281/zenodo.22970968`. |
 | Zenodo repository history | Separate concept DOI `10.5281/zenodo.21841127`. The verified pre-closeout version is v0.17.2, record `23113474`. Any v0.18.0 automatic archive must be confirmed from its actual record. |
 
-The versioned GitHub release is the public citation target for the October revision
-until a DOI for that exact revision is verified. A later venue or archive decision
+The current paper citation is DOI `10.5281/zenodo.23423847`; the versioned GitHub
+release preserves the accompanying repository snapshot. A later venue decision
 requires only a dated publication-status and citation update, unless it raises a
 substantive issue requiring a new, explicitly scoped revision.
 

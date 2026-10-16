@@ -6,11 +6,11 @@
 
 **Current approved paper:** [Revision dated 10 October 2026](paper/revisions/2026-10-10/README.md), with [46-page PDF](paper/revisions/2026-10-10/preprint.pdf), editable source, public reproducibility supplement, dated approval statement, change ledger and verification record.
 
-**Historical DOI-archived preprint:** [v0.17.0](https://doi.org/10.5281/zenodo.22970968), deposited on Zenodo 26 September 2026; original paper publication 6 September 2026. That DOI identifies the earlier paper, not the October reassessment. No new DOI is asserted for the current revision.
+**Current DOI-archived preprint:** [10.5281/zenodo.23423847](https://doi.org/10.5281/zenodo.23423847), published on Zenodo 16 October 2026, revision dated 10 October. The PDF, source, public supplement, instructions and checksums were verified against the public downloads. Historical [v0.17.0](https://doi.org/10.5281/zenodo.22970968) remains preserved under its own DOI.
 
 **Phase status:** Closed for the bounded methods demonstration, approved reassessment and initial Jev experiments. This closes active work in the declared scope, without treating open validation questions as answered. See [phase closeout](docs/research-phase-closeout-2026-10-16.md).
 
-**arXiv status:** Submission 7973196 was last verified as submitted/processing on 10 October 2026. The author reports a possible hold on 16 October. Authenticated status could not be refreshed on that date, so the current moderation state remains unverified. No public announcement or arXiv identifier is claimed here. Venue status does not prevent closing the completed research phase.
+**arXiv status:** **On hold**, confirmed by the author from the authenticated account on 16 October 2026. The automated browser connection was unavailable, so this update records the author's direct observation. The previous automated confirmation was submitted/processing on 10 October. No public announcement or arXiv article identifier is claimed. Venue status does not prevent closing the completed research phase.
 
 **Next phase trigger:** A public preprint announcement can prompt a publication-status and citation update. Independent replication, a contemporary trace-based case, a prospective sandbox study or a measured human/AI comparison requires a separately scoped study. A venue announcement alone does not validate the method or require another experiment.
 

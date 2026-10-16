@@ -459,11 +459,11 @@ Contributions should identify the proposition being changed, the evidence suppor
 
 ## Citation
 
-The current approved preprint revision is dated **10 October 2026** and is archived in the [v0.18.0 repository release](https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.18.0):
+The current approved preprint revision is dated **10 October 2026**, published on Zenodo on **16 October 2026**, and preserved in the [v0.18.0 repository release](https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.18.0):
 
-> Banasihan, M. J. (2026). *From Formal Authority to Practical Human Control: A traceable method for reconstructing human control in automated decisions* (Revision 2026-10-10) [Preprint]. In *Trust, Autonomy, and Evidence*, repository release v0.18.0. [Versioned archive](https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.18.0).
+> Banasihan, M. J. (2026). *From Formal Authority to Practical Human Control: A traceable method for reconstructing human control in automated decisions* (Revision 2026-10-10) [Preprint]. Zenodo. [https://doi.org/10.5281/zenodo.23423847](https://doi.org/10.5281/zenodo.23423847).
 
-No new paper DOI or public arXiv identifier is asserted for this revision. The earlier v0.17.0 preprint remains available under its historical DOI [10.5281/zenodo.22970968](https://doi.org/10.5281/zenodo.22970968); the v0.14.0 DOI [10.5281/zenodo.21926005](https://doi.org/10.5281/zenodo.21926005) likewise identifies its own earlier paper. The [paper all-versions DOI](https://doi.org/10.5281/zenodo.21926004) and [repository archive DOI](https://doi.org/10.5281/zenodo.21841127) identify separate collections; neither is evidence that this revision has a new Zenodo deposit. See [CITATION.cff](CITATION.cff) for machine-readable metadata and [research status](RESEARCH_STATUS.md) for venue status.
+The earlier v0.17.0 preprint remains under its historical DOI [10.5281/zenodo.22970968](https://doi.org/10.5281/zenodo.22970968); the v0.14.0 DOI [10.5281/zenodo.21926005](https://doi.org/10.5281/zenodo.21926005) identifies its own earlier paper. The [paper all-versions DOI](https://doi.org/10.5281/zenodo.21926004) and [repository archive DOI](https://doi.org/10.5281/zenodo.21841127) identify separate collections. The author confirmed arXiv submission 7973196 is on hold on 16 October; no public arXiv article identifier or announcement is claimed. See [CITATION.cff](CITATION.cff) and [research status](RESEARCH_STATUS.md).
 
 ## Author
 

@@ -34,11 +34,13 @@
     "arxiv_submission_id": "7973196",
     "last_authenticated_status": "processing",
     "last_authenticated_check": "2026-10-10",
-    "author_reported_2026_10_16": "may be on hold",
-    "current_authenticated_status": "not verified",
+    "author_reported_2026_10_16": "on hold",
+    "current_authenticated_status": "on hold, directly observed and reported by the author on 2026-10-16",
     "public_article_id": null,
     "historical_paper_doi": "10.5281/zenodo.22970968",
-    "revised_paper_doi": null
+    "revised_paper_doi": "10.5281/zenodo.23423847",
+    "zenodo_published": "2026-10-16",
+    "current_status_source": "author observation of authenticated account; automated browser connection unavailable"
   },
   "limits": [
     "Reproduction and hashes do not independently validate historical sources or assessor judgments.",
