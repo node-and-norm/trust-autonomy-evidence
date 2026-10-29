@@ -8,6 +8,16 @@ An evidence architecture for bounded reliance.
 
 </div>
 
+## Research summary
+
+Methods phase closed. A reproducible documentary assessment method, demonstrated on three selected historical cases. The approved conditional reassessment leaves all three Unresolved.
+
+Reconstruct control conditions, trace a judgment to its sources and preserve what the record cannot establish.
+
+[Findings, use, limits and next steps](docs/research-summary.md), reviewed 29 October 2026.
+
+
+
 ---
 
 ## Table of contents
