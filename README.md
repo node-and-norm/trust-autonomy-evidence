@@ -4,7 +4,7 @@
 
 An evidence architecture for bounded reliance.
 
-[![Status: Research Phase Closed](https://img.shields.io/badge/status-research%20phase%20closed-5b6cff)](RESEARCH_STATUS.md) [![Version: 0.18.0](https://img.shields.io/github/v/release/node-and-norm/trust-autonomy-evidence?display_name=tag&label=release)](https://github.com/node-and-norm/trust-autonomy-evidence/releases) [![Approved paper revision: 2026-10-10](https://img.shields.io/badge/paper-2026--10--10-5b6cff)](paper/revisions/2026-10-10/README.md) [![Validation](https://github.com/node-and-norm/trust-autonomy-evidence/actions/workflows/validate.yml/badge.svg)](https://github.com/node-and-norm/trust-autonomy-evidence/actions/workflows/validate.yml) [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-green)](LICENSE) [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--8121--2878-brightgreen)](https://orcid.org/0009-0001-8121-2878)
+[![Status: Research Phase Closed](https://img.shields.io/badge/status-research%20phase%20closed-5b6cff)](RESEARCH_STATUS.md) [![Version: 0.18.0](https://img.shields.io/github/v/release/node-and-norm/trust-autonomy-evidence?display_name=tag&label=release)](https://github.com/node-and-norm/trust-autonomy-evidence/releases) [![Editorial paper revision: 2026-11-01](https://img.shields.io/badge/paper-2026--11--01-5b6cff)](paper/revisions/2026-11-01/README.md) [![Validation](https://github.com/node-and-norm/trust-autonomy-evidence/actions/workflows/validate.yml/badge.svg)](https://github.com/node-and-norm/trust-autonomy-evidence/actions/workflows/validate.yml) [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-green)](LICENSE) [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--8121--2878-brightgreen)](https://orcid.org/0009-0001-8121-2878)
 
 </div>
 
@@ -26,7 +26,9 @@ Reconstruct control conditions, trace a judgment to its sources and preserve wha
 
 ## At a glance
 
-Repository **v0.18.0** archives the author-approved **10 October 2026 paper revision** and closes the current methods demonstration and initial Jev research phase. Start with the [46-page preprint](paper/revisions/2026-10-10/preprint.pdf), [source and reproducibility supplement](paper/revisions/2026-10-10/README.md), [release notes](release/v0.18.0-release-notes.md), and [phase closeout](docs/research-phase-closeout-2026-10-16.md).
+**Latest paper: [November 1, 2026 editorial revision — 47-page PDF](paper/revisions/2026-11-01/preprint.pdf).** The [revision archive](paper/revisions/2026-11-01/README.md) includes the submitted source, expanded AI-assistance disclosure and verification record. This editorial update preserves the findings and completed phase status. The existing arXiv submission was updated on November 1 and remains **on hold**; no public arXiv article identifier is claimed.
+
+Repository **v0.18.0** remains the closeout release for the methods demonstration and initial Jev phase. It preserves the [October 10 paper and public supplement](paper/revisions/2026-10-10/README.md), also archived on [Zenodo](https://doi.org/10.5281/zenodo.23423847). That DOI identifies the October edition, not this November revision. See the [version guide](paper/revisions/README.md), [release notes](release/v0.18.0-release-notes.md) and [phase closeout](docs/research-phase-closeout-2026-10-16.md).
 
 The revision preserves the historical findings and separately reports limited corrections and the additional ZG710 reassessment. Under the retained coding alternatives, all 64 joint assignments yield **0 Pass / 0 Fail / 3 Unresolved**. That is a conditional documentary result; it establishes neither that practical control worked nor that it was absent. Any justified failure of a necessary condition still produces Fail. Broader Stage 3 construct amendments remain unadopted.
 
@@ -35,7 +37,7 @@ The [first live Jev experiment](experiments/jev/live_results_v1/REPORT.md) attem
 | Research checkpoint | Current account |
 | :--- | :--- |
 | Research question | What evidence justifies reliance, and what evidence shows that institutional authority can detect, interrupt, correct, and repair AI-system actions? |
-| Current repository release and paper | [v0.18.0 repository release](https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.18.0) · [approved 2026-10-10 revision](paper/revisions/2026-10-10/README.md) · [46-page preprint](paper/revisions/2026-10-10/preprint.pdf) |
+| Current repository release and paper | [v0.18.0 repository release](https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.18.0) · [November 1 editorial revision](paper/revisions/2026-11-01/README.md) · [47-page preprint](paper/revisions/2026-11-01/preprint.pdf) |
 | Case-level results | Historical baseline: **0 Pass / 2 Fail / 1 Unresolved**. Limited corrections: **0 / 1 / 2**, across all 16 assignments. Additional reassessment: **0 / 0 / 3**, conditional across all 64 assignments. Original releases and case files remain preserved. |
 | Internal validation | All **252 determinations** and **12 original mutation tests** pass under the committed contract. |
 | Open exceptions | **Five inherited base-audit exceptions**: no independent assessment, incomplete literature-search coverage, two direct-query source limits, untested contemporary transfer, and external venue status. **Two policy-crosswalk exceptions**: incomplete legal/standards coverage and untested prospective application. |
@@ -46,7 +48,7 @@ These results establish internal contract behavior and traceability for the incl
 
 ### Reviewer
 
-1. [Current approved preprint and reassessment supplement](paper/revisions/2026-10-10/README.md)
+1. [Current preprint, submitted source and preserved supplement](paper/revisions/2026-11-01/README.md)
 2. [Material claims and evidence](CLAIMS.md)
 3. [Validity threats and limits](LIMITATIONS.md)
 4. [v0.17.0 policy-extension audit](audits/v0.17.0-policy-crosswalk/audit-report.md)
@@ -77,7 +79,7 @@ The project develops an evidence architecture for bounded reliance. It identifie
 
 ## Current contribution
 
-The current repository release is **v0.18.0**. The [approved 2026-10-10 paper revision](paper/revisions/2026-10-10/README.md) adds a separately versioned reassessment, public approval statement, correction ledger, and reproducibility checks without replacing historical case artifacts or the sealed synthetic oracle. The methods and initial Jev phase is closed; independent replication, contemporary transfer, and measured human benefits are future studies.
+The current repository release is **v0.18.0**. The [approved 2026-10-10 paper revision](paper/revisions/2026-10-10/README.md) adds a separately versioned reassessment, public approval statement, correction ledger, and reproducibility checks without replacing historical case artifacts or the sealed synthetic oracle. The [November 1 editorial revision](paper/revisions/2026-11-01/README.md) clarifies the prose and AI-assistance disclosure without changing those findings. The methods and initial Jev phase is closed; independent replication, contemporary transfer, and measured human benefits are future studies.
 
 The preserved v0.17.0 [policy crosswalk](paper/policy-and-standards-crosswalk-v0.17.0.md) adds five bounded claims, eight official-source records, and nine detected mutation controls. Its [two open exceptions](audits/v0.17.0-policy-crosswalk/exceptions.md) preserve the limits on legal/standards coverage and prospective application. The v0.16.0 base audit and historical case results remain the supporting record.
 
@@ -120,7 +122,7 @@ All 252 determinations and 12 original mutation tests pass under the committed c
 
 ### Release history
 
-These entries describe their original checkpoints. The current repository release is v0.18.0; the approved paper revision is dated 2026-10-10. Older version numbers identify preserved historical artifacts.
+These entries describe their original checkpoints. The current repository release is v0.18.0; its archived approved paper revision is dated 2026-10-10. The current manuscript is the separately preserved November 1 editorial revision. Older version numbers identify historical artifacts.
 
 <details open>
 <summary>v0.18.0: Approved reassessment archive and research-phase closeout</summary>
@@ -200,7 +202,7 @@ Post-release work has assigned a terminal state to all 27 retained-close sources
 
 ## Featured figure
 
-The figure below preserves the **historical baseline**. The [approved revision](paper/revisions/2026-10-10/preprint.pdf) presents the staged comparison, including the conditional additional reassessment; use it for the current conclusions.
+The figure below preserves the **historical baseline**. The [current editorial revision](paper/revisions/2026-11-01/preprint.pdf) presents the staged comparison, including the conditional additional reassessment; use it for the current conclusions.
 
 [![Practical-control chain across three public cases](figures/generated/fig-2-practical-control-chain.png)](figures/generated/fig-2-practical-control-chain.svg)
 
@@ -276,7 +278,9 @@ The matrix uses categorical states and letter labels so color is not the only si
 | [`research/agenda-discovery-log-v0.11.0.md`](research/agenda-discovery-log-v0.11.0.md) | Records retrieval findings about inspectability, preserved provenance, parallel intervention paths, and the Patriot-adjacent close source. |
 | [`research/agenda-discovery-log-v0.12.0.md`](research/agenda-discovery-log-v0.12.0.md) | Records why retrieval, screening, access, duplicate handling, and independent assessment remain separate gates. |
 | [`paper/`](paper/) | Develops the methods paper, formal search, claim register, literature audit, structured tables, references, and publication decisions. |
-| [`paper/revisions/2026-10-10/README.md`](paper/revisions/2026-10-10/README.md) | Provides the current approved paper, source, public supplement and verification record. |
+| [`paper/revisions/2026-11-01/README.md`](paper/revisions/2026-11-01/README.md) | Provides the current 47-page editorial revision, submitted source and verification record. |
+| [`paper/revisions/README.md`](paper/revisions/README.md) | Separates the current paper from earlier archived editions and their publication status. |
+| [`paper/revisions/2026-10-10/README.md`](paper/revisions/2026-10-10/README.md) | Preserves the October reassessment, source, public supplement and verification record. |
 | [`paper/README.md`](paper/README.md) | Preserves the earlier paper-workspace entry point and historical packages. |
 | [`paper/REVIEW.md`](paper/REVIEW.md) | Preserves the earlier review guide, category-fit summary, evidence paths, and focused review questions. |
 | [`paper/archive/`](paper/archive/) | Indexes earlier paper packages and stores the retired v0.15.0 delivery files. |
@@ -433,7 +437,7 @@ The matrix uses categorical states and letter labels so color is not the only si
 
 ## How to read the repository
 
-Start with [Trust, Autonomy, and Evidence](research/trust-autonomy-and-evidence.md). Use the [Trust Evidence Register](evidence/trust-evidence-register.md) to translate a reliance claim into inspectable evidence. Read the [approved paper revision](paper/revisions/2026-10-10/README.md), [preserved public-case report](reports/public-case-reconstruction-v0.6.0.md), [CLAIMS.md](CLAIMS.md), and [LIMITATIONS.md](LIMITATIONS.md) before applying the model. Historical claim and figure records retain their original scope; the current reassessment is separately versioned.
+Start with [Trust, Autonomy, and Evidence](research/trust-autonomy-and-evidence.md). Use the [Trust Evidence Register](evidence/trust-evidence-register.md) to translate a reliance claim into inspectable evidence. Read the [current paper revision](paper/revisions/2026-11-01/README.md), [preserved public-case report](reports/public-case-reconstruction-v0.6.0.md), [CLAIMS.md](CLAIMS.md), and [LIMITATIONS.md](LIMITATIONS.md) before applying the model. Historical claim and figure records retain their original scope; the current reassessment is separately versioned.
 
 The five protocols define solo validation, public-case reconstruction, practical-control assessment, claim-evidence integrity, and future independent evaluation. The public-case selection register must record its freeze commit before candidate screening begins. The mapping files show how this project relates to existing public artifacts without transferring claims among them.
 
@@ -448,7 +452,7 @@ python -m pip install -r requirements-dev.txt
 python scripts/validate_repository.py
 ```
 
-The repository validator checks required release files, internal links, version alignment, schemas, source references, sealed packet and release hashes, selection invariants, historical case interactions, 252 oracle comparisons, 12 original mutation tests, six adjudication controls, 39 base claim-integrity controls, nine policy-crosswalk mutation controls, formal-search consistency, literature support, and figure integrity. The paper validator checks author identity, question alignment, at least 45 bibliography entries, the archived v0.6 DOI, current claim eligibility, and the originality-language boundary. Successful runs end with `repository validation: PASS`, `chain-of-evidence audits: PASS_WITH_EXCEPTIONS`, and `paper validation: PASS`. These original checks retain their historical scope; the [current revision verification record](paper/revisions/2026-10-10/VERIFICATION.json) records the separate approved-reassessment checks.
+The repository validator checks required release files, internal links, version alignment, schemas, source references, sealed packet and release hashes, selection invariants, historical case interactions, 252 oracle comparisons, 12 original mutation tests, six adjudication controls, 39 base claim-integrity controls, nine policy-crosswalk mutation controls, formal-search consistency, literature support, and figure integrity. The paper validator checks author identity, question alignment, at least 45 bibliography entries, the archived v0.6 DOI, current claim eligibility, and the originality-language boundary. Successful runs end with `repository validation: PASS`, `chain-of-evidence audits: PASS_WITH_EXCEPTIONS`, and `paper validation: PASS`. These original checks retain their historical scope; the [October revision verification record](paper/revisions/2026-10-10/VERIFICATION.json) records the separate approved-reassessment checks. The [November verification record](paper/revisions/2026-11-01/VERIFICATION.json) and [checksums](paper/revisions/2026-11-01/SHA256SUMS.txt) identify the new editorial artifacts; the historical validators do not independently assess the new prose or disclosure.
 
 ## Research boundaries
 
@@ -469,11 +473,15 @@ Contributions should identify the proposition being changed, the evidence suppor
 
 ## Citation
 
-The current approved preprint revision is dated **10 October 2026**, published on Zenodo on **16 October 2026**, and preserved in the [v0.18.0 repository release](https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.18.0):
+The current manuscript is the **November 1, 2026 editorial revision**, with no new DOI assigned:
+
+> Banasihan, M. J. (2026). *From Formal Authority to Practical Human Control: A traceable method for reconstructing human control in automated decisions* (Editorial revision, November 1, 2026) [Preprint]. [GitHub revision archive](https://github.com/node-and-norm/trust-autonomy-evidence/tree/main/paper/revisions/2026-11-01).
+
+When citing the **October 10 edition**, published on Zenodo October 16 and preserved in the [v0.18.0 repository release](https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.18.0), use its own citation:
 
 > Banasihan, M. J. (2026). *From Formal Authority to Practical Human Control: A traceable method for reconstructing human control in automated decisions* (Revision 2026-10-10) [Preprint]. Zenodo. [https://doi.org/10.5281/zenodo.23423847](https://doi.org/10.5281/zenodo.23423847).
 
-The earlier v0.17.0 preprint remains under its historical DOI [10.5281/zenodo.22970968](https://doi.org/10.5281/zenodo.22970968); the v0.14.0 DOI [10.5281/zenodo.21926005](https://doi.org/10.5281/zenodo.21926005) identifies its own earlier paper. The [paper all-versions DOI](https://doi.org/10.5281/zenodo.21926004) and [repository archive DOI](https://doi.org/10.5281/zenodo.21841127) identify separate collections. The author confirmed arXiv submission 7973196 is on hold on 16 October; no public arXiv article identifier or announcement is claimed. See [CITATION.cff](CITATION.cff) and [research status](RESEARCH_STATUS.md).
+The earlier v0.17.0 preprint remains under its historical DOI [10.5281/zenodo.22970968](https://doi.org/10.5281/zenodo.22970968); the v0.14.0 DOI [10.5281/zenodo.21926005](https://doi.org/10.5281/zenodo.21926005) identifies its own earlier paper. The [paper all-versions DOI](https://doi.org/10.5281/zenodo.21926004) and [repository archive DOI](https://doi.org/10.5281/zenodo.21841127) identify separate collections. The authenticated arXiv account confirmed the November 1 submission update and continued **on hold** status; no public arXiv article identifier or announcement is claimed. See [CITATION.cff](CITATION.cff) and [research status](RESEARCH_STATUS.md).
 
 ## Author
 

@@ -1,0 +1,1755 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{XCharter}
+\usepackage[letterpaper,top=0.78in,bottom=0.78in,left=0.86in,right=0.86in]{geometry}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{microtype}
+\usepackage[table]{xcolor}
+\definecolor{TAENavy}{HTML}{0B1F3A}
+\definecolor{TAENavyMid}{HTML}{486581}
+\definecolor{TAEPaleNavy}{HTML}{EDF1F5}
+\definecolor{TAEInk}{HTML}{202124}
+\usepackage[colorlinks=true,linkcolor=TAENavy,urlcolor=TAENavy,citecolor=TAENavy]{hyperref}
+\usepackage{enumitem}
+\usepackage{caption}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage[most]{tcolorbox}
+\usepackage{placeins}
+\usepackage{longtable}
+\usepackage{needspace}
+\usepackage{bookmark}
+\color{TAEInk}
+\titleformat{\section}{\Large\bfseries\color{TAENavy}}{}{0pt}{}
+\titleformat{\subsection}{\large\bfseries\color{TAENavy}}{}{0pt}{}
+\titleformat{\subsubsection}{\normalsize\bfseries\itshape\color{TAENavy}}{}{0pt}{}
+\titlespacing*{\section}{0pt}{1.4em}{0.45em}
+\titlespacing*{\subsection}{0pt}{1.05em}{0.3em}
+\titlespacing*{\subsubsection}{0pt}{0.9em}{0.25em}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\small\color{TAENavy} Practical Human Control}
+\rhead{\small\color{TAENavy} A PREPRINT}
+\cfoot{\thepage}
+\setlength{\headheight}{14pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.52em plus 0.08em minus 0.06em}
+\setlength{\emergencystretch}{2em}
+\setlength{\textfloatsep}{12pt plus 3pt minus 2pt}
+\setlength{\floatsep}{10pt plus 2pt minus 2pt}
+\setlength{\intextsep}{10pt plus 2pt minus 2pt}
+\renewcommand{\arraystretch}{1.10}
+\captionsetup{font=small,labelfont={bf,color=TAENavy},labelsep=period,justification=raggedright,singlelinecheck=false}
+\newtcolorbox{TAETitleBox}{colback=TAEPaleNavy,colframe=TAENavy,boxrule=0.8pt,arc=2mm,left=12pt,right=12pt,top=14pt,bottom=14pt}
+\newtcolorbox{TAEAbstractBox}{colback=white,colframe=TAENavyMid,boxrule=0.45pt,arc=1.5mm,left=12pt,right=12pt,top=9pt,bottom=9pt}
+\newenvironment{TAEReferences}{%
+  \begin{list}{}{%
+    \renewcommand{\makelabel}[1]{}%
+    \setlength{\labelwidth}{0pt}%
+    \setlength{\labelsep}{0pt}%
+    \setlength{\leftmargin}{0.5in}%
+    \setlength{\itemindent}{-0.5in}%
+    \setlength{\itemsep}{0.45em}%
+    \setlength{\parsep}{0pt}%
+    \setlength{\topsep}{0.25em}%
+  }%
+}{\end{list}}
+
+% Readability and navigation additions; original typography and palette retained.
+\newlength{\TAETableWidth}
+\setlength{\LTleft}{0pt}
+\setlength{\LTright}{\fill}
+\setlength{\LTpre}{0.35em}
+\setlength{\LTpost}{0.55em}
+\hypersetup{pdftitle={From Formal Authority to Practical Human Control},pdfauthor={Mark Julius Banasihan},pdfsubject={Editorial revision, 1 November 2026}}
+
+\begin{document}\thispagestyle{plain}
+% Canonical block 000: title
+\begin{center}
+{\LARGE\bfseries\color{TAENavy} From Formal Authority to Practical Human Control\par}
+\vspace{0.45em}
+
+% Canonical block 001: subtitle
+{\large A traceable method for reconstructing human control in automated decisions\par}
+\vspace{0.45em}
+
+% Canonical block 002: author
+{\large\bfseries Mark Julius Banasihan\par}
+\vspace{-0.25em}
+{\normalsize Node \& Norm\par}
+\vspace{-0.25em}
+{\normalsize Corresponding author: \href{mailto:mjbanasihan@nodeandnorm.org}{mjbanasihan@nodeandnorm.org}\par}
+\end{center}
+
+% Canonical block 003: status
+
+
+% Canonical block 004: abstract
+\begin{TAEAbstractBox}
+{\small\textbf{Abstract}\par\medskip}
+\small
+Institutions use human-control claims to justify deployment, reassure affected people, and allocate responsibility. A named reviewer or approval step cannot establish that the person had practical power over the decision. This study presents a traceable procedure for examining six connected conditions: information access, comprehension capacity, intervention authority, intervention feasibility, exercised judgment, and execution propagation. Three purposively selected historical packets demonstrate the method. The preserved release reports two Fail results and one Unresolved result; a limited evidence correction retains one Fail and two Unresolved results. A separately approved additional ZG710 reassessment sets comprehension to Indeterminate and retains Partial/Indeterminate alternatives for feasibility and exercise. Conditional on the other limited-correction cells, all 64 retained joint assignments yield three Unresolved claims. Any justified necessary-condition failure still produces Fail. The revised findings distinguish source evidence, assessor interpretation, and calculation; they do not establish that historical control was absent. A 2,431-record open-index search and selected governance crosswalk place the method within related research and possible prospective applications, with explicit coverage and legal limits. These retrospective, single-assessor cases establish no prevalence, independent reliability, causal effect, or transfer to contemporary systems. The institutional contribution is an inspectable control claim and a targeted evidence request: an untested claim can conceal an ineffective safeguard, assign responsibility without practical power, or leave the same failure mechanism unexamined in later deployments.
+
+% Canonical block 005: paragraph
+\par\medskip\noindent\textbf{Keywords:} human oversight; meaningful human control; AI governance; incident reconstruction; assurance
+\end{TAEAbstractBox}
+\medskip
+
+% Canonical block 006: heading
+\Needspace{6\baselineskip}
+\pdfbookmark[0]{1. Introduction}{1-introduction}
+\section*{1. Introduction}
+
+% Canonical block 007: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{1.1 The institutional problem}{1-1-the-institutional-problem}
+\subsection*{1.1 The institutional problem}
+
+% Canonical block 008: paragraph
+Assigning someone an approval role does not show that they received the relevant information, understood the system's limits, could challenge the proposed action in time, exercised that authority, or that their judgment reached execution. A sound review may leave the proposed action unchanged. A human-control claim contains several empirical propositions that a signature or job title cannot establish by itself. If an institution treats the role assignment as proof, it can count an ineffective safeguard as functioning and place responsibility on someone who lacked practical power.
+
+% Canonical block 009: paragraph
+Human-factors research explains the mechanism. Automation can leave people responsible for rare or abnormal conditions after routine system operation has reduced their preparation for those conditions (\href{https://doi.org/10.1016/0005-1098(83)90046-8}{Bainbridge, 1983}). Situation awareness and intervention performance depend on what the person can perceive, understand, and project under the operating conditions (\href{https://doi.org/10.1177/0018720816681350}{Endsley, 2017}). Trust affects reliance through the interaction of the person, system, task, and context (\href{https://doi.org/10.1518/hfes.46.1.50_30392}{Lee \& See, 2004}). Formal authority can remain intact as these operational conditions deteriorate.
+
+% Canonical block 010: paragraph
+The same problem appears in policy. Green finds that government rules often require human oversight without establishing that the designated people can perform the intended review (\href{https://doi.org/10.1016/j.clsr.2022.105681}{Green, 2022}). Zhu et al. separate AI operative agency from human evaluative agency and identify verification, contestation, and substitution as oversight mechanisms (\href{https://doi.org/10.1007/s43681-026-01147-7}{Zhu et al., 2026}). These accounts direct attention to a documentary question: what evidence would justify reliance on an institutional claim that human authority had practical force in one consequential decision?
+
+% Canonical block 011: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{1.2 Research gap}{1-2-research-gap}
+\subsection*{1.2 Research gap}
+
+% Canonical block 012: paragraph
+A human-control claim draws on several kinds of research. Meaningful-human-control accounts ask whether system behavior responds to human reasons and remains connected to identifiable responsibility. Human-factors research explains why people may lack the information, skill, or time to intervene. Institutional oversight research asks whether competence, incentives, and decision rights make that intervention possible. These perspectives motivate the six conditions examined here (\href{https://doi.org/10.3389/frobt.2018.00015}{Santoni de Sio \& van den Hoven, 2018}; \href{https://doi.org/10.1016/0005-1098(83)90046-8}{Bainbridge, 1983}; \href{https://doi.org/10.1007/s00146-023-01777-z}{Laux, 2024}).
+
+% Canonical block 013: paragraph
+Incident analysis and assurance address a related evidentiary problem. Investigators need records from which to reconstruct the event, while an assurance argument must explain why those records support the claim. Public incident methods already accommodate incomplete accounts and uncertainty; evidence-linked methods make assumptions and dependencies inspectable (\href{https://ceur-ws.org/Vol-3381/17.pdf}{Pittaras \& McGregor, 2023}; \href{https://doi.org/10.1007/s43681-022-00178-0}{Burr \& Leslie, 2023}).
+
+% Canonical block 014: paragraph
+The closest procedures overlap substantially with this study. CEDAR-42001 combines retrospective public evidence, an insufficient-evidence category, and versioned executable assessment rules (\href{https://doi.org/10.48550/arXiv.2606.21276}{Surve et al., 2026}). \href{https://doi.org/10.3390/automation7030096}{Niazi et al. (2026)} describe versioned assurance cases, practical-override traces, and retrospective process tracing. LaPosta's one-page extended abstract proposes a runnable human decision-chain protocol, while Bahidika maps existing incident annotations into oversight tiers (\href{https://doi.org/10.1609/aaaiss.v8i1.42543}{LaPosta, 2026}; \href{https://doi.org/10.14569/IJACSA.2026.0170502}{Bahidika, 2026}). These contributions prevent a claim that retrospective, traceable oversight assessment is new in itself.
+
+% Canonical block 015: paragraph
+The present question concerns a particular implementation: how can an investigator inspect the documentary support for human control in one bounded decision? The procedure connects case selection, a versioned packet, six condition-level findings, and a categorical conclusion. It distinguishes assigned authority from evidence that authority could be used, was exercised, and reached execution. It also preserves the reasoning needed to dispute or revise each finding.
+
+% Canonical block 016: paragraph
+Each part addresses a different error. A selection rule fixed before screening limits choice after seeing results. Versioned packets identify the record actually used. Separate Unsupported and Indeterminate states prevent missing evidence from becoming a negative factual finding. The six-condition rule prevents authority alone from establishing practical control. Evidence-fitness and dependency checks expose conclusions whose premises are inadequately supported; correction history preserves the earlier account.
+
+% Canonical block 017: paragraph
+This study implements established ideas in an inspectable procedure. The uniqueness of the complete method remains unverified. The formal search contains 2,431 deduplicated records, but 980 retrieval outcomes and authenticated-database coverage remain unresolved. Section 2 explains the relevant conceptual and procedural relationships; Section 4 reports the preserved search results.
+
+% Canonical block 018: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{1.3 Research question and contribution}{1-3-research-question-and-contribution}
+\subsection*{1.3 Research question and contribution}
+
+% Canonical block 019: paragraph
+\begin{quote}\itshape How can a frozen, evidence-traceable assessment procedure represent formal human authority, practical human control, and unresolved evidence in a bounded public incident record?\end{quote}
+
+% Canonical block 020: paragraph
+The paper proposes a documentary assessment procedure. It defines a bounded action sequence, fixes case-selection and missing-data rules, assembles a versioned evidence packet, assigns provenance to material statements, and evaluates six conditions: information access, comprehension capacity, intervention authority, intervention feasibility, exercised judgment, and execution propagation. An explicit Indeterminate state keeps missing records distinct from evidence of failure. A correction ledger preserves earlier outputs and records why a later judgment changes.
+
+% Canonical block 021: paragraph
+The original selection protocol preceded screening. The additional reassessment reported here is post hoc and retains the released constructs, boundaries, and aggregation rule. Where the released assessment attributes authority or action to a crew, crew-level evidence can address that same proposition. It does not establish any individual member's cognition. No broader change to the evidence policy or unit of analysis is adopted.
+
+% Canonical block 022: paragraph
+The three cases demonstrate that procedure under contrastive evidence conditions. They do not test prevalence, classification accuracy, independent reliability, causal effects, or transfer to current learned systems. The institutional output is a proposed record set that a reviewer would need before relying on a practical-control claim. The ethical proposition is narrower: an institution that represents a decision as human-controlled should preserve evidence capable of testing whether the assigned authority had practical force.
+
+% Canonical block 023: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{1.4 Paper structure}{1-4-paper-structure}
+\subsection*{1.4 Paper structure}
+
+% Canonical block 024: paragraph
+Section 2 locates the procedure in meaningful-human-control, human-factors, oversight, incident-analysis, reconstruction, and assurance research. Section 3 defines the method, artifact controls, literature search, and transfer boundary. Section 4 presents the historical results, the limited correction, and the approved additional reassessment alongside the preserved search and audit results. Section 5 interprets their meaning for human-control claims. Section 6 maps selected governance instruments and proposes prospective validation. Sections 7 and 8 state the limits and institutional evidence requests; Section 9 concludes. Supplementary appendices preserve detailed source qualifications and distinguish later synthetic work from the historical study.
+
+% Canonical block 025: heading
+\Needspace{6\baselineskip}
+\pdfbookmark[0]{2. Related work}{2-related-work}
+\section*{2. Related work}
+
+% Canonical block 026: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{2.1 Meaningful human control}{2-1-meaningful-human-control}
+\subsection*{2.1 Meaningful human control}
+
+% Canonical block 027: paragraph
+\href{https://doi.org/10.3389/frobt.2018.00015}{Santoni de Sio and van den Hoven (2018)} define meaningful human control through tracking and tracing. Tracking requires system behavior to respond to relevant human reasons. Tracing connects each system action to a person who understands the system's capabilities and effects and their responsibility for its use. Human presence alone does not establish either relationship.
+
+% Canonical block 028: paragraph
+Later work develops that relationship for institutional and engineering settings. \href{https://doi.org/10.1007/s43681-022-00167-3}{Siebert et al. (2023)} link ability, authority, and responsibility, including logged human decisions that can be connected to system actions. \href{https://doi.org/10.3389/fdata.2022.1017677}{Davidovic (2023)} argues that the purpose served by human control must first be stated. These accounts help specify whose control is at issue, over which decision, for what purpose, and through which options.
+
+% Canonical block 029: paragraph
+Immediate intervention also sits within wider arrangements. \href{https://doi.org/10.1007/s11948-025-00554-z}{Calvert (2025)} locates it within control exercised through design, deployment, and governance. \href{https://doi.org/10.1007/s11023-020-09532-9}{Verdiesen et al. (2021)} distinguish technical, sociotechnical, and governance layers. An event-level finding therefore cannot settle the adequacy of the institution's entire control system.
+
+% Canonical block 030: paragraph
+Other accounts examine how people work with increasingly capable systems. \href{https://doi.org/10.1007/s43681-024-00489-4}{Tsamados et al. (2025)} compare supervisory control and human-machine teaming for foundation-model systems. \href{https://doi.org/10.1007/s43681-026-01147-7}{Zhu et al. (2026)} frame oversight as human evaluative agency expressed through verification, steering, contestation, and substitution. These perspectives help specify the intervention being claimed rather than treating any human involvement as sufficient.
+
+% Canonical block 031: paragraph
+The present paper uses these sources to define the proposition being assessed. It does not offer a new philosophical account of meaningful human control.
+
+% Canonical block 032: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{2.2 Human oversight and the automation problem}{2-2-human-oversight-and-the-automation-problem}
+\subsection*{2.2 Human oversight and the automation problem}
+
+% Canonical block 033: paragraph
+Bainbridge shows how automation transfers rare, abnormal, and difficult work to people after routine operation has weakened the practice needed for that work (\href{https://doi.org/10.1016/0005-1098(83)90046-8}{Bainbridge, 1983}). Endsley connects autonomous-system performance to situation awareness, monitoring, workload, trust, and out-of-the-loop degradation (\href{https://doi.org/10.1177/0018720816681350}{Endsley, 2017}). Lee and See model appropriate reliance as a relation among the person, automation, task, and environment (\href{https://doi.org/10.1518/hfes.46.1.50_30392}{Lee \& See, 2004}). Together, these mechanisms explain how nominal oversight can lose practical force.
+
+% Canonical block 034: paragraph
+Human response to advice is conditional. Across three Dutch experiments, \href{https://doi.org/10.1093/jopart/muac007}{Alon-Barkat and Busuioc (2023)} found no greater adherence to algorithmic than equivalent human-expert advice. In the general-population study, advice aligned with group stereotypes attracted greater adherence across both sources; the civil-servant study did not reproduce that pattern. Agreement with a recommendation therefore cannot establish one general tendency to defer to automation.
+
+% Canonical block 035: paragraph
+\href{https://doi.org/10.1007/s11023-024-09701-0}{Langer et al. (2025)} offer a conceptual distinction between sensitivity, the ability to discriminate errors from normal outputs, and response bias, the tendency to classify an output as erroneous. An observed approval or rejection may reveal an action without establishing its evaluative basis. \href{https://doi.org/10.1017/S0963180122000718}{Haselager et al. (2023)} propose counterargument prompts to support questioning of medical decision-support advice.
+
+% Canonical block 036: paragraph
+\href{https://doi.org/10.1145/3805689.3812402}{Dhanorkar et al. (2026)} identify a priori control, co-planning, real-time monitoring, and post hoc review in interviews with 17 experienced developers using software agents. Their account describes several forms of oversight work. It does not establish that one form or a recorded action necessarily provides effective control in another setting.
+
+% Canonical block 037: paragraph
+Two empirical sources illustrate the gap between perceived control and demonstrated intervention. In a secondary analysis of 99 Tesla-user interviews, \href{https://doi.org/10.48550/arXiv.2402.08080}{Suryana et al. (2024)} report that perceived safety sometimes coexisted with failures to track driver reasons. Takeover readiness and prior reliable experience also shaped perception. The study concerns reported perceptions of partial driving automation, rather than observed incident-control outcomes.
+
+% Canonical block 038: paragraph
+In a 28-participant sandbox study, \href{https://doi.org/10.1109/CAI64502.2025.00121}{Li et al. (2025)} report task-completion rates of 83.3 percent under direct manipulation and 61.9 percent under text guidance. Delayed responses and difficult error correction also made intervention effects harder to assess. The sample, tasks, model, and single qualitative coder limit transfer. Both studies motivate a narrower question for this method: what evidence connects available feedback or perceived control to an actual intervention effect?
+
+% Canonical block 039: paragraph
+Effectiveness also depends on what people can know and change. \href{https://doi.org/10.1145/3630106.3659051}{Sterz et al. (2024)} identify causal power, epistemic access, self-control, and fitting intentions. \href{https://doi.org/10.48550/arXiv.2603.19213}{Baum and Laux (2026)} distinguish constitutive human participation from corrective oversight, which requires genuine preparedness and capacity. \href{https://doi.org/10.1007/s00146-025-02401-y}{Te'eni et al. (2025)} treat continual human learning as a condition for stable and adaptive control.
+
+% Canonical block 040: paragraph
+Those capacities are shaped by institutions. \href{https://doi.org/10.1007/s00146-023-01777-z}{Laux (2024)} proposes safeguards for fallible competence and incentives; \href{https://doi.org/10.1016/j.clsr.2022.105681}{Green (2022)} asks whether oversight policies establish that people can perform the assigned review. This method adapts those concerns into documentary questions about information, comprehension, authority, feasibility, action, and propagation. It does not claim that its six conditions exhaust every normative requirement of effective oversight.
+
+% Canonical block 041: paragraph
+Design and governance research also show why those conditions depend on system architecture. Van der Waa et al. use human-agent team patterns to make allocation timing, sufficient understanding, halt or resume capability, and handover conditions explicit (\href{https://doi.org/10.1007/978-3-030-49183-3_16}{van der Waa et al., 2020}). Kolt argues that monitoring and detailed records can reduce information asymmetry and support intervention, while speed, opacity, and irreversible action can make conventional oversight ineffective (\href{https://arxiv.org/abs/2501.07913}{Kolt, 2025}). The first source offers conceptual design patterns and the second offers legal analysis. Neither supplies a field estimate of effective control.
+
+% Canonical block 042: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{2.3 AI incident analysis and missing records}{2-3-ai-incident-analysis-and-missing-records}
+\subsection*{2.3 AI incident analysis and missing records}
+
+% Canonical block 043: paragraph
+The AI Incident Database was created to provide a shared record of real-world failures and support learning across incidents (\href{https://doi.org/10.1609/aaai.v35i17.17817}{McGregor, 2021}). Its reports remain public-source records with changing coverage and varying detail. Pittaras and McGregor respond to that constraint through expert classification of goals, technologies, and possible technical failure causes (\href{https://ceur-ws.org/Vol-3381/17.pdf}{Pittaras \& McGregor, 2023}). Paeth et al. show that incident reports contain structural ambiguity and unavoidable epistemic uncertainty (\href{https://doi.org/10.1609/aaai.v39i28.35163}{Paeth et al., 2025}). These limits support an explicit indeterminate state.
+
+% Canonical block 044: paragraph
+\href{https://doi.org/10.1111/risa.13850}{Macrae (2022)} shows how public investigative reports can support systematic analysis of sociotechnical failure in an autonomous system. \href{https://doi.org/10.1609/aies.v8i1.36596}{Ezell et al. (2025)} identify activity logs, system documentation and access, and tool information useful for investigating AI-agent incidents. These are evidence categories, rather than a finding that any one record proves control.
+
+% Canonical block 045: paragraph
+\href{https://doi.org/10.1609/aaai.v40i44.41139}{Wei and Heim (2026)} place information collection within institutions responsible for reporting, investigation, and action. This study asks a narrower question of each packet: which records support the proposition that assigned human authority could affect the bounded decision? Missing records and dependence among accounts must remain visible.
+
+% Canonical block 046: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{2.4 Reconstruction, forensics, and assurance}{2-4-reconstruction-forensics-and-assurance}
+\subsection*{2.4 Reconstruction, forensics, and assurance}
+
+% Canonical block 047: paragraph
+Dekker treats accident reconstruction as recovery of what people could know and why their actions made sense inside the unfolding event (\href{https://doi.org/10.1016/S0022-4375(02)00032-4}{Dekker, 2002}). This approach guards against hindsight and unsupported counterfactual blame. McDermid identifies time, knowledge independent of the automated system, and practiced skill as conditions for effective intervention (\href{https://www.york.ac.uk/assuring-autonomy/news/blog/human-control-ai-autonomy/}{McDermid, 2019}). These works closely anticipate the procedure's reconstruction logic and feasible-challenge stage.
+
+% Canonical block 048: paragraph
+Reconstruction output also depends on the analytic frame and the available record. Zhang, Jing, and Sun assigned separate teams to apply HFACS, AcciMap, and STAMP to the same official report of the Tianjin Port fire and explosion (\href{https://doi.org/10.1007/s11668-018-0534-1}{Zhang et al., 2018}). The methods produced different factor sets, and the authors state that missing report detail can hide material factors. One accident, analyst reconciliation, and dependence on one official report prevent treating the comparison as a validation against event truth. The study supports the narrower rule used here: method choice and source completeness must remain visible when a public-record reconstruction is interpreted.
+
+% Canonical block 049: paragraph
+Argument-based assurance asks whether evidence justifies a stated claim under explicit assumptions and uncertainty. Burr and Leslie extend that structure to ethical and social claims (\href{https://doi.org/10.1007/s43681-022-00178-0}{Burr \& Leslie, 2023}). AMLAS applies it to machine-learning safety across development and deployment (\href{https://doi.org/10.1016/j.ress.2025.111311}{Paterson et al., 2025}). Lam et al. define scope, criteria, evidence, and reporting for assurance audits of algorithmic systems (\href{https://doi.org/10.1145/3630106.3658957}{Lam et al., 2024}). The present procedure borrows this claim-evidence discipline for retrospective assessment. It issues no safety case for Oko or Patriot.
+
+% Canonical block 050: paragraph
+Recent forensic work addresses evidence preservation and reconstruction. \href{https://arxiv.org/abs/2606.03777}{Leung et al. (2026)} propose reconstructing changing AI-system state for insurance claims. \href{https://doi.org/10.1145/3774905.3795469}{Ledjaki et al. (2026)} propose prompt-level evidence preservation and replay through a chain-of-custody design. The review inspected their abstracts, so these citations support descriptions of the proposed purpose, not detailed implementation or effectiveness claims. Their overlap helps locate this paper's particular combination of practical-control questions, public case selection, categorical missingness, and repository checks.
+
+% Canonical block 051: paragraph
+ScientistOne supplies an architecture for research verifiability. Its Chain-of-Evidence framework links claims to evidence, while post hoc audits examine scores, specifications, references, and method-code alignment (\href{https://doi.org/10.48550/arXiv.2605.26340}{Meng et al., 2026}). Some judgments are model-based and human-reviewed; the whole process cannot be described as deterministic. \href{https://doi.org/10.48550/arXiv.2604.04103}{Moghaddam (2026)} proposes evidence-linked argument graphs with admissibility, completeness, provenance, and repair checks.
+
+% Canonical block 052: paragraph
+Other frameworks address prospective record design. \href{https://doi.org/10.3390/info17070694}{Alhalangy (2026)} connects prediction, explanation, selective review, and an audit trail in a synthetic institutional pathway. \href{https://doi.org/10.3390/systems14070849}{Lee et al. (2026)} place oversight authority, record duties, and auditability within governance design. These works establish substantive precedents for traceability and evidence-linked argument.
+
+% Canonical block 053: paragraph
+The present adaptation records five evidence-fitness dimensions and dependencies for retrospective public-case claims. Once an assessor records a state, software can check the derived case result and affected manuscript claims. Whether the source warrants that state remains an interpretive judgment requiring review.
+
+% Canonical block 054: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{2.5 Synthesis}{2-5-synthesis}
+\subsection*{2.5 Synthesis}
+
+% Canonical block 055: paragraph
+Existing research supplies theories of control, evidence about oversight performance, causal-role taxonomies, institutional-design principles, retrospective reconstruction methods, public incident-analysis procedures, reporting requirements, assurance logic, claim-evidence architecture, and forensic evidence controls. This paper studies one governance-specific integration of those elements in a frozen public-case procedure.
+
+% Canonical block 056: paragraph
+The methodological question is how a reader can inspect the path from candidate selection to source packet, provenance label, assessment state, figure, and manuscript claim. The current evidence shows that the procedure can generate that path for three selected packets. It does not show that another assessor would agree, that the categories are valid across domains, or that use of the procedure improves institutional decisions.
+
+% Canonical block 057: heading
+\Needspace{6\baselineskip}
+\pdfbookmark[0]{3. Method}{3-method}
+\section*{3. Method}
+
+% Canonical block 058: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{3.1 Study design}{3-1-study-design}
+\subsection*{3.1 Study design}
+
+% Canonical block 059: paragraph
+This is a retrospective, purposefully selected, single-assessor methods study. The unit of analysis is one bounded machine-mediated decision or action sequence. The three cases test whether the procedure can preserve different evidence conditions. They do not estimate how often those conditions occur. The method assesses documentary support for a practical-control proposition within that boundary. It does not assess personal blame, legal liability, or moral character.
+
+% Canonical block 060: paragraph
+The reassessment preserves the released case boundaries and constructs. It does not shorten Oko to immediate reporting or either Patriot case to order issuance. The ZG710 assessment already concerns crew authority and action; evidence at that level may address the same proposition, but information distributed across people cannot establish one individual’s cognition.
+
+% Editorial disclosure addition, 1 November 2026
+AI assistance was used in preparing research specifications, assessment documentation, source-review proposals, formulas, and executable checks, as well as the manuscript. Sections 3.9--3.10 describe artifact controls and assisted literature screening; Section 4 distinguishes historical findings from later assisted reassessment. The AI-assistance disclosure identifies the documented contributions, tools, and review limits. Appendix D separately reports the later synthetic Jev experiment.
+
+% Canonical block 061: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{3.2 System inclusion and transfer boundary}{3-2-system-inclusion-and-transfer-boundary}
+\subsection*{3.2 System inclusion and transfer boundary}
+
+% Canonical block 062: paragraph
+The frozen protocol used a functional and historically neutral system boundary. A case qualified when an identifiable machine-based system generated an inference, classification, recommendation, communication, decision, or action that affected a person, institution, digital setting, or physical setting. Oko concerns a rule-based early-warning inference. The Patriot cases concern automated detection, tracking, classification, and engagement support. These systems differ materially from present learned models and agents. Their age is analytically useful because public inquiries and retrospective accounts expose the human-system sequence, but age does not establish transfer. Transfer depends on shared mechanisms such as time compression, information dependence, intervention rights, and execution propagation, and it requires a new test with contemporary system traces.
+
+% Canonical block 063: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{3.3 Protocol freeze and evidence cutoff}{3-3-protocol-freeze-and-evidence-cutoff}
+\subsection*{3.3 Protocol freeze and evidence cutoff}
+
+% Canonical block 064: paragraph
+The public-case protocol and empty selection register reached main at commit \texttt{180ddda1\allowbreak{}d70f0ee3\allowbreak{}6faaf887\allowbreak{}5e839bbc\allowbreak{}99cbbec2}. The evidence cutoff was 6 August 2026 at 23:59:59 UTC. The protocol fixed the candidate collections, eighteen search terms, six eligibility conditions, exclusion rules, chronological screening order, three strata, first-eligible rule, and missing-data treatment. Candidate screening began after the freeze commit. Rules written after case inspection can favor the desired examples or conclusions.
+
+% Canonical block 065: paragraph
+The freeze describes the original selection process, not the later reassessment. Historical evidence remains at the original cutoff. The 5 September 2026 policy review and 10 October 2026 source and manuscript review are separate checkpoints; they do not add historical evidence to the frozen packets.
+
+% Canonical block 066: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{3.4 Candidate collections and search}{3-4-candidate-collections-and-search}
+\subsection*{3.4 Candidate collections and search}
+
+% Canonical block 067: paragraph
+The candidate pool came from two public collections. The AI Incident Database snapshot contained 1,607 incidents and 7,452 linked reports; 828 incidents matched at least one frozen term. The OECD AI Incidents and Hazards Monitor interface exposed the first 100 rows returned by the frozen query. The snapshot and export are preserved with SHA-256 hashes in the selection register. The combined search output contains 928 candidate records. The OECD interface reported about 3,635 matches and capped export at 100 visible rows. Date probes found no OECD result before 2020, while all selected cases predated 2020 and came from the AI Incident Database.
+
+% Canonical block 068: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{3.5 Eligibility, strata, and stopping}{3-5-eligibility-strata-and-stopping}
+\subsection*{3.5 Eligibility, strata, and stopping}
+
+% Canonical block 069: paragraph
+An eligible case required an identifiable system output or action, a bounded sequence, two reports from different authors or organizations, one primary or official record, lawful citation and analysis, and compliance with the evidence cutoff. The incomplete-evidence stratum allowed two independent secondary reports after a documented unsuccessful search for an official record. Benchmark demonstrations, unbounded performance reports, single-source events, private-evidence dependencies, rights conflicts, duplicates, and post-cutoff evidence were excluded.
+
+% Canonical block 070: paragraph
+Candidates were deduplicated, sorted by event date and collection identifier, and screened until the first eligible case filled each of three frozen strata: intervention before irreversible action, incomplete or conflicting evidence, and authority without practical force. The released selection register calls the first stratum pre-action intervention; this manuscript uses event-level control for the wider six-stage construct. Screening stopped after five candidates. The strata anticipate the headline contrasts. The case set therefore demonstrates procedure execution under those conditions and supplies no independent discrimination test.
+
+% Canonical block 071: figure
+\par\medskip
+\phantomsection\label{figure-1}
+\Needspace{262.9pt}
+\noindent\begin{minipage}{\linewidth}\centering
+\includegraphics[width=\linewidth,height=530pt,keepaspectratio]{figures/fig-1-selection-and-stopping.png}
+\captionof*{figure}{\textcolor{TAENavy}{\textbf{Figure 1.}} Frozen selection and stopping. The figure shows the chronological decisions for the five screened candidates and the point at which all three strata were filled.}
+\end{minipage}\par\medskip
+
+% Canonical block 072: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{3.6 Versioned evidence packets}{3-6-versioned-evidence-packets}
+\subsection*{3.6 Versioned evidence packets}
+
+% Canonical block 073: paragraph
+Each selected case packet defines the action boundary and chronology; lists title, issuer, author, dates, URLs, source class, and preservation state; records unavailable evidence; labels material statements; states publication-rights limits; and preserves hashes for locally stored files. Remote-only sources are cited with metadata and retrieval information. The packet manifest identifies the bytes preserved in the repository at that version. This allows another reader to inspect the same research object and see what was missing. It makes no claim about later remote content or source truth.
+
+% Canonical block 074: paragraph
+The packet also preserves source limitations. A later inquiry may describe contemporaneous records that this study did not inspect. Several reports based on one inquiry or participant account do not constitute independent confirmations merely because they have different publishers.
+
+% Canonical block 075: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{3.7 Assessment contract}{3-7-assessment-contract}
+\subsection*{3.7 Assessment contract}
+
+% Canonical block 076: paragraph
+The six event-level stages came from a causal question: what must remain true for assigned authority to change execution? The chain begins when the person receives information and ends when an intervention propagates into the system or institutional action. A broken required stage blocks the wider event-control proposition. Table 1 shows how prior constructs become documentary questions and why each stage is needed.
+
+% Canonical block 077: table
+\Needspace{7\baselineskip}
+\phantomsection\label{table-1}
+{\small \textcolor{TAENavy}{\textbf{Table 1.}} Derivation of the event-level practical-control chain.\par}
+\begingroup
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\setlength{\TAETableWidth}{\dimexpr\linewidth-6\tabcolsep\relax}
+\arrayrulecolor{TAENavy}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.190\TAETableWidth}>{\raggedright\arraybackslash}p{0.270\TAETableWidth}>{\raggedright\arraybackslash}p{0.300\TAETableWidth}>{\raggedright\arraybackslash}p{0.240\TAETableWidth}@{}}
+\toprule
+\rowcolor{TAEPaleNavy}
+\textcolor{TAENavy}{\textbf{Stage}} & \textcolor{TAENavy}{\textbf{Why required}} & \textcolor{TAENavy}{\textbf{Minimum record}} & \textcolor{TAENavy}{\textbf{Error prevented}} \\
+\midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\footnotesize Table 1 (continued)}\\
+\toprule
+\rowcolor{TAEPaleNavy}
+\textcolor{TAENavy}{\textbf{Stage}} & \textcolor{TAENavy}{\textbf{Why required}} & \textcolor{TAENavy}{\textbf{Minimum record}} & \textcolor{TAENavy}{\textbf{Error prevented}} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r@{}}{\footnotesize Continued on next page}\\
+\endfoot
+\bottomrule
+\endlastfoot
+Information access & Judgment cannot use information the person never received. & Timestamped delivery, interface, or access record. & Treating post-action notice as review. \\
+Comprehension capacity & Delivery does not establish capacity to interpret. & Role-appropriate materials and evidence that the person could use them under the operating conditions. & Treating visibility as understanding. \\
+Intervention authority & Control requires a right to change the decision. & Named delegation and control rights. & Treating responsibility as permission. \\
+Intervention feasibility & A formal right may be unusable under actual conditions. & Sufficient time, staffing, access, and a response path. & Treating theoretical authority as usable. \\
+Exercised judgment & Available control does not show that active judgment or intervention occurred. & Contemporaneous decision or review record. & Inferring judgment or intervention from a role assignment. \\
+Execution propagation & A judgment that never reaches execution cannot control the event. & Linked action, stop, modification, or escalation event. & Inferring change from an unexecuted judgment. \\
+\end{longtable}
+\arrayrulecolor{black}
+\endgroup
+{\footnotesize\raggedright Note. The released JSON field “effect” denotes execution propagation. Its question is whether intervention altered execution or obligations, not whether the final outcome was beneficial. The exercise question asks for active judgment or intervention; departure, challenge, and escalation are stronger evidence, not an unambiguous universal requirement. These records must address the specified claim and do not automatically establish the condition.\par}
+\medskip
+
+% Canonical block 078: paragraph
+Every stage receives one categorical state: supported, partially supported, unsupported, indeterminate, or outside scope. Material statements receive one provenance label: direct record, source claim, assessor inference, or unresolved.
+
+% Canonical block 079: table
+\Needspace{7\baselineskip}
+\phantomsection\label{table-2}
+{\small \textcolor{TAENavy}{\textbf{Table 2.}} Assessment-state decision rules.\par}
+\begingroup
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\setlength{\TAETableWidth}{\dimexpr\linewidth-4\tabcolsep\relax}
+\arrayrulecolor{TAENavy}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.240\TAETableWidth}>{\centering\arraybackslash}p{0.080\TAETableWidth}>{\raggedright\arraybackslash}p{0.680\TAETableWidth}@{}}
+\toprule
+\rowcolor{TAEPaleNavy}
+\textcolor{TAENavy}{\textbf{State}} & \textcolor{TAENavy}{\textbf{Code}} & \textcolor{TAENavy}{\textbf{Decision rule}} \\
+\midrule
+\endfirsthead
+\multicolumn{3}{@{}l}{\footnotesize Table 2 (continued)}\\
+\toprule
+\rowcolor{TAEPaleNavy}
+\textcolor{TAENavy}{\textbf{State}} & \textcolor{TAENavy}{\textbf{Code}} & \textcolor{TAENavy}{\textbf{Decision rule}} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{3}{r@{}}{\footnotesize Continued on next page}\\
+\endfoot
+\bottomrule
+\endlastfoot
+Supported & S & Direct, contemporaneous evidence satisfies the stage definition. \\
+Partially supported & P & Some required elements are present and a material gap remains. \\
+Unsupported & U & Available evidence contradicts the stage or shows that the condition was absent. \\
+Indeterminate & I & The packet lacks enough evidence to decide. \\
+Outside scope & O & The stage does not apply within the declared case boundary, with a written reason. \\
+\end{longtable}
+\arrayrulecolor{black}
+\endgroup
+{\footnotesize\raggedright Note. A missing public record does not by itself establish absence. An absence inference needs adequate evidence about the recording process and inspected coverage. Unsupported means a demonstrated contradiction or absence, including failure of one necessary component. Outside scope applies only to a justified nonrequired proposition; it cannot remove any of the six event conditions. The states are categorical, with no numerical distance or aggregate score.\par}
+\medskip
+
+% Canonical block 080: paragraph
+The released states distinguish adequate support, partial support, contradiction, and insufficient evidence. The current reassessment keeps the direct-contemporaneous requirement for Supported. It does not introduce a matching contemporaneity gate for Unsupported or automatically exclude later adverse findings. The original rules were less explicit about when later evidence establishes a component for Partial; those choices remain visible where they affect a cell.
+
+% Canonical block 081: paragraph
+Where the review retains \{P,I\}, the notation means that Partial and Indeterminate remain alternatives requiring adjudication. It is not an additional assessment state or a blended score. Enumerating those alternatives shows whether the unresolved coding choice changes the aggregate; it does not decide which state the evidence warrants. An invariant case outcome can coexist with unresolved condition-level judgments.
+
+% Canonical block 082: paragraph
+Let the six required states for case c be \(x_{c1},\ldots,x_{c6}\in\{S,P,U,I\}\). Outside scope cannot remove a required event stage. The case-level rule is:
+
+% Canonical block 083: equation
+\[
+EventControl(c)=\begin{cases}FAIL,&\text{if any }x_{cj}=U,\\PASS,&\text{if every }x_{cj}=S,\\UNRESOLVED,&\text{otherwise.}\end{cases}
+\]
+
+% Canonical block 084: paragraph
+The case rule tests for a necessary-condition failure first. If any of the six states is Unsupported, the result is Fail. Otherwise, the result is Pass only if all six are Supported. Every remaining combination is Unresolved. Thus one established failure retains priority over any number of partial or indeterminate findings. Uncertainty elsewhere cannot cancel it.
+
+% Canonical block 085: paragraph
+Correction and repair are required for a wider institutional-accountability conclusion. Reform requires longitudinal evidence.
+
+% Canonical block 086: paragraph
+For a prospective system with complete timestamps, the available intervention margin can be measured as
+
+% Canonical block 087: equation
+\[
+M_t=(t_{commit}-t_{access})-(t_{interpret}+t_{decide}+t_{transmit}+t_{propagate}).
+\]
+
+% Canonical block 088: paragraph
+A nonnegative margin is necessary under this proposed sequential timing measure, but it is not sufficient to establish the other feasibility conditions. Here, \(t_{commit}\) and \(t_{access}\) are timestamps; interpretation, decision, transmission, and propagation are elapsed durations in the same unit. Missing inputs leave the timing result Indeterminate. Parallel work, interruption, uncertain endpoints, and unobserved durations require explicit treatment before prospective application. The measure is unvalidated, and the historical packets lack enough timestamps to calculate it.
+
+% Canonical block 089: paragraph
+The exercise question asks about active judgment or intervention. The released failure indicators include automatic approval and retrospective rationale, while departure from the recommended course is described as stronger evidence rather than an unambiguous universal requirement. The reassessment therefore cannot demand an effective independent challenge in every case or automatically award partial support for any action. It must explain why the action qualifies under the original criterion and how the automatic-approval indicator applies. No action-plus-evaluation amendment is adopted.
+
+% Canonical block 090: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{3.8 Missing evidence and inference}{3-8-missing-evidence-and-inference}
+\subsection*{3.8 Missing evidence and inference}
+
+% Canonical block 091: paragraph
+Missing public evidence produces an indeterminate state unless the packet establishes that a required record should exist and eligible evidence shows the condition was absent. Unsupported means evidence contradicts a condition or shows its absence. Indeterminate means the record cannot decide. This distinction prevents an unavailable log, display, inquiry, or internal record from becoming a negative factual finding. The report separates what a source states, what a preserved record directly shows, what the assessor infers, and what remains unresolved.
+
+% Canonical block 092: paragraph
+A source statement, an assessor inference, and a calculated result remain separate. The record identifies the source and exact locator, the proposition it reports, and the reasoning connecting it to the condition. A report of training deficiencies is evidence; the conclusion that those deficiencies deprived this crew of a necessary capacity is an inference. Once the author chooses the resulting label, deriving Fail or Unresolved is a calculation. Software can check the last step without validating the first two.
+
+% Canonical block 093: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{3.9 Artifact and consistency controls}{3-9-artifact-and-consistency-controls}
+\subsection*{3.9 Artifact and consistency controls}
+
+% Canonical block 094: paragraph
+The historical repository checks validate schemas, packet hashes, selection invariants, cross-case interactions, derived figure data, release manifests, and prespecified mutations. These checks reproduce declared transformations and detect internal contradictions. They do not independently reproduce or validate the assessor's historical judgments.
+
+% Canonical block 095: paragraph
+The v0.6 Chain-of-Evidence adaptation maps each material claim to exact locators, records a human support attestation, and tests directness, contemporaneity, independence, completeness, and publication authority. A dependency graph controls which claims may enter a conclusion. The integrity audit adapts ScientistOne's score verification, specification-violation, reference-verification, and method-code-alignment checks, then adds evidence-fitness and dependency-closure checks. A separate literature-support register maps material manuscript sentences to checked references.
+
+% Canonical block 096: paragraph
+The results preserve three comparisons under the same case rule: the released baseline; a limited correction of two harm-based propagation rationales and the two Patriot authority S findings; and the approved additional ZG710 reassessment. The last changes comprehension to I and retains \{P,I\} for feasibility and exercise, conditional on the limited correction’s other cells. Section 4 explains each inference; Appendix A identifies the changed cells and source locators.
+
+% Canonical block 097: paragraph
+The reassessment is post hoc and AI-assisted. It adds no historical source or independent human assessor. Broader proposals to admit retrospective evidence as S, narrow the case boundaries, or replace exercise with an action-plus-evaluation construct are not adopted. The additional-reassessment-v2-public-2026-10-10 supplement reproduces baseline and limited-comparison inputs from preserved records and enumerates the approved alternatives. It checks calculation rather than source truth or interpretive validity.
+
+% Canonical block 098: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{3.10 Formal literature search}{3-10-formal-literature-search}
+\subsection*{3.10 Formal literature search}
+
+% Canonical block 099: paragraph
+A v0.7 protocol fixed eight query families, inclusion rules, screening states, deduplication, fifteen citation seeds, and a contribution rejection test before retrieval. Semantic Scholar served as the controlling reproducible index. Every direct-search token and every returned citation page were retrieved. Crossref checked DOI metadata, while OpenAlex compared seed coverage. Publisher, proceedings, preprint, and institutional pages were used to verify the close set.
+
+% Canonical block 100: paragraph
+AI assistance assigned preliminary triage proposals. Mark Julius Banasihan reviewed the initial 89-record queue and remains accountable for every recorded decision. A separate frozen protocol governed AI-assisted screening of 71 recovered forward citations under his authorization. A v0.14 proposition protocol then required a stable locator, exact passage, bounded proposition, five-dimension fitness decision, limitation, reversal condition, and permission state for each of the 13 close sources. Five received bounded manuscript permission, two remain background-only, and six are quarantined. A direct-query overlay closed the fifth screening decision while preserving zero source-content permission. An abstract-only record supports only a bounded description of the source's declared purpose or model. A wider substantive claim requires checked full text and a stable proposition locator. Authenticated Scopus or Web of Science access and several disciplinary interfaces remain open.
+
+% Canonical block 101: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{3.11 Frozen Oko adjudication}{3-11-frozen-oko-adjudication}
+\subsection*{3.11 Frozen Oko adjudication}
+
+% Canonical block 102: paragraph
+The v0.6 adjudication asked which states follow when the existing definitions are applied to the frozen Oko packet. It admitted no new historical source. The evidence cutoff, packet, six stage questions, state rules, and dependency rule were fixed before reassessment. Retrospective first-person testimony directly supports what a participant later reported. Its publication date prevents it from satisfying the contemporaneous-record requirement for a supported 1983 state. The v0.3.0 assessment remains preserved. A separate ledger records each v0.6 change.
+
+% Canonical block 103: heading
+\Needspace{6\baselineskip}
+\pdfbookmark[0]{4. Results}{4-results}
+\section*{4. Results}
+
+% Canonical block 104: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{4.1 Selection result}{4-1-selection-result}
+\subsection*{4.1 Selection result}
+
+% Canonical block 105: paragraph
+The search preserved 928 candidate records. Five candidates were screened in chronological order. Two were excluded: one lacked two independent reports of a bounded autonomous action, and one lacked a bounded action sequence. AIID-27 filled the frozen pre-action intervention selection stratum, AIID-444 filled authority without practical force, and AIID-445 filled incomplete or conflicting evidence. Screening then stopped. The remaining 923 candidates carry no exclusion decision.
+
+% Canonical block 106: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{4.2 Oko, 1983}{4-2-oko-1983}
+\subsection*{4.2 Oko, 1983}
+
+% Canonical block 107: paragraph
+Oko concerns the 1983 warning episode assessed in the released packet. The released assessment states: “The assessment begins when the Oko warning system classified incoming missiles and ends when Stanislav Petrov reported the alert as false before the warning advanced to a retaliatory launch decision.” This is an attributed retrospective account, not a finding that Petrov suppressed every alert or alone prevented retaliation (released v0.6 Oko assessment).
+
+% Canonical block 108: paragraph
+The v0.3.0 release classified all six event-level stages as supported. The frozen v0.6 adjudication classifies all six as partially supported. The packet contains retrospective participant accounts and a later research synthesis whose underlying participant and interview sources are not independent event evidence. It contains no located contemporaneous Soviet command log, official incident record, or investigation file. Under the v0.16.0 case-level rule, Oko is unresolved because no stage is unsupported and at least one required stage is partial or indeterminate. The packet supports a bounded account of what later sources report. It supplies no sole-cause finding for the ultimate outcome.
+
+% Canonical block 109: paragraph
+Oko remains P/P/P/P/P/P in the baseline, limited correction, and additional reassessment. This review does not change the rule for assigning S to retrospective evidence. The original v0.3.0 to v0.6.0 correction remains separately visible in Figure A4 and Table A1.
+
+% Canonical block 110: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{4.3 Patriot ZG710, 2003}{4-3-patriot-zg710-2003}
+\subsection*{4.3 Patriot ZG710, 2003}
+
+% Canonical block 111: paragraph
+The released ZG710 boundary runs from classification through launch and destruction. The assessment already concerns the crew’s authority and actions; evidence at that level may address the same proposition without establishing an individual’s cognition. The inspected sources include the official inquiry summary T2, especially sections 2--6, and Hawley’s later technical account T4. Their descriptions of the available interval and threat classification are not silently reconciled.
+
+% Canonical block 112: paragraph
+The baseline row was P/U/S/U/U/U, producing Fail. The limited correction retains the comprehension, feasibility, and exercise U cells while replacing authority S and propagation U with \{P,I\}; it therefore remains Fail. The separately approved additional reassessment sets comprehension to I and retains \{P,I\} for feasibility and exercise. Its full row is P/I/\{P,I\}/\{P,I\}/\{P,I\}/\{P,I\}, conditional on the other limited-correction cells. The following reasoning concerns those three additional changes.
+
+% Canonical block 113: paragraph
+The additional reassessment asks whether the affirmative adverse evidence establishes failure of each necessary condition, keeping the original informed-challenge claim. It does not replace that claim with simple withholding or treat successful launch as proof of an effective intervention opportunity. The three judgments below distinguish the source finding, its strongest adverse interpretation, and the reason the inspected packet leaves that interpretation insufficiently established.
+
+% Canonical block 114: paragraph
+Comprehension. The inquiry documents preparation oriented toward generic threats and deficient preparation for the circumstances and false-alarm problem (T2, section 11, p. 3). Hawley reports that known classification fallibilities were not incorporated into training and practices and discusses problematic user beliefs (T4, p. 4). Together these provide the strongest argument for retaining U: if they establish that the incident crew lacked usable understanding of relevant limitations, one necessary comprehension condition failed. Neither basic operational ability nor uncertainty elsewhere could cancel that failure.
+
+% Canonical block 115: paragraph
+The reassessment judges the necessary link insufficiently established. Deficient preparation identifies a weakness in how the institution develops capacity; it does not itself establish this crew's capacity to understand the system's limitations. Hawley's model is broad rather than an operator-by-operator reconstruction, and the inquiry supplies no demonstrated interpretation that resolves that gap. Nor does the operational sequence establish a positive capacity component. The approved disposition is therefore I. This judgment records evidentiary insufficiency, not a finding that the crew understood the system or that the adverse evidence was false.
+
+% Canonical block 116: paragraph
+Feasibility. The inquiry documents limited time, communications equipment in transit, a relay through another battery, an incomplete wider air picture, and identification constraints (T2, sections 11--12 and 14, pp. 3--4). Their combined effect could make an indispensable information or response function unavailable in time. That is the strongest retained-U argument. It requires identifying the function necessary for the original informed intervention and showing that a timely adequate route was unavailable; it does not require proof that every imaginable action was impossible.
+
+% Canonical block 117: paragraph
+The inspected packet does not sufficiently establish that function-to-route inference. The crew's action and the discussion of delay and a radio relay supply potentially relevant resources, but a functioning engagement route is not proof of feasible informed challenge. Timing is also unresolved: T2 reports approximately one minute, while T4 names the Tornado in a less-than-ten-second discussion of tactical-ballistic-missile timelines, although T2 describes an anti-radiation-missile classification. The interval endpoints and threat-category mismatch are unreconciled. No required-response comparison or complete margin can be calculated. Feasibility therefore retains \{P,I\}. P requires a specified resource or route that genuinely establishes a component of the original intervention's feasibility, with a real remaining gap. I applies if that connection cannot be established.
+
+% Canonical block 118: paragraph
+Exercise. T2 section 4 attributes the launch to the crew. Hawley's discussion of automation misuse and uncritical acquiescence supplies an adverse account relevant to the incidents (T4, pp. 4--5). U would be warranted if that account were sufficiently attributed to this decision and established failure of the original active-judgment-or-intervention criterion. The original automatic-approval failure indicator matters: describing a launch as intervention cannot simply evade it.
+
+% Canonical block 119: paragraph
+That event-specific inference remains insufficiently established on the inspected packet. Lack of an effective independent challenge alone does not settle the original criterion, which describes active judgment or intervention and treats departure as stronger evidence. At the same time, an attributable launch does not automatically earn P. Exercise retains \{P,I\}: P requires accepting that the crew action supplies a genuine component of intervention under the original criterion and explaining the remaining required or documentary gap. I applies if neither active judgment nor qualifying intervention has a supported component. Missing evaluation alone cannot establish U while a qualifying intervention branch remains; a demonstrated failure of the applicable criterion still would.
+
+% Canonical block 120: paragraph
+These are source-to-condition reassessments under the released wording. The strongest adverse interpretations above identify what would reverse a non-U judgment. They are not findings that competence, feasible challenge, or meaningful intervention was established.
+
+% Canonical block 121: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{4.4 Patriot F/A-18C, 2003}{4-4-patriot-f-a-18c-2003}
+\subsection*{4.4 Patriot F/A-18C, 2003}
+
+% Canonical block 122: paragraph
+The released F/A-18C boundary includes detection, classification, engagement, and aircraft destruction. Ricks reports an inquiry-based account connecting identification, ordering, engagement, and loss (Ricks, 2004, source F3). The full inquiry, system logs, operator displays, and classified technical report were unavailable to this study. The boundary is the assessment’s defined object; it is not shortened to the issuance of an order.
+
+% Canonical block 123: paragraph
+The baseline row was P/I/S/I/I/U and therefore Fail. The limited correction replaces the authority S with \{P,I\} because the original direct-contemporaneous Supported threshold is unmet. It replaces the harm-based propagation U with \{P,I\}: loss alone does not show that an intervention failed to reach execution. The corrected row is P/I/\{P,I\}/I/I/\{P,I\}, yielding Unresolved across its four assignments. This row is unchanged in the additional ZG710 comparison.
+
+% Canonical block 124: paragraph
+The P/I alternatives in the limited correction (Stage 2) still affect what can be inferred from each packet, even when they leave the case total unchanged. For ZG710, T2 section 4 connects the crew to a launch within the original classification-to-destruction account. This is a candidate instance of the released linked-action requirement, provided the original intervention criterion admits that engagement action and the later finding is eligible to establish a partial component. A required remaining gap must then be identified. If the gap is the absence of qualifying contemporaneous documentation, it must be described as such rather than invented as a historical implementation failure.
+
+% Canonical block 125: paragraph
+The F/A-18C account must be assessed at the same threshold. F3's main paragraphs 1 and 3--7 must be read in the context through paragraph 9, rather than selecting a single ordering sentence. A defensible P reading treats the complete account as evidence of a human-decision-to-execution connection. That is an assessor inference, not an inspected command acknowledgment. If it depends on an unavailable premise or fails the required specificity, I follows. Neither an isolated order nor a coherent narrative automatically supplies the connection.
+
+% Canonical block 126: paragraph
+Source category alone cannot settle the comparison. The directly inspected official ZG710 summary has a stated investigative basis; the F/A-18C article leaves the inquiry basis less directly available. These differences matter to the particular inference, but do not justify accepting narrative attribution for one case while demanding a complete original trace for the other. The released P/I treatment of retrospective evidence remains incompletely specified. Both state sets are preserved without changing the boundaries or awarding retrospective S.
+
+% Canonical block 127: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{4.5 Cross-case practical-control chain}{4-5-cross-case-practical-control-chain}
+\subsection*{4.5 Cross-case practical-control chain}
+
+% Canonical block 128: paragraph
+Figure 2 and Table 3 retain the released nine-row comparison and add clearly separated panels for the limited correction and additional reassessment. The first six conditions determine the event-level result. Correction, repair, and reform remain historical post-event findings; this review has not reassessed them. Their inclusion preserves the original account without implying that the narrow six-condition changes validated those separate judgments.
+
+% Canonical block 129: paragraph
+The comparisons answer different questions. The historical baseline records what v0.17.0 reported. The limited correction tests the two propagation rationales and the existing Supported threshold for Patriot authority while carrying the other cells forward. The additional comparison incorporates only the approved ZG710 comprehension, feasibility, and exercise judgments. No broader reconstructive evidence policy, shortened case boundary, or new exercise construct is adopted.
+
+% Canonical block 130: figure
+% Keep the complete Figure 2 comparison together as a labeled two-page figure.
+\clearpage
+\noindent\begin{minipage}[t]{\linewidth}
+\phantomsection\label{figure-2}
+{\small \textcolor{TAENavy}{\textbf{Figure 2.}} Practical-control chain. Panel A preserves the released nine-row matrix, including unreassessed post-event responses. Panel B shows the limited correction across the six event conditions. Panel C, on page~\pageref{figure-2-c}, shows the additional ZG710 reassessment. Curly-brace P/I entries retain alternatives; they are not Supported findings or blended scores. Historically, Oko was Unresolved and both Patriot cases were Fail. The historical 0 Pass / 2 Fail / 1 Unresolved and limited 0/1/2 results follow the same rule.\par\medskip}
+\centering
+\includegraphics[width=\linewidth]{figures/fig-2-a-baseline.png}\par\smallskip
+\includegraphics[width=\linewidth]{figures/fig-2-b-stage2.png}\par
+{\small\raggedright\textit{Figure 2 continues on the next page with panel C.}\par}
+\end{minipage}
+\clearpage
+\noindent\begin{minipage}[t]{\linewidth}
+\phantomsection\label{figure-2-c}
+{\small \textcolor{TAENavy}{\textbf{Figure 2 (continued).}} Panel C: additional ZG710 reassessment, conditional on the approved additional judgments and the retained Stage 2 cells.\par\medskip}
+\centering
+\includegraphics[width=\linewidth]{figures/fig-2-c-additional.png}\par\medskip
+{\small\raggedright The four ZG710 P/I choices and two F/A-18C P/I choices yield $16\times4=64$ joint assignments. Conditional on those inputs, all 64 yield 0 Pass / 0 Fail / 3 Unresolved. Any justified necessary-condition U produces Fail. Table 3, panel C, records the same states; Table 4 gives the corresponding case results. The comparison estimates no frequency or improvement in historical control. Outside scope applies only to nonrequired propositions and cannot remove any of the six event conditions.\par}
+\end{minipage}\par\medskip
+
+% Canonical block 131: table
+\Needspace{7\baselineskip}
+\phantomsection\label{table-3}
+{\small \textcolor{TAENavy}{\textbf{Table 3.}} Practical-control states across three public cases: historical baseline and separately identified reassessments.\par}
+\Needspace{7\baselineskip}
+{\small\bfseries A. Released v0.17.0 baseline\par}
+\begingroup
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\setlength{\TAETableWidth}{\dimexpr\linewidth-6\tabcolsep\relax}
+\arrayrulecolor{TAENavy}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.400\TAETableWidth}>{\centering\arraybackslash}p{0.200\TAETableWidth}>{\centering\arraybackslash}p{0.200\TAETableWidth}>{\centering\arraybackslash}p{0.200\TAETableWidth}@{}}
+\toprule
+\rowcolor{TAEPaleNavy}
+\textcolor{TAENavy}{\textbf{Stage}} & \textcolor{TAENavy}{\textbf{Oko, 1983}} & \textcolor{TAENavy}{\textbf{Patriot ZG710, 2003}} & \textcolor{TAENavy}{\textbf{Patriot F/A-18C, 2003}} \\
+\midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\footnotesize Table 3 (continued)}\\
+\toprule
+\rowcolor{TAEPaleNavy}
+\textcolor{TAENavy}{\textbf{Stage}} & \textcolor{TAENavy}{\textbf{Oko, 1983}} & \textcolor{TAENavy}{\textbf{Patriot ZG710, 2003}} & \textcolor{TAENavy}{\textbf{Patriot F/A-18C, 2003}} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r@{}}{\footnotesize Continued on next page}\\
+\endfoot
+\bottomrule
+\endlastfoot
+Information access & P & P & P \\
+Comprehension capacity & P & U & I \\
+Intervention authority & P & S & S \\
+Intervention feasibility & P & U & I \\
+Exercised judgment & P & U & I \\
+Execution propagation & P & U & U \\
+Correction & O & O & O \\
+Repair & O & U & U \\
+Institutional reform & P & S & S \\
+\end{longtable}
+\arrayrulecolor{black}
+\endgroup
+\Needspace{7\baselineskip}
+{\small\bfseries B. Limited correction (Stage 2)\par}
+\begingroup
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\setlength{\TAETableWidth}{\dimexpr\linewidth-6\tabcolsep\relax}
+\arrayrulecolor{TAENavy}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.400\TAETableWidth}>{\centering\arraybackslash}p{0.200\TAETableWidth}>{\centering\arraybackslash}p{0.200\TAETableWidth}>{\centering\arraybackslash}p{0.200\TAETableWidth}@{}}
+\toprule
+\rowcolor{TAEPaleNavy}
+\textcolor{TAENavy}{\textbf{Stage}} & \textcolor{TAENavy}{\textbf{Oko, 1983}} & \textcolor{TAENavy}{\textbf{Patriot ZG710, 2003}} & \textcolor{TAENavy}{\textbf{Patriot F/A-18C, 2003}} \\
+\midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\footnotesize Table 3 (continued)}\\
+\toprule
+\rowcolor{TAEPaleNavy}
+\textcolor{TAENavy}{\textbf{Stage}} & \textcolor{TAENavy}{\textbf{Oko, 1983}} & \textcolor{TAENavy}{\textbf{Patriot ZG710, 2003}} & \textcolor{TAENavy}{\textbf{Patriot F/A-18C, 2003}} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r@{}}{\footnotesize Continued on next page}\\
+\endfoot
+\bottomrule
+\endlastfoot
+Information access & P & P & P \\
+Comprehension capacity & P & U & I \\
+Intervention authority & P & \{P,I\} & \{P,I\} \\
+Intervention feasibility & P & U & I \\
+Exercised judgment & P & U & I \\
+Execution propagation & P & \{P,I\} & \{P,I\} \\
+\end{longtable}
+\arrayrulecolor{black}
+\endgroup
+\Needspace{7\baselineskip}
+{\small\bfseries C. Additional ZG710 reassessment, conditional on Panel B’s other cells\par}
+\begingroup
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\setlength{\TAETableWidth}{\dimexpr\linewidth-6\tabcolsep\relax}
+\arrayrulecolor{TAENavy}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.400\TAETableWidth}>{\centering\arraybackslash}p{0.200\TAETableWidth}>{\centering\arraybackslash}p{0.200\TAETableWidth}>{\centering\arraybackslash}p{0.200\TAETableWidth}@{}}
+\toprule
+\rowcolor{TAEPaleNavy}
+\textcolor{TAENavy}{\textbf{Stage}} & \textcolor{TAENavy}{\textbf{Oko, 1983}} & \textcolor{TAENavy}{\textbf{Patriot ZG710, 2003}} & \textcolor{TAENavy}{\textbf{Patriot F/A-18C, 2003}} \\
+\midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\footnotesize Table 3 (continued)}\\
+\toprule
+\rowcolor{TAEPaleNavy}
+\textcolor{TAENavy}{\textbf{Stage}} & \textcolor{TAENavy}{\textbf{Oko, 1983}} & \textcolor{TAENavy}{\textbf{Patriot ZG710, 2003}} & \textcolor{TAENavy}{\textbf{Patriot F/A-18C, 2003}} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r@{}}{\footnotesize Continued on next page}\\
+\endfoot
+\bottomrule
+\endlastfoot
+Information access & P & P & P \\
+Comprehension capacity & P & I & I \\
+Intervention authority & P & \{P,I\} & \{P,I\} \\
+Intervention feasibility & P & \{P,I\} & I \\
+Exercised judgment & P & \{P,I\} & I \\
+Execution propagation & P & \{P,I\} & \{P,I\} \\
+\end{longtable}
+\arrayrulecolor{black}
+\endgroup
+{\footnotesize\raggedright Panel A preserves the released v0.17.0 states. S = Supported; P = Partially supported; U = Unsupported; I = Indeterminate; O = Outside scope. Only the first six rows determine the event-level result. The final three post-event rows remain historical and unreassessed. Panels B and C report the six-event-condition comparisons; \{P,I\} means unresolved alternatives, not a blended or fifth state.\par}
+\medskip
+
+% Canonical block 132: table
+\Needspace{7\baselineskip}
+\phantomsection\label{table-4}
+{\small \textcolor{TAENavy}{\textbf{Table 4.}} Formal authority compared with event-level practical control across the three analyses.\par}
+\begingroup
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\setlength{\TAETableWidth}{\dimexpr\linewidth-6\tabcolsep\relax}
+\arrayrulecolor{TAENavy}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.250\TAETableWidth}>{\centering\arraybackslash}p{0.100\TAETableWidth}>{\centering\arraybackslash}p{0.150\TAETableWidth}>{\raggedright\arraybackslash}p{0.500\TAETableWidth}@{}}
+\toprule
+\rowcolor{TAEPaleNavy}
+\textcolor{TAENavy}{\textbf{Analysis and case}} & \textcolor{TAENavy}{\textbf{Authority}} & \textcolor{TAENavy}{\textbf{Event control}} & \textcolor{TAENavy}{\textbf{Reason}} \\
+\midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\footnotesize Table 4 (continued)}\\
+\toprule
+\rowcolor{TAEPaleNavy}
+\textcolor{TAENavy}{\textbf{Analysis and case}} & \textcolor{TAENavy}{\textbf{Authority}} & \textcolor{TAENavy}{\textbf{Event control}} & \textcolor{TAENavy}{\textbf{Reason}} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r@{}}{\footnotesize Continued on next page}\\
+\endfoot
+\bottomrule
+\endlastfoot
+Historical: Oko & P & Unresolved & All six conditions are P. \\
+Historical: ZG710 & S & Fail & Four required conditions are U. \\
+Historical: F/A-18C & S & Fail & Propagation is U; three conditions are I. \\
+Limited correction: Oko & P & Unresolved & Unchanged six-P row. \\
+Limited correction: ZG710 & \{P,I\} & Fail & Comprehension, feasibility, and exercise remain U for this comparison. \\
+Limited correction: F/A-18C & \{P,I\} & Unresolved & Propagation also retains \{P,I\}; no U remains. \\
+Additional reassessment: Oko & P & Unresolved & Unchanged six-P row. \\
+Additional reassessment: ZG710 & \{P,I\} & Unresolved & Comprehension is I; feasibility and exercise retain \{P,I\}, conditional on other limited-correction cells. \\
+Additional reassessment: F/A-18C & \{P,I\} & Unresolved & Same corrected row as the limited comparison. \\
+\end{longtable}
+\arrayrulecolor{black}
+\endgroup
+{\footnotesize\raggedright Authority is one necessary condition and cannot establish the other five. Every justified U produces Fail; only six S produce Pass. Historical totals are 0 Pass / 2 Fail / 1 Unresolved; the limited correction gives 0/1/2; the additional comparison gives conditional 0/0/3 across 64 joint assignments. P/I alternatives neither establish capacity nor show that an intervention occurred.\par}
+\medskip
+
+% Canonical block 133: paragraph
+The additional ZG710 row has four P/I choices, giving sixteen assignments. The corrected F/A-18C row has two, giving four assignments. Across their 64 joint assignments, Oko remains six P, and no case contains U or consists entirely of S. Every assignment therefore yields zero Pass, zero Fail, and three Unresolved results. This invariance is a calculation conditional on the supplied classifications and the retained Stage 2 assumptions. It does not resolve the six open P/I choices or independently establish their evidentiary basis.
+
+% Canonical block 134: paragraph
+Restoring any one justified U in ZG710 comprehension, feasibility, or exercise makes that case Fail under the same rule, even if every other uncertain cell remains P or I. The separately versioned checker includes these illustrations. Their role is to verify that the implementation preserves the rule, not to decide whether a source establishes the contradiction.
+
+% Canonical block 135: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{4.6 Decision paths and trust-evidence states}{4-6-decision-paths-and-trust-evidence-states}
+\subsection*{4.6 Decision paths and trust-evidence states}
+
+% Canonical block 136: paragraph
+Figure 3 retains each released case boundary and sequence, from machine output through human and institutional action. Its spacing separates events for readability and does not represent a common time scale. Revised annotations identify source-reported actions, the assessment boundary, and links whose evidentiary status remains unresolved.
+
+% Canonical block 137: paragraph
+Figure 4 retains all twelve trust-evidence propositions for each packet. These are the released secondary findings, not new outputs of the narrow reassessment. The protocol defines no validated aggregate trust score or case ranking. A failure or uncertainty in one trust proposition cannot silently be treated as a six-condition event result, and the converse also holds.
+
+% Canonical block 138: figure
+\par\medskip
+\phantomsection\label{figure-3}
+\Needspace{486.2pt}
+\noindent\begin{minipage}{\linewidth}\centering
+\includegraphics[width=\linewidth,height=530pt,keepaspectratio]{figures/fig-3-decision-paths.png}
+\captionof*{figure}{\textcolor{TAENavy}{\textbf{Figure 3.}} Decision paths from machine output through institutional response. The original case boundaries and ordering are retained, with source-attribution and uncertain-link annotations updated for this review. Spacing separates events for reading and does not encode a common elapsed-time scale. The Oko account remains retrospective and partially supported; the Patriot paths do not make a harmful outcome equivalent to failed propagation. The diagram supplies no causal-effect estimate or retaliation-prevention counterfactual. Original event labels reproduce the supplied released schematic; the evidentiary annotations are updated for this review.}
+\end{minipage}\par\medskip
+
+% Canonical block 139: figure
+\par\medskip
+\phantomsection\label{figure-4}
+\Needspace{480.4pt}
+\noindent\begin{minipage}{\linewidth}\centering
+\includegraphics[width=\linewidth,height=530pt,keepaspectratio]{figures/fig-4-trust-evidence-states.png}
+\captionof*{figure}{\textcolor{TAENavy}{\textbf{Figure 4.}} Historical trust-evidence states across three public cases. The twelve proposition-level findings per packet are retained from the released assessment and have not been reassessed in this narrow review. Supported, Partially supported, Unsupported, Indeterminate, and Outside scope remain categorical. The display provides no combined trust score, case ranking, or independent validation of the six-condition findings.}
+\end{minipage}\par\medskip
+
+% Canonical block 140: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{4.7 Integrity and correction results}{4-7-integrity-and-correction-results}
+\subsection*{4.7 Integrity and correction results}
+
+% Canonical block 141: paragraph
+The released audit results have different version scopes. The v0.14.0 audit mapped 32 claims, found 30 eligible within their stated limits, and detected all 33 prescribed corruptions. Version 0.15.0 mapped 35 claims with 32 eligible and retained 33 controls. The v0.16.0 base mapped 40 claims, found 37 eligible, and detected all 39 controls. The separate v0.17.0 policy extension mapped five claims, all eligible within their bounded scope, and detected nine prescribed corruptions. Figure A3 depicts the forty-claim base, not the earlier 32-claim audit or a combined 45-claim total.
+
+% Canonical block 142: paragraph
+The original Oko correction closed a protocol-consistency and dependency failure under the declared procedure. The 89-record and 71-record screening ledgers established their recorded workflow counts, and the thirteen-source review admitted five bounded propositions. Independent validity, 980 retrieval outcomes, the 177-record backward-reference stratum, and authenticated-database coverage remained unresolved. Four workflow exceptions were recorded at v0.14, five at the v0.16 base, and two in the separate policy extension; these are version-specific limitations rather than quantities to pool.
+
+% Canonical block 143: paragraph
+The mutation-response and lineage displays remain reproducibility records. Their successful checks show responses to specified injected errors and reproducible transformations, not sensitivity to unknown errors or the truth of every interpretation. The six Oko adjudication mutations have their own scope and are not silently added to another audit's count. Original artifacts remain intact.
+
+% Canonical block 144: paragraph
+The additional-reassessment-v2-public-2026-10-10 supplement mechanically reproduces the unchanged historical and limited comparisons and enumerates the 64 additional alternatives. Restoring a justified U in any disputed ZG710 condition yields Fail. The earlier audit did not evaluate the new source judgments; this check does not extend that audit's scope. Author approval does not independently validate the source-to-state reasoning.
+
+% Canonical block 145: figure
+\par\medskip
+\phantomsection\label{figure-a1}
+\Needspace{372.9pt}
+\noindent\begin{minipage}{\linewidth}\centering
+\includegraphics[width=\linewidth,height=530pt,keepaspectratio]{figures/fig-a1-mutation-response.png}
+\captionof*{figure}{\textcolor{TAENavy}{\textbf{Figure A1.}} Historical mutation-response matrix. Each prespecified corruption is paired with its expected detector in the archived control set. A detected mutation shows response to that seeded error. The version-specific counts in Section 4.7 must not be pooled or treated as sensitivity to unknown mistakes; this figure does not audit the new reassessment.}
+\end{minipage}\par\medskip
+
+% Canonical block 146: figure
+\par\medskip
+\phantomsection\label{figure-a2}
+\Needspace{320.9pt}
+\noindent\begin{minipage}{\linewidth}\centering
+\includegraphics[width=\linewidth,height=530pt,keepaspectratio]{figures/fig-a2-reproducibility-lineage.png}
+\captionof*{figure}{\textcolor{TAENavy}{\textbf{Figure A2.}} Reproducibility lineage of the original release. The upper lane traces frozen collections to the release archive; the lower lane traces plot inputs to figure and integrity checks. The recorded assessment states supply the inputs used to build the figures. The diagram preserves where human judgment remains necessary. The additional local supplement follows a separate versioned derivation and does not overwrite this historical pipeline.}
+\end{minipage}\par\medskip
+
+% Canonical block 147: figure
+\par\medskip
+\phantomsection\label{figure-a3}
+\Needspace{622.2pt}
+\noindent\begin{minipage}{\linewidth}\centering
+\includegraphics[width=\linewidth,height=560pt,keepaspectratio]{figures/fig-a3-claim-evidence-integrity.png}
+\captionof*{figure}{\textcolor{TAENavy}{\textbf{Figure A3.}} Historical claim-evidence integrity of the forty-claim v0.16.0 base retained in v0.17.0. Five evidence gates and conclusion eligibility are shown without a numerical score. Independent validity and coverage limitations remain visible. The separate five-claim policy extension is not part of this matrix, and these historical eligibility findings do not approve revised source interpretations.}
+\end{minipage}\par\medskip
+
+% Canonical block 148: figure
+\par\medskip
+\phantomsection\label{figure-a4}
+\Needspace{307.3pt}
+\noindent\begin{minipage}{\linewidth}\centering
+\includegraphics[width=\linewidth,height=530pt,keepaspectratio]{figures/fig-a4-oko-versioned-correction.png}
+\captionof*{figure}{\textcolor{TAENavy}{\textbf{Figure A4.}} Preserved versioned correction of the Oko assessment. All six event conditions moved from Supported in v0.3.0 to Partially supported in v0.6.0 with the packet fixed. This historical correction applied the direct-contemporaneous evidence threshold and added no historical evidence. It is distinct from the present Patriot reassessment.}
+\end{minipage}\par\medskip
+
+% Canonical block 149: table
+\Needspace{7\baselineskip}
+\phantomsection\label{table-a1}
+{\small \textcolor{TAENavy}{\textbf{Table A1.}} Oko correction record.\par}
+\begingroup
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\setlength{\TAETableWidth}{\dimexpr\linewidth-6\tabcolsep\relax}
+\arrayrulecolor{TAENavy}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.240\TAETableWidth}>{\centering\arraybackslash}p{0.100\TAETableWidth}>{\centering\arraybackslash}p{0.100\TAETableWidth}>{\raggedright\arraybackslash}p{0.560\TAETableWidth}@{}}
+\toprule
+\rowcolor{TAEPaleNavy}
+\textcolor{TAENavy}{\textbf{Stage}} & \textcolor{TAENavy}{\textbf{v0.3.0}} & \textcolor{TAENavy}{\textbf{v0.6.0}} & \textcolor{TAENavy}{\textbf{Material gap recorded in v0.6.0}} \\
+\midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\footnotesize Table A1 (continued)}\\
+\toprule
+\rowcolor{TAEPaleNavy}
+\textcolor{TAENavy}{\textbf{Stage}} & \textcolor{TAENavy}{\textbf{v0.3.0}} & \textcolor{TAENavy}{\textbf{v0.6.0}} & \textcolor{TAENavy}{\textbf{Material gap recorded in v0.6.0}} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r@{}}{\footnotesize Continued on next page}\\
+\endfoot
+\bottomrule
+\endlastfoot
+Information access & S & P & No contemporaneous delivery, interface, or command record was located. \\
+Comprehension capacity & S & P & No contemporaneous reasoning, review, or explanation record was located. \\
+Intervention authority & S & P & No contemporaneous delegation or command-procedure record was located. \\
+Intervention feasibility & S & P & No contemporaneous timing or operating record was located. \\
+Exercised judgment & S & P & No contemporaneous decision or communication log was located. \\
+Execution propagation & S & P & No contemporaneous linked action, stop, or escalation record was located. \\
+\end{longtable}
+\arrayrulecolor{black}
+\endgroup
+{\footnotesize\raggedright Note. The v0.6.0 adjudication applied a protocol frozen before reassessment and admitted no new historical source.\par}
+\medskip
+
+% Canonical block 150: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{4.8 Formal search result}{4-8-formal-search-result}
+\subsection*{4.8 Formal search result}
+
+% Canonical block 151: paragraph
+The eight Semantic Scholar queries returned 184 records. Fourteen resolved seed chains returned 2,482 reference and citation records. L12 returned 404 for both chain endpoints. The combined pool contains 2,431 deduplicated records. The frozen machine pass proposed 12 close records and placed 77 records in an attention queue. Author review confirmed all 12 proposed close records. The 77 attention records produced 15 additional close sources, 32 background sources, 20 topic exclusions, and 10 single-component exclusions. The final full-pool state therefore contains 27 close records, 45 background records, 1,259 topic exclusions, 10 single-component exclusions, 1,087 inaccessible records, and three records outside the publication cutoff.
+
+% Canonical block 152: paragraph
+Crossref resolved 22 of 25 DOI-bearing retained proposals. OpenAlex resolved thirteen of fifteen citation seeds, including an L12 record with zero indexed links. Different reference and citation counts across indexes show that chain coverage depends on the selected index. The completed author queue supports a declared closest-work analysis and a bounded integration statement. The inaccessible records and open database searches prevent a universal originality or systematic-coverage claim.
+
+% Canonical block 153: figure
+\par\medskip
+\phantomsection\label{figure-5}
+\Needspace{361.6pt}
+\noindent\begin{minipage}{\linewidth}\centering
+\includegraphics[width=\linewidth,height=530pt,keepaspectratio]{figures/fig-5-formal-search-and-screening.png}
+\captionof*{figure}{\textcolor{TAENavy}{\textbf{Figure 5.}} Formal search retrieval and final screening state. The left panel traces 184 direct-query records and 2,482 citation-chain records through pooling and deduplication. The right panel reports the six final screening classes on a logarithmic count axis. Blue points identify the 27 close and 45 background records. The annotation records closure of all 89 author decisions. The 1,087 inaccessible records remain a separate coverage limit.}
+\end{minipage}\par\medskip
+
+% Canonical block 154: table
+\Needspace{7\baselineskip}
+\phantomsection\label{table-5}
+{\small \textcolor{TAENavy}{\textbf{Table 5.}} Formal search and final screening state.\par}
+\begingroup
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\setlength{\TAETableWidth}{\dimexpr\linewidth-6\tabcolsep\relax}
+\arrayrulecolor{TAENavy}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.190\TAETableWidth}>{\raggedright\arraybackslash}p{0.230\TAETableWidth}>{\centering\arraybackslash}p{0.100\TAETableWidth}>{\raggedright\arraybackslash}p{0.480\TAETableWidth}@{}}
+\toprule
+\rowcolor{TAEPaleNavy}
+\textcolor{TAENavy}{\textbf{Stage}} & \textcolor{TAENavy}{\textbf{Record class}} & \textcolor{TAENavy}{\textbf{Count}} & \textcolor{TAENavy}{\textbf{Status}} \\
+\midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\footnotesize Table 5 (continued)}\\
+\toprule
+\rowcolor{TAEPaleNavy}
+\textcolor{TAENavy}{\textbf{Stage}} & \textcolor{TAENavy}{\textbf{Record class}} & \textcolor{TAENavy}{\textbf{Count}} & \textcolor{TAENavy}{\textbf{Status}} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r@{}}{\footnotesize Continued on next page}\\
+\endfoot
+\bottomrule
+\endlastfoot
+Retrieval & Direct queries & 184 & Complete for the declared open-index queries \\
+Retrieval & Citation chains & 2,482 & Fourteen of fifteen seed chains resolved \\
+Pooling & Combined records & 2,666 & Before deduplication \\
+Pooling & Deduplicated records & 2,431 & Unit for screening \\
+Final screening & Retain close & 27 & Confirmed close set \\
+Final screening & Retain background & 45 & Thirteen prior records plus 32 author-confirmed records \\
+Final screening & Exclude single component & 10 & Relevant component without the tested combination \\
+Final screening & Exclude topic & 1,259 & Outside the review question \\
+Final screening & Inaccessible & 1,087 & Abstract absent; substantive screening unresolved \\
+Final screening & Outside cutoff & 3 & Published after the cutoff \\
+Author gate & Completed queue & 89 & All queued decisions recorded \\
+\end{longtable}
+\arrayrulecolor{black}
+\endgroup
+{\footnotesize\raggedright Note. The six final screening classes sum to 2,431. Mark Julius Banasihan is the decision owner for the 89-record queue, with disclosed AI assistance. The 1,087 inaccessible records and authenticated database searching remain separate coverage limits.\par}
+\medskip
+
+% Canonical block 155: table
+\Needspace{7\baselineskip}
+\phantomsection\label{table-6}
+{\small \textcolor{TAENavy}{\textbf{Table 6.}} Proposal-to-author decision changes.\par}
+\begingroup
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\setlength{\TAETableWidth}{\dimexpr\linewidth-10\tabcolsep\relax}
+\arrayrulecolor{TAENavy}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.300\TAETableWidth}>{\centering\arraybackslash}p{0.120\TAETableWidth}>{\raggedright\arraybackslash}p{0.140\TAETableWidth}>{\raggedright\arraybackslash}p{0.150\TAETableWidth}>{\raggedright\arraybackslash}p{0.130\TAETableWidth}>{\raggedright\arraybackslash}p{0.160\TAETableWidth}@{}}
+\toprule
+\rowcolor{TAEPaleNavy}
+\textcolor{TAENavy}{\textbf{Proposed class}} & \textcolor{TAENavy}{\textbf{Records}} & \textcolor{TAENavy}{\textbf{Retain close}} & \textcolor{TAENavy}{\textbf{Retain background}} & \textcolor{TAENavy}{\textbf{Exclude topic}} & \textcolor{TAENavy}{\textbf{Exclude single component}} \\
+\midrule
+\endfirsthead
+\multicolumn{6}{@{}l}{\footnotesize Table 6 (continued)}\\
+\toprule
+\rowcolor{TAEPaleNavy}
+\textcolor{TAENavy}{\textbf{Proposed class}} & \textcolor{TAENavy}{\textbf{Records}} & \textcolor{TAENavy}{\textbf{Retain close}} & \textcolor{TAENavy}{\textbf{Retain background}} & \textcolor{TAENavy}{\textbf{Exclude topic}} & \textcolor{TAENavy}{\textbf{Exclude single component}} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{6}{r@{}}{\footnotesize Continued on next page}\\
+\endfoot
+\bottomrule
+\endlastfoot
+Retain close & 12 & 12 & 0 & 0 & 0 \\
+Author attention & 77 & 15 & 32 & 20 & 10 \\
+Total author queue & 89 & 27 & 32 & 20 & 10 \\
+\end{longtable}
+\arrayrulecolor{black}
+\endgroup
+{\footnotesize\raggedright Note. The author confirmed all 12 proposed close records. The 77 attention records produced 15 additional close sources and 32 background sources. These decisions close the declared author gate. They do not resolve the inaccessible-record or authenticated-database gates.\par}
+\medskip
+
+% Canonical block 156: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[2]{4.8.1 Forward-citation risk-sample update}{4-8-1-forward-citation-risk-sample-update}
+\subsubsection*{4.8.1 Forward-citation risk-sample update}
+
+% Canonical block 157: paragraph
+The frozen 102-record forward-citation stratum produced 34 full-text recoveries, 37 abstract recoveries, 26 metadata-only outcomes, three duplicates, and two unavailable outcomes. All 71 records with recovered content received an author-authorized, AI-assisted screening decision under a protocol fixed before those decisions. Thirteen records entered close-source review, 22 entered background review, 11 were excluded as single-component sources, and 25 were excluded as off-topic. Screening decided corpus membership and granted no proposition permission. The later v0.14 proposition review gave five bounded propositions manuscript permission, retained two sources as background-only, and quarantined six because exact text or required support remained unresolved.
+
+% Canonical block 158: paragraph
+Across the 1,087-record recovery population, the population ledger contains 107 retrieval outcomes. All 76 recovered-content records have a screening decision after a v0.14 overlay closed RS-DQ-004 as close on title, metadata, and a verified publisher-PDF route. Its unreadable text layer and unresolved author identity preserve zero proposition permission. The unresolved retrieval class contains 980 records without an outcome, 26 metadata-only records, two unavailable records, and three reconciled duplicates. These categories preserve the 2,431-record denominator without treating access failure or duplicate detection as a topic exclusion.
+
+% Canonical block 159: table
+\Needspace{7\baselineskip}
+\phantomsection\label{table-7}
+{\small \textcolor{TAENavy}{\textbf{Table 7.}} Residual-risk retrieval and screening checkpoint.\par}
+\begingroup
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\setlength{\TAETableWidth}{\dimexpr\linewidth-6\tabcolsep\relax}
+\arrayrulecolor{TAENavy}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.230\TAETableWidth}>{\raggedright\arraybackslash}p{0.240\TAETableWidth}>{\centering\arraybackslash}p{0.130\TAETableWidth}>{\raggedright\arraybackslash}p{0.400\TAETableWidth}@{}}
+\toprule
+\rowcolor{TAEPaleNavy}
+\textcolor{TAENavy}{\textbf{Scope}} & \textcolor{TAENavy}{\textbf{State}} & \textcolor{TAENavy}{\textbf{Count}} & \textcolor{TAENavy}{\textbf{Claim boundary}} \\
+\midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\footnotesize Table 7 (continued)}\\
+\toprule
+\rowcolor{TAEPaleNavy}
+\textcolor{TAENavy}{\textbf{Scope}} & \textcolor{TAENavy}{\textbf{State}} & \textcolor{TAENavy}{\textbf{Count}} & \textcolor{TAENavy}{\textbf{Claim boundary}} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r@{}}{\footnotesize Continued on next page}\\
+\endfoot
+\bottomrule
+\endlastfoot
+Forward-citation stratum & Retrieval outcomes recorded & 102 & Complete for the frozen stratum \\
+Forward-citation stratum & Recovered content & 71 & Eligible for screening \\
+Forward-citation stratum & Screening decisions & 71 & 13 close, 22 background, 11 single-component, 25 topic \\
+Forward-citation stratum & Proposition permissions & 5 & Bounded to exact ledger propositions and passage locators \\
+Forward-citation stratum & Background-only or quarantined & 8 & Two background-only; six quarantined \\
+Direct-query stratum & Screening decisions & 5 of 5 & RS-DQ-004 has zero source-content permission \\
+Recovery population & Retrieval outcomes & 107 of 1,087 & 980 retrieval outcomes remain open \\
+Recovery population & Recovered-content decisions & 76 of 76 & Screening complete for recovered content \\
+\end{longtable}
+\arrayrulecolor{black}
+\endgroup
+{\footnotesize\raggedright Note. These counts describe the frozen recovery workflow and the v0.14 proposition-review overlay. They supply no close-source prevalence estimate for the 1,087-record population because 980 retrieval outcomes remain open. Proposition permission is narrower than source inclusion and does not establish generalizability.\par}
+\medskip
+
+% Canonical block 160: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{4.9 Evidence boundaries and coding stability}{4-9-evidence-boundaries-and-coding-stability}
+\subsection*{4.9 Evidence boundaries and coding stability}
+
+% Canonical block 161: paragraph
+The six event-level propositions produce eighteen categorical findings across the three packets. Figure 6 preserves the released state-composition bars and separately displays the revised alternatives. In the additional comparison, six cells retain P/I choices, so there is no single fixed count of Partial versus Indeterminate states. Across the 64 assignments, Partial ranges from eight to fourteen and Indeterminate from four to ten, with no S or U; the paired counts always sum to eighteen. These are descriptions of supplied classifications, not population estimates or historical truth.
+
+% Canonical block 162: paragraph
+Table A3 preserves the original coding-stability checkpoint. The Oko comparison changed all six labels while applying the stricter evidentiary interpretation, so it cannot estimate intra-rater stability or inter-rater reliability. The Patriots had one released coding each at that checkpoint. The present post hoc, AI-assisted reassessment adds interpretations, not an independent human assessor. Aggregate agreement across P/I alternatives cannot establish condition-level reliability.
+
+% Canonical block 163: figure
+\par\medskip
+\phantomsection\label{figure-6}
+\Needspace{606.9pt}
+\noindent\begin{minipage}{\linewidth}\centering
+\includegraphics[width=\linewidth,height=530pt,keepaspectratio]{figures/fig-6-evidence-boundaries.png}
+\captionof*{figure}{\textcolor{TAENavy}{\textbf{Figure 6.}} Evidence boundaries across the six event-level conditions. The original composition bars remain labeled as historical baseline. Separate revised displays preserve each Partial/Indeterminate alternative rather than selecting one composition. The additional analysis has six P/I choices across two cases; all 64 assignments yield the same conditional case totals but different P and I counts. The figure describes classification states, not a missingness rate, reliability estimate, case ranking, or change in historical human control.}
+\end{minipage}\par\medskip
+
+% Canonical block 164: table
+\Needspace{7\baselineskip}
+\phantomsection\label{table-a3}
+{\small \textcolor{TAENavy}{\textbf{Table A3.}} Availability of coding-stability evidence at the original released checkpoint.\par}
+\begingroup
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\setlength{\TAETableWidth}{\dimexpr\linewidth-6\tabcolsep\relax}
+\arrayrulecolor{TAENavy}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.430\TAETableWidth}>{\centering\arraybackslash}p{0.190\TAETableWidth}>{\centering\arraybackslash}p{0.190\TAETableWidth}>{\centering\arraybackslash}p{0.190\TAETableWidth}@{}}
+\toprule
+\rowcolor{TAEPaleNavy}
+\textcolor{TAENavy}{\textbf{Test condition}} & \textcolor{TAENavy}{\textbf{Oko, 1983}} & \textcolor{TAENavy}{\textbf{Patriot ZG710, 2003}} & \textcolor{TAENavy}{\textbf{Patriot F/A-18C, 2003}} \\
+\midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\footnotesize Table A3 (continued)}\\
+\toprule
+\rowcolor{TAEPaleNavy}
+\textcolor{TAENavy}{\textbf{Test condition}} & \textcolor{TAENavy}{\textbf{Oko, 1983}} & \textcolor{TAENavy}{\textbf{Patriot ZG710, 2003}} & \textcolor{TAENavy}{\textbf{Patriot F/A-18C, 2003}} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r@{}}{\footnotesize Continued on next page}\\
+\endfoot
+\bottomrule
+\endlastfoot
+A second coding exists & Yes & No & No \\
+The same source packet was used & Yes & NA & NA \\
+The same evidence rule was used & No & NA & NA \\
+Comparable event-level stages & 6 & 0 & 0 \\
+Unchanged classifications & 0 & NA & NA \\
+Changed classifications & 6 & NA & NA \\
+Independent second assessor & No & No & No \\
+Reliability claim eligible & No & No & No \\
+\end{longtable}
+\arrayrulecolor{black}
+\endgroup
+{\footnotesize\raggedright Note. This is the historical checkpoint before the present reassessment. Oko’s six changes applied the direct-contemporaneous threshold to the fixed packet; the changed classification interpretation prevents a same-rule stability estimate. The Patriot cases had one released coding each at that time. The additional AI-assisted author review supplies no independent human coding or reliability estimate.\par}
+\medskip
+
+% Canonical block 165: heading
+\Needspace{6\baselineskip}
+\pdfbookmark[0]{5. Discussion}{5-discussion}
+\section*{5. Discussion}
+
+% Canonical block 166: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{5.1 Formal authority and practical force}{5-1-formal-authority-and-practical-force}
+\subsection*{5.1 Formal authority and practical force}
+
+% Canonical block 167: paragraph
+Formal authority answers one question: who was permitted to approve, reject, modify, stop, or escalate? Practical control asks whether that permission reached execution in the bounded decision. The path requires usable information, comprehension capacity, intervention rights, a feasible opportunity to act, exercised judgment, and execution propagation. A break at any required stage blocks the wider event-control claim.
+
+% Canonical block 168: paragraph
+The historical baseline illustrated this distinction by recording Supported formal authority in both Patriot cases while deriving Fail for the complete chain. The limited correction and additional reassessment change the warranted evidence claims: Patriot authority now retains P/I alternatives under the original contemporaneous threshold, and the additional comparison yields three Unresolved outcomes. The record no longer justifies presenting supported authority plus demonstrated practical failure as the current cross-case finding.
+
+% Canonical block 169: paragraph
+Formal authority establishes at most one of the six conditions. An Unresolved result means that the record does not establish the complete claim under the stated rules; it does not show that the required capacities were absent. Table 4 preserves the historical contrast and its revised evidentiary limits.
+
+% Canonical block 170: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{5.2 The evidentiary function of an indeterminate state}{5-2-the-evidentiary-function-of-an-indeterminate-state}
+\subsection*{5.2 The evidentiary function of an indeterminate state}
+
+% Canonical block 171: paragraph
+Public incident records are shaped by classification, litigation, institutional disclosure, journalism, preservation, and time. A missing operator display or inquiry file can block a judgment about comprehension or feasibility. It supplies no evidence that the operator lacked comprehension or opportunity. The indeterminate state preserves that boundary. It also turns the missing record into an explicit result and a recordkeeping requirement. This matters for responsibility: an investigator should not attribute failure to a person when the record cannot establish what information or intervention opportunity the person had.
+
+% Canonical block 172: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{5.3 Consequence of an untested human-control claim}{5-3-consequence-of-an-untested-human-control-claim}
+\subsection*{5.3 Consequence of an untested human-control claim}
+
+% Canonical block 173: paragraph
+Human-control language can justify deployment, reassure affected people, and assign responsibility after harm. Each use depends on an empirical premise: the designated person had practical power over the decision. Where that power is unverified, the institution risks treating an untested safeguard as effective, assigning responsibility without establishing the person's ability to act, or overlooking a failure mechanism that could recur.
+
+% Canonical block 174: paragraph
+Let HumanControlClaim(c) indicate an evidenced institutional assertion that case c was human-controlled. Conditional on such an assertion, the documentary evidence-gap indicator is
+
+% Canonical block 175: equation
+\[
+EvidenceGap(c)=\mathbf{1}[HumanControlClaim(c)=1\land EventControl(c)\neq PASS].
+\]
+
+% Canonical block 176: paragraph
+The indicator identifies an assertion that lacks complete substantiation under this procedure. Fail records a justified Unsupported finding in at least one necessary condition. Unresolved records partial or insufficient evidence without such a finding. Unknown evidence cannot cancel a demonstrated failure.
+
+% Canonical block 177: paragraph
+This is a conditional documentary device, not a validated measure of human control, safety, or institutional honesty. The institutional assertion itself must be evidenced before the indicator is reported as an observed case finding. These historical packets do not automatically establish such an assertion. An incomplete public record may also omit records held elsewhere. Neither Fail nor Unresolved alone establishes personal fault, deliberate misrepresentation, legal liability, or an unsafe outcome.
+
+% Canonical block 178: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{5.4 Relationship to prior research}{5-4-relationship-to-prior-research}
+\subsection*{5.4 Relationship to prior research}
+
+% Canonical block 179: paragraph
+The results connect established concepts to particular documentary questions. Tracking and tracing connect system action to human reasons and identifiable responsibility. Effective oversight also requires epistemic access and causal power, while institutional design and contestability determine how those capacities can be exercised (\href{https://doi.org/10.3389/frobt.2018.00015}{Santoni de Sio \& van den Hoven, 2018}; \href{https://doi.org/10.1145/3630106.3659051}{Sterz et al., 2024}; \href{https://doi.org/10.1007/s00146-023-01777-z}{Laux, 2024}; \href{https://doi.org/10.1145/3322640.3326699}{Almada, 2019}).
+
+% Canonical block 180: paragraph
+Human-factors research explains why those relationships can fail even when a role remains assigned. An operator may lose practice, lack situation awareness, or have too little opportunity to challenge an output (\href{https://doi.org/10.1016/0005-1098(83)90046-8}{Bainbridge, 1983}; \href{https://doi.org/10.1177/0018720816681350}{Endsley, 2017}). Incident analysis identifies records useful for reconstructing such conditions, and assurance methods require the inference from those records to the claim to be explicit (\href{https://doi.org/10.1609/aies.v8i1.36596}{Ezell et al., 2025}; \href{https://doi.org/10.1007/s43681-022-00178-0}{Burr \& Leslie, 2023}).
+
+% Canonical block 181: paragraph
+The reassessment demonstrates why that inference matters. An adverse training finding is not identical to an established failure of this crew’s necessary capacity. A harmful outcome is not identical to failed implementation of a human action. Missing evidence differs from both. The source statement, the assessor’s interpretation, and the calculated consequence of a label must therefore remain distinguishable.
+
+% Canonical block 182: paragraph
+Closely related methods already offer retrospective public assessment, insufficient-evidence categories, override traces, and executable evidence structures (\href{https://doi.org/10.3390/automation7030096}{Niazi et al., 2026}; \href{https://doi.org/10.48550/arXiv.2606.21276}{Surve et al., 2026}). This implementation provides an inspectable path from a bounded control claim through six findings to a revisable conclusion. Incomplete search coverage and substantive overlap preclude an exhaustive uniqueness claim. Independent studies are still needed to establish reliability or institutional benefit.
+
+% Canonical block 183: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{5.5 Use for current AI governance}{5-5-use-for-current-ai-governance}
+\subsection*{5.5 Use for current AI governance}
+
+% Canonical block 184: paragraph
+Contemporary systems may exhibit analogous mechanisms despite architectural differences. Agentic software can compress review time, distribute actions across tools, obscure intermediate state, or leave a reviewer with nominal stop authority. Developer interviews identify several forms of agent oversight work (\href{https://doi.org/10.1145/3805689.3812402}{Dhanorkar et al., 2026}). Prospective governance proposals also address escalation and record duties (\href{https://doi.org/10.3390/info17070694}{Alhalangy, 2026}; \href{https://doi.org/10.3390/systems14070849}{Lee et al., 2026}).
+
+% Canonical block 185: paragraph
+The timing margin and propagation test are candidate ways to operationalize these questions in contemporary records. They have not been validated as measurements. A new protocol must specify the system, actors, options, and commitment points and test the method with present learned or agentic systems before transfer can be claimed.
+
+% Canonical block 186: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{5.6 Ethical burden of proof}{5-6-ethical-burden-of-proof}
+\subsection*{5.6 Ethical burden of proof}
+
+% Canonical block 187: paragraph
+An institution that represents a consequential system as human-controlled should preserve evidence capable of testing the practical-control chain. This ethical burden concerns the institution's claim and records. It does not presume individual fault.
+
+% Canonical block 188: paragraph
+This position follows from the risk of nominal oversight. A role assignment can place responsibility on a person who lacks information, capacity, opportunity, or causal power (\href{https://doi.org/10.1016/j.clsr.2022.105681}{Green, 2022}; \href{https://doi.org/10.1145/3630106.3659051}{Sterz et al., 2024}; \href{https://doi.org/10.1109/TASE.2020.2965466}{Douer \& Meyer, 2020}). Institutional design should anticipate human fallibility and incentives (\href{https://doi.org/10.1007/s00146-023-01777-z}{Laux, 2024}). The proposed record set lets affected people, investigators, and oversight bodies examine whether responsibility was attached to practical authority. It guarantees no safe or just outcome.
+
+% Canonical block 189: heading
+\Needspace{6\baselineskip}
+\pdfbookmark[0]{6. Regulatory relevance and prospective validation}{6-regulatory-relevance-and-prospective-validation}
+\section*{6. Regulatory relevance and prospective validation}
+
+% Canonical block 190: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{6.1 From assigned oversight to event evidence}{6-1-from-assigned-oversight-to-event-evidence}
+\subsection*{6.1 From assigned oversight to event evidence}
+
+% Canonical block 191: paragraph
+Governance instruments can specify oversight capabilities while leaving the evidence for one decision unresolved. Article 14 of the EU AI Act addresses human oversight for high-risk AI systems, including understanding capabilities and limitations, awareness of automation bias, interpretation, disregard or reversal of output, intervention, and stopping (\href{https://eur-lex.europa.eu/eli/reg/2024/1689/oj}{European Parliament and Council, 2024}, as amended in 2026).
+
+% Canonical block 192: paragraph
+These requirements correspond most directly to comprehension and authority, with access and feasibility as related prerequisites. This correspondence is the author’s research interpretation. Article 14 does not by itself establish that a particular person received the necessary information, exercised judgment, or propagated an intervention into execution. The six-condition procedure asks those event-level questions separately.
+
+% Canonical block 193: paragraph
+NIST AI RMF 1.0 is a voluntary framework. GOVERN 2.1, MAP 3.4, and MAP 3.5 address documented roles, proficiency processes, and human-oversight arrangements (\href{https://airc.nist.gov/airmf-resources/airmf/5-sec-core/}{NIST, 2023}). The public overview of ISO/IEC 42001:2023 describes an organizational AI management system concerned with governance, risk, traceability, transparency, reliability, and improvement (\href{https://www.iso.org/standard/42001}{ISO and IEC, 2023}). The licensed standard was not reviewed clause by clause.
+
+% Canonical block 194: paragraph
+These organization-level arrangements can suggest which records to request. The practical-control method asks whether the relevant arrangements are evidenced in a bounded event. Table 8 retains that relationship without making a legal-compliance, certification, or regulatory-endorsement finding.
+
+% Canonical block 195: table
+\Needspace{7\baselineskip}
+\phantomsection\label{table-8}
+{\small \textcolor{TAENavy}{\textbf{Table 8.}} Relationship between selected governance instruments and the event-level method.\par}
+\begingroup
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\setlength{\TAETableWidth}{\dimexpr\linewidth-4\tabcolsep\relax}
+\arrayrulecolor{TAENavy}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.230\TAETableWidth}>{\raggedright\arraybackslash}p{0.310\TAETableWidth}>{\raggedright\arraybackslash}p{0.460\TAETableWidth}@{}}
+\toprule
+\rowcolor{TAEPaleNavy}
+\textcolor{TAENavy}{\textbf{Instrument}} & \textcolor{TAENavy}{\textbf{Reviewed function}} & \textcolor{TAENavy}{\textbf{Research use}} \\
+\midrule
+\endfirsthead
+\multicolumn{3}{@{}l}{\footnotesize Table 8 (continued)}\\
+\toprule
+\rowcolor{TAEPaleNavy}
+\textcolor{TAENavy}{\textbf{Instrument}} & \textcolor{TAENavy}{\textbf{Reviewed function}} & \textcolor{TAENavy}{\textbf{Research use}} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{3}{r@{}}{\footnotesize Continued on next page}\\
+\endfoot
+\bottomrule
+\endlastfoot
+EU AI Act, Article 14, high-risk AI & Understanding limits, automation-bias awareness, interpretation, override, intervention, and stopping & Test selected capabilities, then record information delivery, opportunity, exercised judgment, and propagation separately. \\
+EU AI Act, Article 57 & Controlled development, testing, and validation under regulatory supervision & Capture the intervention path prospectively before the record becomes incomplete. \\
+NIST AI RMF 1.0, voluntary Core & Documented roles, assessed proficiency, and defined oversight processes & Connect organization-level arrangements to event-level evidence requests. \\
+ISO/IEC 42001 public overview & AI management-system governance, risk, traceability, transparency, reliability, and improvement & Place event evidence inside an organizational control system without making a conformity or certification claim. \\
+\end{longtable}
+\arrayrulecolor{black}
+\endgroup
+{\footnotesize\raggedright Note. These are research uses of selected official provisions and public summaries. They establish no compliance, legal sufficiency, ISO conformity, certification, or regulatory endorsement. The historical military cases are not contemporary AI Act compliance assessments. Historical evidence remains fixed at 6 August 2026; policy review dates and amendments are separately recorded in Appendix C.\par}
+\medskip
+
+% Canonical block 196: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{6.2 Regulatory sandboxes as the next empirical setting}{6-2-regulatory-sandboxes-as-the-next-empirical-setting}
+\subsection*{6.2 Regulatory sandboxes as the next empirical setting}
+
+% Canonical block 197: paragraph
+EU AI Act Article 57 provides for controlled development, testing, and validation under regulatory supervision. A regulatory sandbox is one possible prospective setting, subject to eligibility, an agreed study plan, access permissions, and relevant safeguards. No sandbox admission or authority approval has been established.
+
+% Canonical block 198: paragraph
+Such a study could address the main limitation of historical reconstruction. Investigators could fix the decision boundary and classification rules before outcomes are visible, then preserve the interface state, system version, operator role, controls, timestamps, contemporaneous judgment or intervention, and linked execution record as the event unfolds. Participation alone would not guarantee every required record.
+
+% Canonical block 199: paragraph
+Validation should proceed through four distinct phases. First, controlled conditions with known differences can test whether the procedure and artifact pipeline behave as specified. Cases should include harmful but faithfully implemented actions, ignored corrective instructions, missing records, and actual failures of necessary capacities. An authored reference key tests specified behavior; it is not an independent criterion of real-world adequacy.
+
+% Canonical block 200: paragraph
+Second, independent assessors should apply the same frozen packet and classification form while blinded to prior labels. The sampling plan, handling of unresolved alternatives, agreement statistic, and adjudication rule should be fixed in advance. Condition-level agreement matters alongside case totals: assessors can all return Unresolved for different reasons.
+
+% Canonical block 201: paragraph
+Third, construct and criterion validity require varied systems and tasks and comparison with an external criterion not generated from the six-condition labels. Fourth, institutional studies can examine correction, harm prevention, accountability, or another defined outcome. A causal benefit claim requires a design that identifies causal effects. The later synthetic Jev work in Appendix D does not complete these phases for the historical method.
+
+% Canonical block 202: paragraph
+Participant recruitment or protected operational data require the applicable research-ethics determination, sandbox authority, lawful processing and publication authority, consent or waiver basis, and a data minimization, security, retention, and deletion plan before collection. A solo synthetic rehearsal can establish protocol executability after a recorded determination that it uses no participant data or protected operational records. It cannot establish independent reliability, construct validity, or institutional effects.
+
+% Canonical block 203: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{6.3 United States application boundaries}{6-3-united-states-application-boundaries}
+\subsection*{6.3 United States application boundaries}
+
+% Canonical block 204: paragraph
+New York City Local Law 144, California regulations for automated decisionmaking, Colorado's consequential-decision framework, and Illinois Public Act 103-0804 address different combinations of audit information, notice, access, opt-out rights, discrimination, and accountability. The repository crosswalk reserves them as possible application sites. Each site requires a newly frozen decision boundary, evidence packet, and jurisdiction-specific review. These instruments change no historical case result and supply no finding that a regulated organization has practical human control.
+
+% Canonical block 205: heading
+\Needspace{6\baselineskip}
+\pdfbookmark[0]{7. Limitations}{7-limitations}
+\section*{7. Limitations}
+
+% Canonical block 206: paragraph
+The three strata were defined around the headline contrasts, and screening stopped after five candidates. The selected set demonstrates the procedure under those anticipated conditions. It estimates no prevalence and provides no independent classification test. Two cases concern one system family and operating period. Oko and Patriot differ materially from present learned systems.
+
+% Canonical block 207: paragraph
+The evidence is retrospective and public. Classified material, internal logs, complete displays, and some inquiry records were unavailable. Some cited content remains remote-only. Oko relies on later participant accounts and lacks a located contemporaneous command record. Source agreement can reflect shared dependence on an earlier account. Packet hashes prove preservation of stored bytes and do not prove source truth.
+
+% Canonical block 208: paragraph
+One assessor designed and applied the method. The study supplies no inter-rater reliability, construct-validity estimate, causal effect, safety effect, legal-sufficiency judgment, or outcome comparison. Artifact tests detect internal inconsistency and prespecified corruption. They do not validate historical interpretation.
+
+% Canonical block 209: paragraph
+The formal search used open indexes and official source pages. Author review closed the 89-record decision queue, the 71-record recovered forward-citation queue, the 13-source proposition gate, and the fifth direct-query screening decision. Another 980 records lack a retrieval outcome, and authenticated Scopus or Web of Science, IEEE Xplore, ACM Digital Library, PhilPapers, and HeinOnline or an equivalent legal index remain open. Five forward sources have one bounded proposition permission each, two remain background-only, and six are quarantined. RS-DQ-004 has zero source-content permission. The contribution language is therefore bounded to the declared search and reviewed source set.
+
+% Canonical block 210: paragraph
+The reassessment is post hoc and author-led with AI assistance. The approval to integrate three narrow ZG710 dispositions does not supply an independent assessor or validate the instrument. Six P/I choices remain open in the additional comparison, including the eligibility of later evidence for partial findings under incompletely specified original rules. The approved non-U judgments concern insufficiency of the particular necessary-failure inferences, not proof that the adverse conditions were absent. Any supported contradiction requires U and Fail.
+
+% Canonical block 211: paragraph
+The conditional aggregate is stable across the retained state sets, but that stability cannot establish that the sets themselves are correct. Neither local enumeration nor the earlier repository audits can settle historical source interpretation. The literature search also retains significant unresolved retrieval and database-coverage limits, detailed in Section 4.8 and Appendix B. The contribution is an inspectable implementation and reassessment, without a claim of exhaustive novelty, construct validity, legal sufficiency, safety benefit, or institutional effectiveness.
+
+% Canonical block 212: heading
+\Needspace{6\baselineskip}
+\pdfbookmark[0]{8. Institutional implications}{8-institutional-implications}
+\section*{8. Institutional implications}
+
+% Canonical block 213: paragraph
+An assurance team, regulator, deployer, or incident investigator can use the practical-control chain as a proposed evidence request. Under this procedure, each classification limits the practical-control claim supported by the record.
+
+% Canonical block 214: table
+\Needspace{7\baselineskip}
+\phantomsection\label{table-9}
+{\small \textcolor{TAENavy}{\textbf{Table 9.}} Institutional interpretation of the case-level result.\par}
+\begingroup
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\setlength{\TAETableWidth}{\dimexpr\linewidth-4\tabcolsep\relax}
+\arrayrulecolor{TAENavy}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.200\TAETableWidth}>{\raggedright\arraybackslash}p{0.350\TAETableWidth}>{\raggedright\arraybackslash}p{0.450\TAETableWidth}@{}}
+\toprule
+\rowcolor{TAEPaleNavy}
+\textcolor{TAENavy}{\textbf{Result}} & \textcolor{TAENavy}{\textbf{Evidentiary meaning}} & \textcolor{TAENavy}{\textbf{Institutional consequence}} \\
+\midrule
+\endfirsthead
+\multicolumn{3}{@{}l}{\footnotesize Table 9 (continued)}\\
+\toprule
+\rowcolor{TAEPaleNavy}
+\textcolor{TAENavy}{\textbf{Result}} & \textcolor{TAENavy}{\textbf{Evidentiary meaning}} & \textcolor{TAENavy}{\textbf{Institutional consequence}} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{3}{r@{}}{\footnotesize Continued on next page}\\
+\endfoot
+\bottomrule
+\endlastfoot
+Pass & Every required event-level stage is supported. & The available record supports the bounded practical-control claim. \\
+Fail & At least one necessary event condition has a justified Unsupported finding. & Identify the failed condition and do not rely on practical control as a safeguard for that decision. \\
+Unresolved & No required stage is unsupported, and at least one is partial or indeterminate. & The complete practical-control claim lacks enough evidence. \\
+Outside scope (nonrequired proposition) & A justified boundary excludes a nonrequired proposition. & The excluded proposition cannot support a conclusion beyond that boundary. \\
+\end{longtable}
+\arrayrulecolor{black}
+\endgroup
+{\footnotesize\raggedright Note. Pass, Fail, and Unresolved are the three event-level results. Outside scope concerns a justified nonrequired proposition and cannot remove a necessary condition. Any established U retains priority over uncertainty elsewhere. None of these documentary conclusions alone establishes safety, fairness, individual fault, or legal compliance.\par}
+\medskip
+
+% Canonical block 215: paragraph
+Before relying on a human-control claim, a reviewer should identify which of the following records bear on that claim. The relevant subset depends on the claim; the list does not make every artifact mandatory in every case:
+
+% Canonical block 216: list
+\begin{enumerate}[leftmargin=1.6em,itemsep=0.3em]
+\item the exact information and system output shown to the named person;
+\item timestamps connecting output, review, action, and irreversible commitment;
+\item model or system version, operating state, uncertainty, and known limits;
+\item independent information available for challenge;
+\item role delegation and tested approve, reject, modify, stop, and escalation rights;
+\item staffing, workload, latency, access, and institutional conditions that affected feasibility;
+\item the contemporaneous decision, challenge, or escalation record;
+\item evidence that the intervention propagated into execution;
+\item appeal, correction, repair, and reform records when the claim extends beyond event-level control;
+\item missing, inaccessible, or deleted records and the retention rule that governed them.
+\end{enumerate}
+
+% Canonical block 217: paragraph
+This proposed request converts a general assurance statement into inspectable propositions. The relevant record follows from the option, condition, and boundary being assessed. Independent challenge information matters when the claim depends on such a challenge; its inclusion here does not make departure from automation a universal condition. Collection should be proportionate to purpose and privacy risk. The request by itself establishes no legal compliance, safety, fairness, or accountability outcome.
+
+% Canonical block 218: heading
+\Needspace{6\baselineskip}
+\pdfbookmark[0]{9. Conclusion}{9-conclusion}
+\section*{9. Conclusion}
+
+% Canonical block 219: paragraph
+An institution substantiates practical human control by connecting assigned authority to usable information, comprehension capacity, a feasible opportunity, active judgment or intervention, and propagation into execution. A named reviewer establishes an assigned role alone. The additional evidence matters when human-control language justifies deployment, allocates responsibility, or reassures people exposed to a consequential system.
+
+% Canonical block 220: paragraph
+The method converts that broad institutional claim into six testable documentary propositions. The historical baseline produced two Fail results and one Unresolved result. The limited correction retains one Fail and two Unresolved results. The separately approved additional ZG710 reassessment yields three Unresolved claims across the retained alternatives, conditional on the other limited-correction cells. Any justified failure of a necessary condition still produces Fail. None of these comparisons establishes the prevalence of practical control or proves that the historical actors lacked it.
+
+% Canonical block 221: paragraph
+The correction preserved the original record and made the narrowed conclusion explicit, allowing dependent claims to be reconsidered. Institutions need the same record of changes when a human-control claim supports deployment or responsibility allocation.
+
+% Canonical block 222: paragraph
+The result is a method demonstration. Independent assessors, varied case families, contemporary system traces, and prospective decision studies are needed before the method can support reliability, validity, or institutional-effect claims.
+
+% Canonical block 223: heading
+\Needspace{6\baselineskip}
+\pdfbookmark[0]{Version relationship and integrity status}{version-relationship-and-integrity-status}
+\section*{Version relationship and integrity status}
+
+% Canonical block 224: paragraph
+The v0.14.0 preprint was archived at DOI 10.5281/zenodo.21926005. Version 0.15.0 added venue metadata and disclosures. Version 0.16.0 formalized the event-control rule and derived the historical two-Fail/one-Unresolved result. Version 0.17.0 added the bounded policy crosswalk and prospective validation design while preserving packet states and search counts.
+
+% Canonical block 225: paragraph
+The 10 October 2026 revision restores the original manuscript’s structure, conceptual explanation, tables, figures, and visual design while improving wording and retaining the approved narrow reassessment. Earlier manuscript and reproducibility records remain preserved. The historical baseline, limited correction, and additional comparison are separately identified throughout the results. This 1 November 2026 editorial revision removes the running-header date, clarifies wording, and reconciles release references. It does not change the assessment states or reported results.
+
+% Canonical block 226: paragraph
+Later repository versions v0.17.1 and v0.17.2 added software verification and synthetic experiments without silently revising the v0.17.0 paper or historical assessment files. At inspected commit \texttt{0775030a\allowbreak{}55a892c1\allowbreak{}5b46dd9a\allowbreak{}35ad4da7\allowbreak{}18f2e12d}, those historical records remained unchanged. Their dates are distinct from the 6 August 2026 historical evidence cutoff.
+
+% Canonical block 227: paragraph
+The v0.14.0 integrity audit mapped 32 material claims to evidence, applied 33 controlled mutations, and detected all 33 corrupted conditions. The v0.16.0 audit extended those controls to the formal rule, its derived case results, the proposed timing measure, and manuscript terminology. The v0.17.0 extension maps five policy and prospective-design claims to eight official-source records and applies nine controlled mutations, including removal of the manuscript's sandbox-section locator. These tests ask whether declared repository controls respond to seeded or detectable inconsistencies. They do not establish the truth of every historical claim, independent assessor agreement, legal compliance, population validity, or transfer to present AI systems.
+
+% Canonical block 228: paragraph
+The separately versioned additional-reassessment-v2-public-2026-10-10 supplement reproduces the preserved historical comparisons and enumerates all 64 additional assignments. These are mechanical checks conditional on supplied assessor judgments. Its dated author-approval statement and hash manifest record the approved scope and exact package contents; they do not provide independent validation of the evidence or classifications.
+
+% Canonical block 229: heading
+\Needspace{6\baselineskip}
+\pdfbookmark[0]{Data and materials availability}{data-and-materials-availability}
+\section*{Data and materials availability}
+
+% Canonical block 230: paragraph
+The public repository contains the historical protocols, packets, assessments, search files, figure inputs, audits, and manifests: https://github.com/node-and-norm/trust-autonomy-evidence. The paper baseline is v0.17.0 at commit \texttt{781f7806\allowbreak{}a626cd4e\allowbreak{}4fffbe4d\allowbreak{}453d9d53\allowbreak{}65b835f9}. The evidence archive v0.6.0 has DOI 10.5281/zenodo.21865007; the v0.14.0 preprint has DOI 10.5281/zenodo.21926005; and the repository all-versions DOI is 10.5281/zenodo.21841127. Repository citation metadata identifies DOI 10.5281/zenodo.22970968 for the v0.17.0 paper, separately from the later v0.17.2 software checkpoint.
+
+% Canonical block 231: paragraph
+The author approved the 10 October 2026 revision and its separately versioned reproducibility supplement. That revision is available in the public repository and on Zenodo at \href{https://doi.org/10.5281/zenodo.23423847}{DOI 10.5281/zenodo.23423847}, published on 16 October 2026. The supplement preserves historical results, records the additional state sets, and checks their aggregates. Its scope is derivation and preservation. This 1 November 2026 editorial revision is distinct from those archived releases. Earlier public artifacts remain separately identifiable and have not been overwritten.
+
+% Canonical block 232: heading
+\Needspace{6\baselineskip}
+\pdfbookmark[0]{Ethics and publication authority}{ethics-and-publication-authority}
+\section*{Ethics and publication authority}
+
+% Canonical block 233: paragraph
+The historical study uses public records and involved no participant recruitment, intervention, or direct interaction with living individuals. The repository preserves eligible public-domain and openly licensed material and cites proprietary material through metadata and limited paraphrase. The protocol excludes confidential, restricted, and security-sensitive records. No institutional human-subjects-review determination has been obtained. Any applicable institutional and venue determination must be obtained before submission; this paper does not claim an exemption.
+
+% Canonical block 234: paragraph
+Node \& Norm is the author's independent research initiative. Mark Julius Banasihan is an ALB candidate in Extension Studies at Harvard University. This research was conducted independently through Node \& Norm, without Harvard University sponsorship, supervision, endorsement, or representation.
+
+% Canonical block 235: heading
+\Needspace{6\baselineskip}
+\pdfbookmark[0]{Author contributions}{author-contributions}
+\section*{Author contributions}
+
+% Canonical block 236: paragraph
+Mark Julius Banasihan: conceptualization, methodology, investigation, data curation, software, validation, visualization, original drafting, review and editing, project administration, and accountable authorship. Validation here includes the specified artifact and consistency checks; it does not imply independently established validity of the assessment instrument.
+
+% Canonical block 237: heading
+\Needspace{6\baselineskip}
+\pdfbookmark[0]{AI-assistance disclosure}{ai-assistance-disclosure}
+\section*{AI-assistance disclosure}
+
+% Canonical block 238: paragraph
+Generative AI assisted substantively with research preparation, interpretation, and manuscript development. Recorded contributions include literature discovery and metadata organization; source inspection, preliminary screening and proposition proposals (Sections 2, 3.10, 4.8 and Appendix B); drafting research and revision specifications, assessment-rule formulas, tables, figure terminology, deterministic result builders, claim maps and validation code (Sections 3--4); and policy-source review and crosswalk drafting (Section 6 and Appendix C). AI tools also helped develop drafts, examine alternative interpretations, and revise wording across the paper. This assistance extended beyond proofreading. The \href{https://github.com/node-and-norm/trust-autonomy-evidence/blob/0775030a55a892c15b46dd9a35ad4da718f2e12d/evidence/human-review-attestation-v0.14.0.json}{v0.14 review record} and \href{https://github.com/node-and-norm/trust-autonomy-evidence/blob/0775030a55a892c15b46dd9a35ad4da718f2e12d/evidence/human-review-attestation-v0.16.0.json}{v0.16 review record} identify specific activities and their limits.
+
+The inspected contribution records identify Codex (OpenAI) for source inspection, manuscript and code preparation, and checks. They do not establish its exact underlying model version for each task or a complete inventory of every earlier assistant session. No unrecorded model identity is inferred. The separate synthetic experiment used TypeSafe AI's Jev: the first live run recorded requested and resolved model \texttt{jev-1.13.0} with SDK 0.7.1. Appendix D gives the experiment's design, outputs and limits; its model identity does not identify the assistant used to develop the manuscript. Codex also assisted with the 1 November 2026 editorial and disclosure revisions.
+
+The released records identify Mark Julius Banasihan as the accountable decision owner for the original AI-assisted 89-record screening queue and attribute the released evidence and assessment approvals to him. Later screening, source inspection and reassessment were AI-assisted under his authorization. The v0.14 record states that he did not personally reproduce every AI-assisted retrieval step. Authorization, recorded review, specified-claim verification and release approval have different scopes. The author approved the 10 October 2026 preprint and additional ZG710 reassessment supplement; retained P/I alternatives remain unresolved. The author has separately authorized updating the existing arXiv submission with this editorial revision. The author remains responsible for the adopted judgments, interpretations, errors and submitted text. AI tools are not credited as authors.
+
+% Canonical block 239: paragraph
+Source inspection, static artifact checks, executed software tests, model inference and human review are reported separately. A matching SHA-256 identifies checked file bytes; it does not establish source truth, authorship or authentic event time. Successful code checks establish only the specified behavior or calculation. Multiple automated critiques, Jev outputs and AI-assisted author discussion are not independent human coding or peer review. They do not establish the historical method's reliability or validity.
+
+The public research records preserve selected activities, source locators, decisions and artifact versions. The separate Jev archive retains its requests and responses. These records are not a complete transcript of manuscript development. Private conversation identifiers and unrelated private material are excluded from this disclosure. Any additional conversation excerpts would require factual, relevance and privacy review before release. Venue-specific disclosure requirements remain to be reconciled before journal submission.
+
+% Canonical block 240: heading
+\Needspace{6\baselineskip}
+\pdfbookmark[0]{Conflicts of Interest}{conflicts-of-interest}
+\section*{Conflicts of Interest}
+
+% Canonical block 241: paragraph
+The author declares no conflicts of interest.
+
+% Canonical block 242: heading
+\Needspace{6\baselineskip}
+\pdfbookmark[0]{References}{references}
+\section*{References}
+
+% Canonical block 243: references
+\begin{TAEReferences}
+\item\phantomsection\label{reference-1} Abdalilah Alhalangy. (2026). \href{https://doi.org/10.3390/info17070694}{Operationalizing Accountable AI Through Traceable Governance Architecture for Institutional Decision Support}. Information, 17(7), 694.
+\item\phantomsection\label{reference-2} Marco Almada. (2019). \href{https://doi.org/10.1145/3322640.3326699}{Human Intervention in Automated Decision-Making: Toward the Construction of Contestable Systems}. Proceedings of the Seventeenth International Conference on Artificial Intelligence and Law, 2-11.
+\item\phantomsection\label{reference-3} Saar Alon-Barkat and Madalina Busuioc. (2023). \href{https://doi.org/10.1093/jopart/muac007}{Human-AI Interactions in Public Sector Decision Making: Automation Bias and Selective Adherence to Algorithmic Advice}. Journal of Public Administration Research and Theory, 33(1), 153-169.
+\item\phantomsection\label{reference-4} \href{https://doi.org/10.14569/IJACSA.2026.0170502}{Ornella Bahidika. (2026). Agentic Accountability: “The Buck Stops Where?” Ethical Frameworks for Human Oversight of Autonomous AI Systems. International Journal of Advanced Computer Science and Applications, 17(5), 13--22.}
+\item\phantomsection\label{reference-5} Lisanne Bainbridge. (1983). \href{https://doi.org/10.1016/0005-1098(83)90046-8}{Ironies of Automation}. Automatica, 19(6), 775-779.
+\item\phantomsection\label{reference-6} Kevin Baum and Johann Laux. (2026). \href{https://doi.org/10.48550/arXiv.2603.19213}{Constitutive vs. Corrective: A Causal Taxonomy of Human Runtime Involvement in AI Systems}.
+\item\phantomsection\label{reference-7} Christopher Burr and David Leslie. (2023). \href{https://doi.org/10.1007/s43681-022-00178-0}{Ethical Assurance: A Practical Approach to the Responsible Design, Development, and Deployment of Data-Driven Technologies}. AI and Ethics, 3(1), 73-98.
+\item\phantomsection\label{reference-8} Simeon C. Calvert. (2025). \href{https://doi.org/10.1007/s11948-025-00554-z}{Principles and Framework for the Operationalisation of Meaningful Human Control over Autonomous Systems}. Science and Engineering Ethics, 31(5), 27.
+\item\phantomsection\label{reference-9} Jovana Davidovic. (2023). \href{https://doi.org/10.3389/fdata.2022.1017677}{On the Purpose of Meaningful Human Control of AI}. Frontiers in Big Data, 5, 1017677.
+\item\phantomsection\label{reference-10} Sidney W. A. Dekker. (2002). \href{https://doi.org/10.1016/S0022-4375(02)00032-4}{Reconstructing Human Contributions to Accidents: The New View on Error and Performance}. Journal of Safety Research, 33(3), 371-385.
+\item\phantomsection\label{reference-11} Shipi Dhanorkar, Samir Passi, and Mihaela Vorvoreanu. (2026). \href{https://doi.org/10.1145/3805689.3812402}{Human Oversight of Agentic Systems in Practice: Examining the Oversight Work, Challenges, and Heuristics of Developers Using Software Agents}. Proceedings of the 2026 ACM Conference on Fairness, Accountability, and Transparency.
+\item\phantomsection\label{reference-12} Nir Douer and Joachim Meyer. (2020). \href{https://doi.org/10.1109/TASE.2020.2965466}{The Responsibility Quantification Model of Human Interaction With Automation}. IEEE Transactions on Automation Science and Engineering, 17(2), 1044-1060.
+\item\phantomsection\label{reference-13} Mica R. Endsley. (2017). \href{https://doi.org/10.1177/0018720816681350}{From Here to Autonomy: Lessons Learned from Human-Automation Research}. Human Factors, 59(1), 5-27.
+\item\phantomsection\label{reference-14} European Parliament and Council of the European Union. (2024). \href{https://eur-lex.europa.eu/eli/reg/2024/1689/oj}{Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence}, Articles 14 and 57. Official Journal of the European Union.
+\item\phantomsection\label{reference-15} Carson Ezell, Xavier Roberts-Gaal, and Alan Chan. (2025). \href{https://doi.org/10.1609/aies.v8i1.36596}{Incident Analysis for AI Agents}. Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society, 8(1), 865-878.
+\item\phantomsection\label{reference-16} Ben Green. (2022). \href{https://doi.org/10.1016/j.clsr.2022.105681}{The Flaws of Policies Requiring Human Oversight of Government Algorithms}. Computer Law \& Security Review, 45, 105681.
+\item\phantomsection\label{reference-17} Pim Haselager, Hanna Schraffenberger, Serge Thill, Simon Fischer, Pablo Lanillos, Sebastiaan van de Groes, and Miranda van Hooff. (2023). \href{https://doi.org/10.1017/S0963180122000718}{Reflection Machines: Supporting Effective Human Oversight Over Medical Decision Support Systems}. Cambridge Quarterly of Healthcare Ethics, 32(4), 552-567.
+\item\phantomsection\label{reference-18} International Organization for Standardization and International Electrotechnical Commission. (2023). \href{https://www.iso.org/standard/42001}{ISO/IEC 42001:2023, Information technology, Artificial intelligence, Management system}.
+\item\phantomsection\label{reference-19} Noam Kolt. (2025). \href{https://arxiv.org/abs/2501.07913}{Governing AI Agents}.
+\item\phantomsection\label{reference-20} Khoa Lam, Benjamin Lange, Borhane Blili-Hamelin, Jovana Davidovic, Shea Brown, and Ali Hasan. (2024). \href{https://doi.org/10.1145/3630106.3658957}{A Framework for Assurance Audits of Algorithmic Systems}. Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency, 1078-1092.
+\item\phantomsection\label{reference-21} Markus Langer, Kevin Baum, and Nadine Schlicker. (2025). \href{https://doi.org/10.1007/s11023-024-09701-0}{Effective Human Oversight of AI-Based Systems: A Signal Detection Perspective on the Detection of Inaccurate and Unfair Outputs}. Minds and Machines, 35, article 1.
+\item\phantomsection\label{reference-22} Paul LaPosta. (2026). \href{https://doi.org/10.1609/aaaiss.v8i1.42543}{Conflict as Telemetry for Illegible AI: Governing LLM Agent Workflows} (Extended Abstract). Proceedings of the AAAI Symposium Series, 8(1), 209--209.
+\item\phantomsection\label{reference-23} Johann Laux. (2024). \href{https://doi.org/10.1007/s00146-023-01777-z}{Institutionalised Distrust and Human Oversight of Artificial Intelligence: Towards a Democratic Design of AI Governance Under the European Union AI Act}. AI \& Society, 39(6), 2853-2866.
+\item\phantomsection\label{reference-24} Lidaw Fabrice Ledjaki, Yuan-Chen Chang, Mohamed Loutis, and Esma Aimeur. (2026). \href{https://doi.org/10.1145/3774905.3795469}{Prompt Scene Investigation: Uncovering the Evidence in LLMs}. Companion Proceedings of the ACM Web Conference 2026, 284-290.
+\item\phantomsection\label{reference-25} John D. Lee and Katrina A. See. (2004). \href{https://doi.org/10.1518/hfes.46.1.50_30392}{Trust in Automation: Designing for Appropriate Reliance}. Human Factors, 46(1), 50-80.
+\item\phantomsection\label{reference-26} Hyun-Kyung Lee, Cheolhee Yoon, and Bong Gyou Lee. (2026). \href{https://doi.org/10.3390/systems14070849}{Operationalising Human-Centred AI Governance Under the EU AI Act: A Governance Framework for Human Oversight and Data Accountability}. Systems, 14(7), 849.
+\item\phantomsection\label{reference-27} Alex Leung, Rex Zhang, Kentaroh Toyoda, and SiewMei Loh. (2026). \href{https://arxiv.org/abs/2606.03777}{From Control Boundary to Insurance Claim: Reconstructing AI-Mediated Losses Through the CER Framework}.
+\item\phantomsection\label{reference-28} Wangfan Li, Athish Venkatachalam, Jackson Bowen, and Carlos Toxtli-Hernandez. (2025). \href{https://doi.org/10.1109/CAI64502.2025.00121}{Human Oversight over Autonomous Task Execution in Sandbox Environments}. 2025 IEEE Conference on Artificial Intelligence, 663-668.
+\item\phantomsection\label{reference-29} Carl Macrae. (2022). \href{https://doi.org/10.1111/risa.13850}{Learning from the Failure of Autonomous and Intelligent Systems: Accidents, Safety, and Sociotechnical Sources of Risk}. Risk Analysis, 42(9), 1999-2025.
+\item\phantomsection\label{reference-30} John A. McDermid. (2019). \href{https://www.york.ac.uk/assuring-autonomy/news/blog/human-control-ai-autonomy/}{Human Control of AI and Autonomy: The Art of the Possible}. Centre for Assuring Autonomy, University of York.
+\item\phantomsection\label{reference-31} Sean McGregor. (2021). \href{https://doi.org/10.1609/aaai.v35i17.17817}{Preventing Repeated Real World AI Failures by Cataloging Incidents: The AI Incident Database}. Proceedings of the AAAI Conference on Artificial Intelligence, 35(17), 15458-15463.
+\item\phantomsection\label{reference-32} Rui Meng, Bhavana Dalvi Mishra, Jiefeng Chen, Chun-Liang Li, Palash Goyal, Mihir Parmar, Yiwen Song, Yale Song, Rajarishi Sinha, Parthasarathy Ranganathan, Burak Gokturk, Jinsung Yoon, and Tomas Pfister. (2026). \href{https://doi.org/10.48550/arXiv.2605.26340}{ScientistOne: Towards Human-Level Autonomous Research via Chain-of-Evidence}.
+\item\phantomsection\label{reference-33} Mahyar Tourchi Moghaddam. (2026). \href{https://doi.org/10.48550/arXiv.2604.04103}{Compliance-by-Construction Argument Graphs: Using Generative AI to Produce Evidence-Linked Formal Arguments for Certification-Grade Accountability}.
+\item\phantomsection\label{reference-34} National Institute of Standards and Technology. (2023). \href{https://airc.nist.gov/airmf-resources/airmf/5-sec-core/}{Artificial Intelligence Risk Management Framework Core}, GOVERN 2.1, MAP 3.4, and MAP 3.5.
+\item\phantomsection\label{reference-35} Maral Niazi, Hossein Hassani, and Madison Lee. (2026). \href{https://doi.org/10.3390/automation7030096}{Rights-Based AI in Cyber-Physical Systems: A Governance Framework for Socio-Technical Resilience and Trust}. Automation, 7(3), 96.
+\item\phantomsection\label{reference-36} Kevin Paeth, Daniel Atherton, Nikiforos Pittaras, Heather Frase, and Sean McGregor. (2025). \href{https://doi.org/10.1609/aaai.v39i28.35163}{Lessons for Editors of AI Incidents from the AI Incident Database}. Proceedings of the AAAI Conference on Artificial Intelligence, 39(28), 28946-28953.
+\item\phantomsection\label{reference-37} Colin Paterson, Richard David Hawkins, Chiara Picardi, Yan Jia, Radu Calinescu, and Ibrahim Habli. (2025). \href{https://doi.org/10.1016/j.ress.2025.111311}{Safety Assurance of Machine Learning for Autonomous Systems}. Reliability Engineering \& System Safety, 264(Part A), 111311.
+\item\phantomsection\label{reference-38} Nikiforos Pittaras and Sean McGregor. (2023). \href{https://ceur-ws.org/Vol-3381/17.pdf}{A Taxonomic System for Failure Cause Analysis of Open Source AI Incidents}. Proceedings of the Workshop on Artificial Intelligence Safety 2023, 3381.
+\item\phantomsection\label{reference-39} Filippo Santoni de Sio and Jeroen van den Hoven. (2018). \href{https://doi.org/10.3389/frobt.2018.00015}{Meaningful Human Control over Autonomous Systems: A Philosophical Account}. Frontiers in Robotics and AI, 5, 15.
+\item\phantomsection\label{reference-40} Luciano Cavalcante Siebert, Maria Luce Lupetti, Evgeni Aizenberg, Niek Beckers, Arkady Zgonnikov, Herman Veluwenkamp, David Abbink, Elisa Giaccardi, Geert-Jan Houben, Catholijn M. Jonker, Jeroen van den Hoven, Deborah Forster, and Reginald L. Lagendijk. (2023). \href{https://doi.org/10.1007/s43681-022-00167-3}{Meaningful Human Control: Actionable Properties for AI System Development}. AI and Ethics, 3, 241-255.
+\item\phantomsection\label{reference-41} Sarah Sterz, Kevin Baum, Sebastian Biewer, Holger Hermanns, Anne Lauber-Ronsberg, Philip Meinel, and Markus Langer. (2024). \href{https://doi.org/10.1145/3630106.3659051}{On the Quest for Effectiveness in Human Oversight: Interdisciplinary Perspectives}. Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency, 2495-2507.
+\item\phantomsection\label{reference-42} Priyanka Surve, Asaf Shabtai, and Yuval Elovici. (2026). \href{https://doi.org/10.48550/arXiv.2606.21276}{CEDAR-42001: From ISO/IEC 42001 Conformity to Architecture-Aware, Audit-Visible Assurance Posture for AI Cyber-Physical Systems}.
+\item\phantomsection\label{reference-43} Lucas Elbert Suryana, Sina Nordhoff, Simeon C. Calvert, Arkady Zgonnikov, and Bart van Arem. (2024). \href{https://doi.org/10.48550/arXiv.2402.08080}{User Perception of Partially Automated Driving Systems: A Meaningful Human Control Perspective on the Perception among Tesla Users}.
+\item\phantomsection\label{reference-44} Dov Te'eni, Inbal Yahav, and David Schwartz. (2025). \href{https://doi.org/10.1007/s00146-025-02401-y}{What It Takes to Control AI by Design: Human Learning}. AI \& Society.
+\item\phantomsection\label{reference-45} Andreas Tsamados, Luciano Floridi, and Mariarosaria Taddeo. (2025). \href{https://doi.org/10.1007/s43681-024-00489-4}{Human Control of AI Systems: From Supervision to Teaming}. AI and Ethics, 5(2), 1535-1548.
+\item\phantomsection\label{reference-46} Jasper van der Waa, Jurriaan van Diggelen, Luciano Cavalcante Siebert, Mark Neerincx, and Catholijn Jonker. (2020). \href{https://doi.org/10.1007/978-3-030-49183-3_16}{Allocation of Moral Decision-Making in Human-Agent Teams: A Pattern Approach}. Engineering Psychology and Cognitive Ergonomics. Cognition and Design, 203-220.
+\item\phantomsection\label{reference-47} Ilse Verdiesen, Filippo Santoni de Sio, and Virginia Dignum. (2021). \href{https://doi.org/10.1007/s11023-020-09532-9}{Accountability and Control Over Autonomous Weapon Systems: A Framework for Comprehensive Human Oversight}. Minds and Machines, 31, 137-163.
+\item\phantomsection\label{reference-48} Kevin Wei and Lennart Heim. (2026). \href{https://doi.org/10.1609/aaai.v40i44.41139}{Designing Incident Reporting Systems for Harms from General-Purpose AI}. Proceedings of the AAAI Conference on Artificial Intelligence, 40(44), 38016-38029.
+\item\phantomsection\label{reference-49} Yuyuan Zhang, Limin Jing, and Chengyang Sun. (2018). \href{https://doi.org/10.1007/s11668-018-0534-1}{Systems-Based Analysis of China-Tianjin Port Fire and Explosion: A Comparison of HFACS, AcciMap, and STAMP}. Journal of Failure Analysis and Prevention, 18(6), 1386-1400.
+\item\phantomsection\label{reference-50} Liming Zhu, Qinghua Lu, Ming Ding, Sung Une Lee, and Chen Wang. (2026). \href{https://doi.org/10.1007/s43681-026-01147-7}{Designing Meaningful Human Oversight in AI}. AI and Ethics, 6, 286.
+\item\phantomsection\label{reference-51} \href{https://www.washingtonpost.com/archive/politics/1999/02/10/i-had-a-funny-feeling-in-my-gut/97fb4af6-2a54-4805-8ec0-115a13f33493/}{David Hoffman. (1999, February 9). I Had a Funny Feeling in My Gut. The Washington Post. Displayed date; URL path dated February 10.}
+\item\phantomsection\label{reference-52} \href{https://www.chathamhouse.org/sites/default/files/field/field_document/20140428TooCloseforComfortNuclearUseLewisWilliamsPelopidasAghlani.pdf}{Patricia Lewis, Heather Williams, Benoit Pelopidas, and Sasan Aghlani. (2014). Too Close for Comfort: Cases of Near Nuclear Use and Options for Policy. Chatham House.}
+\item\phantomsection\label{reference-53} \href{https://time.com/4947879/stanislav-petrov-russia-nuclear-war-obituary/}{Simon Shuster. (2017, September 19). Stanislav Petrov, the Russian Officer Who Averted a Nuclear War, Feared History Repeating Itself. TIME. Based on a 2015 interview.}
+\item\phantomsection\label{reference-54} \href{https://assets.publishing.service.gov.uk/media/5a78e39b40f0b62b22cbd9a5/maas03_02_tornado_zg710_22mar03.pdf}{UK Ministry of Defence. (2004, May). RAF Board of Inquiry Military Aircraft Accident Summary for Tornado ZG710. Inspected cover date; sealed packet manifest lists 2006.}
+\item\phantomsection\label{reference-55} \href{https://www.govinfo.gov/content/pkg/GOVPUB-D-PURL-LPS66633/pdf/GOVPUB-D-PURL-LPS66633.pdf}{Defense Science Board Task Force on Patriot System Performance. (2005, January). Report Summary.}
+\item\phantomsection\label{reference-56} \href{https://www.govinfo.gov/content/pkg/GOVPUB-D101-PURL-gpo58824/pdf/GOVPUB-D101-PURL-gpo58824.pdf}{John K. Hawley. (2007, September). Looking Back at 20 Years of MANPRINT on Patriot: Observations and Lessons. ARL-SR-0158. Inspected report date; sealed packet lists 2008.}
+\item\phantomsection\label{reference-57} \href{https://www.af.mil/News/Article-Display/Article/139557/friendly-fire-incidents-will-be-investigated/}{Rick Burnham. (2003, April 6). Friendly Fire Incidents Will Be Investigated. U.S. Air Force.}
+\item\phantomsection\label{reference-58} \href{https://www.washingtonpost.com/archive/politics/2004/12/11/investigation-finds-us-missiles-downed-navy-jet/323e76f1-31d5-49c1-a27a-df9f389b0532/}{Thomas E. Ricks. (2004, December 10). Investigation Finds U.S. Missiles Downed Navy Jet. The Washington Post. Displayed date; URL path dated December 11.}
+\item\phantomsection\label{reference-59} \href{https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=oj\%3AL_202601744}{European Parliament and Council of the European Union. (2026). Regulation (EU) 2026/1744 amending Regulation (EU) 2024/1689. Official Journal, 24 July 2026.}
+\item\phantomsection\label{reference-60} \href{https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14}{European Commission. (2026). AI Act Service Desk consolidated article text: Articles 2, 14, 57 and 113. Checked 10 October 2026.}
+\item\phantomsection\label{reference-61} \href{https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page}{New York City Department of Consumer and Worker Protection. Automated Employment Decision Tools. Official Local Law 144 overview. Checked 10 October 2026.}
+\item\phantomsection\label{reference-62} \href{https://www.cppa.ca.gov/regulations/pdf/ccpa_updates_cyber_risk_admt_appr_text.pdf}{California Privacy Protection Agency. Approved CCPA updates on cybersecurity audits, risk assessments, and automated decisionmaking technology. Effective 1 January 2026; relevant Article 11 compliance date 1 January 2027.}
+\item\phantomsection\label{reference-63} \href{https://leg.colorado.gov/laws/session-laws/SB26-189/131/download}{Colorado General Assembly. (2026). SB26-189, chapter 131. Approved 14 May 2026.}
+\item\phantomsection\label{reference-64} \href{https://coag.gov/ai/}{Colorado Department of Law. AI rulemaking page. Proposed rules of 11 August 2026; checked 10 October 2026.}
+\item\phantomsection\label{reference-65} \href{https://www.ilga.gov/legislation/PublicActs/View/103-0804}{Illinois General Assembly. Public Act 103-0804. Selected provisions effective 1 January 2026.}
+\item\phantomsection\label{reference-66} \href{https://github.com/node-and-norm/trust-autonomy-evidence/tree/781f7806a626cd4e4fffbe4d453d9d5365b835f9}{Node \& Norm. (2026). Trust Autonomy Evidence. Historical paper baseline v0.17.0, commit \texttt{781f7806\allowbreak{}a626cd4e\allowbreak{}4fffbe4d\allowbreak{}453d9d53\allowbreak{}65b835f9}.}
+\item\phantomsection\label{reference-67} \href{https://github.com/node-and-norm/trust-autonomy-evidence/blob/0775030a55a892c15b46dd9a35ad4da718f2e12d/docs/jev-experiments.md}{Node \& Norm. (2026). Jev experimental phase guide and preserved results. Pinned commit \texttt{0775030a\allowbreak{}55a892c1\allowbreak{}5b46dd9a\allowbreak{}35ad4da7\allowbreak{}18f2e12d}.}
+\item\phantomsection\label{reference-68} \href{https://github.com/node-and-norm/trust-autonomy-evidence/blob/0775030a55a892c15b46dd9a35ad4da718f2e12d/experiments/jev/live_results_v1/REPORT.md}{Node \& Norm. (2026). First live Jev results, review-assistance pilot, and collaborative author review. Pinned experimental records.}
+\end{TAEReferences}
+
+% Canonical block 244: appendix_heading
+\clearpage
+\pdfbookmark[0]{Appendix A Detailed source locators and narrow reassessment record}{appendix-a-detailed-source-locators-and-narrow-reassessment-record}
+\section*{Appendix A Detailed source locators and narrow reassessment record}
+
+% Canonical block 245: paragraph
+The seven changed cells below distinguish the preserved limited correction from the three-cell additional ZG710 reassessment. Section 4 contains the adverse evidence, strongest U arguments, and reasons for the retained judgments. The rule and original boundaries remain unchanged.
+
+% Canonical block 246: table
+\Needspace{7\baselineskip}
+\phantomsection\label{table-a2}
+{\small \textcolor{TAENavy}{\textbf{Table A2.}} Changed cells, evidentiary basis, and retained uncertainty.\par}
+\begingroup
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\setlength{\TAETableWidth}{\dimexpr\linewidth-4\tabcolsep\relax}
+\arrayrulecolor{TAENavy}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.230\TAETableWidth}>{\raggedright\arraybackslash}p{0.400\TAETableWidth}>{\raggedright\arraybackslash}p{0.370\TAETableWidth}@{}}
+\toprule
+\rowcolor{TAEPaleNavy}
+\textcolor{TAENavy}{\textbf{Cell and disposition}} & \textcolor{TAENavy}{\textbf{Evidence and inference}} & \textcolor{TAENavy}{\textbf{What remains open}} \\
+\midrule
+\endfirsthead
+\multicolumn{3}{@{}l}{\footnotesize Table A2 (continued)}\\
+\toprule
+\rowcolor{TAEPaleNavy}
+\textcolor{TAENavy}{\textbf{Cell and disposition}} & \textcolor{TAENavy}{\textbf{Evidence and inference}} & \textcolor{TAENavy}{\textbf{What remains open}} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{3}{r@{}}{\footnotesize Continued on next page}\\
+\endfoot
+\bottomrule
+\endlastfoot
+ZG710 authority S\(\rightarrow\)\{P,I\} & T2 §§4 and 12 reconstruct the crew engagement role and permissive self-defense firing rule. No inspected original rights/delegation record satisfies the released S gate. & Whether that later attribution establishes a required partial component under the original P rule; no narrowed right-to-defer construct is adopted. \\
+F/A-18C authority S\(\rightarrow\)\{P,I\} & Assess F3 against the original authority proposition. The packet contains no independently inspected original rights record satisfying S. & Whether the reported role/right is a genuine positive component at original specificity and eligibility. \\
+ZG710 propagation U\(\rightarrow\)\{P,I\} & T2 §4 attributes a launch to the crew within the full event account. Harm does not demonstrate failed implementation. & Whether that attribution qualifies as the linked-action component, and which genuinely required or documentary gap remains. \\
+F/A-18C propagation U\(\rightarrow\)\{P,I\} & Apply the shared linked-action test to the complete F3 account at the locators in A.1. The candidate P inference is explained in Section 4.4; harm is not non-propagation. & Whether the complete account establishes the required connection without an unavailable premise; neither an order alone nor mere succession suffices. \\
+ZG710 comprehension U\(\rightarrow\)I & T2 §11 and T4 p.4 establish preparation/fallibility-information deficiencies. The inference to this crew’s necessary limitations-capacity failure is insufficiently established. & A substantiated event-level capacity contradiction would restore U. Routine operation supplies no positive capacity component by itself. \\
+ZG710 feasibility U\(\rightarrow\)\{P,I\} & T2 §§11--12 and 14 document constraints. The indispensable informed-intervention function and its unavailable timely route are not sufficiently established. & P requires a source-grounded resource/route component for the original informed challenge. I applies if none is established. Demonstrated necessary-route failure restores U. \\
+ZG710 exercise U\(\rightarrow\)\{P,I\} & T2 §4 attributes action; T4 pp.4--5 supplies broader automation-misuse evidence. Its necessary event-level implication is insufficiently established. & Whether the action qualifies under active judgment or intervention and the automatic-approval indicator. A demonstrated failure of that criterion restores U. \\
+\end{longtable}
+\arrayrulecolor{black}
+\endgroup
+{\footnotesize\raggedright These are source-to-condition judgments and stated interpretive limits. The calculation does not choose the labels. P/I is preserved wherever the original partial-component or eligibility question remains unresolved.\par}
+\medskip
+
+% Canonical block 247: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{A.1 Source locators and appraisal limits}{a-1-source-locators-and-appraisal-limits}
+\subsection*{A.1 Source locators and appraisal limits}
+
+% Canonical block 248: paragraph
+T2 is the UK Ministry of Defence's ZG710 Military Aircraft Accident Summary, inspected cover May 2004. Section 4, printed p.2, reports classification, identification and crew launch; sections 6--7 state the investigative basis; sections 9--12, p.3, address classification criteria, rules, preparation, timing and communications; sections 14--15, p.4, address identification. These include affirmative adverse findings, not merely absent records. The summary is inspected; its complete underlying operational records are not.
+
+% Canonical block 249: paragraph
+T4/F5 is John K. Hawley's Looking Back at 20 Years of MANPRINT on Patriot: Observations and Lessons, ARL-SR-0158, September 2007. Printed pp.2--3 describe a broad explanatory model based on inquiries, interviews and observations. Page 4 discusses known fallibilities, training/practices and user beliefs; pp.4--5 discuss automation misuse; p.7 supplies the short-time passage with the unreconciled Tornado/TBM context. Later operational-test discussion is not silently treated as a finding about the 2003 crew.
+
+% Canonical block 250: paragraph
+T3/F4 is the Defense Science Board's Patriot System Performance Report Summary, January 2005, pp.1--2. It supplies event and system-level context, acknowledges causal limits, and identifies a classified full report. It is not a second independently inspected operator trace.
+
+% Canonical block 251: paragraph
+For F3 (Ricks, 2004), use main body paragraphs 1 and 3--7, within context through paragraph 9; counting begins with the first paragraph below the byline. Bibliographic metadata and the source link appear in References. The underlying inquiry and basis for internal evaluative attributions remain uninspected. F2, the U.S. Air Force's contemporary 6 April 2003 report, supports the initially reported incident and intended inquiry, not the later detailed command trace.
+
+% Canonical block 252: paragraph
+O2 is David Hoffman's 1999 interview-derived account, especially its role, decision, reasons, and automatic-alert passages. O3 is Lewis et al. (2014), printed pp.13 and 26 and notes 77--80 and 204--205. Its internal protocol wording is not silently repaired, and its source lineage is not counted as another original witness. O4 is Shuster's 2017 article reporting a 2015 interview. During review, direct-open and targeted retrieval at the same URL differed in displayed body; the expected account was recovered without claiming sealed-byte identity. These limits support preserving Oko's partial row and rejecting a broader retaliation counterfactual.
+
+% Canonical block 253: appendix_heading
+\clearpage
+\pdfbookmark[0]{Appendix B Literature source support and access limits}{appendix-b-literature-source-support-and-access-limits}
+\section*{Appendix B Literature source support and access limits}
+
+% Canonical block 254: paragraph
+Inspection depth varies. Surve, Meng, Moghaddam and Sterz were examined in identified author preprints; the review did not compare every corresponding final publisher version. Burr and Leslie's full author preprint supports the claim-evidence account, while the final article was available only at preview level in the review. Niazi's relevant passages were inspected through indexed publisher text. Dekker was checked through the publisher abstract and indexed sections; Endsley's general claim was checked at abstract level. Bainbridge and Lee and See were checked through author-republished or university-hosted substantive passages with incomplete direct-download access. Those claims remain at the inspected level.
+
+% Canonical block 255: paragraph
+Two attributions were corrected. Alon-Barkat and Busuioc did not find greater adherence to algorithmic than equivalent human-expert advice across their three experiments; selective adherence was context-dependent and was not reproduced in the civil-servant study. Langer et al.'s sensitivity/response-bias distinction is conceptual rather than a new experiment; the consistent issue-year citation is 2025, with online publication in 2024. These corrections change the manuscript's interpretation without changing the frozen search population.
+
+% Canonical block 256: paragraph
+Leung et al. and Ledjaki et al. were inspected at abstract level for proposed forensic approaches, supporting a bounded account of their purpose rather than detailed implementation or effectiveness claims. Comparator software was not executed. Source checking does not independently validate the cited studies, and unresolved access prevents an exhaustive originality claim.
+
+% Canonical block 257: appendix_heading
+\clearpage
+\pdfbookmark[0]{Appendix C Governance review dates and source qualifications}{appendix-c-governance-review-dates-and-source-qualifications}
+\section*{Appendix C Governance review dates and source qualifications}
+
+% Canonical block 258: paragraph
+The EU review uses Regulation (EU) 2024/1689 as amended by Regulation (EU) 2026/1744. The amendment was published on 24 July 2026 and entered into force on 27 July. Its Article 1(22)(a) replaces Article 57(1), giving a 2 August 2027 sandbox deadline; Article 1(40)(b) amends application provisions, including 2 December 2027 for the relevant Article 6(2)/Annex III high-risk provisions and 2 August 2028 for Article 6(1)/Annex I systems. These versioned dates are policy context, not premises of the historical classifications.
+
+% Canonical block 259: paragraph
+Article 57(5)--(7) addresses a bounded supervised plan and written/exit reporting; paragraphs (10)--(12) preserve relevant supervision, corrective powers and liability. A protocol could seek prospective observation of the six conditions, subject to the study's actual permissions and safeguards. Article 2(3)'s military/defense/national-security exclusions also prevent treating the historical military examples as contemporary AI Act compliance cases.
+
+% Canonical block 260: paragraph
+NIST's cited version is AI RMF 1.0 (2023), not an unexamined ongoing revision. GOVERN 2.1 concerns roles and responsibilities; MAP 3.4 concerns proficiency processes; MAP 3.5 concerns defining, assessing, and documenting oversight. For ISO/IEC 42001, the inspected public overview describes a management system and intended traceability, transparency and reliability benefits. It supplies no checked clause-by-clause requirements, harmonized-standard finding, or presumption of AI Act conformity.
+
+% Canonical block 261: paragraph
+Selected United States provisions offer different comparison settings. New York City's Local Law 144 and implementing rules concern covered employment-tool bias audits, public information and notice; the DCWP page states enforcement from 5 July 2023. A bias audit and this event-control assessment answer different questions. California's approved automated-decisionmaking regulations took effect on 1 January 2026, with Article 11 compliance specified for 1 January 2027. Sections 7001(e)(1), 7200 and 7220--7222 address definitions, access, opt-out and qualified exceptions, including a human-appeal route. Consumer rights and overseer capabilities involve different actors and cannot be equated; opt-out is not unconditional.
+
+% Canonical block 262: paragraph
+Colorado SB26-189 was approved on 14 May 2026. Chapter 131, section 5 states the general 1 January 2027 effective/application date with specified provisions effective upon passage. C.R.S. 6-1-1701(15) defines meaningful human review; section 6-1-1705 concerns requested review or reconsideration with a commercial-reasonableness qualification. Proposed rules dated 11 August 2026 were post-cutoff context, with the checked page reporting comments through 26 October; they were not treated as final. Illinois Public Act 103-0804 addresses discrimination and notice in covered employment uses, with a 1 January 2026 effective date, at 775 ILCS 5/2-102(L)(1)--(2). This is a selected-enactment comparison, not an exhaustive later-amendment review. No separate Chicago instrument was assessed.
+
+% Canonical block 263: paragraph
+The baseline ledger already recognized the July EU consolidation and Colorado's 2026 replacement. New checks do not imply those changes were previously omitted. Direct EUR-Lex retrieval redirected during review, so indexed official legal text was checked against Commission article pages. Illinois direct act/PDF retrieval failed while official indexed text supported the selected proposition. Private correspondence is excluded from the governance research evidence, and prior approval flags do not automatically approve new legal wording.
+
+% Canonical block 264: appendix_heading
+\clearpage
+\pdfbookmark[0]{Appendix D Subsequent synthetic model-assisted work}{appendix-d-subsequent-synthetic-model-assisted-work}
+\section*{Appendix D Subsequent synthetic model-assisted work}
+
+% Canonical block 265: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{D.1 Separate design and first live run}{d-1-separate-design-and-first-live-run}
+\subsection*{D.1 Separate design and first live run}
+
+% Canonical block 266: paragraph
+Subsequent work examined optional model-assisted assessment on authored documentary-style synthetic records. It postdates the historical cutoff and the release of the v0.17.0 paper. Repository v0.17.2 preserves the first live run, while later collaborative review appears at pinned commit \texttt{0775030a\allowbreak{}55a892c1\allowbreak{}5b46dd9a\allowbreak{}35ad4da7\allowbreak{}18f2e12d}. These additions did not alter the historical packets or resolve their classifications.
+
+% Canonical block 267: paragraph
+The experiment progressed from a credential-blocked attempt and offline rehearsals to the author-reviewed AI-assisted evidence\_v2 route. Preserved records report 216 assisted assessments, thirty flagged units organized into fourteen issues, 159 changed excerpt occurrences, five changed question instructions, and 1,654 recorded label decisions. Added inventory completeness, role-specific actions and threshold attainment are authored synthetic stipulations, not historical discoveries. Independent reviewers, an unassisted author baseline and the delayed consistency study were not completed.
+
+% Canonical block 268: paragraph
+On 3 October 2026, the live schedule attempted 282 requests once across 94 packets and three repetitions. Requested and recorded resolved model versions were Jev 1.13.0, using SDK 0.7.1. There were 260 valid and 22 invalid responses, no transport errors and no retries. Valid responses supplied 4,500 of 4,962 scheduled determinations. The retained incomplete status denotes missing determinations caused by invalid responses; the scheduled request queue was completed.
+
+% Canonical block 269: table
+\Needspace{7\baselineskip}
+\phantomsection\label{table-d1}
+{\small \textcolor{TAENavy}{\textbf{Table D1.}} Prespecified primary repetition of the synthetic Jev experiment.\par}
+\begingroup
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\setlength{\TAETableWidth}{\dimexpr\linewidth-4\tabcolsep\relax}
+\arrayrulecolor{TAENavy}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.220\TAETableWidth}>{\raggedright\arraybackslash}p{0.330\TAETableWidth}>{\raggedright\arraybackslash}p{0.450\TAETableWidth}@{}}
+\toprule
+\rowcolor{TAEPaleNavy}
+\textcolor{TAENavy}{\textbf{Suite}} & \textcolor{TAENavy}{\textbf{Agreement on valid determinations}} & \textcolor{TAENavy}{\textbf{Coverage or paired result}} \\
+\midrule
+\endfirsthead
+\multicolumn{3}{@{}l}{\footnotesize Table D1 (continued)}\\
+\toprule
+\rowcolor{TAEPaleNavy}
+\textcolor{TAENavy}{\textbf{Suite}} & \textcolor{TAENavy}{\textbf{Agreement on valid determinations}} & \textcolor{TAENavy}{\textbf{Coverage or paired result}} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{3}{r@{}}{\footnotesize Continued on next page}\\
+\endfoot
+\bottomrule
+\endlastfoot
+Reconstruction & 198/231 (85.7\%) & 231/252 determinations (91.7\%) \\
+Authority challenge & 11/16 & 16/16 determinations \\
+Compositional holdout & 110/126 & 126/126 determinations \\
+Mutation & 186/189 & Exact expected changes in 7/9 evaluable pairs; nine scheduled \\
+Normalization boundary & 55/63 & Exact expected changes in 3/3 primary pairs \\
+Nuisance variants & 753/903 & 903/1,008 determinations; choices changed in 7/39 evaluable pairs of 48 scheduled \\
+\end{longtable}
+\arrayrulecolor{black}
+\endgroup
+{\footnotesize\raggedright Agreement is with the authored reference. Determination-level and pair-level denominators answer different questions. Related packets and repeated observations are not independent cases or human assessors.\par}
+\medskip
+
+% Canonical block 270: paragraph
+A usual request contains 21 questions: nine control and twelve trust constructs. Authority-challenge requests contain one. The reconstruction percentage is therefore not a six-event-condition score. Agreement measures correspondence to an authored key rather than its truth or real-world adequacy; raw counts establish no population interval or significance finding.
+
+% Canonical block 271: paragraph
+The 22 invalid requests contained 23 probability distributions summing to approximately 0.99 rather than one. The frozen tolerance of 0.00001 rejected each entire affected request, leaving 462 determinations missing, including 439 subanswers that did not themselves trigger the sum check. No renormalization or partial recovery was applied. Rounding remains a possible explanation, not a verified provider diagnosis. All 1,079 original adjudications remain unresolved: 617 valid-output disagreements and 462 determinations lost through invalid requests. Five of five primary authority examples with partial reference labels were predicted unsupported. These observations motivate examination of the model, wording, constructs and reference rather than establishing a single cause.
+
+% Canonical block 272: heading
+\Needspace{5\baselineskip}
+\pdfbookmark[1]{D.2 Assistance pilot, author discussion, and verification limits}{d-2-assistance-pilot-author-discussion-and-verification-limits}
+\subsection*{D.2 Assistance pilot, author discussion, and verification limits}
+
+% Canonical block 273: paragraph
+A later development pilot used 24 already exposed semantic items, twelve prior agreements and twelve disagreements, and deterministically routed the 22 invalid source requests. Three repetitions produced 72 attempts, seventy valid and two invalid responses. One failed the sum rule and one selected a nonmaximum-probability choice; neither was repaired or retried. Primary assistance was valid for 23 of 24 items. Repeat consistency was evaluable for 22, with suggested-answer changes in two.
+
+% Canonical block 274: paragraph
+Recorded timing was a median 0.168 seconds per attempt, 13.466 seconds for scheduled execution and 18.418 seconds wall time. These exclude human preparation, review and checking, so they do not measure time saved. The planned human baseline/assistance comparison was explicitly omitted: the received baseline had no saved assessments and no assisted export was received. Human time saving and quality improvement remain unmeasured.
+
+% Canonical block 275: paragraph
+A separate later package records AI-assisted author discussion of all 24 items. The author approved assessments or bounded interpretations after explanations and proposed conclusions; items eight and sixteen retain unresolved classifications. Prior exposure, repeated excerpts, changes and concerns remain recorded. This is completed assisted interpretation, not the omitted standardized comparison or independent coding. The pilot's earlier checkpoint recorded three approved items; the later package recorded 24. Neither closes the original 1,079 adjudications or changes the live scores.
+
+% Canonical block 276: paragraph
+Saved-data verification checked the request schedule, raw responses, hashes, counts and derived metrics. The first-run archive has 855 hashed members and SHA-256 \texttt{b9eba12e\allowbreak{}88a4c165\allowbreak{}88402bff\allowbreak{}a8556088\allowbreak{}7add2ef4\allowbreak{}ffa6839a\allowbreak{}4ea01dc4\allowbreak{}294e6b0e}. Exact-head CI records show saved-result and pilot reproduction in the documented environment. The collaborative package also retains local replay failures: a Python 3.9 attempt reported differing frozen analysis and a Python 3.12 attempt lacked jsonschema. A subsequent Python 3.12 CI pass does not erase that portability limit. These checks do not independently authenticate provider behavior, approval history, or the reference judgments.
+
+% Canonical block 277: paragraph
+The synthetic questions and stimuli are not equivalent to the historical criterion set or the approved additional reassessment. Topics are isolated and do not establish a joined event narrative; authority, comprehension and exercise questions contain different combinations of permission, use, challenge, reasoning and response. The reference key and exposure history also limit inference. The live run, later author collaboration and the present automated critiques therefore supply no independent validation of the historical rows. Public-case model comparison and independent human application remain future work.
+
+\end{document}
