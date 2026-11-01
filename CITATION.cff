@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "For the approved 2026-10-10 paper revision, cite DOI 10.5281/zenodo.23423847 below. Repository release v0.18.0 preserves its source and evidence; older paper DOIs identify historical versions."
+message: "For the November 1, 2026 editorial preprint, use the preferred citation below. No new DOI is assigned. DOI 10.5281/zenodo.23423847 identifies the separate October 10 edition. Repository release v0.18.0 is unchanged."
 title: "Trust, Autonomy, and Evidence"
 type: software
 version: 0.18.0
@@ -31,11 +31,10 @@ identifiers:
 preferred-citation:
   type: article
   title: "From Formal Authority to Practical Human Control: A traceable method for reconstructing human control in automated decisions"
-  version: "2026-10-10"
+  version: "2026-11-01"
   year: 2026
   authors:
     - family-names: Banasihan
       given-names: Mark Julius
       orcid: "https://orcid.org/0009-0001-8121-2878"
-  doi: "10.5281/zenodo.23423847"
-  url: "https://doi.org/10.5281/zenodo.23423847"
+  url: "https://github.com/node-and-norm/trust-autonomy-evidence/tree/main/paper/revisions/2026-11-01"

@@ -1,0 +1,102 @@
+{
+  "revision": "2026-11-01",
+  "type": "editorial revision",
+  "repository_release_unchanged": "v0.18.0",
+  "publication_authorized_by": "Mark Julius Banasihan",
+  "publication_authorization_date": "2026-11-01",
+  "pdf": {
+    "file": "preprint.pdf",
+    "pages": 47,
+    "bytes": 3661810,
+    "sha256": "cd5295a3e2d3aafc841d997cdd56856cec116d53fd742293b3b97e5629a0af9c",
+    "provenance": "Exact PDF supplied by the author for repository publication on 2026-11-01; not regenerated or modified."
+  },
+  "source": {
+    "file": "source.tar.gz",
+    "sha256": "f559c7a540585baf65d5400a87906685995f6909d361ed4e8a0abd6d7bcaeca1",
+    "provenance": "Exact source package downloaded from the existing authenticated arXiv submission after the replacement main.tex was uploaded on 2026-11-01.",
+    "members": 31,
+    "changed_from_2026_10_10": [
+      "00README.json",
+      "main.tex"
+    ],
+    "configuration_change": "00README.json additionally marks the existing ancillary Base64 archive as ignored by the TeX compiler.",
+    "standalone_main_tex_matches_archive": true,
+    "main_tex_sha256": "6a3dceac9d495c6dd41fb7a621762fa9e63b5221f45968864de2f2f9e5ac81c9",
+    "member_sha256": {
+      "00README.json": "6b6aa10d01374a146fc4ee8e3f64fd8261db63fbf12cb371d1c5f6e74beda05a",
+      "anc/reproducibility_additional_public/PUBLIC_PACKAGING_CHANGES.txt": "280bb1fe3f12e69522eedf3f6aa2b3d884c246f280e27ed57cbd473d213602bc",
+      "anc/reproducibility_additional_public/README_PUBLIC.txt": "7839d11196dcd8a0cbf6a19c99e41e58a0b1dc85b105d7ab29e85faef5cb5c4f",
+      "anc/reproducibility_additional_public/SHA256SUMS_PUBLIC.txt": "a802312c7db030928c978af121f03b5fa0edd2c886df6300a80f6e2203f117d0",
+      "anc/reproducibility_additional_public/Staged_Aggregation_Reproducibility_original.zip.b64": "08c7bdec76deccbda98e7b5613c8c451012f9dc2d991737d93fba1fa26c877be",
+      "anc/reproducibility_additional_public/additional_reassessment_source_snapshot.txt": "774f0f553a9a8dfdef39ac4812c0b7fdf11af0fd1c06025719f33fc871415f2a",
+      "anc/reproducibility_additional_public/check_additional_reassessment_public.py": "3e5ecd8d06cc48321c55523a6047f9bfd41abe4308120e2ad1ac47d90d4b412f",
+      "anc/reproducibility_additional_public/public_author_approval.json": "4673d98fc52ba6888c064a70be2ca4948d4f685c9216a143f593608b0a5646e9",
+      "anc/reproducibility_additional_public/recorded_inputs_public.json": "deaf8719207125989cd40f5d429918b3ca32077ac8d08da2431d2b00e33cbc24",
+      "anc/reproducibility_additional_public/reproducibility/README.txt": "2a6967dfedbeddf81d4daa086966cae1f77128f5c7ba59f0618ba45b0a0555ec",
+      "anc/reproducibility_additional_public/reproducibility/SHA256SUMS.txt": "19abc75d74b34284d3b8ea61a111c82f6f3975b42743ae5e7713711e4767912c",
+      "anc/reproducibility_additional_public/reproducibility/author_case_derivation_ledger.txt": "a7ad4f0870eeea07e21229613ae820bf5611f03c36f0774c41d10e992f2a76d5",
+      "anc/reproducibility_additional_public/reproducibility/check_staged_aggregation.py": "e5f12d24f4d6312f2bb17e45e515a4090af3c41aa4f2fbdd41ddfae80b4fc9bd",
+      "anc/reproducibility_additional_public/reproducibility/recorded_inputs.json": "6f06fb8d5052fe76a569dcc05dec2a17b9c5122ff453a75e12ef3d9d2eaef12a",
+      "anc/reproducibility_additional_public/reproducibility/results.json": "00427f3c5456be95075d1b6af5b09d82874f7a5da8efc97c4e4ff864252ca6f0",
+      "anc/reproducibility_additional_public/reproducibility/results.txt": "682100e19b05f8b5c09bb2c96c7474f84ec9ad7398f2c37384e6ba09fa24e33b",
+      "anc/reproducibility_additional_public/results_public.json": "2b289611993c38eb70e6bde514201508682b397abdd332f43d3b151d6da53e1f",
+      "anc/reproducibility_additional_public/results_public.txt": "16ac58f2e54f73ff2ffee20bc72b6efe20e9266e370782e48009335710d1c66f",
+      "figures/fig-1-selection-and-stopping.png": "f2b61f34bb2fba1cf2b2053c136ebc8f6b69a5579838f50196e211d8b6b82913",
+      "figures/fig-2-a-baseline.png": "5656653b87e20ae1240a39f14f222f45ae699314f992e3ba88fb35407a788698",
+      "figures/fig-2-b-stage2.png": "8696790f4a6d99e086143148b3d3acafeedc232c8bd07b6a4d157b06d3d305a8",
+      "figures/fig-2-c-additional.png": "94baeef3781e8b048c234ee494110be5475a50e511e0f88b808354e9ed266939",
+      "figures/fig-3-decision-paths.png": "a016dc97d93a3da5a3157c5f82fe5f8dc5b4b422eccf2f39a51a08350066e984",
+      "figures/fig-4-trust-evidence-states.png": "2caa48bfd8dd27c7e9eac8568c925622af539c369b454da1ec686711f3a1469f",
+      "figures/fig-5-formal-search-and-screening.png": "a8541740dfad0233a38d1fbc1e3905aab8fdbab273f23c895900d036bd4baacc",
+      "figures/fig-6-evidence-boundaries.png": "c448df6f88f62d40e4312cad1cc500e337f115e7a0de3c13e08e78b4a41ce2e4",
+      "figures/fig-a1-mutation-response.png": "32dadae11653840356fb9ddc9061ca592630e0feaa016bf0cc4a628c877ae17c",
+      "figures/fig-a2-reproducibility-lineage.png": "c682f72e8e77e98f06414b823b510bc53d198e71d0629d2bd4020e8feb29c9ef",
+      "figures/fig-a3-claim-evidence-integrity.png": "49b9b813b8ea858f05505cd9aafdde3094388070a97a55ab9422c9527578a6c2",
+      "figures/fig-a4-oko-versioned-correction.png": "db06a13a0a722c0d119807ea1e9a5afd9f6fd477f6ecfe62fda72c29b0627ad3",
+      "main.tex": "6a3dceac9d495c6dd41fb7a621762fa9e63b5221f45968864de2f2f9e5ac81c9"
+    }
+  },
+  "comparison": {
+    "arxiv_compiled_pdf_sha256": "c05c2ffd3e17bcbf86e43b8b42e9a107e3a9da6e4a370be440b5ef075cd51aa6",
+    "pdf_bytes_identical": false,
+    "pdftotext_layout_output_identical": true,
+    "figures_and_ancillary_files_identical_to_2026_10_10": true
+  },
+  "publication": {
+    "arxiv_submission_id": "7973196",
+    "update_submitted": "2026-11-01",
+    "confirmation": "Article submitted",
+    "last_authenticated_status": "on hold",
+    "last_authenticated_check": "2026-11-01",
+    "public_article_id": null,
+    "november_revision_doi": null,
+    "october_revision_doi": "10.5281/zenodo.23423847"
+  },
+  "scientific_dispositions": {
+    "historical": [
+      0,
+      2,
+      1
+    ],
+    "limited_correction": [
+      0,
+      1,
+      2
+    ],
+    "additional_conditional": [
+      0,
+      0,
+      3
+    ],
+    "additional_joint_assignments": 64,
+    "stage_3_amendments_adopted": false,
+    "new_experiments": false
+  },
+  "limits": [
+    "Text equality and file hashes establish artifact identity comparisons, not source truth, independent validity, or visual identity.",
+    "Editorial changes and expanded AI-assistance disclosure do not establish the reason for arXiv moderation delay.",
+    "Submitting an update is not arXiv acceptance, peer review, or public announcement.",
+    "The existing methods-phase closeout and unresolved research limitations remain unchanged."
+  ]
+}
