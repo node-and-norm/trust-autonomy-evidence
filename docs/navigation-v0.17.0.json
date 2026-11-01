@@ -4,18 +4,18 @@
   "artifacts": {
     "README.md": {
       "released_sha256": "37e96579cea1fcbfff5c7f98c1b4bd55d22f2d64417f8974f3f1ab4e15e1b729",
-      "bytes": 49223,
-      "sha256": "1b8ced2c06fb5f4147c12d1b41e35bc3132a89f2e9f4f2a2926291dcc677f02d"
+      "bytes": 49365,
+      "sha256": "d64e4f73d0ac9f02dbaaac87e0b8ec64a7bd12fcd147fade455921af7a6bed9c"
     },
     "CITATION.cff": {
       "released_sha256": "c81d607a3a073474f1bcfdca116be6079aa58582c4548c1d4ce851137690bd2f",
-      "bytes": 2153,
-      "sha256": "fbca86affbc1c5bbf3314e710d04b71e504ac28b599707970b4442f4ab7a99c3"
+      "bytes": 2307,
+      "sha256": "5749eb89ca4992cf9d8b5ef2cca4c304f04678c944cf0b442d82ffc5cbfee27d"
     },
     "RESEARCH_STATUS.md": {
       "released_sha256": "62a1561fa87226772f25364dc2dd6e060b5af5958b91d1bfc899d47fcd4a3128",
-      "bytes": 13857,
-      "sha256": "c78948e7aad9c0f19b85933233b2d3471eb0a8f4d905e2177ce6d336ef7a2880"
+      "bytes": 14007,
+      "sha256": "db717bc76c308805d88c3a6cfbf1271d1970d2cec529555fb64a52199fa0e15a"
     }
   }
 }

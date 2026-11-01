@@ -4,7 +4,7 @@ Reviewed 29 October 2026. This account synthesizes the linked records at source 
 
 Status: Methods phase closed. Evidence: Three historical cases.
 
-Publication update, November 1, 2026: the [latest editorial revision](../paper/revisions/2026-11-01/README.md) expands the AI-assistance disclosure and improves presentation without changing these findings. The existing arXiv submission was updated and remains on hold. The October Zenodo edition remains separately archived; no new DOI is assigned. The scientific account below retains its October 29 review scope.
+Publication update, November 1, 2026: the [latest editorial revision on Zenodo](https://doi.org/10.5281/zenodo.23852566) expands the AI-assistance disclosure and improves presentation without changing these findings. The [publication receipt](zenodo-publication-2026-11-01.md) records the new archive, and the October Zenodo edition remains separately preserved. The existing arXiv submission was updated and remains on hold. The scientific account below retains its October 29 review scope.
 
 ## Question and contribution
 
