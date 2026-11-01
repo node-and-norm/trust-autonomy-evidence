@@ -26,7 +26,7 @@ Reconstruct control conditions, trace a judgment to its sources and preserve wha
 
 ## At a glance
 
-**Latest paper: [November 1, 2026 editorial revision — 47-page PDF](paper/revisions/2026-11-01/preprint.pdf).** The [revision archive](paper/revisions/2026-11-01/README.md) includes the submitted source, expanded AI-assistance disclosure and verification record. This editorial update preserves the findings and completed phase status. The existing arXiv submission was updated on November 1 and remains **on hold**; no public arXiv article identifier is claimed.
+**Latest paper: [November 1, 2026 editorial revision on Zenodo](https://doi.org/10.5281/zenodo.23852566) · [47-page PDF](paper/revisions/2026-11-01/preprint.pdf).** The [revision archive](paper/revisions/2026-11-01/README.md) includes the submitted source, expanded AI-assistance disclosure and pre-deposit verification record; the separate [publication receipt](docs/zenodo-publication-2026-11-01.md) records the Zenodo release. This editorial update preserves the findings and completed phase status. The existing arXiv submission was updated on November 1 and remains **on hold**; no public arXiv article identifier is claimed.
 
 Repository **v0.18.0** remains the closeout release for the methods demonstration and initial Jev phase. It preserves the [October 10 paper and public supplement](paper/revisions/2026-10-10/README.md), also archived on [Zenodo](https://doi.org/10.5281/zenodo.23423847). That DOI identifies the October edition, not this November revision. See the [version guide](paper/revisions/README.md), [release notes](release/v0.18.0-release-notes.md) and [phase closeout](docs/research-phase-closeout-2026-10-16.md).
 
@@ -473,9 +473,9 @@ Contributions should identify the proposition being changed, the evidence suppor
 
 ## Citation
 
-The current manuscript is the **November 1, 2026 editorial revision**, with no new DOI assigned:
+The current manuscript is the **November 1, 2026 editorial revision**, published on Zenodo November 1:
 
-> Banasihan, M. J. (2026). *From Formal Authority to Practical Human Control: A traceable method for reconstructing human control in automated decisions* (Editorial revision, November 1, 2026) [Preprint]. [GitHub revision archive](https://github.com/node-and-norm/trust-autonomy-evidence/tree/main/paper/revisions/2026-11-01).
+> Banasihan, M. J. (2026). *From Formal Authority to Practical Human Control: A traceable method for reconstructing human control in automated decisions* (Editorial revision, November 1, 2026) [Preprint]. Zenodo. [https://doi.org/10.5281/zenodo.23852566](https://doi.org/10.5281/zenodo.23852566).
 
 When citing the **October 10 edition**, published on Zenodo October 16 and preserved in the [v0.18.0 repository release](https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.18.0), use its own citation:
 

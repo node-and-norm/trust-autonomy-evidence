@@ -6,7 +6,7 @@
 
 **Current manuscript:** [November 1, 2026 editorial revision](paper/revisions/2026-11-01/README.md), with [47-page PDF](paper/revisions/2026-11-01/preprint.pdf), submitted source and verification record. It revises presentation, American English and AI-assistance disclosure; findings and phase status are unchanged. The author authorized this repository publication on November 1. The October reassessment and its approval record remain separately preserved.
 
-**Current DOI-archived preprint:** [10.5281/zenodo.23423847](https://doi.org/10.5281/zenodo.23423847), published on Zenodo 16 October 2026, revision dated 10 October. The PDF, source, public supplement, instructions and checksums were verified against the public downloads. Historical [v0.17.0](https://doi.org/10.5281/zenodo.22970968) remains preserved under its own DOI.
+**Current DOI-archived preprint:** [10.5281/zenodo.23852566](https://doi.org/10.5281/zenodo.23852566), the November 1 editorial revision, published on Zenodo November 1, 2026. The [publication receipt](docs/zenodo-publication-2026-11-01.md) records the artifact checks and preserves the earlier pre-deposit verification checkpoint. The [October edition](https://doi.org/10.5281/zenodo.23423847), published October 16, and historical [v0.17.0](https://doi.org/10.5281/zenodo.22970968) remain preserved under their own DOIs.
 
 **Phase status:** Closed for the bounded methods demonstration, approved reassessment and initial Jev experiments. This closes active work in the declared scope, without treating open validation questions as answered. See [phase closeout](docs/research-phase-closeout-2026-10-16.md).
 
