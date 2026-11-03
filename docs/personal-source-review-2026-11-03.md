@@ -11,6 +11,7 @@ The [November 1 manuscript](../paper/revisions/2026-11-01/main.tex) is the compa
 | TAE-SR-01 | Reported complete for the section 3.4 content described below and both numbered links; reused earlier retrievals | Reported complete: first two section 2.1 paragraphs, bibliography entry 40 and the full review record, through raw files at the pinned commits | Corrected three-sentence candidate accepted for a later draft only; manuscripts unchanged; see completion receipt |
 | TAE-SR-02 | Reported complete for the three Tracking/Tracing blocks and the first two ideas in the identified earlier passage; supplementary access route not restated | First section 2.1 paragraph compared using the previously read raw manuscript at the pinned commit | Three-sentence replacement and revised closing summary recorded as proposals; modality and attribution limits retained; no manuscript approval |
 | TAE-SR-03 | Reported complete for the selected IFAC PDF passages, including the page-776 continuation and rare-intervention discussion | All four Bainbridge citation contexts and historical provenance reviewed within the reported scope; neighboring-source claims remain unreviewed | Author proposals and dated provenance supplement recorded; challenge-opportunity source remains unresolved; no exact-draft approval |
+| TAE-SR-04 | Complete abstract reported read through an unidentified library-catalog record; publisher abstract display, publication details and body unread by the author | Compared with the already-reviewed TAE claims at 117/201/1189 | Three wording proposals recorded; detailed definition, workload and challenge-opportunity claims remain unverified; no manuscript approval |
 
 Further passage assignments are not fixed by this first receipt. Matching earlier HIT reading may be reused within its actual scope, without assuming approval of a different TAE proposition.
 
@@ -285,3 +286,55 @@ Here, the remainder of section 2 excludes the specifically read final paragraph 
 The author regards the Bainbridge components at lines 117, 128 and 201, and the practice component at 1189, as supported by the read passages. Retain the prior scope and wording qualifications: that judgment does not endorse every neighboring claim, the comparative least-prepared phrase, inevitable skill erosion, or a demonstrated modern-AI effect. The challenge-opportunity component remains unresolved. Lee and See's source and access record are unchanged.
 
 Disposition: TAE-SR-03's selected source reading and all four identified citation-context checks are reported complete within the stated limits. Its proposed wording and provenance supplement remain for later consideration, without exact-manuscript approval. The adjacent unreviewed sources and unresolved clause stay visible. All earlier receipts, historical attestations, source packets, screening/proposition permissions, scores, Jev adjudications, the closed phase, manuscripts and website remain unchanged.
+
+## TAE-SR-04: Endsley, abstract-only review through a library catalog
+
+Recorded November 3, 2026. Reviewer and decision authority: Mark Julius Banasihan, reporting directly in the current source-review conversation. Recorded with Codex assistance.
+
+### Source identity, access and dates
+
+Source: Mica R. Endsley, [From Here to Autonomy: Lessons Learned From Human–Automation Research](https://journals.sagepub.com/doi/10.1177/0018720816681350), DOI `10.1177/0018720816681350`.
+
+The author reports that SAGE blocked automated access. He did not read the publisher's abstract display or publication details. He read the complete abstract through a Bavarian library-union discovery record sourced from ProQuest. He reports that record's citation as Human Factors, February 2017, 59(1), 5–27, ISSNs 0018-7208 and 1547-8181, with the DOI above. No exact catalog URL or record identifier was provided, so the particular record and its bytes are not independently matched here.
+
+He reports a SAGE issue-contents search snippet giving first publication on December 15, 2016; this was snippet-level only for him. Codex separately opened the current official publisher page and confirmed its first-published-online label of December 15, 2016 and volume 59, issue 1. This is Codex's publisher-page check, not the author's reading of that page. The online-first date, the reported February 2017 issue and the November 3, 2026 review remain distinct.
+
+The body is restricted in the available publisher retrieval. No personal reading of the body or references is attested, and no support is inferred from them. Press releases and secondary summaries were not used. Codex's canonical abstract retrieval confirms the broad content discussed below; it does not establish the identity of the unlinked catalog copy or authenticate the author's access.
+
+### Abstract-level account and limits
+
+The author reports the abstract's discussion of challenges in human oversight and interaction with autonomous and semiautonomous systems, including automotive, aviation, cyber and robotics applications. Its automation-conundrum account links increasing autonomy, reliability and robustness with lower operator situation awareness and less likelihood of manual takeover when needed.
+
+The abstract describes a human–autonomy systems oversight model integrating earlier research on situation awareness, out-of-the-loop performance problems, monitoring and trust. It also names interface features, levels of automation, adaptive automation and granularity of control among the design approaches, with recommendations and future research.
+
+The author finds no new measurements reported in the abstract. This does not establish that the unread article body contains no empirical material. Treat these statements as the abstract's model/research-synthesis account, not independently reproduced causal effects, a universal rule for every automated system or validation of TAE.
+
+### Comparison with the TAE claims
+
+| Manuscript location | Supported account within this reading | Unverified or qualified part |
+| :--- | :--- | :--- |
+| Line 117 | The abstract connects lower situation awareness with less likelihood of taking over manual control. | The perception–understanding–projection definition and operating-conditions formulation are absent from the abstract and remain unverified for this citation. A definition from another work cannot be silently substituted. |
+| Line 201 | Situation awareness, monitoring, trust and out-of-the-loop performance problems appear in the model's stated scope. | Workload is not mentioned. Autonomous-system performance shifts the subject from the human operator's oversight and interaction. Preserve the performance-problems wording without inferring a measured degradation rate. |
+| Line 1189 | Lower situation awareness is within the abstract's account; loss of practice retains the separately reviewed Bainbridge basis. | Lack can suggest absence rather than lower awareness. Taking over manual control is not the same act as challenging an output. Challenge opportunity is unverified by the selected Bainbridge passages and this abstract, without claiming either full paper cannot support it. |
+
+### Author's proposed wording
+
+For line 117, preserved verbatim:
+
+> As autonomy, reliability and robustness increase, operators’ situation awareness may fall and takeover of manual control may become less likely (Endsley, 2017).
+
+For line 201, preserved verbatim:
+
+> Endsley integrates research on operator situation awareness, out-of-the-loop performance problems, monitoring and trust into a model of human oversight of autonomous systems (Endsley, 2017).
+
+For line 1189, preserved verbatim:
+
+> An operator may lose manual skill and process knowledge through disuse (Bainbridge, 1983), have lower situation awareness as automation becomes more autonomous and reliable (Endsley, 2017), or have too little opportunity to challenge an output [source to be confirmed].
+
+These are recorded as author proposals, not accepted manuscript replacements. The first and third sentences must retain attribution to Endsley's abstract/model account rather than presenting a newly measured causal effect. The source placeholder remains unresolved. A separately checked source or later removal/reformulation is needed before claiming support for the detailed definition, workload or challenge-opportunity wording.
+
+### Transfer and source separation
+
+The abstract's applications do not specifically establish a result about AI-mediated institutional decisions. That application is TAE's analogy. The author notes a conceptual parallel with Bainbridge's account of rare intervention and operator investment; preserve their different constructs and evidentiary scopes. Neither the parallel nor these readings demonstrate that high reliability necessarily causes weak human control.
+
+Disposition: the assigned abstract reading is reported complete through the stated alternative route. Publisher-display and publication-detail reading remain unattested, while the separate Codex date check is identified. Body-level claims, source identity limits and unresolved wording stay explicit; no additional full-text reading is required to close this abstract-only item. All earlier receipts, historical attestations, source packets, screening/proposition permissions, scores, Jev adjudications, the closed phase, manuscripts and website remain unchanged.
