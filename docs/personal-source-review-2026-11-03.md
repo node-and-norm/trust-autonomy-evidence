@@ -12,6 +12,7 @@ The [November 1 manuscript](../paper/revisions/2026-11-01/main.tex) is the compa
 | TAE-SR-02 | Reported complete for the three Tracking/Tracing blocks and the first two ideas in the identified earlier passage; supplementary access route not restated | First section 2.1 paragraph compared using the previously read raw manuscript at the pinned commit | Three-sentence replacement and revised closing summary recorded as proposals; modality and attribution limits retained; no manuscript approval |
 | TAE-SR-03 | Reported complete for the selected IFAC PDF passages, including the page-776 continuation and rare-intervention discussion | All four Bainbridge citation contexts and historical provenance reviewed within the reported scope; neighboring-source claims remain unreviewed | Author proposals and dated provenance supplement recorded; challenge-opportunity source remains unresolved; no exact-draft approval |
 | TAE-SR-04 | Complete abstract reported read through an unidentified library-catalog record; publisher abstract display, publication details and body unread by the author | Compared with the already-reviewed TAE claims at 117/201/1189 | Three wording proposals recorded; detailed definition, workload and challenge-opportunity claims remain unverified; no manuscript approval |
+| TAE-SR-05 | Sections 1.2, 2.3.1, 4.3.3 and 4.3.4 of arXiv v1 reported read by headings; section 5.3.1 in full, printed page numbers and journal body unread | Quoted passages at 131/253/1189 assessed; no new manuscript access route supplied | Two suggestions recorded; citation/version treatment unresolved; historical line 1640 preserved; no manuscript approval |
 
 Further passage assignments are not fixed by this first receipt. Matching earlier HIT reading may be reused within its actual scope, without assuming approval of a different TAE proposition.
 
@@ -338,3 +339,56 @@ These are recorded as author proposals, not accepted manuscript replacements. Th
 The abstract's applications do not specifically establish a result about AI-mediated institutional decisions. That application is TAE's analogy. The author notes a conceptual parallel with Bainbridge's account of rare intervention and operator investment; preserve their different constructs and evidentiary scopes. Neither the parallel nor these readings demonstrate that high reliability necessarily causes weak human control.
 
 Disposition: the assigned abstract reading is reported complete through the stated alternative route. Publisher-display and publication-detail reading remain unattested, while the separate Codex date check is identified. Body-level claims, source identity limits and unresolved wording stay explicit; no additional full-text reading is required to close this abstract-only item. All earlier receipts, historical attestations, source packets, screening/proposition permissions, scores, Jev adjudications, the closed phase, manuscripts and website remain unchanged.
+
+## TAE-SR-05: Burr and Leslie, selected arXiv v1 sections
+
+Recorded November 3, 2026. Reviewer and decision authority: Mark Julius Banasihan, reporting directly in the current source-review conversation, including a separate clarification of unread material. Recorded with Codex assistance.
+
+### Version, access and personal reading scope
+
+Source: Christopher Burr and David Leslie, [Ethical Assurance: A practical approach to the responsible design, development, and deployment of data-driven technologies, arXiv v1](https://arxiv.org/pdf/2110.05164v1), identifier `2110.05164v1`. The author identifies the PDF's displayed date as October 12, 2021. Codex separately confirmed that header and the [arXiv submission history](https://arxiv.org/abs/2110.05164), which gives October 11, 2021 for v1. Those source dates and this review date have different meanings.
+
+The author reports reading sections 1.2, 2.3.1, 4.3.3 and 4.3.4 in extracted preprint text. He located passages by section headings because the extraction had no page markers. The exact retrieval route, copy identifier and byte identity were not newly supplied. All printed page numbers remain personally unconfirmed; the page numbers in the assignment are locators supplied by Codex, not evidence of the author's page inspection.
+
+The author expressly confirms that section 5.3.1 in full remains unread. It is a pending part of the original assignment. No review of its efficacy discussion is inferred from his general assessment of the passages he did read. Figures were outside scope; he saw captions only. The cited originals, including Toulmin and Cartwright and Hardie, were not read for this check. Neighboring section 4.3.2 and the section 5 introduction were seen in passing and were not relied on.
+
+TAE cites the journal version, DOI `10.1007/s43681-022-00178-0` (2023). Its body has not been compared here. The 2021 preprint reading supports only the passages of that version inspected; it does not establish that the journal body is identical or that the existing journal citation supports every proposed sentence. Final citation/version treatment remains unresolved.
+
+### Reported account and scope qualifications
+
+| Section locator | Author's reading and retained boundary |
+| :--- | :--- |
+| 1.2 | Argument-based assurance communicates to another party that a claim about a system property is warranted by the available evidence. The authors generalize the approach to wider normative goals, including sustainability, accountability, fairness and explainability, and connect participation with legitimacy, social license and countering ethics washing. Their safety-critical-industry adoption statement does not demonstrate ethical-assurance effectiveness. |
+| 2.3.1 | The Goal Structuring Notation account names goals, solutions, strategies, contexts, assumptions and justifications, with a claims-to-evidence process. Clarity, accessibility, understanding and inquiry are part of the account. Preserve which details concern this notation rather than treating its elements as mandatory for every assurance method. |
+| 4.3.3 | Some claims require documented evidential artifacts. Self-evident or well-established claims may need no further artifact; a trusting reviewer may also accept a propositional claim without documented evidence. One artifact can support multiple claims. These are the preprint's allowances, not TAE's automatic rule for accepting unsupported claims. |
+| 4.3.4 | A warrant connects evidence to a claim and makes assumptions explicit. In the fairness-process example, support depends on whether the process is reliable or appropriate. A qualifier may be needed. Constructing an argument late raises post hoc concerns and can also expose assumptions that need further work. The discussion does not establish that every inference always requires a separately documented artifact. |
+
+The author characterizes the inspected passages as a proposed methodology illustrated through a hypothetical healthcare decision-support project. He reports no applied evaluation or measured outcome in those passages. Keep that finding at the inspected level: section 5.3.1 remains unread, and this is not a whole-paper determination about efficacy or a validation of TAE's retrospective procedure. References to earlier work do not constitute personal reading or reproduction of that work.
+
+### Comparison with the pinned TAE manuscript
+
+The comparison target remains `paper/revisions/2026-11-01/main.tex` at commit `2f462dcb147613c6634aab143102da81fcdbff93`. The reply evaluates the quoted passages at lines 131, 253 and 1189. It does not newly identify a manuscript retrieval route or attest reading the complete manuscript.
+
+| TAE location | Correction or qualification proposed by the author |
+| :--- | :--- |
+| Line 131 | The warrant account supports explaining why evidence supports a claim and making assumptions explicit. Reconstruction from incident records is TAE's retrospective adaptation of a prospective development/deployment account. The dependencies wording has partial support through shared artifacts and jointly supporting claims; inspectability has broad support through inquiry and participation. The Pittaras and McGregor contribution is unreviewed here. |
+| Line 253 | Retain the communicative purpose and the available-evidence qualification. Uncertainty has limited support in the inspected warrant/qualifier discussion. The extension includes participatory process and deliberation, not only an argument structure. The neighboring AMLAS and audit sources are outside this check. |
+| Line 1189 | Require is stronger than the bounded account inspected. The preprint proposes making warrants explicit, with its final step needed in many cases and exceptions to documented artifacts. Preserve the distinction between an explicit inferential link and a documentary artifact for every claim. The Ezell contribution remains unreviewed here. |
+
+### Author's proposed wording
+
+For line 253, preserved verbatim:
+
+> Argument-based assurance uses structured argument to show another party that a claim about a system is warranted by the available evidence, with assumptions made explicit. In a 2021 preprint, Burr and Leslie generalise it to ethical goals such as fairness, explainability and accountability, adding participatory deliberation as a condition of legitimacy (Burr & Leslie, 2023 [journal version; preprint passages checked]).
+
+For line 1189's second sentence, preserved verbatim:
+
+> Incident analysis identifies records useful for reconstructing such conditions (Ezell et al., 2025), and argument-based assurance proposes making the warrant from evidence to claim explicit, while allowing that some well-established claims need no documented artefact (Burr & Leslie, 2023).
+
+These are suggestions for later consideration, without approval of an exact manuscript or a completed citation decision. The author explicitly identifies the citation format as a placeholder. The first candidate's assumptions wording should remain within the reviewed warrant discussion; the second does not verify Ezell or exhaust all artifact exceptions described above. No candidate has been inserted into a manuscript.
+
+### Historical provenance preserved
+
+The existing line-1640 note says that the full author preprint was examined and that the final article was available only at preview level in the earlier review. That note predates this check and does not identify a preprint version. At the author's instruction it remains as written. This dated receipt separately names v1 and the four sections personally reported read, with section 5.3.1, page-number confirmation and the journal body explicitly unread. It neither replaces the older access history nor converts that older full-preprint statement into a new personal whole-paper attestation.
+
+Disposition: four section readings are reported complete within the stated extraction and version limits; TAE-SR-05 remains partial because the assigned section 5.3.1 reading is pending. Wording and citation decisions remain proposals. All earlier receipts, historical attestations, source packets, screening/proposition permissions, scores, Jev adjudications, the closed phase, manuscripts and website remain unchanged.
