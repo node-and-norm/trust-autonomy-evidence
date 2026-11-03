@@ -8,7 +8,7 @@ The [November 1 manuscript](../paper/revisions/2026-11-01/main.tex) is the compa
 
 | Item | Source reading | TAE context reading | Wording disposition |
 | :--- | :--- | :--- | :--- |
-| TAE-SR-01 | Reported complete for the section 3.4 content described below and both numbered links; reused earlier retrievals | Pending: author read the repository README and assessed the quoted sentence, not its manuscript context or bibliography entry | Author proposal recorded; scope-qualified candidate prepared for review; manuscript unchanged |
+| TAE-SR-01 | Reported complete for the section 3.4 content described below and both numbered links; reused earlier retrievals | Reported complete: first two section 2.1 paragraphs, bibliography entry 40 and the full review record, through raw files at the pinned commits | Corrected three-sentence candidate accepted for a later draft only; manuscripts unchanged; see completion receipt |
 
 Further passage assignments are not fixed by this first receipt. Matching earlier HIT reading may be reused within its actual scope, without assuming approval of a different TAE proposition.
 
@@ -66,3 +66,35 @@ The author's comparison with TAE's traceability column is an interpretive analog
 The selected source content is reported read, with the stated access and exclusion limits. Review of the quoted sentence is recorded; personal manuscript-context and bibliography reading remains pending. The proposed and scope-qualified wording is retained for review only.
 
 Historical author attestations, screening/proposition permissions, the closed methods phase, original Jev adjudications and the completed 24-item collaborative review remain unchanged. This receipt creates no full-paper attestation, independent verification, new research finding, manuscript approval or publication authorization. The manuscript and website are unchanged.
+
+## TAE-SR-01 context review and bounded-use decision: November 3, 2026
+
+Reviewer and decision authority: Mark Julius Banasihan, reporting directly in the current source-review conversation. Recorded with Codex assistance. This receipt completes the stated source-and-context item; it does not authorize manuscript changes.
+
+### Reported reading and access
+
+The author reports reading all requested items: the first two paragraphs of section 2.1 and bibliography entry 40 in `paper/revisions/2026-11-01/main.tex` at commit `2f462dcb147613c6634aab143102da81fcdbff93`, and the full initial review record at commit `28ea98d31897f881f10107123bd8db0404a03f77`, including its proposed-wording section. GitHub's blob pages refused his automated access; he read the same pinned files through GitHub's raw file host. This is his reported access route, not an attestation of viewing the GitHub wrapper or reproducing the research.
+
+He identifies the first paragraph's tracking/tracing account and the second paragraph's opening, target sentence, Davidovic citation and closing institutional questions. He reports that reference 40 lists all thirteen authors in publisher order, beginning with Luciano Cavalcante Siebert, with the 2023 volume, pages 241–255 and correct DOI. Its contents match the publisher PDF header he previously checked. His reading of this reference does not establish personal reading of the publisher's recommended-citation block.
+
+### Corrected candidate accepted for a later draft
+
+The author accepts the candidate with a scope correction and a fidelity addition. Property 3 remains direction-neutral, preserving the earlier ability–authority ordering qualification. Property 4 restores human actions alongside decisions. The final sentence now names Property 4 alone: section 3.4 must not be described as setting out Property 3.
+
+Author's corrected candidate, preserved verbatim:
+
+> Cavalcante Siebert et al. (2023) propose matching a human’s responsibility with their ability and authority to control a human-AI system (Property 3). Separately, they call for explicit, explainable and inspectable links between system actions and logged and reported human decisions and actions with moral implications, made by people aware of their moral responsibility (Property 4). Section 3.4 sets out the Property 4 requirements without reporting a test of whether such links establish effective control.
+
+The author considers this consistent with the paragraph's opening reference to developing the prior relationship and its closing questions about whose control, over which decisions and for what purpose. He notes that three sentences increase the paragraph's length and suggests possible compression for a later draft. That optional compression is not substituted for the accepted wording here.
+
+### Updated PDF description and attribution limits
+
+The earlier receipt preserves what was identified at its checkpoint. The author now identifies the cross-checked PDF as the Politecnico di Torino institutional-repository copy, carrying the header AI and Ethics (2023) 3:241–255 and the received, accepted and online-publication dates. Record that reported institution and publisher-format description. An exact download URL or file hash has not been supplied, so byte identity or a specifically pinned institutional file is not established.
+
+The author explicitly has not read the publisher's recommended-citation block. The earlier statement that it uses Cavalcante Siebert is Codex's separate check of the publisher's Cite this article section, not his verification. The current reference's full author list and his PDF reading have their own reported scopes. Keep the 2023 volume citation distinct from online publication on May 18, 2022.
+
+### New source-comparison lead
+
+The author flags a possible difference between TAE's first paragraph, which connects each system action to a person, and Cavalcante Siebert and colleagues' section 2 restatement involving at least one relevant human agent. He has not read Santoni de Sio and van den Hoven (2018), the original source cited by that TAE paragraph. This is a proposed comparison to check against the original, not an established difference in logical strength, an accepted correction to the first paragraph or a new source-reading attestation.
+
+Disposition: TAE-SR-01's selected source-content and manuscript-context reading are reported complete with the stated routes and exclusions. The corrected candidate is accepted for a later draft only. Figure 5 and section 3.4.1 remain excluded, and the publisher citation-block check remains attributed to Codex. Historical attestations, source packets, screening/proposition permissions, scores, original Jev adjudications, the closed research phase and broader claims remain unchanged. No manuscript revision, website update or publication approval is performed or authorized by this receipt.
