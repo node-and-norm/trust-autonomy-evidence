@@ -10,7 +10,7 @@ The [November 1 manuscript](../paper/revisions/2026-11-01/main.tex) is the compa
 | :--- | :--- | :--- | :--- |
 | TAE-SR-01 | Reported complete for the section 3.4 content described below and both numbered links; reused earlier retrievals | Reported complete: first two section 2.1 paragraphs, bibliography entry 40 and the full review record, through raw files at the pinned commits | Corrected three-sentence candidate accepted for a later draft only; manuscripts unchanged; see completion receipt |
 | TAE-SR-02 | Reported complete for the three Tracking/Tracing blocks and the first two ideas in the identified earlier passage; supplementary access route not restated | First section 2.1 paragraph compared using the previously read raw manuscript at the pinned commit | Three-sentence replacement and revised closing summary recorded as proposals; modality and attribution limits retained; no manuscript approval |
-| TAE-SR-03 | Reported complete for the selected IFAC PDF passages, including the page-776 continuation and rare-intervention discussion | Lines 117/201 assessed; other Bainbridge citations at 128/1189 located but unevaluated; historical provenance at 1640 flagged | Author proposals retained with conditional/ranking qualifications; remaining contexts pending; manuscript unchanged |
+| TAE-SR-03 | Reported complete for the selected IFAC PDF passages, including the page-776 continuation and rare-intervention discussion | All four Bainbridge citation contexts and historical provenance reviewed within the reported scope; neighboring-source claims remain unreviewed | Author proposals and dated provenance supplement recorded; challenge-opportunity source remains unresolved; no exact-draft approval |
 
 Further passage assignments are not fixed by this first receipt. Matching earlier HIT reading may be reused within its actual scope, without assuming approval of a different TAE proposition.
 
@@ -239,3 +239,49 @@ The author located, but did not evaluate, the other Bainbridge citations at [lin
 The author flags [line 1640](../paper/revisions/2026-11-01/main.tex#L1640), which records earlier inspection through author-republished or university-hosted passages with incomplete direct-download access. Preserve that as the earlier review's provenance. Today's IFAC access can be recorded as a dated supplement; it does not retroactively alter that access history or establish personal reading of the complete article.
 
 Disposition: the stated Bainbridge source passages and comparison with the two assigned TAE claims are reported complete. The other citation contexts and a dated provenance clarification remain to be reviewed. Author proposals and conditional options are retained for later consideration, without exact-draft approval. Historical attestations, source packets, screening/proposition permissions, scores, Jev adjudications, the closed phase, manuscripts and website remain unchanged.
+
+## TAE-SR-03 remaining citation contexts and provenance: November 3, 2026
+
+Reviewer and decision authority: Mark Julius Banasihan, reporting directly in the current source-review conversation. Recorded with Codex assistance.
+
+### Reported reading and access
+
+The author reports reading all three requested paragraphs, at manuscript lines 128, 1189 and 1640, from the same raw `main.tex` copy at commit `2f462dcb147613c6634aab143102da81fcdbff93` used for the preceding checks. He did not retry the automated-access-refusing GitHub blob pages. He also read the preceding paragraph about established concepts to identify what those relationships refers to; content locators are retained where line-number representations differ.
+
+He supplies the local hash prefix `6a3dceac…` and explicitly says he has not compared it with a repository-side record. The algorithm and full hash are not given. Record this as his local identifier, not verified byte identity with the committed file or a new authenticated preservation claim.
+
+### Attribution and construct distinctions
+
+| Manuscript location | Author's reading and retained boundary |
+| :--- | :--- |
+| Line 128: skill | Bainbridge's selected section 1.1.1 supports the disuse/practice argument about manual skill. Attribute this as an argued mechanism in the inspected process-control context. |
+| Line 128: information and time | Section 1.1.2 discusses limited information at urgent takeover and the time needed to build current-process-state knowledge. Time to build that knowledge and time available to intervene are distinct; do not silently substitute one for the other. |
+| Line 128: neighboring claims | The human moral reasons correction from TAE-SR-02 remains relevant to the Santoni de Sio and van den Hoven account. Laux's institutional claims are unreviewed here. The clustered sources motivate the six conditions; this reading does not validate those conditions. A more specific human-factors proposition should carry its own source attribution. |
+| Line 1189: loss of practice | Manual skill and process knowledge through nonuse are within the inspected Bainbridge scope. The author proposes separating the attributions by item. |
+| Line 1189: situation awareness | The named situation-awareness construct is attributed to Endsley and remains unreviewed here. Bainbridge's working-storage account concerns time to build current-state knowledge; similarity does not make the constructs interchangeable. |
+| Line 1189: challenge opportunity | The checked Bainbridge passages do not support the output-challenge-opportunity item. Section 1.1.3 was visible in extracted text but was not checked. The clause needs a verified source or a later wording disposition; neither Endsley nor another source is confirmed by this reply. |
+| Line 1189: TAE synthesis | Assigned role and AI-output framing are TAE's analogy. The neighboring Ezell and Burr–Leslie sentence is outside this check, as are the substantive claims of other authors in the preceding paragraph. |
+
+The author's correction from explains why to argues or describes is retained for Bainbridge's contribution. This check does not determine the evidentiary strength of all human-factors research cited elsewhere.
+
+### Proposed attribution split
+
+Author's suggested restructuring, preserved verbatim:
+
+> An operator may lose manual skill and process knowledge through disuse (Bainbridge, 1983), lack situation awareness (Endsley, 2017), or have too little opportunity to challenge an output [source to be confirmed].
+
+This is a proposal with an explicit unresolved source placeholder, not an approved manuscript substitution. The parenthetical Endsley attribution is not verified by this Bainbridge review.
+
+### Historical provenance and the new selected reading
+
+The author asks that the older line-1640 access record remain unchanged. He cannot personally verify its earlier routes, and the IFAC check does not replace them. The source host identifies where a copy is available; it does not by itself establish republication, endorsement or independent verification. The inspected PDF carries the IFAC copyright and Pergamon imprint.
+
+Author's proposed dated supplement, preserved verbatim:
+
+> A later selected check (November 2026) read Bainbridge’s abstract and opening scope paragraph, section 1’s opening and sections 1.1–1.1.2, the final paragraph of section 2.3, and the opening of section 3, in a journal-formatted copy hosted by IFAC Technical Committee 4.1. PDF text extraction interleaved the two columns on page 777. Sections 1.1.3, 1.2, the remainder of 2, and 3.1–4 were outside that check. Lee and See’s access record is unchanged.
+
+Here, the remainder of section 2 excludes the specifically read final paragraph of section 2.3; the earlier receipt retains the precise selection. The actual reports in this record are dated November 3, 2026. A month-level supplement can be considered in a later draft without changing the archived provenance.
+
+The author regards the Bainbridge components at lines 117, 128 and 201, and the practice component at 1189, as supported by the read passages. Retain the prior scope and wording qualifications: that judgment does not endorse every neighboring claim, the comparative least-prepared phrase, inevitable skill erosion, or a demonstrated modern-AI effect. The challenge-opportunity component remains unresolved. Lee and See's source and access record are unchanged.
+
+Disposition: TAE-SR-03's selected source reading and all four identified citation-context checks are reported complete within the stated limits. Its proposed wording and provenance supplement remain for later consideration, without exact-manuscript approval. The adjacent unreviewed sources and unresolved clause stay visible. All earlier receipts, historical attestations, source packets, screening/proposition permissions, scores, Jev adjudications, the closed phase, manuscripts and website remain unchanged.
