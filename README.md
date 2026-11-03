@@ -487,4 +487,8 @@ The earlier v0.17.0 preprint remains under its historical DOI [10.5281/zenodo.22
 
 Mark Julius Banasihan is an independent applied researcher studying decision authority, human influence, evaluation, and assurance in AI-mediated institutional systems.
 
+See the [AI-assistance disclosure in the November 1 paper](paper/revisions/2026-11-01/main.tex#L1466-L1480) for Codex’s substantive research, manuscript and code contributions, the separate Jev experiment and unavailable model details. The [v0.14 review attestation](evidence/human-review-attestation-v0.14.0.json) distinguishes author authorization from independent source verification and records retrievals the author did not personally reproduce. The [phase closeout](docs/research-phase-closeout-2026-10-16.md) retains unresolved Jev adjudications and unmeasured human benefits.
+
+The [program AI-use statement](https://nodeandnorm.org/about/research-integrity/#ai-use) provides shared reporting principles; the versioned project records describe the assistance and review documented here.
+
 [GitHub](https://github.com/mj3b) | [ORCID](https://orcid.org/0009-0001-8121-2878)
