@@ -9,6 +9,7 @@ The [November 1 manuscript](../paper/revisions/2026-11-01/main.tex) is the compa
 | Item | Source reading | TAE context reading | Wording disposition |
 | :--- | :--- | :--- | :--- |
 | TAE-SR-01 | Reported complete for the section 3.4 content described below and both numbered links; reused earlier retrievals | Reported complete: first two section 2.1 paragraphs, bibliography entry 40 and the full review record, through raw files at the pinned commits | Corrected three-sentence candidate accepted for a later draft only; manuscripts unchanged; see completion receipt |
+| TAE-SR-02 | Reported complete for the three assigned Tracking/Tracing blocks; earlier human-presence passage not yet reported read | First section 2.1 paragraph compared using the previously read raw manuscript at the pinned commit | Author's three-sentence replacement proposed; earlier quantifier concern withdrawn; fourth sentence awaits the identified supplementary passage check |
 
 Further passage assignments are not fixed by this first receipt. Matching earlier HIT reading may be reused within its actual scope, without assuming approval of a different TAE proposition.
 
@@ -98,3 +99,56 @@ The author explicitly has not read the publisher's recommended-citation block. T
 The author flags a possible difference between TAE's first paragraph, which connects each system action to a person, and Cavalcante Siebert and colleagues' section 2 restatement involving at least one relevant human agent. He has not read Santoni de Sio and van den Hoven (2018), the original source cited by that TAE paragraph. This is a proposed comparison to check against the original, not an established difference in logical strength, an accepted correction to the first paragraph or a new source-reading attestation.
 
 Disposition: TAE-SR-01's selected source-content and manuscript-context reading are reported complete with the stated routes and exclusions. The corrected candidate is accepted for a later draft only. Figure 5 and section 3.4.1 remain excluded, and the publisher citation-block check remains attributed to Codex. Historical attestations, source packets, screening/proposition permissions, scores, original Jev adjudications, the closed research phase and broader claims remain unchanged. No manuscript revision, website update or publication approval is performed or authorized by this receipt.
+
+## TAE-SR-02: Santoni de Sio and van den Hoven, selected Tracking/Tracing passages
+
+Recorded November 3, 2026. Reviewer and decision authority: Mark Julius Banasihan, reporting directly in the current source-review conversation. Recorded with Codex assistance.
+
+### Source, reading route and scope
+
+Source: [Meaningful Human Control over Autonomous Systems: A Philosophical Account](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2018.00015/full), DOI `10.3389/frobt.2018.00015`, Frontiers in Robotics and AI 5, article 15 (2018).
+
+The author reports reading all three assigned blocks through a direct fetch of the Frontiers full-text HTML: Tracking's dual-tracking explanation through the paragraph after the first necessary condition; Tracking's closing qualifications about whose reasons count and moral goodness; and Tracing's closing definition through the paragraph following the second necessary condition. He stopped before the weapons-implications section and did not open the PDF. The attached footnotes 9, 11, 13 and 14 appeared in retrieved text but were not relied on; availability does not attest their personal inspection.
+
+He compared these passages with TAE section 2.1's first paragraph as previously read through raw `main.tex` at commit `2f462dcb147613c6634aab143102da81fcdbff93`. This is reported comparison against that pinned paragraph, not a new whole-manuscript review.
+
+### Reported reading and corrections
+
+| Content | Retained account and boundary |
+| :--- | :--- |
+| Dual tracking | The account requires relevant world facts to be represented and relevant human moral reasons to be tracked and implemented. The first condition calls for demonstrable, verifiable responsiveness. Reducing it to generic human reasons omits both its moral qualifier and the epistemic part. |
+| Whose reasons | The source leaves the relevant human agents context-dependent. Reasons may belong to designers, programmers, legislators, policy-makers or other humans along the chain, without matching the operator's or deployer's reasons in every circumstance. |
+| Control and moral goodness | The authors allow meaningful human control alongside bad purposes. They describe it as necessary but insufficient for moral or societal goodness, while retaining normative disagreement over whose reasons and which values matter. This claim about goodness is separate from whether tracking and tracing are necessary or sufficient for meaningful control itself. |
+| Tracing scope | Preserve actions and states, one or more relevant humans, and the design-history or use-context span. Do not restrict the responsible human to the immediate operator. |
+| Two understanding qualifications | Both subconditions permit understanding or being in a position to understand: system capabilities/possible effects, and legitimate moral reactions toward the person because of those effects and their role. Actual understanding alone is stronger wording. A documentary record of opportunity to understand does not demonstrate actual comprehension. |
+| Understanding and endorsement | The closing paragraph concerns tracing system actions/states to relevant human understanding and endorsement. It supplies a philosophical condition, not a newly measured effect or validation of TAE's documentary method. |
+
+The author recommends describing the contribution as two proposed necessary conditions. Record that source positioning without using the distinct moral-goodness qualification as a logical reason that the authors could not define meaningful control. No whole-paper judgment of philosophical completeness follows from these blocks.
+
+### Earlier quantifier concern resolved within this review
+
+The author withdraws the earlier concern that TAE's each-system-action wording is stronger merely because the source mentions at least one human. He distinguishes the scope of actions/states from the number of relevant humans. His remaining corrections concern the design/use span and the capacity-to-understand qualification.
+
+This records his revised interpretation, not a formal proof that every paraphrase or quantifier arrangement is equivalent. It does not require one fixed person to be responsible for all actions or change any historical case coding.
+
+### Author's proposed replacement
+
+Preserved verbatim:
+
+> Santoni de Sio and van den Hoven (2018) propose two necessary conditions for meaningful human control. Tracking requires a decision-making system to be demonstrably and verifiably responsive to the human moral reasons relevant in the circumstances, while also tracking the morally relevant facts of its environment; those reasons may belong to humans anywhere along the chain, from designers and policy-makers to operators. Tracing requires the system’s actions and states to be traceable to at least one human in its design history or use context who understands, or is in a position to understand, its capabilities and possible effects, and that others may have legitimate moral reactions toward them because of those effects and their role.
+
+The author supplies this as suggested wording. It is recorded as a proposal, not approval of an exact manuscript revision. His prior reading of the target paragraph is retained; it need not be repeated to record this comparison.
+
+### Human-presence sentence: bounded follow-up
+
+The author did not establish TAE's fourth sentence about human presence from the three assigned blocks and points to the earlier Toward a Theory of Meaningful Human Control section. Codex inspected that section and located the passage beginning with the account's three ideas: mere presence or loop participation is insufficient; causal intervention may miss relevant links or lack information/options; and even substantive causal contribution can be insufficient given psychological or capability-understanding limits.
+
+This is Codex's additional source inspection. Personal reading of that passage is not yet reported. The source directly addresses insufficiency of presence for meaningful control; whether to retain TAE's stronger phrasing about establishing neither particular relationship or recast it as TAE's inference remains a wording decision. No fourth sentence is silently added to the proposed replacement.
+
+### Dates and provenance
+
+The author reports a displayed February 28, 2018 date and machine metadata he interpreted as online publication on February 1, 2018. Codex separately checked the current official page's publication history: Received October 24, 2017; Accepted February 1, 2018; Published February 28, 2018. The exact machine-readable field behind the author's report was not identified, so no explanation of its labeling is invented. February 1 is explicitly labeled acceptance in the inspected history, not publication.
+
+The manuscript's year/volume/article citation remains 2018, volume 5, article 15. No day-level citation change is required or made here. The source dates and this November 3, 2026 review date remain distinct.
+
+Disposition: the three assigned source blocks and their comparison with the previously read TAE paragraph are reported complete. The author's corrected replacement is retained as a proposal; the human-presence sentence has a separately identified, not-yet-personally-read passage. This establishes no full-paper or cited-originals review, empirical verification, accepted manuscript revision or new scientific finding. Historical attestations, screening/proposition permissions, case packets, scores, Jev adjudications, the closed phase, website and manuscripts are unchanged.
