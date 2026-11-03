@@ -10,6 +10,7 @@ The [November 1 manuscript](../paper/revisions/2026-11-01/main.tex) is the compa
 | :--- | :--- | :--- | :--- |
 | TAE-SR-01 | Reported complete for the section 3.4 content described below and both numbered links; reused earlier retrievals | Reported complete: first two section 2.1 paragraphs, bibliography entry 40 and the full review record, through raw files at the pinned commits | Corrected three-sentence candidate accepted for a later draft only; manuscripts unchanged; see completion receipt |
 | TAE-SR-02 | Reported complete for the three Tracking/Tracing blocks and the first two ideas in the identified earlier passage; supplementary access route not restated | First section 2.1 paragraph compared using the previously read raw manuscript at the pinned commit | Three-sentence replacement and revised closing summary recorded as proposals; modality and attribution limits retained; no manuscript approval |
+| TAE-SR-03 | Reported complete for the selected IFAC PDF passages, including the page-776 continuation and rare-intervention discussion | Lines 117/201 assessed; other Bainbridge citations at 128/1189 located but unevaluated; historical provenance at 1640 flagged | Author proposals retained with conditional/ranking qualifications; remaining contexts pending; manuscript unchanged |
 
 Further passage assignments are not fixed by this first receipt. Matching earlier HIT reading may be reused within its actual scope, without assuming approval of a different TAE proposition.
 
@@ -179,3 +180,62 @@ Author's closer summary, preserved verbatim:
 This is recorded as proposed wording, alongside the earlier three-sentence Tracking/Tracing replacement. Neither has been approved as an exact revised manuscript paragraph in this reply. The source supports the conceptual insufficiency claim with examples, including a button-pushing illustration quoted from Horowitz and Scharre. The cited original was not personally reviewed in this step. No empirical claim about institutional performance is adopted from these examples.
 
 Disposition: TAE-SR-02's assigned blocks and supplementary passage are now reported read within the stated scopes. The target TAE paragraph was compared using the previously reported pinned-file reading. The remaining task for these wordings is a bounded later-draft disposition, not another attestation of reading the same passages. All prior source and context receipts, publication/date qualifications, historical attestations, case packets, screening/proposition permissions, scores, original Jev adjudications and the closed research phase remain intact. The manuscript and website are unchanged.
+
+## TAE-SR-03: Bainbridge, selected Ironies of Automation passages
+
+Recorded November 3, 2026. Reviewer and decision authority: Mark Julius Banasihan, reporting directly in the current source-review conversation. Recorded with Codex assistance.
+
+### Source, reading scope and access
+
+Source: Lisanne Bainbridge, [Ironies of Automation](https://tc.ifac-control.org/4/1/newsletter/ironies-of-automation/@@download/file/Bainbridge1983_Automatica_Ironies%20of%20automation.pdf), Automatica 19(6), 775–779 (1983), DOI `10.1016/0005-1098(83)90046-8`. The [IFAC technical-committee page](https://tc.ifac-control.org/4/1/newsletter/ironies-of-automation/view) hosts the journal-formatted five-page PDF. Codex checked the host, paper header and selected text. This is distinct from personal source reading.
+
+The author reports reading the abstract and opening scope paragraph on printed page 775; additionally, section 1's opening; sections 1.1–1.1.2, including both long-term knowledge and working storage and the continuation onto page 776; section 2.3's final paragraph; and section 3's opening through its discussion of supporting skills and motivation on page 777.
+
+He reports using the IFAC-hosted journal text with a PDF-extraction caveat: page 777's two columns interleave in the extracted order, so he located the relevant material by headings and opening words. No fresh download, file hash or visual inspection of the complete PDF is attested. Retrieving a complete journal-formatted file is not personal reading of the whole article.
+
+He excludes section 1.1.3 through section 2.3's body, except its assigned final paragraph; sections 3.1–4; and the references. The two TAE claims at [line 117](../paper/revisions/2026-11-01/main.tex#L117) and [line 201](../paper/revisions/2026-11-01/main.tex#L201) are assessed in his reply. A fresh manuscript access route is not stated for this comparison.
+
+### Reported findings and corrections
+
+| Passage or issue | Retained account and boundary |
+| :--- | :--- |
+| Scope and classic approach | The abstract and scope concern process-industry control with flight-deck examples, including operators left responsible for abnormal conditions. This is not a demonstrated result about modern AI. Applying the mechanism to AI-assisted decisions is TAE's analogy. |
+| Task allocation | Designers can leave operators the tasks they could not automate, with inadequate support. Removing easier work can make the remaining difficult work harder. Describe work left unautomated rather than claiming that automation necessarily transfers a new set of tasks to the operator. |
+| Manual skills | The selected discussion describes physical-skill deterioration through nonuse and possible difficulty with takeover during abnormal conditions. It does not provide a new ranking of which operators are least prepared. |
+| Long-term knowledge | Retrieval depends on use, and useful process knowledge develops through practice and feedback. Bainbridge frames reliance on former manual operators' acquired skills as a concern, including the preparation of later generations. |
+| Working storage | Building knowledge of the current process state takes time; an urgent takeover can begin with limited information. Keep this distinct from a fresh measurement of modern-AI situation awareness. |
+| Rare intervention and training | Frequent alarms can give normal-work practice. Bainbridge suggests that highly successful automated systems with rare manual intervention may need the greatest training investment. Preserve this countercondition and tentative wording. |
+| Human-computer integration | The section 3 opening argues that task allocation alone is insufficient without considering integration, skill and motivation. It is a proposed account of the human-system problem, not a measured causal effect established by TAE. |
+
+### Argument, cited evidence and strength of claims
+
+The author reports no new measurements in the passages he read. He identifies cited studies, including Edwards and Lees (1974), Bainbridge's earlier work (1975, 1981), and the quoted Bibby and colleagues (1975) account. The original cited studies were not personally reviewed in this step. Their presence does not convert this reading into empirical replication.
+
+He notes assertions about nonuse, knowledge retrieval and the concern about inherited operator skills, as well as modal language including may, one can argue and perhaps. Preserve the strength of each claim in its location; do not describe every sentence as tentative or every asserted mechanism as newly measured.
+
+At line 117, the author recommends argued or described rather than attributing a fully demonstrated mechanism to Bainbridge, and adding the process-control domain. At line 201, he recommends argued instead of shows, replacing transfers with the tasks-left-unautomated account, and retaining the practice/training condition. The paragraph's nominal-oversight/practical-force conclusion is TAE's synthesis alongside other authors, not Bainbridge's terminology or demonstrated modern-AI finding.
+
+### Author's proposed wording
+
+For line 117, preserved verbatim:
+
+> Bainbridge (1983) argued that, in process-control automation, operators left responsible for abnormal conditions may be least prepared for them, because manual skills and process knowledge decline without regular use.
+
+For line 201, preserved verbatim:
+
+> Drawing on process-industry and flight-deck examples and earlier studies, Bainbridge (1983) argued that automation leaves operators the difficult tasks designers could not automate, while routine automatic operation erodes the skills those tasks require; the most reliable systems, with rare need for intervention, may therefore need the greatest investment in operator training.
+
+These remain author proposals. Least prepared implies a comparative ranking not established in the selected passages. Routine automatic operation erodes skills is stronger than the practice-dependent account, especially given the explicitly read frequent-alarms countercondition. The paper's most successful systems phrasing should not be converted into a measured reliability result.
+
+Codex-prepared conditional options for later review, not approved manuscript text:
+
+- Line 117: Bainbridge (1983) argued that process-control automation can leave operators responsible for abnormal conditions while reducing the practice needed to maintain their manual skills and process knowledge.
+- Line 201: In her process-industry and flight-deck discussion, Bainbridge (1983) argued that automation can leave difficult tasks with operators while reducing opportunities to practice the skills needed for them. She suggested that successful automated systems with rare manual intervention may need the greatest investment in operator training.
+
+### Additional citation contexts and historical provenance
+
+The author located, but did not evaluate, the other Bainbridge citations at [line 128](../paper/revisions/2026-11-01/main.tex#L128) and [line 1189](../paper/revisions/2026-11-01/main.tex#L1189). Their claims remain a separate context check. Bainbridge's selected passages do not establish the contributions attributed to the neighboring, unreviewed Endsley, Laux, Ezell or Burr–Leslie sources.
+
+The author flags [line 1640](../paper/revisions/2026-11-01/main.tex#L1640), which records earlier inspection through author-republished or university-hosted passages with incomplete direct-download access. Preserve that as the earlier review's provenance. Today's IFAC access can be recorded as a dated supplement; it does not retroactively alter that access history or establish personal reading of the complete article.
+
+Disposition: the stated Bainbridge source passages and comparison with the two assigned TAE claims are reported complete. The other citation contexts and a dated provenance clarification remain to be reviewed. Author proposals and conditional options are retained for later consideration, without exact-draft approval. Historical attestations, source packets, screening/proposition permissions, scores, Jev adjudications, the closed phase, manuscripts and website remain unchanged.
