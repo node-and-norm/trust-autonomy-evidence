@@ -9,7 +9,7 @@ The [November 1 manuscript](../paper/revisions/2026-11-01/main.tex) is the compa
 | Item | Source reading | TAE context reading | Wording disposition |
 | :--- | :--- | :--- | :--- |
 | TAE-SR-01 | Reported complete for the section 3.4 content described below and both numbered links; reused earlier retrievals | Reported complete: first two section 2.1 paragraphs, bibliography entry 40 and the full review record, through raw files at the pinned commits | Corrected three-sentence candidate accepted for a later draft only; manuscripts unchanged; see completion receipt |
-| TAE-SR-02 | Reported complete for the three assigned Tracking/Tracing blocks; earlier human-presence passage not yet reported read | First section 2.1 paragraph compared using the previously read raw manuscript at the pinned commit | Author's three-sentence replacement proposed; earlier quantifier concern withdrawn; fourth sentence awaits the identified supplementary passage check |
+| TAE-SR-02 | Reported complete for the three Tracking/Tracing blocks and the first two ideas in the identified earlier passage; supplementary access route not restated | First section 2.1 paragraph compared using the previously read raw manuscript at the pinned commit | Three-sentence replacement and revised closing summary recorded as proposals; modality and attribution limits retained; no manuscript approval |
 
 Further passage assignments are not fixed by this first receipt. Matching earlier HIT reading may be reused within its actual scope, without assuming approval of a different TAE proposition.
 
@@ -152,3 +152,30 @@ The author reports a displayed February 28, 2018 date and machine metadata he in
 The manuscript's year/volume/article citation remains 2018, volume 5, article 15. No day-level citation change is required or made here. The source dates and this November 3, 2026 review date remain distinct.
 
 Disposition: the three assigned source blocks and their comparison with the previously read TAE paragraph are reported complete. The author's corrected replacement is retained as a proposal; the human-presence sentence has a separately identified, not-yet-personally-read passage. This establishes no full-paper or cited-originals review, empirical verification, accepted manuscript revision or new scientific finding. Historical attestations, screening/proposition permissions, case packets, scores, Jev adjudications, the closed phase, website and manuscripts are unchanged.
+
+## TAE-SR-02 supplementary human-presence review: November 3, 2026
+
+Reviewer and decision authority: Mark Julius Banasihan, reporting directly in the current source-review conversation. Recorded with Codex assistance.
+
+### Reported scope
+
+The author reports reading the framing and the first and second ideas in Toward a Theory of Meaningful Human Control, beginning with the passage introducing three ideas and stopping before Thirdly. He does not restate his access route for this supplementary reading. The earlier report's direct Frontiers HTML route remains attached to that earlier reading; no fresh direct retrieval is inferred here.
+
+### Corrections to the proposed summary
+
+| Point | Retained account and boundary |
+| :--- | :--- |
+| First idea | Mere presence or loop participation is categorically insufficient for control of the described (military) activity. A person may causally influence some parts while lacking influence over other morally relevant parts, or sufficient information and options. |
+| Second idea | Even a substantive causal contribution through intentional action may fall short of meaningful control. The authors give examples involving psychological capacity and appreciation of the system's real capabilities. Preserve the conditional wording; this is not a universal claim that intentional contribution is always insufficient. |
+| Scope | The account begins with military activity and proposes a philosophical requirement. These passages do not establish a tested result across domains, a frequency of failure or the practical effectiveness of any arrangement. |
+| Tracking/tracing attribution | TAE's wording about establishing neither relationship connects this earlier discussion to the conditions introduced later. The author treats that connection as TAE's inference, not a direct statement made in this passage about those two named relationships. |
+
+Codex's earlier candidate flattened the second idea's modal qualification and collapsed substantive intentional contribution into generic causal influence. The author's corrections are retained rather than carrying forward that candidate unchanged.
+
+Author's closer summary, preserved verbatim:
+
+> Their account holds that human presence, or being in the loop, is insufficient for control, and that even a substantive causal contribution through intentional action may fall short of meaningful control, for example without the capacity to respond appropriately or to appreciate the system’s real capabilities.
+
+This is recorded as proposed wording, alongside the earlier three-sentence Tracking/Tracing replacement. Neither has been approved as an exact revised manuscript paragraph in this reply. The source supports the conceptual insufficiency claim with examples, including a button-pushing illustration quoted from Horowitz and Scharre. The cited original was not personally reviewed in this step. No empirical claim about institutional performance is adopted from these examples.
+
+Disposition: TAE-SR-02's assigned blocks and supplementary passage are now reported read within the stated scopes. The target TAE paragraph was compared using the previously reported pinned-file reading. The remaining task for these wordings is a bounded later-draft disposition, not another attestation of reading the same passages. All prior source and context receipts, publication/date qualifications, historical attestations, case packets, screening/proposition permissions, scores, original Jev adjudications and the closed research phase remain intact. The manuscript and website are unchanged.
