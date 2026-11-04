@@ -1,20 +1,18 @@
+<h1>
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/research/v1/tae-banner-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="assets/research/v1/tae-banner-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/research/v1/tae-banner-dark.svg">
-  <img src="assets/research/v1/tae-banner-light.svg" alt="Trust, Autonomy, and Evidence. Tracing the evidence for practical human control. Node & Norm." width="1000">
+  <source media="(max-width: 600px)" srcset="assets/research/v1/tae-banner-mobile-dark.svg">
+  <img src="assets/research/v1/tae-banner-dark.svg" alt="Trust, Autonomy, and Evidence" width="1000">
 </picture>
-
-# Trust, Autonomy, and Evidence
+</h1>
 
 What evidence shows that a person could understand a consequential decision, intervene and affect what happened? TAE reconstructs those conditions from records of three historical cases. [Research question and contribution](docs/research-summary.md).
 
 [Policy reader: understand in 90 seconds](#research-in-90-seconds) · [Reviewer: inspect the current paper](docs/current-review.md) · [Engineer: run the checks](docs/reference-verification.md)
 
-<a href="docs/research-phase-closeout-2026-10-16.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/research/v1/badges/tae-status-dark.svg"><img src="assets/research/v1/badges/tae-status-light.svg" alt="Status: methods closed; independent validation open"></picture></a>
-<a href="https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.18.0"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/research/v1/badges/tae-version-dark.svg"><img src="assets/research/v1/badges/tae-version-light.svg" alt="Repository: v0.18.0"></picture></a>
-<a href="LICENSE"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/research/v1/badges/tae-license-dark.svg"><img src="assets/research/v1/badges/tae-license-light.svg" alt="License: Apache-2.0"></picture></a>
-<a href="https://doi.org/10.5281/zenodo.23852566"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/research/v1/badges/tae-paper-dark.svg"><img src="assets/research/v1/badges/tae-paper-light.svg" alt="Paper: November 1, 2026"></picture></a>
+<a href="docs/research-phase-closeout-2026-10-16.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/research/v1/badges/tae-status-dark.svg"><img src="assets/research/v1/badges/tae-status-dark.svg" alt="Status: methods closed; independent validation open"></picture></a>
+<a href="https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.18.0"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/research/v1/badges/tae-version-dark.svg"><img src="assets/research/v1/badges/tae-version-dark.svg" alt="Repository: v0.18.0"></picture></a>
+<a href="LICENSE"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/research/v1/badges/tae-license-dark.svg"><img src="assets/research/v1/badges/tae-license-dark.svg" alt="License: Apache-2.0"></picture></a>
+<a href="https://doi.org/10.5281/zenodo.23852566"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/research/v1/badges/tae-paper-dark.svg"><img src="assets/research/v1/badges/tae-paper-dark.svg" alt="Paper: November 1, 2026"></picture></a>
 
 ## At a glance
 
