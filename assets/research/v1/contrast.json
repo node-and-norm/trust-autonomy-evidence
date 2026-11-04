@@ -1,0 +1,39 @@
+{
+  "method": "WCAG 2 relative luminance contrast formula",
+  "normal_text_minimum": 4.5,
+  "pairs": [
+    {
+      "theme": "light",
+      "role": "text",
+      "foreground": "#191820",
+      "background": "#F7F7F4",
+      "ratio": 16.4024,
+      "normal_text_aa": true
+    },
+    {
+      "theme": "light",
+      "role": "accent",
+      "foreground": "#5142D3",
+      "background": "#F7F7F4",
+      "ratio": 6.3736,
+      "normal_text_aa": true
+    },
+    {
+      "theme": "dark",
+      "role": "text",
+      "foreground": "#F7F7F4",
+      "background": "#191820",
+      "ratio": 16.4024,
+      "normal_text_aa": true
+    },
+    {
+      "theme": "dark",
+      "role": "accent",
+      "foreground": "#B5AFFF",
+      "background": "#191820",
+      "ratio": 8.8366,
+      "normal_text_aa": true
+    }
+  ],
+  "scope": "Declared opaque foreground/background pairs. Rendered page accessibility needs separate review."
+}
