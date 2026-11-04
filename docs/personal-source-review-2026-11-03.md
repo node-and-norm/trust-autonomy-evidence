@@ -14,6 +14,7 @@ The [November 1 manuscript](../paper/revisions/2026-11-01/main.tex) is the compa
 | TAE-SR-04 | Complete abstract reported read through an unidentified library-catalog record; publisher abstract display, publication details and body unread by the author | Compared with the already-reviewed TAE claims at 117/201/1189 | Three wording proposals recorded; detailed definition, workload and challenge-opportunity claims remain unverified; no manuscript approval |
 | TAE-SR-05 | Five assigned v1 sections reported read, including all of 5.3.1 through before 5.3.2; section-page confirmation, cited originals and journal body remain unchecked | Quoted passages at 131/253/1189 assessed in the earlier reply; efficacy comparison recorded as author interpretation | Earlier candidates and new summary remain proposals; citation/version treatment unresolved; historical line 1640 and partial receipt preserved; no manuscript approval |
 | TAE-SR-06 | Assigned O2/O3/O4 selections and six Chatham notes reported read; cited originals, historical page versions and original interview records retain their limits | Blocks 107–108 and the manuscript access qualification compared; released v0.6 assessment unread | Selected Oko reading complete locally; source, probability and causal limits retained; no manuscript, scoring or final reuse approval |
+| TAE-SR-07 | Assigned MOD, DSB and Hawley selections reported read; full inquiries, figures, cited originals and unassigned material retain their limits | Specified section 4.3 comparisons and full timing paragraph reviewed; no complete-manuscript approval | Selected Tornado reading complete locally; shared F4/F5 scope recorded; timing/category mismatch unresolved; no scoring or final reuse approval |
 
 Further passage assignments are not fixed by this first receipt. Matching earlier HIT reading may be reused within its actual scope, without assuming approval of a different TAE proposition.
 
@@ -563,3 +564,126 @@ The absence of a recording or transcript also leaves the quotation selection, la
 The assigned selections from O2 (Hoffman), O3 (Chatham House, including the six specified notes) and O4 (Shuster) are now reported read, along with the TAE context described in their receipts. This completes the selected Oko reading group only. The linked originals, earlier page versions, unassigned surrounding passages, original interview recordings/transcripts and released v0.6 assessment retain their stated unread or inaccessible status.
 
 The new receipts record reading scope, source qualifications and suggestions for later consideration. They do not approve an exact manuscript, final reuse disposition, revised assessment or scoring change. The historical P/P/P/P/P/P row, frozen packets, research gates, earlier review records, manuscript, website and public repository remain unchanged at this preparation stage. The two remaining case-evidence groups and final bounded-use decision are still pending.
+
+## TAE-SR-07 T2: MOD ZG710 summary, selected paragraphs, November 3, 2026
+
+Reviewer and decision authority: Mark Julius Banasihan, reporting directly in the current source-review conversation. Recorded with Codex assistance. This is a local reading receipt for the first source in the Tornado ZG710 group; no public save is attempted at this stage.
+
+### Source, route and scope
+
+Source: UK Ministry of Defence, [Military Aircraft Accident Summary: RAF Tornado GR Mk4A ZG710](https://assets.publishing.service.gov.uk/media/5a78e39b40f0b62b22cbd9a5/maas03_02_tornado_zg710_22mar03.pdf). The author reports reading through a direct fetch and text extraction. He identifies the cover date as May 2004 and the loss date as March 22, 2003. His page mapping follows the extraction's printed-page markers.
+
+He reports reading numbered paragraphs 4, 6–7, 9–12 and 14–15, including all three subparts of paragraph 15 and its concluding text on the following page. These span printed pages 2–5. Paragraphs 1–3, 5, 8, 13 and 16–20, including the recommendations, were visible but were not analyzed for this check. The full UK inquiry, US Army investigation and Hawley's account remain unread here. Seeing material in an extraction is not a reading attestation for those excluded passages.
+
+The TAE comparison concerns section 4.3's first paragraph (block 111) and the paragraphs beginning Comprehension, Feasibility and Exercise (blocks 114, 116 and 118) in the pinned November 1 manuscript at `2f462dcb147613c6634aab143102da81fcdbff93`. The author references block 115's distinction between institutional preparation and individual understanding; this does not establish a new full reading of that block. He saw block 117's timing wording but expressly says he did not otherwise review it. No complete section or manuscript reading is inferred.
+
+Codex separately confirmed the current PDF's May 2004 cover and inspected the frozen T2 manifest entry, which records a publication date of 2006. These observations concern potentially different date fields and remain unreconciled. The author did not newly review that manifest. Neither its date nor any other frozen source metadata is changed by this check.
+
+### Board findings and their qualifications
+
+| Paragraph locator | Author's account and retained boundary |
+| :--- | :--- |
+| 6–7: investigative basis | The UK Board worked in parallel with US Army investigations and used recorder data, wreckage and British/US statements. The document summarizes the UK Board only. Its described access is not the reviewer's inspection of the underlying evidence, the full inquiry or the US findings. |
+| 4 and 9: classification and launch | The account attributes the launch to the Patriot crew after an anti-radiation-missile classification and no identification response. The Board regards broad generic classification criteria as contributory. Retain the distinction between the threat category the crew monitored for and the category assigned to this track; the Hawley comparison is pending. |
+| 4 and 10: engagement rules | The crew complied with the applicable self-defense rules, while the Board found those rules inadequate to prevent the friendly-aircraft engagement and contributory to the accident. Compliance is relevant to the described authority and action; it does not by itself establish effective human control or informed challenge. |
+| 11: doctrine, training and timing | The source reports that the crew were fully trained while identifying inadequate preparation for Iraq-specific threats and false alarms. It describes doctrine favoring rapid engagement and trust in the system, an interval of about one minute, and probable reclassification if firing had been delayed. These are the Board's reported findings and counterfactual judgment, not a measurement of this crew's understanding or proof of an available informed-challenge route. |
+| 12: communications | Equipment in transit, a radio relay and a restricted air picture are described. The Board's expectation that better awareness would likely improve friendly identification remains qualified. The source does not establish all messages, delays or feasible alternatives for the particular decision. |
+| 14: Patriot-side identification | The Mode 4 interrogator worked, but Mode 1 codes were missing. The Board describes a possible contribution from autonomous operation and an increased accident probability. A functioning component is a potential resource to examine; it does not independently establish a timely route to the information or intervention TAE requires. |
+| 15: aircraft-side identification | The Board concludes that the aircraft's IFF had an unknown-to-aircrew fault, rejects disabling by the navigator and identifies the missing response as contributory. Its power-supply explanation is the most likely explanation, with some failures potentially undisplayed. Preserve the distinction between that probabilistic explanation and its stated fault conclusion. The source's conditional account of a working response is not an independently tested causal result in this review. |
+
+The author emphasizes that these findings bear on TAE's questions without settling individual cognition, feasible informed challenge or uncritical judgment. The reading does not demonstrate an absence of all evidence on those matters in the full investigations, which were not inspected. The user's characterization of the IFF problem as decisive is not adopted as a sole-cause conclusion: the selected summary identifies multiple contributory factors and qualified explanations.
+
+### Proposed clarifications to the TAE account
+
+The author proposes using numbered-paragraph locators, retaining the fully-trained statement alongside the training deficiencies, and pairing rule compliance with the Board's criticism of the rules. The existing broad reference and later citations should be checked against the specific numbered paragraphs if a draft is revised. This is a citation proposal, without changing the manuscript or source record.
+
+For feasibility, he proposes explicitly including paragraph 15's aircraft-side fault alongside paragraph 14's missing codes, with the probability qualifications on delay and operational picture retained. The aircraft-side problem identifies part of the wider system; it does not itself establish what the Patriot crew could detect or compensate for in time. The working Mode 4 interrogator can be examined as a possible resource only after relating it to the required informed-intervention function. This receipt does not assign a supported feasibility component or revise a P/I alternative.
+
+For comprehension and exercise, the doctrine/training account supplies institutional evidence to consider independently of Hawley's later analysis. It is not an event-specific reconstruction of beliefs, a finding of automation bias in an individual, or proof that a completed launch meets the original intervention criterion. Hawley's claims and the timing/category comparison remain pending.
+
+The author's comments that these boundaries fit the existing I and P/I treatments are an interpretation of the current account. They do not approve an assessment, resolve the competing interpretations, reopen a closed phase or authorize scoring changes. No exact replacement wording or final reuse decision is supplied.
+
+Disposition: the enumerated MOD passages and specified TAE comparison are reported read within the scope above. The Tornado group remains partial, with the Defense Science Board and Hawley selections pending. The full inquiries, other unassigned paragraphs and recommendations retain their unread/unreviewed status. Earlier receipts, frozen metadata, case ratings, source packets, manuscript, website and public repository remain unchanged at this local-record stage.
+
+## TAE-SR-07 T3/F4: shared DSB summary reading, November 3, 2026
+
+Reviewer and decision authority: Mark Julius Banasihan, reporting directly in the current source-review conversation. Recorded with Codex assistance. This local receipt supplements T2 and records the selected reading for reuse as F4; it does not complete either case group or authorize a public save.
+
+### Source, route and selected coverage
+
+Source: [Report of the Defense Science Board Task Force on Patriot System Performance: Report Summary](https://www.govinfo.gov/content/pkg/GOVPUB-D-PURL-LPS66633/pdf/GOVPUB-D-PURL-LPS66633.pdf). The author reports a direct GovInfo PDF fetch with text extraction and retained printed-page markers. He read the advisory/unclassified notice on page ii, both Introduction paragraphs on page 1 and the complete Fratricide Incidents section on page 2, including its final proposed solution. He identifies January 2005 on the cover and report form; this does not establish a publication day.
+
+He compares the reading with TAE's shared-source note, block 250 in the November 1 manuscript pinned at `2f462dcb147613c6634aab143102da81fcdbff93`. No new manuscript access route or whole-manuscript reading is asserted. The Patriot Missile Defense section, page 3's development/recommendations sections and the appendices were visible but were not analyzed. Images were not rendered in the text extraction. The classified final report was not read.
+
+The author also saw an appendix briefing title concerning an additional F/A-18 friendly-fire assessment. This records a listing, not inspection of the presentation, its evidentiary basis or independent proof of its delivery. The read Introduction describes where briefings are listed; the appendix observation does not extend the selected reading to the presentation or whole appendix.
+
+### Advisory status, aggregate scope and causal limits
+
+The page-ii notice identifies the DSB as a federal advisory committee providing independent advice to the Secretary of Defense. It states that the summary's views and recommendations need not represent the official Department of Defense position. Retain that status when attributing Task Force findings. The notice calls the summary unclassified, and the Introduction describes the full final report as classified. This review does not establish the final report's present release status or inspect its contents.
+
+The author reports the Task Force's August 2003–June 2004 work period and its identification of shortfalls extending beyond Patriot. The selected incident section gives an aggregate account of three incidents, without naming ZG710 or the F/A-18, supplying their dates or units, or presenting individual operator sequences. Its classification sentence is ambiguous as written. The author's likely reading of that sentence is not silently substituted, and this source alone is not used to assign an aircraft a particular threat category.
+
+The summary's statement that exact causes are often difficult to establish remains alongside its identification of shortfalls. Uncertainty is qualified rather than universal. This is not a newly inspected operator action, display state, command acknowledgment or timing trace. At the same time, its aggregate descriptions of protocols and displays remain substantive claims within their stated scope.
+
+### Findings, reasoning and proposals kept separate
+
+| Topic | Author's reading and retained qualification |
+| :--- | :--- |
+| Identification | The Task Force reports poor Mode IV performance and a history of problems in training. This is a system-level finding as presented in the summary. It does not locate the particular fault in either unnamed incident, identify which component failed there, or supersede T2's distinction between a working interrogator and the aircraft-side fault. |
+| Exposure and rare errors | The discussion of flights, fire units and possible observations is reasoning about how low-probability failures can have consequences at scale. It supplies no measured failure rate or calculated case-specific probability in the selected text. |
+| Shared awareness | The account concerns the combined air-defense architecture and describes weak battalion connections in some cases. It does not identify which incident had which connection or verify every actual message. Consistency with T2's description does not make it an independent incident-specific trace. |
+| Protocol and training | The Task Force describes a design that seemed poorly matched to the conditions, a largely automatic protocol and training to trust software. Preserve these qualifications and their aggregate scope. This does not establish an individual crew's beliefs, the operating mode at a particular launch or an unattended launch. |
+| Proposed remedy | More operator involvement, changes to software/displays/training, identification fixes and additional protections are proposed. The selected text does not show implementation, evaluation, successful repair or that the proposals would have prevented a particular incident. |
+
+The author distinguishes the source's institutional training account from individual understanding or judgment, and its proposed operator involvement from demonstrated effective control. These are qualifications on inference; they do not independently validate TAE's criteria or settle a stage rating.
+
+### Launch-level uncertainty and bounded reuse
+
+The source's largely-automatic description does not determine whether a particular launch was operator-initiated, what each battery's mode was, what a crew saw or understood, or whether a timely informed-intervention route existed. T2's attribution of ZG710's launch to its crew remains separately recorded. An aggregate automatic-protocol description neither contradicts that action attribution by itself nor determines the F/A-18's launch mode.
+
+The author proposes clarifying TAE's shared-source note with the advisory status, aggregate event context and proposed nature of the remedy. Those remain suggestions for later consideration. The same selected DSB reading can be referenced as F4 in the F/A-18 review without implying another independent reading, completing the F/A-18 group, or strengthening its event-level evidence.
+
+Disposition: all assigned DSB passages are reported read through the stated route. T3/F4's selected reading is complete and available for bounded cross-reference. Hawley's selected reading remains pending for the Tornado group; the Air Force and Ricks selections remain pending for F/A-18. Unassigned sections, images, full appendices and the classified report retain the limits above. Earlier receipts, case ratings, source packets, frozen metadata, manuscript, website and public repository remain unchanged at this local-record stage. No exact draft, final reuse disposition or scoring change is approved.
+
+## TAE-SR-07 T4/F5 and selected Tornado reading completion: November 3, 2026
+
+Reviewer and decision authority: Mark Julius Banasihan, reporting directly in the current source-review conversation. Recorded with Codex assistance. This entry completes the selected Tornado reading group locally. At preparation, publication of the new combined entries has not been authorized or attempted.
+
+### Source, route, dates and reading scope
+
+Source: John K. Hawley, [Looking Back at 20 Years of MANPRINT on Patriot: Observations and Lessons](https://www.govinfo.gov/content/pkg/GOVPUB-D101-PURL-gpo58824/pdf/GOVPUB-D101-PURL-gpo58824.pdf), ARL-SR-0158. The author reports a direct GovInfo PDF fetch with text extraction and retained printed page numbers. He identifies September 2007 on the report and reads its first findings-status disclaimer: the findings are not an official Department of the Army position unless designated by other authorized documents.
+
+He reports reading all assigned selections: the methods/model paragraphs across pages 2–3; the downstream-impact paragraph on page 3 through all page-4 prose; the first cautionary paragraph and separate supervisory-control definition on page 5; and the final page-6 paragraph through the first page-7 paragraph's decision-cycle-time sentence. The related TAE comparison covers the Hawley claims in Comprehension and Exercise and the full Feasibility timing paragraph, including block 117, which was only incidentally seen in the earlier T2 check. This is a new bounded context review, not a retroactive expansion of that earlier receipt.
+
+The page-1 Background, page-2 paragraph on MG Vane's concerns and intervening page-3 automation paragraph were visible but were not analyzed. Figures appeared only as extracted text and remain unread as figures. Cited originals, including classified inquiry reports, and the remaining operational-test discussion were not read. No figure inspection or whole-report verification is inferred.
+
+Codex separately inspected the current report's September 2007 identification. The frozen manifest's 2008 field remains distinct and unreconciled; the manuscript's appendix already identifies the report as September 2007. The author's reading does not change frozen metadata or establish which historical release date a separate catalog field represents.
+
+### What the inspected account supports
+
+| Topic | Author's reading and retained boundary |
+| :--- | :--- |
+| Method and model scope | Hawley reports inquiry-document review, interviews and observation of training/operations during the 2004 assessment. He describes the model as a broad conceptual explanation, not a step-by-step operator reconstruction. These are the researcher's methods and scope statements; this reading does not independently reproduce his assessment or verify his access to the underlying records. |
+| Known fallibilities and training | The account describes earlier misclassification problems and inadequate transfer into software changes, training and practice. Preserve its either/or qualification: users were uninformed, or effective action did not follow information. It does not establish that every user, or this crew, lacked knowledge. |
+| Community beliefs and misuse | Belief and culture claims concern the user community and conditions conducive to automation bias. The author distinguishes those claims from a finding that a particular crew acquiesced uncritically during a particular launch. Definitions and conditions do not by themselves reconstruct that action or mental state. |
+| Blame caution | Hawley's caution about attributing too much blame to operators and his account of earlier systemic decisions belong with the adverse evidence. They neither exonerate particular individuals nor allocate sole responsibility to an institution. |
+| Inquiry-derived quotations | Hawley states that several unreferenced quoted terms come from classified inquiry reports. These reach this review through Hawley; no original report or full quotation context was inspected. The statement is not generalized to every quotation or treated as an identified original provenance chain for each phrase. |
+| Supervisory-control definition | The definition requires ultimate human decision-making and treats uncritical acquiescence as insufficient. It is a stated conceptual criterion in Hawley's account, not an observed result showing that this crew satisfied or failed TAE's criterion. |
+
+The author proposes retaining these qualifications in the Comprehension and Exercise discussions. He regards the model's stated breadth as support for caution about event-specific inference. That supports a limit on the reading; it does not validate an I disposition, settle the original criterion or approve a score. The related MOD findings remain institutional evidence rather than a direct reading of crew beliefs.
+
+### Later development, timing and threat category
+
+The inspected pages discuss the later PDB-6 program and Fire Coordination Center changes, with their potential benefits and necessary demonstrations still framed conditionally. This is not a verified successful repair or an observed improvement in the 2003 crew's performance. The unassigned later operational-test results are not imported into the completed reading.
+
+Within that later-development discussion, Hawley nevertheless explicitly names the 2003 Tornado incident in a sub-ten-second statement about tactical-ballistic-missile timelines. Preserve that attributed historical claim rather than dismissing it as necessarily a later test measurement. Its data source and timing endpoints are not supplied in the selected sentence. The MOD summary gives about one minute to decide, also without a start point that resolves the comparison. The readings do not justify choosing one figure, treating them as identical intervals or calculating a reliable response margin.
+
+For threat category, T2 names the Tornado's anti-radiation-missile classification. The DSB summary remains aggregate and does not identify which aircraft received which classification; it does not independently assign that category to ZG710. Hawley's selected timing sentence uses a tactical-ballistic-missile context while naming the Tornado. The mismatch stays unresolved. It may concern differing intervals, source data, wording or doctrine, but none of those explanations is established by this review.
+
+The author also saw an aircraft-to-category assignment in Hawley's page-1 Background and flags it as requiring a separate check before use. That paragraph remains outside the completed selection. It is retained as an unverified lead, not used to resolve the mismatch or the DSB sentence, and does not automatically expand the fixed source-review queue. The F/A-18's case-specific account will be checked through the remaining assigned sources.
+
+### Selected-group completion and bounded shared use
+
+The assigned T2, T3 and T4 selections are now reported read within their stated access, page and context limits. This completes the selected Tornado reading group only. The same DSB and Hawley selections can be referenced as F4/F5 in the F/A-18 review without treating them as separate independent readings or as new event-level records.
+
+The Air Force announcement and Ricks account remain the two planned source checks before the final bounded-use decision. Full inquiries, quoted originals, unassigned material, figures and unresolved source questions retain the limits in the receipts. Citation refinements and suggested later clarifications remain proposals. No exact manuscript, final reuse decision, reassessment or scoring change is approved. The earlier records, frozen metadata and packets, case ratings, manuscript, website and public repository remain unchanged at this local preparation stage.
