@@ -1,0 +1,24 @@
+{
+  "source_repository": "node-and-norm/.github",
+  "source_commit": "4ab94ccbc906317797c3b56c554697d035bb9d97",
+  "source_directory": "assets/research/v1",
+  "source_url": "https://github.com/node-and-norm/.github/tree/4ab94ccbc906317797c3b56c554697d035bb9d97/assets/research/v1",
+  "asset_version": "1.0.0-draft",
+  "copy_policy": "Byte-identical reviewed copy. Regenerate in the source repository and update through a reviewed version change.",
+  "copied_files": {
+    "badges/tae-license-dark.svg": "722ee58ce079aeae3e00b26a369293926c87e1004033922e2206a6ad47e7d487",
+    "badges/tae-license-light.svg": "4927f93fe4b5f50371906f2a4a73eb17b30b7a0a4ed89cd19c153136355a10e7",
+    "badges/tae-paper-dark.svg": "2fa4faf20a4511a9eeb8d9031bad84537c36dd607e20468966f49083f3862a32",
+    "badges/tae-paper-light.svg": "a09c9d86b521dc54f4cfb402eb9cec5b8e80eba90a4044400c2b28deb537a660",
+    "badges/tae-status-dark.svg": "af8e037525ddffd35b34ba1e40efae95d408f653f060a769d118788938090530",
+    "badges/tae-status-light.svg": "1826bb6471cfd9da20a4d3ee834a82b7f34b55a197277adf7c0ac87591043666",
+    "badges/tae-version-dark.svg": "4bf9b1e6b1bd899c74f82887a16e4fb214b47b5eeab01fdaaf2e770c255bde73",
+    "badges/tae-version-light.svg": "6ca14f13085b78470b5d8db5e5f9acd0659ed31deef3828b6e18f64ba880d657",
+    "contrast.json": "5479bc392f4e30892f784d8d6bad8040c5867067488627c1d3533c1a93fb1a1c",
+    "manifest.json": "0b02bf491b483e69e5b37a4d609fb11655f3942c17885eda48abb36af05fb235",
+    "tae-banner-dark.svg": "bc453e1bf171d54612594127d72cd6ae4efac582693f2eebb44cfa54bb3079e1",
+    "tae-banner-light.svg": "53c2fa9b5966e4a024ee7822282aa5fb43816dd0047063d00ead8d9c66c100ba",
+    "tae-banner-mobile-dark.svg": "9748e672057e1ecd2d850191f3f8de37ee6038a75c15e86381e755d41cbe8cb9",
+    "tae-banner-mobile-light.svg": "38494cd3015e604652fcdebb7305ad09c4e66878bcacc52099066e2d87edfb96"
+  }
+}
