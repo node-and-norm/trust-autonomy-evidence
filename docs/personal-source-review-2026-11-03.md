@@ -12,7 +12,7 @@ The [November 1 manuscript](../paper/revisions/2026-11-01/main.tex) is the compa
 | TAE-SR-02 | Reported complete for the three Tracking/Tracing blocks and the first two ideas in the identified earlier passage; supplementary access route not restated | First section 2.1 paragraph compared using the previously read raw manuscript at the pinned commit | Three-sentence replacement and revised closing summary recorded as proposals; modality and attribution limits retained; no manuscript approval |
 | TAE-SR-03 | Reported complete for the selected IFAC PDF passages, including the page-776 continuation and rare-intervention discussion | All four Bainbridge citation contexts and historical provenance reviewed within the reported scope; neighboring-source claims remain unreviewed | Author proposals and dated provenance supplement recorded; challenge-opportunity source remains unresolved; no exact-draft approval |
 | TAE-SR-04 | Complete abstract reported read through an unidentified library-catalog record; publisher abstract display, publication details and body unread by the author | Compared with the already-reviewed TAE claims at 117/201/1189 | Three wording proposals recorded; detailed definition, workload and challenge-opportunity claims remain unverified; no manuscript approval |
-| TAE-SR-05 | Sections 1.2, 2.3.1, 4.3.3 and 4.3.4 of arXiv v1 reported read by headings; section 5.3.1 in full, printed page numbers and journal body unread | Quoted passages at 131/253/1189 assessed; no new manuscript access route supplied | Two suggestions recorded; citation/version treatment unresolved; historical line 1640 preserved; no manuscript approval |
+| TAE-SR-05 | Five assigned v1 sections reported read, including all of 5.3.1 through before 5.3.2; section-page confirmation, cited originals and journal body remain unchecked | Quoted passages at 131/253/1189 assessed in the earlier reply; efficacy comparison recorded as author interpretation | Earlier candidates and new summary remain proposals; citation/version treatment unresolved; historical line 1640 and partial receipt preserved; no manuscript approval |
 
 Further passage assignments are not fixed by this first receipt. Matching earlier HIT reading may be reused within its actual scope, without assuming approval of a different TAE proposition.
 
@@ -392,3 +392,44 @@ These are suggestions for later consideration, without approval of an exact manu
 The existing line-1640 note says that the full author preprint was examined and that the final article was available only at preview level in the earlier review. That note predates this check and does not identify a preprint version. At the author's instruction it remains as written. This dated receipt separately names v1 and the four sections personally reported read, with section 5.3.1, page-number confirmation and the journal body explicitly unread. It neither replaces the older access history nor converts that older full-preprint statement into a new personal whole-paper attestation.
 
 Disposition: four section readings are reported complete within the stated extraction and version limits; TAE-SR-05 remains partial because the assigned section 5.3.1 reading is pending. Wording and citation decisions remain proposals. All earlier receipts, historical attestations, source packets, screening/proposition permissions, scores, Jev adjudications, the closed phase, manuscripts and website remain unchanged.
+
+## TAE-SR-05 efficacy passage and selected-reading completion: November 3, 2026
+
+Reviewer and decision authority: Mark Julius Banasihan, reporting directly in the current source-review conversation. Recorded with Codex assistance. This receipt supplements the earlier partial entry; its reading status was accurate when recorded and remains preserved as history.
+
+### Reported route and completed selection
+
+The author reports reading all of section 5.3.1, Evaluating Efficacy of Ethical Assurance, and stopping at the section 5.3.2 heading. He identifies his route as an uploaded PDF named `2110_05164v1.pdf` supplied directly in his context. He reports matching its title-page date of October 12, 2021 and arXiv v1 stamp of October 11, 2021 to the requested version. He also reports that its opening matched earlier snippet fragments and that he now relies on the section text for this account.
+
+Record this as the author's reported copy and route. Codex has not inspected or matched that uploaded file, and no hash or authenticated byte identity has been established. Codex separately inspected section 5.3.1 in the publicly available [arXiv v1 PDF](https://arxiv.org/pdf/2110.05164v1); that check does not authenticate the uploaded copy or the author's access.
+
+Together with the earlier receipt, the author now reports reading all five assigned text sections: 1.2, 2.3.1, 4.3.3, 4.3.4 and 5.3.1. Section 5.3.2 and the cited originals remain outside the assignment. Section-page confirmation remains unreported, beyond his title-page identification. The journal-version body is still unread and has not been compared with v1. No complete-preprint personal reading is asserted.
+
+### Efficacy account, attributions and limits
+
+| Content locator in section 5.3.1 | Author's correction and retained boundary |
+| :--- | :--- |
+| Opening inconclusive-benefits account | The authors discuss whether argument-based assurance and safety cases deliver the benefits attributed to them. Their extension of measurement difficulties to ethical assurance is an analogy. This is not a measured finding about ethical assurance's effectiveness. |
+| Named failure | The section refers generally to failures but develops one named illustration: the 2006 loss of RAF Nimrod XV230. Its quotations and account of the safety case come through Burr and Leslie's presentation of the Haddon-Cave review. That review has not been personally checked in this assignment. |
+| Organizational conditions | Burr and Leslie interpret part of the Nimrod failure through organizational culture and argue that the case does not justify abandoning argument-based assurance. They also cite conditional optimism about digital-health safety cases from Sujan and Habli. These are their interpretations and attributed claims, not an independently established causal finding from this review. |
+| Two measurement obstacles | The authors attribute to Sujan and Habli the difficulty of obtaining causal-impact evidence for rare, severe events and the difficulty of isolating relevant factors when safety-case practices vary across domains. The original Sujan and Habli work remains unread here. |
+| Extension to ethical assurance | Burr and Leslie expect related difficulties to apply to ethical assurance. They cite Ananny and Crawford on limited empirical confirmation of a transparency-to-trust relationship; that original also remains unread. Preserve the distinction between their analogical reasoning and their cited findings. |
+| Closing research step | They call for research into substantive and structural factors contributing to success or failure. The inspected section specifies no study design, outcome measure or evaluation method for that research. |
+
+The author reports no new measurements in section 5.3.1 and finds no evaluation of ethical assurance or validation of TAE in that section. His broader phrase about efficacy evidence in the preprint is retained only at the inspected-section level: the selected reading does not establish a whole-preprint absence of empirical material. Organizational culture is a proposed explanatory condition in this discussion; this review neither measures it nor establishes its causal effect.
+
+### Internal cross-reference and TAE interpretation
+
+The author flags that section 5.3.1 refers to benefits in section 2.3, while the benefits heading is in section 2.2 and section 2.3 concerns building a case. Codex separately confirmed those headings in v1. This identifies an internal-reference mismatch to consider if the passage is used later. It does not attest the author's full reading of section 2.2, authorize correction of the source, or establish the corresponding journal text.
+
+The author connects the measurement problem for rare consequential events with TAE's retrospective case-based procedure and treats the Nimrod discussion as a warning about documentary assurance losing practical force. Record these as his interpretations. The analogy does not measure TAE's causal impact or demonstrate that its procedure addresses the failure described. The selected passage does not establish that a particular assurance document was complete and signed or that its producers had stopped reasoning; those additional details would need their own source support before use as case facts.
+
+### Author's proposed review-record wording
+
+Preserved verbatim as a proposal:
+
+> In the 2021 preprint (§5.3.1), Burr and Leslie report that evidence on whether assurance cases deliver their stated benefits remains inconclusive. Drawing on the Nimrod review and Sujan and Habli (2021), they attribute part of one safety-case failure to organisational culture, give two reasons safety-case efficacy is hard to measure, expect similar difficulties for ethical assurance, and call for research on which substantive and structural factors shape its success or failure.
+
+The proposed paragraph should be read with the attribution split above: the Nimrod review supplies the failure account as presented by Burr and Leslie, while Sujan and Habli supply the two measurement obstacles as attributed by them. The underlying originals remain unchecked. This paragraph and the two earlier manuscript candidates remain proposals; no final wording, citation/version treatment or manuscript substitution is approved by this reply.
+
+Disposition: TAE-SR-05's five assigned section readings are reported complete within the stated access and version limits. Page-location uncertainty, unread originals, the unread journal body, version treatment and bounded wording proposals remain explicit. The historical line-1640 note and earlier partial receipt remain as written. Historical attestations, source packets, screening/proposition permissions, scores, Jev adjudications, the closed phase, manuscripts and website remain unchanged.
