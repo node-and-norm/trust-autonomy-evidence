@@ -13,6 +13,7 @@ The [November 1 manuscript](../paper/revisions/2026-11-01/main.tex) is the compa
 | TAE-SR-03 | Reported complete for the selected IFAC PDF passages, including the page-776 continuation and rare-intervention discussion | All four Bainbridge citation contexts and historical provenance reviewed within the reported scope; neighboring-source claims remain unreviewed | Author proposals and dated provenance supplement recorded; challenge-opportunity source remains unresolved; no exact-draft approval |
 | TAE-SR-04 | Complete abstract reported read through an unidentified library-catalog record; publisher abstract display, publication details and body unread by the author | Compared with the already-reviewed TAE claims at 117/201/1189 | Three wording proposals recorded; detailed definition, workload and challenge-opportunity claims remain unverified; no manuscript approval |
 | TAE-SR-05 | Five assigned v1 sections reported read, including all of 5.3.1 through before 5.3.2; section-page confirmation, cited originals and journal body remain unchecked | Quoted passages at 131/253/1189 assessed in the earlier reply; efficacy comparison recorded as author interpretation | Earlier candidates and new summary remain proposals; citation/version treatment unresolved; historical line 1640 and partial receipt preserved; no manuscript approval |
+| TAE-SR-06 | Assigned O2/O3/O4 selections and six Chatham notes reported read; cited originals, historical page versions and original interview records retain their limits | Blocks 107–108 and the manuscript access qualification compared; released v0.6 assessment unread | Selected Oko reading complete locally; source, probability and causal limits retained; no manuscript, scoring or final reuse approval |
 
 Further passage assignments are not fixed by this first receipt. Matching earlier HIT reading may be reused within its actual scope, without assuming approval of a different TAE proposition.
 
@@ -433,3 +434,132 @@ Preserved verbatim as a proposal:
 The proposed paragraph should be read with the attribution split above: the Nimrod review supplies the failure account as presented by Burr and Leslie, while Sujan and Habli supply the two measurement obstacles as attributed by them. The underlying originals remain unchecked. This paragraph and the two earlier manuscript candidates remain proposals; no final wording, citation/version treatment or manuscript substitution is approved by this reply.
 
 Disposition: TAE-SR-05's five assigned section readings are reported complete within the stated access and version limits. Page-location uncertainty, unread originals, the unread journal body, version treatment and bounded wording proposals remain explicit. The historical line-1640 note and earlier partial receipt remain as written. Historical attestations, source packets, screening/proposition permissions, scores, Jev adjudications, the closed phase, manuscripts and website remain unchanged.
+
+## TAE-SR-06 O2: Hoffman legacy-page reading, November 3, 2026
+
+Reviewer and decision authority: Mark Julius Banasihan, reporting directly in the current source-review conversation. Recorded with Codex assistance. This is the first source receipt in the Oko group; it does not complete review of the Oko packet.
+
+### Reported source, route and selection
+
+The author reports that the requested Washington Post archive URL refused automated access. He instead read the [Post's legacy page](https://www.washingtonpost.com/wp-srv/inatl/longterm/coldwar/shatter021099b.htm), found through search. He identifies the headline as 'I Had A Funny Feeling in My Gut,' the byline as David Hoffman, Washington Post Foreign Service, and the displayed publication details as Wednesday, February 10, 1999, page A19. He has not compared the legacy and archive versions. He reports that the extraction drops dashes and joins some sentences.
+
+Codex separately retrieved the current legacy page and confirmed those displayed details. An earlier Codex retrieval of the [archive route](https://www.washingtonpost.com/archive/politics/1999/02/10/i-had-a-funny-feeling-in-my-gut/97fb4af6-2a54-4805-8ec0-115a13f33493/) displayed February 9, 1999. Preserve both observations without reconciling their dates or asserting identity of the two versions. Neither current retrieval authenticates the author's copy or a historical sealed source packet.
+
+The author reports reading every requested passage, identified by the content from the responsibility paragraph through the radar paragraph, plus the paragraph about unknown events at the highest Kremlin levels. He counts ten paragraphs in the first range and one additional paragraph. Use the content locators where page layout or extraction groups paragraphs differently. He also saw surrounding material because the whole article was returned, but limits his relied-on selection as described below.
+
+For TAE context, he reports reading blocks 107 and 108 in the pinned `main.tex` copy, corresponding to the first two paragraphs of section 4.2 at commit `2f462dcb147613c6634aab143102da81fcdbff93`. He did not open the released v0.6 Oko assessment quoted there. This is not an attestation of reading that assessment, the other Oko sources or the whole manuscript.
+
+### Reported corrections and evidentiary boundaries
+
+| Topic | Author's reading and retained qualification |
+| :--- | :--- |
+| Reporting sequence | The later account reports that an automatic alert had already reached the general staff before Petrov judged the reports. The author proposes making that sequence explicit if the TAE account is revised later, so its quoted endpoint is not read as saying no alert had escalated. This is reported recollection, not verified command-system timing. |
+| Judgment and reasons | Petrov's task in the account was to assess whether the launch reports were genuine. The account attributes his decision to his expectations about attack size and the absence of ground-radar evidence, under stress and within a recalled short interval. Preserve the distinction between a judgment about warning authenticity and a decision to launch or withhold retaliation. |
+| Radar qualification | The article also describes a separate radar command center and detection delayed by the horizon. The author's inference is that radar silence at that moment offers limited corroboration. This reading does not reconstruct exact sensor coverage, delay or the information actually available across commands. Retaining this qualifier in any later discussion of reasons would require no automatic stage recoding. |
+| Authority | The article describes a reporting chain above Petrov involving warning-system headquarters, the general staff and consultation with Andropov. It supports separating his assessment role from higher-level decisions. That description does not independently verify a formal authorization protocol, which leaders actually received which information, or what they decided that night. |
+| Outcome | The author finds the source's tentative outcome wording and its stated uncertainty about the highest Kremlin levels consistent with TAE's existing sole-cause limit. A reported decision and the subsequent absence of retaliation do not establish the counterfactual outcome without it. |
+
+The author considers blocks 107 and 108 consistent with the selected account, while suggesting the reporting, role and uncertainty qualifications above. The endpoint quoted in block 107 remains an attributed released-assessment statement. This source check neither reopens that assessment nor verifies the endpoint against contemporaneous records.
+
+### Later recollection, records and unreviewed material
+
+The author treats Hoffman as a journalist relaying a participant's recollection roughly fifteen years after the event. Recalled timing, reasons and another officer's behavior remain attributed to that account. An article reporting the interview does not independently corroborate the underlying event or authenticate a complete interview transcript.
+
+Within the selection, the article describes an official account as secret in 1999. The author interprets this as support for distinguishing unlocated or inaccessible records from nonexistent records. Preserve the article's historical access claim as attributed: it identifies no particular command log or investigation file and does not establish the availability of records today. TAE's statement that no such record was located remains bounded to its packet and review.
+
+Two surrounding passages, about an investigation questioning record keeping and about a cloud-reflection explanation attributed to Petrov and other sources, were seen but were not part of this completed check. The author calls for a separate check before relying on them. They are not newly verified findings in this receipt. The Pry and CIA references in the selected final paragraph concern broader context; their originals were not reviewed and are not independent bunker-event evidence established here.
+
+The author also notes that the name Oko and the packet's classification wording come from elsewhere. This reading does not verify those terms through Hoffman. The archive version, a comparison of versions, O3 (Lewis and colleagues), O4 (Shuster), and the released v0.6 assessment remain unread in this check.
+
+Disposition: the selected Hoffman passages and blocks 107–108 are reported read through the stated alternative route. The Oko group remains partial. These are bounded source qualifications and suggestions for later consideration, without an exact replacement, manuscript approval or scoring decision. P/P/P/P/P/P, the historical assessments, all earlier receipts, source packets, research gates, manuscript and website remain unchanged.
+
+## TAE-SR-06 O3: Chatham House selected-page review, November 3, 2026
+
+Reviewer and decision authority: Mark Julius Banasihan, reporting directly in the current source-review conversation. Recorded with Codex assistance. This receipt supplements the O2 receipt. At preparation, both new receipts were held locally and no public save was attempted.
+
+### Reported route and scope
+
+Source: Patricia Lewis, Heather Williams, Benoît Pelopidas and Sasan Aghlani, [Too Close for Comfort: Cases of Near Nuclear Use and Options for Policy](https://www.chathamhouse.org/sites/default/files/field/field_document/20140428TooCloseforComfortNuclearUseLewisWilliamsPelopidasAghlani.pdf), April 2014, ISBN `978 1 78413 014 5`.
+
+The author reports reading the two assigned printed-page-26 paragraphs and notes 204–205 from an uploaded full-report PDF supplied directly in his context. He identifies the report by its date and ISBN and says the footers confirm the printed page numbers. He also reports that the uploaded page-13 text matches what he previously read through a direct fetch. Record that earlier reading and comparison as his current report, without inventing a separate earlier receipt or its date. Codex has inspected the public report separately but has not matched or authenticated his uploaded copy; no file identifier or hash was supplied.
+
+On page 26, the assigned selection is the standalone Petrov paragraph in the decision-makers subsection and the first paragraph in the prudent-judgment subsection, through note 205. He stopped before the next paragraph. His account also discusses the assigned page-13 case text. He identifies sources in notes 77–80 and refers to earlier findings about those notes, but his current reply explicitly confirms full reading only for notes 204–205. Full reading coverage of notes 77–80 remains to be confirmed; identifying their references alone is not promoted to a complete note-reading attestation.
+
+### Wording differences retained without repair
+
+| Issue | Author's report and retained limit |
+| :--- | :--- |
+| False-alarm reporting | The page-13 case account and the second selected page-26 paragraph describe reporting a false alarm. The first selected page-26 paragraph instead describes not reporting it as false. Preserve the literal inconsistency. The author's suggested intended meaning is an interpretation; the record does not silently substitute it or establish which version describes the event. |
+| Protocol | The pages describe different actors, recipients and timing, and only page 26 expressly frames the decision as contrary to protocol. The author identifies no note attached to either protocol sentence. These are differences in the report's descriptions; they do not independently establish an operational protocol or prove that every detail is logically incompatible. The earlier Hoffman account of an automatic alert remains a separately attributed account, not a verified resolution of the differences. |
+| Outcome certainty | Page 13 allows that another decision-maker could have reached the same judgment; page 26 credits Petrov more categorically with preventing authorization based on misperception. Retain this difference in certainty and the tension with Hoffman's stated limits. The stronger wording supplies neither independent counterfactual evidence nor proof of sole causation. |
+| Negligence | The author identifies negligence as the report authors' evaluative framing of uncertain judgment. It is not an independently checked event fact or a reason to change a TAE stage rating. |
+| Scientific background and operator comparison | The report attributes significance to Petrov's background and compares his analysis with regular operators. The author finds no separate note at that sentence; notes 204 and 205 attach to neighboring material. Citation placement does not establish the full scope of evidentiary backing, and the unread originals have not been checked for this claim. |
+
+The author regards page 13's qualification and Hoffman's uncertainty as consistent with TAE's existing outcome limits. That judgment does not reconcile the report's language, verify actual higher-command decisions or revise the frozen case assessment.
+
+### Notes, shared lineage and unread originals
+
+The author explicitly read note 205's attribution to Hoffman and compared its quotation with his earlier reading of the Post's legacy page. He reports a match with an indicated omission. This identifies a shared source for that quotation, subject to the legacy/archive version qualification already recorded. It is not an additional independent witness to the event, a complete text comparison or a finding that every part of the Chatham House account has the same lineage.
+
+Note 204 points to a 2013 BBC article by Pavel Aksenov. The author has not read it. Its title is qualified, while the report attaches the reference to stronger outcome wording; whether the original supports that wording remains unknown. A proposed link from this article to another Petrov retelling is tentative and is not treated as established source lineage.
+
+The author identifies the page-13 references as Vasilyev, Libak, Barrass and a National Security Archive item. These cited originals remain unread here. In the public report, Codex separately identifies notes 77 and 78 as references to interviews, note 79 as a secondary history, and note 80 as a contextual archive reference. This is a check of the notes, not personal reading of their linked originals. In particular, the uninspected archive collection cannot be classified as containing no contemporaneous documents. The selected citations do not supply a newly inspected contemporaneous Soviet record of the Serpukhov event in this review.
+
+The author corrects an earlier dependence summary by noting that Hoffman is cited in note 205 and that he also saw a Hoffman reference in note 187 outside the assignment. Preserve this correction as his present report; it does not create a prior receipt that is absent from this sequence. The qualified finding is that the report uses the Hoffman interview as well as references to later interviews, not that every citation is independent or that all underlying interviews have now been read.
+
+### Outside-scope observations and disposition
+
+The author saw other Petrov mentions on page 26, a protocol passage on page 27, note 187 on page 24 and title terminology in note 89 on page 14. These were outside the assigned analysis. His observation about the report's use of a title for Andropov remains an editorial lead; this receipt does not verify the historical offices through the cited original or expand the completed passage selection.
+
+Disposition: the selected page-26 paragraphs and notes 204–205 are explicitly reported read; page-13 case reading and comparison are reported through the earlier-fetch route. Confirmation of full reading of notes 77–80 remains pending. O4 and the released v0.6 assessment remain unread. The Oko group is partial. No intended-wording repair, exact manuscript replacement, scoring change or final reuse approval is inferred. The earlier receipts, P/P/P/P/P/P coding, historical assessments, source packets, research gates, manuscript, website and public repository remain unchanged.
+
+## TAE-SR-06 O3 note-reading confirmation: November 3, 2026
+
+Reviewer and decision authority: Mark Julius Banasihan, reporting directly in the current source-review conversation. Recorded with Codex assistance. This supplement preserves the earlier receipt's pending status as history and resolves the specific coverage question it recorded.
+
+The author expressly confirms reading all four notes 77–80 in full through two routes: the direct Chatham House PDF extraction and the uploaded report in his context. He reports that the extraction placed notes 74–81 at the beginning of the page-13 text and that the uploaded page's four notes matched word for word. This is his reported comparison of those notes, not a Codex match of the uploaded file, an authenticated byte comparison or a claim about the whole report.
+
+He identifies note 77 as Petrov's interview in Vasilyev's 2004 Moscow News article, note 78 as Petrov's interview in Libak's 2004 Weekendavisen article, and note 79 as Barrass's 2009 secondary history, page 296. He confirms reading all of note 80, including the Tsygichko quotation, the National Security Archive briefing-book title, URL and recorded access date of October 22, 2013. That date belongs to the report's citation history; it is not the date of the author's current reading or of a new retrieval of the linked collection.
+
+The linked originals remain unread. The confirmation establishes note-reading coverage, without inspecting the sources' contents, resolving the report's conflicting wording or establishing independent event evidence. The earlier distinction between a quotation relayed through Hoffman and a separate original witness remains intact. No additional source reading or source-copy identity is inferred.
+
+Disposition: the assigned O3 page-13 and page-26 text selections and notes 77–80 and 204–205 are now reported read within the routes and limits recorded above and in the preceding receipt. This completes the selected Chatham House reading. O4 remains pending, so the Oko group is still partial. The released v0.6 assessment and cited originals remain unread; P/P/P/P/P/P coding, manuscript, website and public repository remain unchanged at this local-record stage. No manuscript replacement or final reuse decision is authorized by this confirmation.
+
+## TAE-SR-06 O4 and selected Oko reading completion: November 3, 2026
+
+Reviewer and decision authority: Mark Julius Banasihan, reporting directly in the current source-review conversation. Recorded with Codex assistance. This entry completes the selected reading group in the local working record; publication of the combined Oko entries has not been authorized or attempted.
+
+### Reported source, route and coverage
+
+Source: Simon Shuster's [TIME article](https://time.com/4947879/stanislav-petrov-russia-nuclear-war-obituary/), published September 19, 2017, reporting a phone interview in 2015. The author reports reading all assigned paragraphs through a direct fetch: the two interview-context/system paragraphs and the alarm account through the reflection analogy, stopping before the paragraph returning to the interview-day present. He skipped the media and intervening historical background. The headline and opening were seen and set aside as the publication's framing.
+
+The author reports a modification time of October 8, 2026, alongside the 2017 publication time. The exact metadata field or a retained source representation was not supplied, and Codex's current extracted text does not independently confirm that modification field. Preserve it as the author's metadata observation. A date field alone does not establish which text changed or when the sponsored material appeared.
+
+He reports skipping a Project Management Institute sponsored block above Shuster's body. Codex separately retrieved the expected Shuster body after unrelated sponsored material, with the 2017 byline. The sponsored block's own date is not an article-update date. This is a current retrieval observation, without identity with earlier displayed versions or sealed packet bytes. The existing manuscript's O2/O3/O4 source-access paragraph retains the historical same-URL variation qualification; content locators govern where line representations differ.
+
+The original 2015 recording or transcript was inaccessible to the author, and earlier displayed versions, skipped material and the later article paragraphs remain unread in this check. The Russian interjection and English gloss demonstrate mediation through the article. They do not by themselves establish who translated every quotation or the original language of the whole interview.
+
+### Participant recollection and article narration
+
+| Topic | Author's account and retained boundary |
+| :--- | :--- |
+| Uncertainty | The article attributes a subjective fifty-fifty recollection and reluctance to start a war to Petrov. Its description of system confidence is a different quantity. The factor reported through Chatham's earlier interview quotation is not a calibrated probability established by this review. Retain each formulation with its source; do not normalize the numbers or treat them as directly contradictory measurements. |
+| Reasons across selections | The author contrasts the emphasis in this selection with Hoffman's attack-size and radar account. This records variation among selected retellings, without showing that the original reasoning changed or that an omitted reason was absent from the full interview. The underlying 2004 interview was not newly read. |
+| Reporting | The article narrates a false-alarm report to commanders while describing confirmation to political leaders more directly. The author's comparison with Hoffman's intermediate reporting chain identifies compression and differing levels of detail. These texts do not establish the actual information received at each level. |
+| Authority and outcome | The sentence describing a retaliatory strike as following confirmation is Shuster's narration, without a separately identified record or a direct Petrov quotation at that sentence. Treat it as an unverified outcome/authority claim, not a documented Soviet procedure, an automatic response established by the review or proof of prevented retaliation. Its greater certainty is not a resolution of the other accounts' limits. |
+| System name and facility | The name Oko and the facility/design details appear in Shuster's narrative. Among the selected sources personally reported read, this supplies an attribution for TAE's naming. It is not independent verification of the system's design history or all technical details. |
+| Investigation and cause | The six-month investigation and discovery account is narrated without a separately identified source at those sentences. The author's suggestion that it likely came from Petrov remains tentative. No investigation file, participant list or causal reconstruction was inspected. The surrounding Hoffman investigation material retains its earlier outside-scope status. |
+
+The author compares this reading with the previously read TAE blocks 107–108 and the manuscript's access qualification. The selected article supports a bounded report of what was later said and narrated about the alarm and false-alarm judgment. The released v0.6 assessment itself remains unread; no stronger endpoint, command-chain or causal finding is established by this comparison.
+
+### Retellings and source dependence
+
+Shuster provides another later journalistic account drawing on the same participant. The author refers to several retellings, including interviews cited in Chatham. Reading Chatham's citations does not establish personal reading of those underlying interviews. The BBC item's proposed connection to another Petrov interview remains unverified because its original was not read. No count of independently corroborating witnesses or personally read original interviews is inferred from this list.
+
+The absence of a recording or transcript also leaves the quotation selection, language and surrounding context uninspected at interview level. These access limits do not establish that the published account is false; they bound what this check can confirm. TAE's existing qualification against a sole-cause retaliation finding is retained, without revising the source or choosing a definitive event narrative.
+
+### Selected-group disposition
+
+The assigned selections from O2 (Hoffman), O3 (Chatham House, including the six specified notes) and O4 (Shuster) are now reported read, along with the TAE context described in their receipts. This completes the selected Oko reading group only. The linked originals, earlier page versions, unassigned surrounding passages, original interview recordings/transcripts and released v0.6 assessment retain their stated unread or inaccessible status.
+
+The new receipts record reading scope, source qualifications and suggestions for later consideration. They do not approve an exact manuscript, final reuse disposition, revised assessment or scoring change. The historical P/P/P/P/P/P row, frozen packets, research gates, earlier review records, manuscript, website and public repository remain unchanged at this preparation stage. The two remaining case-evidence groups and final bounded-use decision are still pending.
