@@ -20,7 +20,7 @@ What evidence shows that a person could understand a consequential decision, int
 
 [November 8 main preprint](paper/revisions/2026-11-08/preprint_two_column.pdf) · [Companion supplement](paper/revisions/2026-11-08/preprint_supplement.pdf) · [Plain-English historical study book](notebooks/historical-study/00_READ_FIRST.ipynb) · [Revision and submission status](paper/revisions/2026-11-08/README.md)
 
-**arXiv status: declined**, as reported by the author on November 8 from the moderation notification. The manuscript was not publicly announced on arXiv. The main PDF is the verified arXiv-processed submission copy with its genuine side watermark; the supplement remains a local compile. The watermark is a submission mark, not a public article identifier or acceptance. The November 1 DOI badge above identifies the older deposited edition, not this revision. This editorial update does not establish new validation.
+The November 8 revision is available in this repository; the earlier November 1 edition is deposited on Zenodo. The main PDF is the verified arXiv-processed submission copy with its genuine side watermark; the supplement remains a local compile. The watermark is a submission mark, not a public article identifier or acceptance. The November 1 DOI badge above identifies the older deposited edition, not this revision. This editorial update does not establish new validation.
 
 ## Choose a notebook
 

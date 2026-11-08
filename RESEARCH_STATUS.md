@@ -10,7 +10,7 @@
 
 **Phase status:** Closed for the bounded methods demonstration, approved reassessment and initial Jev experiments. This closes active work in the declared scope, without treating open validation questions as answered. See [phase closeout](docs/research-phase-closeout-2026-10-16.md).
 
-**arXiv status:** **Declined**, reported by the author on November 8, 2026 from the moderation notification. The manuscript was not publicly announced on arXiv and has no public arXiv article identifier. Earlier “Article submitted” and “on hold” observations describe prior processing checkpoints, not the current disposition. `7973196` and the retained PDF watermark identify that submission only. The private notification is not reproduced here; no reason beyond this reported disposition is asserted. The Zenodo editions retain their existing identities. Venue status does not change the preserved evidence or reopen the completed research phase.
+**Availability:** The November 8 editorial revision is available in this repository. The November 1 and earlier deposited editions remain available under their existing Zenodo DOIs. The retained arXiv-processed PDF watermark documents submission processing only; it is not a public article identifier, acceptance or peer review. Publication availability does not change the preserved evidence or reopen the completed research phase.
 
 **Next phase trigger:** A public preprint announcement can prompt a publication-status and citation update. Independent replication, a contemporary trace-based case, a prospective sandbox study or a measured human/AI comparison requires a separately scoped study. A venue announcement alone does not validate the method or require another experiment.
 

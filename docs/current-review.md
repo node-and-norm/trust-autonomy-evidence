@@ -21,7 +21,7 @@ Start with the **November 8, 2026 editorial revision** of *From Formal Authority
 
 | Artifact | Date and identity | Scope |
 | :--- | :--- | :--- |
-| Latest editorial revision | November 8, 2026. [Revision record](../paper/revisions/2026-11-08/README.md) | 21-page main and 15-page supplement; arXiv submission declined, reported by the author on November 8; not publicly announced on arXiv. No public arXiv identifier or new DOI asserted. |
+| Latest editorial revision | November 8, 2026. [Revision record](../paper/revisions/2026-11-08/README.md) | 21-page main and 15-page supplement available in this repository. No public arXiv identifier or new DOI asserted. |
 | Earlier DOI-deposited editorial preprint | November 1, 2026. [DOI 10.5281/zenodo.23852566](https://doi.org/10.5281/zenodo.23852566) | Earlier deposited manuscript. [Publication receipt](zenodo-publication-2026-11-01.md) |
 | Approved reassessment edition | Revised October 10 and published October 16, 2026. [DOI 10.5281/zenodo.23423847](https://doi.org/10.5281/zenodo.23423847) | Earlier manuscript and preserved public supplement. [Archive](../paper/revisions/2026-10-10/README.md) |
 | Repository release | October 16, 2026. [v0.18.0](https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.18.0) | Methods demonstration and initial Jev phase closeout. [Release notes](../release/v0.18.0-release-notes.md) |
@@ -29,7 +29,7 @@ Start with the **November 8, 2026 editorial revision** of *From Formal Authority
 
 The sealed November archive preserves observations recorded before the Zenodo deposit. Its README and verification record therefore precede the publication receipt. Read the [later receipt](zenodo-publication-2026-11-01.md) for the deposited DOI and publication check. The [navigation policy](current-navigation.md) preserves earlier release files and review instructions.
 
-The current arXiv disposition is **declined**, reported by the author on November 8 from the moderation notification. Earlier on-hold observations are historical. The manuscript was not publicly announced on arXiv; the retained submission PDF establishes no public article identifier or peer review. [Dated status](../RESEARCH_STATUS.md).
+The November 8 revision is available here; the November 1 edition remains deposited on Zenodo. The retained submission PDF establishes no public arXiv article identifier, acceptance or peer review. [Dated status](../RESEARCH_STATUS.md).
 
 ## Questions for a substantive review
 

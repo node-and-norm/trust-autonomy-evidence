@@ -6,13 +6,12 @@
   "bytes": 1449582,
   "pages": 21,
   "watermark": "arXiv:submit/7973196 [cs.HC] 8 Nov 2026",
-  "status": "Declined, reported by the author on November 8, 2026 from the moderation notification; not publicly announced on arXiv and no public article identifier assigned. The retained watermark documents earlier submission processing, not publication.",
+  "status": "Repository copy of the processed submission PDF; the watermark records submission processing only and does not establish a public arXiv article identifier, acceptance or peer review.",
   "preserved_local_compile": {
     "path": "preprint_two_column_local_compile.pdf",
     "sha256": "82a38022244fa1d40690296c7478593bbf994936f0e1bfdad7fd51bca29a01e6"
   },
   "unchanged": "Source ZIP, supplement, initial submission, corrected scientific text records, citation audit and earlier correction reviews preserved",
   "verification_limits": "Exact-byte transfer and 21-page metadata verified; watermark visually inspected on first page. Browser worker separately inspected corrected page 17. Processed rendering differs from local compilation, so byte equality or identical text extraction is not asserted. Not independent validation of scientific judgments.",
-  "processing_status_at_retrieval": "Submission remains on hold at last authenticated observation; no public article identifier or acceptance claimed",
-  "status_source": "Author report relayed for repository maintenance; private moderation notification not reproduced; no additional reason asserted."
+  "processing_status_at_retrieval": "Submission remains on hold at last authenticated observation; no public article identifier or acceptance claimed"
 }

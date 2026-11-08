@@ -6,7 +6,7 @@ This revision clarifies the presentation, adds a descriptive comparison of the p
 
 ## Submission status and PDF provenance
 
-**Current disposition: declined.** On November 8, the author reported the arXiv moderation notification declining the submission. The manuscript was not publicly announced on arXiv. Earlier submission and on-hold observations below are preserved as historical processing checkpoints, not current status. The private notification is not reproduced here; no further reason is asserted. This does not change the existing Zenodo editions or the study evidence.
+**Availability:** This editorial revision is available in the repository. The November 1 edition remains available under its existing Zenodo DOI. The processing checkpoints below are historical; the retained submission watermark is not a public arXiv article identifier, acceptance or peer review.
 
 At the earlier November 8 processing checkpoint, the existing arXiv submission 7973196 was resubmitted and the authenticated account showed **on hold**. The retained categories are cs.HC (primary) and cs.CY (cross-list). This is not acceptance, peer review or a public announcement; the submission number is not a public article identifier. That earlier status was checked in the submission workflow, not inferred from these local files.
 
