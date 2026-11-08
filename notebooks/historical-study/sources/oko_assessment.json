@@ -1,0 +1,58 @@
+{
+  "version": "0.6.0",
+  "case_id": "TAE-PUB-001",
+  "title": "Oko false launch warning, 26 September 1983",
+  "assessment_date": "2026-08-09",
+  "protocol": "protocols/oko-evidence-adjudication-v0.6.0.md",
+  "selection_stratum": "pre_action_intervention",
+  "boundary": "The assessment begins when the Oko warning system classified incoming missiles and ends when Stanislav Petrov reported the alert as false before the warning advanced to a retaliatory launch decision.",
+  "autonomy": {
+    "goal_scope": "narrow",
+    "action_authority": "recommend",
+    "temporal_horizon": "single_step",
+    "impact_radius": "public",
+    "oversight_distance": "pre_action",
+    "reversibility": "partially_reversible",
+    "evidence_refs": ["O2", "O3", "O4", "O5"],
+    "rationale": "Oko inferred a narrow launch-warning classification and presented it for human escalation. The alert could be rejected before escalation, while escalation could have exposed the public to irreversible harm."
+  },
+  "trust_evidence": {
+    "identity": {"state": "partially_supported", "evidence_refs": ["O2", "O3"], "rationale": "The sources identify Oko and Petrov's duty role, while public technical configuration and version records are incomplete."},
+    "scope": {"state": "partially_supported", "evidence_refs": ["O2", "O3"], "rationale": "The launch-warning and reporting functions are described. Formal operating limits and escalation rules are incomplete."},
+    "capability": {"state": "indeterminate", "evidence_refs": ["O2", "O3"], "rationale": "The record describes the alert function but supplies no verified performance evidence for the configuration in service."},
+    "reliability": {"state": "unsupported", "evidence_refs": ["O2", "O3", "O4"], "rationale": "The focal output was false, and the packet contains no denominator or representative performance series."},
+    "uncertainty": {"state": "unsupported", "evidence_refs": ["O2", "O3", "O4"], "rationale": "The system conveyed a categorical attack signal without a documented uncertainty estimate or calibrated confidence record."},
+    "evidence_completeness": {"state": "unsupported", "evidence_refs": ["O2", "O3"], "rationale": "Soviet command logs, the official incident report, and the investigation file are unavailable."},
+    "monitoring": {"state": "partially_supported", "evidence_refs": ["O2", "O3"], "rationale": "Petrov could compare the alert with contextual and ground-radar information, although the packet does not establish complete or independent monitoring coverage."},
+    "human_authority": {"state": "supported", "evidence_refs": ["O2", "O3", "O4"], "rationale": "The duty officer had authority to classify and report the warning before it advanced in the command chain."},
+    "integrity": {"state": "indeterminate", "evidence_refs": ["O2", "O3"], "rationale": "No public cryptographic, custody, or contemporaneous log evidence establishes the integrity of the reconstructed records."},
+    "reconstructability": {"state": "partially_supported", "evidence_refs": ["O2", "O3", "O4"], "rationale": "Multiple accounts support the main sequence. Missing official records prevent a complete reconstruction."},
+    "harm_correction": {"state": "outside_scope", "evidence_refs": ["O2", "O3"], "rationale": "The bounded action was interrupted before the threatened retaliatory decision, so post-action correction is outside this case boundary."},
+    "governance_update": {"state": "partially_supported", "evidence_refs": ["O2", "O3"], "rationale": "The sources describe an investigation and consequences for Petrov, while public evidence of durable system or policy reform is incomplete."}
+  },
+  "practical_control": {
+    "access": {"state": "partially_supported", "evidence_refs": ["O2", "O3", "O4"], "rationale": "Retrospective accounts report that Petrov received the alert and checked contextual and ground-radar information. The packet contains no contemporaneous delivery, interface, or command record."},
+    "comprehension": {"state": "partially_supported", "evidence_refs": ["O2", "O3", "O4"], "rationale": "Retrospective accounts report that Petrov understood the alert, the escalation consequence, and discrepancies in the signal. The packet contains no contemporaneous reasoning or review record."},
+    "authority": {"state": "partially_supported", "evidence_refs": ["O2", "O3", "O4"], "rationale": "Retrospective accounts describe Petrov's duty role and responsibility to classify and report the warning. The packet contains no contemporaneous delegation or command-procedure record verifying those control rights."},
+    "feasibility": {"state": "partially_supported", "evidence_refs": ["O2", "O3", "O4"], "rationale": "Retrospective accounts describe enough time and a communication path to report the alert as false. The packet contains no contemporaneous timing or operating record verifying the available response path."},
+    "exercise": {"state": "partially_supported", "evidence_refs": ["O2", "O3", "O4"], "rationale": "Retrospective accounts report that Petrov challenged the system output and classified the warning as false. The packet contains no contemporaneous decision or communication log recording that action."},
+    "effect": {"state": "partially_supported", "evidence_refs": ["O2", "O3"], "rationale": "Retrospective accounts and an independent reconstruction report that the warning did not advance as a confirmed attack report. The packet contains no contemporaneous linked action, stop, or escalation record verifying that effect."},
+    "correction": {"state": "outside_scope", "evidence_refs": ["O2", "O3"], "rationale": "No downstream system action occurred within the boundary that required correction."},
+    "repair": {"state": "outside_scope", "evidence_refs": ["O2", "O3"], "rationale": "The bounded sequence does not establish a realized external harm requiring repair."},
+    "reform": {"state": "partially_supported", "evidence_refs": ["O2", "O3"], "rationale": "An investigation is described, but durable institutional changes cannot be reconstructed from the available record."}
+  },
+  "supported_proposition": "The frozen retrospective sources describe a named duty officer receiving the Oko alert before escalation, comparing it with contextual and ground-radar information, classifying it as false, and communicating that classification before the warning advanced. Each practical-control stage remains partially supported because no contemporaneous decision record was located.",
+  "excluded_conclusions": [
+    "The public record does not establish that senior Soviet leaders would otherwise have ordered a retaliatory launch.",
+    "The public record does not support the counterfactual claim that one person saved the world.",
+    "The v0.6.0 assessment does not classify practical human control through effect as supported under the current protocol.",
+    "One reconstructed intervention does not establish the general reliability or safety of the warning system."
+  ],
+  "limitations": [
+    "The assessment relies on retrospective interviews because contemporaneous official records are unavailable.",
+    "The six reassessed practical-control stages contain direct retrospective testimony and no contemporaneous decision record.",
+    "Oko is included under a functional, historically neutral AI-system definition; its design differs from current learned systems.",
+    "The packet supplies no independent-assessor, population, causal-effect, or current-system transfer result."
+  ]
+}
+

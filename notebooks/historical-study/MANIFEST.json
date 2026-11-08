@@ -1,0 +1,24 @@
+{
+  "recorded_revision": "564406d16f74f66a59ee581f176c9b55f3be5f14",
+  "files": {
+    "00_READ_FIRST.ipynb": "4880ded0a456c092fd3138257570508d5a826006386b6652b811be8ae93285fa",
+    "01_COMPLETE_CASE_RECORDS.ipynb": "6e5374961b6b6952ccd0daa6deca77ec793000a1abb406e0757b911b76db0177",
+    "02_ZG710_WORKED_EXAMPLE.ipynb": "44b9831c06bfa94db1bc7dd2e3085adf5d28b17ead890c5b9fabef2b26f4f43c",
+    "03_RELATED_METHODS_IN_PLAIN_ENGLISH.ipynb": "89b3af02d60fb9255322ac040ddb101953f903a44a8629260b44cabe92606a60",
+    "RELATED_METHODS_PRIOR_REVIEW.json": "7d9b45bdbeabef06d651c8aa4b46cc75069a1b2849b4a46c52be7906d819f8cd",
+    "sources/additional_inputs.json": "345dfc7c6cde29588e5865b9f804d1609a958d492aab45cdb977cf5b72b75f2e",
+    "sources/additional_reassessment.txt": "f4274736986a521497ec2c5205eafbe50477302b9e4f27de886902e0611f75d5",
+    "sources/author_case_derivation_ledger.txt": "a7ad4f0870eeea07e21229613ae820bf5611f03c36f0774c41d10e992f2a76d5",
+    "sources/fa18_assessment.json": "99e4267b27354b4da95bda4116b4973c052e0dbd1111750364b9a11e1b4b133c",
+    "sources/fa18_manifest.json": "32c4363ab25d4ec7832dfc84ec1c4907a44779c18b48f184795cd0f1cc130470",
+    "sources/oko_assessment.json": "ab59df7a0fdadaa6636a53ba5000d0d5ab0b85c6126d6bce762ec07694dd79f5",
+    "sources/oko_manifest.json": "551ed00b42ecd2974c9c6c232149d2193534fb01505ac2ef01f50125f41864c0",
+    "sources/public_author_approval.json": "ecbdfb994296b137b8b4f7c5bce9afd8b3cfa5c90e0de870826d1f26b3be10ee",
+    "sources/recorded_inputs.json": "6f06fb8d5052fe76a569dcc05dec2a17b9c5122ff453a75e12ef3d9d2eaef12a",
+    "sources/zg710_assessment.json": "2dc67f6b9fd2a411cfe0c82d85235939cf1672041fd7b95b7ed081d3d0ea2ea3",
+    "sources/zg710_manifest.json": "e7da50808efb672ad00144e8660c60ebfc3ee45464274f2b140304d5815d37fb",
+    "verify_book.py": "78f592115d4d321720b2bff026675883b9271f3b69c4f5fbfbd7f181ee72b37f"
+  },
+  "limits": "Digests check bundled bytes, not historical truth or completeness beyond declared content.",
+  "integration": "Navigation cells added; all pre-existing notebook cells and 11 source records retained unchanged. Prior related-methods review records the pre-navigation file hash."
+}

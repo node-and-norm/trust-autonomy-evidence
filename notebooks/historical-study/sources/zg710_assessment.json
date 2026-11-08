@@ -1,0 +1,56 @@
+{
+  "version": "0.3.0",
+  "case_id": "TAE-PUB-002",
+  "title": "Patriot engagement of RAF Tornado ZG710, 22 March 2003",
+  "assessment_date": "2026-08-07",
+  "protocol": "protocols/public-case-reconstruction-protocol.md",
+  "selection_stratum": "authority_without_practical_force",
+  "boundary": "The assessment begins when a Patriot battery classified RAF Tornado ZG710 as an anti-radiation missile and ends when the battery launched and destroyed the aircraft.",
+  "autonomy": {
+    "goal_scope": "narrow",
+    "action_authority": "execute_limited",
+    "temporal_horizon": "multi_step",
+    "impact_radius": "public",
+    "oversight_distance": "pre_action",
+    "reversibility": "irreversible",
+    "evidence_refs": ["T2", "T3", "T4", "T6"],
+    "rationale": "The system detected, classified, prioritized, and supported engagement of a target within a bounded defense mission. Human launch authority preceded an irreversible lethal action."
+  },
+  "trust_evidence": {
+    "identity": {"state": "partially_supported", "evidence_refs": ["T2", "T3"], "rationale": "The Patriot battery and mission are identified, while the public packet does not contain a complete software, hardware, and configuration record."},
+    "scope": {"state": "partially_supported", "evidence_refs": ["T2", "T3", "T4"], "rationale": "Detection, classification, and engagement functions are described. Operational constraints and mode settings remain incomplete."},
+    "capability": {"state": "partially_supported", "evidence_refs": ["T2", "T3"], "rationale": "Official sources describe intended missile-defense capability and eleven U.S. engagements, without a complete representative evaluation record."},
+    "reliability": {"state": "unsupported", "evidence_refs": ["T2", "T3", "T4"], "rationale": "The focal classification was false, two coalition aircraft were destroyed, and the packet lacks evidence sufficient for a bounded reliability estimate."},
+    "uncertainty": {"state": "unsupported", "evidence_refs": ["T2", "T3", "T4"], "rationale": "The public record shows a high-confidence hostile classification without a usable uncertainty presentation or independent evidentiary check."},
+    "evidence_completeness": {"state": "partially_supported", "evidence_refs": ["T2", "T3", "T4"], "rationale": "The UK inquiry supplies detailed event evidence, while U.S. inquiry records, full logs, and the complete Defense Science Board report remain unavailable."},
+    "monitoring": {"state": "partially_supported", "evidence_refs": ["T2", "T3"], "rationale": "Operators monitored the track and identification returns, but lacked the widest air picture and reliable identification data."},
+    "human_authority": {"state": "partially_supported", "evidence_refs": ["T2", "T3", "T4"], "rationale": "Crew members retained formal launch authority. Training, interface design, and the compressed window weakened its practical force."},
+    "integrity": {"state": "indeterminate", "evidence_refs": ["T2", "T3"], "rationale": "Official investigators reviewed direct records, but the public packet cannot inspect their custody, completeness, or technical integrity."},
+    "reconstructability": {"state": "partially_supported", "evidence_refs": ["T2", "T3", "T4"], "rationale": "The core detection, classification, decision-window, launch, and loss sequence is documented. Several operator-level and technical details are unavailable."},
+    "harm_correction": {"state": "unsupported", "evidence_refs": ["T2", "T3"], "rationale": "The engagement was irreversible and killed both aircrew; no corrective control could reverse the action."},
+    "governance_update": {"state": "supported", "evidence_refs": ["T3", "T4", "T7"], "rationale": "Official and contemporaneous records document changes to training, communications, identification, operating modes, situational awareness, and operator control."}
+  },
+  "practical_control": {
+    "access": {"state": "partially_supported", "evidence_refs": ["T2", "T3"], "rationale": "Operators saw the hostile classification and identification returns, while communications and the wider air picture were incomplete."},
+    "comprehension": {"state": "unsupported", "evidence_refs": ["T2", "T3", "T4"], "rationale": "Training to trust the system and limited explanatory context prevented a sound interpretation of the false classification."},
+    "authority": {"state": "supported", "evidence_refs": ["T2", "T3", "T4"], "rationale": "The crew held formal authority to approve or withhold the engagement."},
+    "feasibility": {"state": "unsupported", "evidence_refs": ["T2", "T3", "T4"], "rationale": "About one minute, missing communications, limited air-picture access, and system-centered training made an effective challenge infeasible."},
+    "exercise": {"state": "unsupported", "evidence_refs": ["T2", "T4"], "rationale": "The crew accepted the system classification and authorized launch without an effective independent challenge."},
+    "effect": {"state": "unsupported", "evidence_refs": ["T2", "T3"], "rationale": "Human involvement did not prevent the false classification from producing an irreversible engagement."},
+    "correction": {"state": "outside_scope", "evidence_refs": ["T2", "T3"], "rationale": "The lethal engagement could not be corrected after launch within the bounded sequence."},
+    "repair": {"state": "unsupported", "evidence_refs": ["T2", "T3"], "rationale": "The packet records the fatal loss and investigation but no mechanism capable of repairing the realized harm."},
+    "reform": {"state": "supported", "evidence_refs": ["T3", "T4", "T7"], "rationale": "The incident informed documented changes in training, identification, communications, operating procedures, and human-system design."}
+  },
+  "supported_proposition": "Patriot operators retained formal engagement authority, yet incomplete information, a compressed decision window, training to trust the system, and the division of work between people and automation prevented that authority from functioning as an effective challenge before launch.",
+  "excluded_conclusions": [
+    "The packet does not establish the mental state or culpability of any individual operator.",
+    "The event does not establish the reliability of every Patriot configuration or deployment.",
+    "The assessment does not determine legal responsibility or compliance with rules of engagement."
+  ],
+  "limitations": [
+    "The complete U.S. inquiry and Defense Science Board report remain unavailable.",
+    "The reconstruction combines a detailed UK inquiry with system-level U.S. research and reporting.",
+    "Patriot is included under a functional, historically neutral AI-system definition; its architecture differs from current learned systems."
+  ]
+}
+

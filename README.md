@@ -12,7 +12,13 @@ What evidence shows that a person could understand a consequential decision, int
 <a href="docs/research-phase-closeout-2026-10-16.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/research/v1/badges/tae-status-dark.svg"><img src="assets/research/v1/badges/tae-status-dark.svg" alt="Status: methods closed; independent validation open"></picture></a>
 <a href="https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.18.0"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/research/v1/badges/tae-version-dark.svg"><img src="assets/research/v1/badges/tae-version-dark.svg" alt="Repository: v0.18.0"></picture></a>
 <a href="LICENSE"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/research/v1/badges/tae-license-dark.svg"><img src="assets/research/v1/badges/tae-license-dark.svg" alt="License: Apache-2.0"></picture></a>
-<a href="https://doi.org/10.5281/zenodo.23852566"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/research/v1/badges/tae-paper-dark.svg"><img src="assets/research/v1/badges/tae-paper-dark.svg" alt="Paper: November 1, 2026"></picture></a>
+<a href="https://doi.org/10.5281/zenodo.23852566"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/research/v1/badges/tae-paper-dark.svg"><img src="assets/research/v1/badges/tae-paper-dark.svg" alt="Deposited paper: November 1, 2026"></picture></a>
+
+## Start with the latest revision
+
+[November 8 main preprint](paper/revisions/2026-11-08/preprint_two_column.pdf) · [Companion supplement](paper/revisions/2026-11-08/preprint_supplement.pdf) · [Plain-English historical study book](notebooks/historical-study/00_READ_FIRST.ipynb) · [Revision and submission status](paper/revisions/2026-11-08/README.md)
+
+The resubmitted arXiv manuscript remains **on hold**. These are locally compiled PDFs; the current arXiv-processed side watermark remains unverified. The November 1 DOI badge above identifies the older deposited edition, not this revision. This editorial update does not establish new validation.
 
 ## At a glance
 
@@ -21,9 +27,9 @@ What evidence shows that a person could understand a consequential decision, int
 | Purpose | Trace evidence for practical human control in a defined decision. [Method](protocols/practical-human-control-test.md) |
 | Status | Methods phase closed on October 16, 2026. Independent validation remains open. [Closeout](docs/research-phase-closeout-2026-10-16.md) |
 | Evidence type | Three selected historical cases, synthetic test cases and separately recorded AI experiments. [Evidence register](RESEARCH_STATUS.md) |
-| Version | Version: 0.18.0, released October 16, 2026. Current paper: November 1 editorial revision. [Version guide](docs/current-review.md#versions-and-publication) |
+| Version | Version: 0.18.0, released October 16, 2026. Current paper: November 8 editorial revision (21-page main + 15-page supplement). [Version guide](docs/current-review.md#versions-and-publication) |
 | License | [Apache-2.0](LICENSE), with [existing attribution](NOTICE). |
-| Cite | [November paper: 10.5281/zenodo.23852566](https://doi.org/10.5281/zenodo.23852566) · [citation metadata](CITATION.cff) |
+| Cite | [November 1 deposited edition: 10.5281/zenodo.23852566](https://doi.org/10.5281/zenodo.23852566) · [citation metadata](CITATION.cff) |
 
 The approved additional reassessment leaves all three cases **Unresolved**, conditional on the retained judgments. Independent reliability, contemporary AI transfer and institutional effectiveness remain unestablished. [Results and limits](RESEARCH_STATUS.md#approved-reassessment-and-preserved-results).
 
@@ -102,3 +108,4 @@ The [complete prior README](README-2026-11-03.md) preserves the entry text at [a
 </details>
 
 Research by [Mark Julius Banasihan](https://orcid.org/0009-0001-8121-2878). [Node & Norm](https://nodeandnorm.org/) · [Research integrity](https://nodeandnorm.org/about/research-integrity/).
+

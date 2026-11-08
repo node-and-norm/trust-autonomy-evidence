@@ -1,6 +1,6 @@
-# Current navigation and the November 1 editorial revision
+# Current navigation and the November 8 editorial revision
 
-The current manuscript is the **November 1, 2026 editorial revision**, separately archived at [paper/revisions/2026-11-01/](../paper/revisions/2026-11-01/README.md). Its 47-page PDF, submitted source, provenance and checksums travel together. The existing arXiv submission was updated on November 1 and remains on hold. This update changes presentation and disclosure, not findings or research-phase status.
+The current manuscript is the **November 8, 2026 editorial revision**, separately archived at [paper/revisions/2026-11-08/](../paper/revisions/2026-11-08/README.md). Its 21-page main PDF, 15-page supplement, editable source and checksums travel together. The existing arXiv submission was resubmitted November 8 and remains on hold; the repository PDFs are local compiles, with genuine arXiv side watermark retrieval and verification still pending. This update changes presentation and selected citation details, not the preserved findings or research-phase status. The guided [historical study book](../notebooks/historical-study/00_READ_FIRST.ipynb) is a separate reading layer over retained records.
 
 The repository release remains **v0.18.0**, dated October 16. Its approved October 10 manuscript and public supplement remain unchanged. DOI [10.5281/zenodo.23423847](https://doi.org/10.5281/zenodo.23423847) identifies that October edition. The preferred citation now uses [10.5281/zenodo.23852566](https://doi.org/10.5281/zenodo.23852566) for the November 1 editorial revision. The separate [publication receipt](zenodo-publication-2026-11-01.md) records the Zenodo release; the sealed November archive retains its earlier pre-deposit observations. The [closeout record](research-phase-closeout-2026-10-16.md) retains its original scope.
 
@@ -16,7 +16,7 @@ Three current-facing documents use the separate navigation checkpoint:
 - `CITATION.cff`
 - `RESEARCH_STATUS.md`
 
-[`navigation-v0.17.0.json`](navigation-v0.17.0.json) records their original release hashes and their current hashes and sizes. The fixed three-path scope permits current navigation updates while the original research artifacts remain checked against the released manifest. It is refreshed for the November 1 navigation update; it does not reseal or retag the old release. Do not run the historical manifest builder to represent current navigation as original v0.17.0 bytes.
+[`navigation-v0.17.0.json`](navigation-v0.17.0.json) records their original release hashes and their current hashes and sizes. The fixed three-path scope permits current navigation updates while the original research artifacts remain checked against the released manifest. It is refreshed for the November 8 navigation update; it does not reseal or retag the old release. Do not run the historical manifest builder to represent current navigation as original v0.17.0 bytes.
 
 The historical v0.17.0 PDF SHA-256 is `d7609d47f4f92629c58d400e3222b29026a6a152de7da1ec79ad7239a1b4b4ee`; its source archive SHA-256 is `840a08784753cbc569e506bcd71bfc577fe43dddfef1dcedce934572213a4be9`. They remain historical checks, not the current revision's digests. The [October verification record](../paper/revisions/2026-10-10/VERIFICATION.json) and [November verification record](../paper/revisions/2026-11-01/VERIFICATION.json) separately identify their artifacts.
 
@@ -25,3 +25,4 @@ Earlier navigation updates in v0.17.1, v0.17.2 and later merged Jev records pres
 ## Verification
 
 Run the repository's existing validation workflow and `python -m unittest discover -s tests -p 'test_navigation.py' -v`. The navigation tests reject unrecorded changes, expanded checkpoint scope, incorrect historical baselines and changes to sealed research artifacts. They verify that the v0.17.0 manifest still equals its tagged copy. Computational checks and author approval provide no independent validation of evidence judgments.
+

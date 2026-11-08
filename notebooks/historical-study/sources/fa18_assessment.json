@@ -1,0 +1,56 @@
+{
+  "version": "0.3.0",
+  "case_id": "TAE-PUB-003",
+  "title": "Patriot engagement of U.S. Navy F/A-18C, 2 April 2003",
+  "assessment_date": "2026-08-07",
+  "protocol": "protocols/public-case-reconstruction-protocol.md",
+  "selection_stratum": "incomplete_or_conflicting_evidence",
+  "boundary": "The assessment begins when Patriot batteries detected and classified a track as a tactical ballistic missile and ends when a battery launched and destroyed the U.S. Navy F/A-18C.",
+  "autonomy": {
+    "goal_scope": "narrow",
+    "action_authority": "execute_limited",
+    "temporal_horizon": "multi_step",
+    "impact_radius": "public",
+    "oversight_distance": "pre_action",
+    "reversibility": "irreversible",
+    "evidence_refs": ["F2", "F3", "F4", "F5", "F7"],
+    "rationale": "The system detected, classified, correlated, and supported engagement of a target within a bounded defense mission. Human command preceded an irreversible lethal action."
+  },
+  "trust_evidence": {
+    "identity": {"state": "partially_supported", "evidence_refs": ["F2", "F3", "F4"], "rationale": "The system family, event, and participating command are identified, while the public record lacks a complete battery and configuration history."},
+    "scope": {"state": "partially_supported", "evidence_refs": ["F3", "F4", "F5"], "rationale": "Detection, classification, correlation, and engagement functions are described. The exact operational mode and boundaries remain incomplete."},
+    "capability": {"state": "partially_supported", "evidence_refs": ["F4", "F5"], "rationale": "Official sources describe intended missile-defense capability and operational engagements without a complete representative evaluation record."},
+    "reliability": {"state": "unsupported", "evidence_refs": ["F3", "F4", "F5"], "rationale": "The focal classification was false, and the packet lacks the denominator and conditions required for a bounded reliability estimate."},
+    "uncertainty": {"state": "unsupported", "evidence_refs": ["F3", "F4", "F5"], "rationale": "The sources describe increasing hostile confidence without a documented uncertainty display or sufficiently independent evidentiary check."},
+    "evidence_completeness": {"state": "unsupported", "evidence_refs": ["F2", "F3", "F4", "F6"], "rationale": "The full Central Command inquiry, command logs, display records, Board of Inquiry file, and complete technical report are unavailable."},
+    "monitoring": {"state": "partially_supported", "evidence_refs": ["F3", "F4"], "rationale": "Two batteries and a command center contributed reports, while the packet cannot establish that these reports were independent or adequately contextualized."},
+    "human_authority": {"state": "partially_supported", "evidence_refs": ["F3", "F4", "F5"], "rationale": "A command-center launch order is reported, while the record is insufficient to determine the practical options available at each human decision point."},
+    "integrity": {"state": "indeterminate", "evidence_refs": ["F2", "F3", "F4"], "rationale": "Investigations used direct records, but those records are unavailable for public integrity and custody checks."},
+    "reconstructability": {"state": "partially_supported", "evidence_refs": ["F2", "F3", "F4"], "rationale": "The main detection, correlation, order, launch, and loss sequence is supported. The misclassification mechanism and operator information state remain unresolved."},
+    "harm_correction": {"state": "unsupported", "evidence_refs": ["F2", "F3"], "rationale": "The engagement was irreversible and killed the pilot; no corrective action could reverse it."},
+    "governance_update": {"state": "supported", "evidence_refs": ["F4", "F5", "F6"], "rationale": "Public official research and lessons-learned reporting document changes to identification, communications, training, procedures, and operator control."}
+  },
+  "practical_control": {
+    "access": {"state": "partially_supported", "evidence_refs": ["F3", "F4"], "rationale": "Operators and the command center received correlated track reports. The packet does not establish access to independent aircraft-identification evidence."},
+    "comprehension": {"state": "indeterminate", "evidence_refs": ["F3", "F4", "F5"], "rationale": "The public record does not reveal what each operator saw, how the confidence increase was explained, or what contradictory information was available."},
+    "authority": {"state": "supported", "evidence_refs": ["F3", "F4"], "rationale": "A human command authority issued the launch order reported in the Central Command summary."},
+    "feasibility": {"state": "indeterminate", "evidence_refs": ["F3", "F4", "F5"], "rationale": "Missing timing, display, communication, and operator records prevent a finding about whether an effective challenge was feasible."},
+    "exercise": {"state": "indeterminate", "evidence_refs": ["F3", "F4"], "rationale": "The public summary does not establish whether an operator challenged the classification before the launch order."},
+    "effect": {"state": "unsupported", "evidence_refs": ["F2", "F3"], "rationale": "Human participation did not prevent the false classification from producing an irreversible engagement."},
+    "correction": {"state": "outside_scope", "evidence_refs": ["F2", "F3"], "rationale": "The action could not be corrected after launch within the bounded sequence."},
+    "repair": {"state": "unsupported", "evidence_refs": ["F2", "F3"], "rationale": "The packet records the fatal loss and investigation but no mechanism capable of repairing the realized harm."},
+    "reform": {"state": "supported", "evidence_refs": ["F4", "F5", "F6"], "rationale": "The fratricides informed documented changes to training, identification, communications, procedures, and operator control."}
+  },
+  "supported_proposition": "Public evidence supports the sequence from false track classification through correlated reports, a human launch order, engagement, and loss. It does not establish why the aircraft was misclassified, whether the reports were operationally independent, or which interventions were feasible before launch.",
+  "excluded_conclusions": [
+    "The packet does not establish the precise technical or human cause of the misclassification.",
+    "The packet does not establish the mental state or culpability of any individual operator or commander.",
+    "The assessment does not determine legal responsibility or compliance with rules of engagement."
+  ],
+  "limitations": [
+    "The decisive incident records and complete technical report are classified or otherwise unavailable.",
+    "System-level findings draw partly on official research covering both 2003 Patriot fratricides.",
+    "Patriot is included under a functional, historically neutral AI-system definition; its architecture differs from current learned systems."
+  ]
+}
+

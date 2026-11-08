@@ -1,0 +1,309 @@
+Case derivation ledger for author review
+Provisional reanalysis record dated 10 October 2026
+
+Decision requested
+
+Do not adopt three Unresolved findings merely because the two harm-based propagation rationales are defective. Correcting propagation alone leaves ZG710 Fail if its other released U states remain. The broader proposal reaches three Unresolved findings only after additional judgments about evidence, necessary conditions and case boundaries. Those judgments remain open.
+
+There is no valid way for uncertainty elsewhere to turn an established necessary-condition failure into Unresolved under the retained rule. One U makes the case Fail. If a necessary condition demonstrably failed, either retain U and Fail, or explain openly why the new assessment addresses a different condition. Missing evidence cannot cancel affirmative evidence of failure.
+
+Recommended presentation now: preserve the released two-Fail/one-Unresolved result as research history; show the limited original-framework corrections and their state-set derivation; present the full amended matrix as a separate, conditional proposal. Do not make the broader matrix the adopted scientific result before the author decides the disputed ZG710 inference and other changes. The principal unresolved choice is whether the documented ZG710 deficiencies establish failure of a necessary limitations-capacity condition in that crew. That can support Fail even if other stages remain unknown.
+
+This ledger supplements and qualifies the earlier critical review. In particular, its earlier primary-matrix recommendation must not be read as establishing that all original U judgments were simple mistakes or that the evidence disproves failure. Neither this AI-assisted review nor the Jev experiment and collaborative review independently validate the historical reclassifications.
+
+Stage 1 Released baseline under its recorded framework
+
+
+Pinned baseline: v0.17.0, commit 781f7806a626cd4e4fffbe4d453d9d5365b835f9.
+Evidence cutoff remains 6 August 2026 at 23:59:59 UTC.
+
+The actual baseline inputs, freshly read at that commit, are:
+O: assessments/v0.6.0/TAE-PUB-001-oko-1983.json, Git blob 984d900f181f74598b7eb0f613f6c1bd17053872.
+T: cases/TAE-PUB-002-patriot-zg710-2003/assessment.json, Git blob d2277c64814481298d650b9bce670bb39a597874.
+F: cases/TAE-PUB-003-patriot-fa18-2003/assessment.json, Git blob 7220405c74eb5d76a8d084fdf13e39084d90a1ef.
+A0: assessments/event-control-results-v0.16.0.json, Git blob b6574996b96afc7862c2917416155880304d8326.
+
+Within O, T and F, each old state and rationale is located at /practical_control/<field>/state and /practical_control/<field>/rationale. The six fields in order are access, comprehension, authority, feasibility, exercise, effect. The manuscript calls effect execution propagation.
+
+Historical sequence matters. The v0.3 assessments supplied the original cells. Oko was separately recoded in v0.6. The v0.3/v0.15 dependency language did not itself specify the later three-way six-stage case rule and omitted comprehension from its expressly named required chain. Version 0.16 added the explicit six-stage aggregation, including comprehension; v0.17 carried it forward. The present proposed reanalysis does not change that v0.16 aggregation.
+
+Retained aggregation:
+- Fail if any of the six required states is U.
+- Otherwise Pass if all six are S.
+- Otherwise Unresolved, because at least one is P or I and none is U.
+
+This is the rule recorded in A0, the pinned practical-human-control-test.md, and analysis/derive_event_control_results.py. None of the proposals below changes it. No uncertainty weighting, majority vote or averaging is introduced.
+
+Released inputs and results
+Oko: P / P / P / P / P / P. Zero U and six P, therefore Unresolved.
+ZG710: P / U / S / U / U / U. Four U, therefore Fail despite access P.
+F/A-18C: P / I / S / I / I / U. One U, therefore Fail despite three I.
+Historical total: 0 Pass, 2 Fail, 1 Unresolved.
+
+These remain the released results under the recorded rules and assessments. No later review silently changes their historical identity.
+
+Stage 2 Evidence corrections under the released framework
+
+This stage retains the released constructs, case boundaries and v0.16 aggregation. It does not adopt the reconstructive S rule, the two-element exercise amendment, or the narrowed reporting/ordering scopes. State-set notation identifies unresolved coding choices; it is not a new fifth state.
+
+Correction 2A Harm is not evidence that a decision failed to propagate
+
+Changed assessments: T /practical_control/effect, U → {P or I}; F /practical_control/effect, U → {P or I}, pending adjudication of the positive component under the released definition.
+
+Exact old targets and source premises are in the two Patriot propagation rows below. Both old rationales use failure to prevent irreversible engagement. The pinned v0.16 protocol already excludes beneficial-outcome interpretation of effect, and the earlier effect question concerned alteration of execution/obligations. T2 §4 supplies an affirmative crew-to-launch account; F3's identified sequence supplies a reported ordering/engagement account. Neither the fatal outcome nor those old rationales establish that a relevant instruction was ignored or misimplemented. No inspected passage supplies a contrary-command implementation failure sufficient to rescue those U rationales.
+
+What is established here is the mismatch between the stated negative rationale and the released propagation condition. What is not uniquely settled is P versus I: the author must decide whether the available record establishes a genuine required positive component at the original granularity. A launched missile alone is not such a component. Do not infer S from a later reconstruction while retaining the strict original S threshold. Do not change the claim to effective prevention and call that an unchanged propagation assessment.
+
+Change type: E. No new construct, scope or aggregation is required to reject harm alone as a propagation contradiction. Choosing a narrower action or accepting a later source as complete proof belongs in Stage 3, not here.
+
+Correction 2B Apply the released S evidence threshold consistently
+
+Changed assessments: T /practical_control/authority, S → {P or I}; F /practical_control/authority, S → {P or I}, pending the released P/I positive-element judgment.
+
+The baseline S rule requires direct contemporaneous evidence. T cites T2/T3/T4; F cites F3/F4. The inspected materials are later findings/reporting, and the actual event-period delegation or rights records are not reproduced as inspected original evidence in this packet. An inquiry's access to such evidence is not the assessor's inspection of it. The Oko v0.6 temporal correction cannot be applied only to participant accounts while later official findings silently satisfy the same temporal gate. T2 §4/§12 supports a reconstructed firing role/right; the F3 ordering sequence supports a reported command role. Whether that amounts to a material positive element for P under the incompletely specified old decomposition remains an author judgment; otherwise use I. No evidence here establishes a forbidden right and therefore U is not proposed on this basis.
+
+Change type: E, application of an existing evidence-eligibility rule. This is not Stage 3's A amendment permitting grounded retrospective S. A separately identified original delegation reproduced in the packet could change this finding; none has been inspected. The precise required-right interpretation is a further Stage 3 question, distinct from this temporal mismatch.
+
+Stage 2 provisional state sets
+
+Oko: P / P / P / P / P / P → Unresolved.
+ZG710: P / U / {P,I} / U / U / {P,I} → Fail for every allowed replacement.
+F/A-18C: P / I / {P,I} / I / I / {P,I} → Unresolved for every allowed replacement.
+Conditional total: 0 Pass, 1 Fail, 2 Unresolved.
+
+Every other released cell is carried forward for this limited comparison, not freshly validated. In particular, the three remaining ZG710 U states are disputed source-to-condition judgments audited below. Stage 2's Fail is conditional on retaining at least one of them; the rule does not itself establish that any is historically true. Their removal is not a demonstrable consequence of correcting propagation or temporal eligibility alone. Where the original definition or source applicability is ambiguous, no unique full unchanged-framework recoding is asserted.
+
+Propagation-only subdiagnostic, before correction 2B
+
+Keeping both legacy authority S cells and every other non-propagation cell unchanged gives Oko P/P/P/P/P/P; ZG710 P/U/S/U/U/q; F/A-18C P/I/S/I/I/q, where q is any non-U replacement. Oko is Unresolved, ZG710 remains Fail, and F/A-18C becomes Unresolved. Testing q in {S,P,I} establishes this aggregation invariance only; it does not establish that S is eligible under the old evidence policy. Correction 2B changes cells but not those aggregate totals.
+
+Why Stage 2 is limited
+
+ZG710's preparation, identification and communications shortcomings are affirmative adverse evidence. They are not erased by an actual launch route, some operational ability or uncertainty elsewhere. Whether they contradict a necessary comprehension, feasibility or evaluative condition requires the case-level inference below. Uncertainty about that inference must not be presented as evidence disproving failure. Conversely, retaining a cell in a limited comparison is not evidence that the original inference was correct.
+
+Stage 3 Proposed amendments and their additional reclassifications
+
+This is the full amended proposal, not an adopted result: Oko S/P/P/S/S/S; ZG710 P/I/P/P/P/S; F/A-18C P/I/P/P/P/P. The rule then yields three Unresolved cases only if all component judgments are accepted. Author approval has not been given.
+
+State meanings under the amended proposal:
+S: all necessary elements established by eligible evidence.
+P: at least one necessary element established, another unresolved, and no established necessary-element contradiction.
+U: at least one necessary element contradicted by eligible evidence.
+I: neither a contradiction nor a sufficient substantive positive element is established.
+
+The original S rule required direct contemporaneous evidence. The proposed reconstructive admission of sufficiently grounded later evidence is an amendment, not a correction that can be applied without author adoption. The original P/U temporal eligibility and several operational requirements were less explicit. Where that ambiguity prevents a unique unchanged-policy recoding, this ledger does not invent one.
+
+Change tags used below
+
+E: correction or reconsideration of a source-to-condition inference.
+D: amendment or clarification of the operational definition/necessary elements, including the threshold that separates P from I.
+B: explicit change or narrowing of actor, options, commitment point or execution boundary.
+A: amendment to evidence admission, especially allowing later reconstruction to establish S while tracking original-record availability separately.
+G: aggregation change. G is none for every row in this proposed reanalysis.
+
+Multiple tags can apply. An unchanged letter can conceal a changed proposition or rationale. No historical source added after the frozen cutoff is used here.
+
+Amendment-to-result crosswalk
+
+- A admits adequately grounded later evidence as sufficient for S. It is necessary for the proposed Oko S findings and ZG710 propagation S; it is not needed merely to reject an invalid harm-based U rationale.
+- B narrows Oko to immediate reporting content and propagation, ZG710 to a bounded team decision role, and F/A-18C to ordering/withholding at order release. These are different scopes from broad downstream safeguard claims. They affect which information, rights, timing and execution links must be established.
+- D makes necessary elements/options explicit and divides exercise into action plus evaluation. That decomposition supplies proposed P findings where the old exercise question could support I. Agreement with a mistaken system can count as some evaluation; an effective independent challenge is a stronger condition.
+- E reappraises whether affirmative adverse findings establish a necessary condition's failure in the focal role. The disputed ZG710 U removals depend on this judgment, sometimes together with D/B. They do not follow mechanically from A or from uncertainty elsewhere.
+- G remains none. The same any-U-first aggregation applies throughout.
+
+Additional transitions from the Stage 2 sets to the full proposal
+Oko: access P→S (A/B/D); comprehension and authority remain P with revised substantive rationales (D/B/E/A); feasibility P→S (A/B/D); exercise P→S (A/D/B); propagation P→S (A/B/E/D).
+ZG710: access remains P with a defined information function; comprehension U→I requires the disputed E judgment and explicit D/B/A framework; authority {P,I}→P requires the adopted positive-role/right decomposition, with the substantive alternative-right gap stated; feasibility U→P requires the disputed E judgment and D/B/A framework; exercise U→P requires E plus the D action/evaluation split and B/A framework; propagation {P,I}→S requires A and the bounded actual-decision implementation interpretation (B/D), beyond Stage 2's E correction.
+F/A-18C: access stays P and comprehension stays I under the focal-role interpretation; authority {P,I}→P uses an adopted positive-role component and an incomplete rights finding; feasibility I→P uses D/B/A plus E of the actual-order-route evidence; exercise I→P uses D/E/B/A; propagation {P,I}→P accepts a genuine coarse correspondence component while leaving the particular operational link unresolved. The full row rationales below specify each inference and limitation.
+
+These tags describe changed reasoning as well as letters. They do not imply that every listed amendment alone causes a letter change. A state retained through an amendment must still have its old and new rationale recorded.
+
+Stage 3A Oko complete six-row derivation
+
+
+Released row: P P P P P P. Released result: Unresolved.
+Full amended proposal: S P P S S S. Conditional result: Unresolved.
+
+Boundary change: the old Oko boundary and effect rationale reached beyond the immediate report toward prevention of a confirmed attack report/retaliatory decision. The proposed claim concerns Petrov's choice of report content and immediate communication to superiors only. Automatic alerts, recipient adoption and the nuclear command decision are excluded. This is a narrower proposition, not evidence that the wider proposition succeeded.
+
+Oko access P → S. Old rationale: retrospective receipt/checking account plus no contemporaneous delivery/interface/command record. Positive: the bounded receipt, content and pre-report sequence in O2's role/decision paragraphs, O3 p.13 and O4's warning/report paragraphs. Adverse: an independent automatic alert route limits any global suppression claim; it does not contradict receipt at Petrov's reporting role. Missing: original interface/timing records and complete input configuration. Proposed inference: the admitted later account establishes access necessary for this narrow report. Tags A, B, D. S cannot follow under the unchanged strict contemporaneous S rule.
+
+Oko comprehension P → P. Old rationale: reported understanding, consequence awareness and discrepancies, without contemporaneous reasoning. Positive: reported basic interpretation and uncertainty recognition, at O2's explanation paragraphs and O3 p.13. Adverse: the protocol tension and broad retaliation rhetoric cannot establish exact knowledge of operating requirements. Missing: a sufficiently grounded account establishing the full relevant alternatives/requirements component at the event. Proposed P now rests on substantive incompleteness, not simply publication date. Tags A, D, B, E. If the author accepts all components from the accounts, S is possible under the new policy; no change is yet approved.
+
+Oko authority P → P. Old rationale: duty-role description without contemporaneous delegation. Positive: role connection and ordinary reporting function, O2 role paragraph/O3 p.13. Adverse: O3 p.26's protocol-departure wording is material; its internal contradiction prevents a clear finding about which option was prohibited. Missing: the applicable contrary-reporting right. Tags A, D, B, E. Action occurrence is not permission; the conflict is not resolved by the favorable outcome.
+
+Oko feasibility P → S. Old rationale: reported time and communication route without original operating/timing records. Positive: the accepted account describes deliberation and reporting; the two report contents use the same immediate channel, O2 decision/reporting paragraphs, O3 p.13, O4 report paragraph. Adverse: no established failure of that immediate route. Missing: measured margin and downstream effective-intervention deadline. Proposed S is limited to the reporting-content choice; those omitted downstream requirements would matter for the old wider claim. Tags A, B, D. This is not proof that a weapons-system intervention was feasible.
+
+Oko exercise P → S. Old rationale: reported challenge/classification but no contemporaneous action log. Positive: an attributable assessment/report and specific reported reasons, O2 explanation paragraphs/O3 p.13. Adverse: retrospective reconstruction and source dependence qualify the inference; no established absence of evaluation. Missing: independent contemporary confirmation. The amended policy accepts the bounded first-person account as historical evaluation; the two-element definition does not certify general competence. Tags A, D, B. Rejecting that account would require reconsidering exercise and its feasibility premise together.
+
+Oko propagation P → S. Old rationale: reported prevention of a confirmed attack report without a contemporaneous linked stop/escalation record. Positive: immediate communication corresponding to Petrov's selected classification, O3 p.13/O4 report paragraph. Adverse: O2's automatic-alert paragraph blocks assuming total alert suppression. Missing: recipient adoption and downstream restraint. Tags A, B, E, D. The broader outcome has not been established; S follows only for the narrowed immediate-report proposition.
+
+Boolean derivation: baseline U_count = 0 and unresolved_count = 6; proposed U_count = 0 and unresolved_count = 2. Neither row is all S, so both yield Unresolved. The same aggregate hides changed claims and reasoning and must not be presented as coding stability.
+
+Stage 3B ZG710 complete six-row derivation and removed-U audit
+
+Released row: P U S U U U. Released result: Fail.
+Full amended proposal: P I P P P S. Conditional result: Unresolved, only if the three disputed non-propagation U reclassifications are accepted.
+
+Scope: the amended matrix uses the battery's engagement decision role at team level, with engage versus defer initiation before launch. Individual cognition and post-launch/external intervention are not reconstructed. If the old intended option was an effective informed cross-check or challenge, replacing it with simple deferment is a construct/option change and cannot by itself disprove the old failure claim.
+
+ZG710 access P → P. Old rationale: receipt of classification/identification information plus incomplete communications/wider picture. Positive: T2 §4. Affirmative adverse evidence: T2 §§12 and 14 document actual information/communication deficits. Missing: whether the focal decision role nevertheless had a functionally adequate basis for the required informed choice. Tags D, B, A, E. Retaining P does not deny the omissions. If the author establishes that their combined effect defeated a necessary information function, U is required.
+
+ZG710 comprehension U → I in the full proposal. The exact old rationale includes “prevented a sound interpretation.” It attributes that failure to training and explanatory-context deficiencies. Positive: a performed operational sequence, T2 §4, but the conservative proposal does not treat performance alone as an established human comprehension component. Affirmative adverse evidence: T2 §11's event-specific preparation findings and T4 p.4's failure to communicate known system fallibilities and problematic user beliefs. Missing/disputed: whether these findings establish absence of the specific necessary limitations-capacity condition in this crew, rather than deficiencies in the institutional means of developing it. Tags E, D, B, A. The change is not warranted merely because the crew had some basic capability.
+
+Retained-U alternative: if the author accepts the event-level link from T2/T4 to the crew's inability to interpret the relevant limits, one necessary component is contradicted and U remains defensible. That alone makes ZG710 Fail. The full proposal instead requires an explicit judgment that this actor-specific capacity inference is insufficient, or an openly changed necessary criterion. No complete absence of all capacity is required for U. This is the strongest unresolved retained-U alternative.
+
+ZG710 authority S → P. Old rationale asserts the right to approve or withhold. Positive: T2 §4 and §12 establish a crew engagement role and permitted self-defence firing. Adverse: no inspected passage establishes a prohibition on withholding. Missing/disputed: the exact deferment right and its conditions. T2 §11's decide-whether language can be read as discretion, but that inference needs author adoption. Tags E, D, B, A. The new P is not justified simply by the source being later; it names a substantive right gap. The old S was also not documented through an inspected contemporaneous delegation.
+
+ZG710 feasibility U → P. The exact old rationale concludes that the conditions “made an effective challenge infeasible.” Its premises are affirmative constraints, not only missing records: time, communications, air picture and preparation, T2 §§11–14. Positive: a working engagement route and an observed pre-launch decision sequence, T2 §4; §11 describes potential delay. Missing/disputed: the necessary operation that an effective informed alternative required and whether the available combination of routes/time could support it. T2/T4 timing and threat-category conflicts also remain. Tags E, D, B, A. Some time or one usable route does not cancel a failed necessary route. The proposed P rejects the leap from constraints to impossibility unless the required function is specified; it does not establish feasibility of the complete informed alternative.
+
+Retained-U alternative: identify a necessary information/response function, justify its necessity independently of the bad outcome, and establish that no timely adequate route for it existed. Then U and Fail follow. Narrowing the option to an easy withholding action cannot be presented as evidence that a more demanding cross-check was feasible. The public passages alone do not fix a universal minimum time or a calculable margin.
+
+ZG710 exercise U → P. The old rationale turns on launch “without an effective independent challenge.” Original protocols asked about active judgment or intervention; departure/challenge was stronger evidence, not an unambiguous mandatory independent-challenge condition. Positive: attributable crew action, T2 §4. Affirmative adverse evidence: T4 pp.4–5's automation-misuse and uncritical-acquiescence account. Missing/disputed: whether that account establishes no relevant evaluation in this particular decision, or whether the passive check sequence involved human evaluation. Tags E, D, B, A. The new action-plus-evaluation definition supplies a positive action component and an unresolved evaluative component; that decomposition is a disclosed operational change.
+
+Retained-U alternative: if evidence establishes automatic/uncritical approval with no necessary evaluation at the focal role, the new two-element rule also requires U; action cannot cancel it. If only independent challenge is absent, changing from successful challenge to some relevant evaluation is a construct change, not proof that the former condition was met. Under the original judgment-only reading, I rather than P may be the appropriate non-U replacement. The original wording does not force a unique corrected letter.
+
+ZG710 propagation U → S in the full amended proposal. The old rationale says human involvement “did not prevent” irreversible engagement. That proves neither an ignored order nor failed implementation of the actual engagement decision. Positive: T2 §4 explicitly attributes the launch to the crew; §§1 and 8 locate the engagement outcome. Adverse: fatal misidentification is real but not a contradiction of faithful engagement implementation. Missing: original command-to-launch trace and individual handoffs. Tags E for outcome/implementation correction; A for a later inquiry establishing S; B/D for assessing the actual engagement at the declared role/channel granularity. Outcome neutrality was already present in the released effect/propagation question; it is not newly invented here. However, admitting the actual approval as the relevant intervention and choosing a coarser boundary must remain explicit.
+
+Boolean derivation: released U_count = 4, so Fail even though access is P. Full-proposal U_count = 0, unresolved_count = 5, so Unresolved. This second result depends on comprehension, feasibility and exercise being validly recoded, not on uncertainty outweighing failure. If even one of those U findings remains established, the full-proposal case result is Fail.
+
+Stage 3C F/A-18C complete six-row derivation
+
+Released row: P I S I I U. Released result: Fail.
+Full amended proposal: P I P P P P. Conditional result: Unresolved.
+
+Scope: the focal role is the command-center ordering decision, distinct from the reporting batteries and firing unit. Required options are issue or withhold this order, with choice commitment at order release. Propagation then tests implementation through the firing unit. A broader claim that withholding prevents every independent battery launch is not established and cannot be smuggled into this narrower option's feasibility test.
+
+F/A-18C access P → P. Old rationale: correlated reports received but independent identification access unestablished. Positive: the F3 command/assessment sequence identified in the source register. Adverse: T3/F4 p.2 and T4/F5 pp.3–5 provide information/identification deficiencies, not a complete focal-role display record. Missing: material limitation/independence information at the command decision. Tags D, B, A, E. Two reports are not automatically independent. Nor does lack of a documented independent display establish that every adequate informational basis was absent.
+
+F/A-18C comprehension I → I. Old rationale: unknown display, explanation and contradictory-information context for each operator. Positive: the ordering sequence does not by itself establish a necessary human capacity component. Adverse: institutional findings remain relevant; F3's summarized collective assessment is not accepted as sufficient capacity evidence in the conservative proposal. Missing: focal-role interpretation of limits and alternatives. Tags B, D, A, E. The stable I is a bounded insufficiency judgment, not affirmative incapacity.
+
+F/A-18C authority S → P. Old rationale infers authority from an issued human launch order. Positive: connection to the command role. Adverse: no established prohibition of withholding. Missing: applicable ordering/withholding rights and conditions. Tags E, D, B, A. The performance of an order demonstrates conduct and role connection, not the complete required permission set. This is a substantive gap, not an automatic temporal penalty.
+
+F/A-18C feasibility I → P. Old rationale: missing time, display, communications and operator material prevents a finding about an effective challenge. Positive: a route for issuing the actual order is reported in the F3 sequence. Missing: timely opportunity for the defined informed alternative. Adverse: broader system conditions in F4/F5 do not establish absence of the particular necessary route at the command role. Tags D, B, A, E. The decomposition into actual-route support and unresolved alternative is explicit. An order's issuance does not prove that withholding would prevent all other firing paths; that is a separate broader claim.
+
+F/A-18C exercise I → P. Old rationale asks whether an operator challenged the classification. Positive: attributable ordering action. Missing/disputed: a sufficiently grounded human evaluative basis in the focal role; the underlying inquiry evidence for F3's summarized assessment is not exposed. Adverse: system-level automation criticism is not automatically proof of no evaluation in this command decision. Tags D, E, B, A. This change depends on the two-element exercise definition. Keeping a judgment-only condition could retain I. Accepting the source's evaluative attribution could support S under the amended admission policy; neither alternative has been approved.
+
+F/A-18C propagation U → P. The exact old rationale is that human participation did not prevent a false classification from producing irreversible engagement. That is an outcome/prevention rationale, not affirmative evidence that the actual engagement order failed to propagate. Positive under the narrow proposed reading: coarse correspondence between ordered and reported engagement in the F3 incident account. Missing: sufficient operational linkage between the particular order and execution. Adverse: the loss is not an ignored-command finding. Tags E, B/D, A. P requires accepting actual same-track correspondence as a necessary positive component; if that identity/linkage is too opaque, I is the conservative alternative. A generic launch alone cannot force P. S requires adequate support for both correspondence and the particular link; U requires a genuine contradiction of a necessary propagation element. The packet supplies no inspected contrary stop/modify order ignored in execution.
+
+Boolean derivation: released U_count = 1, at effect, so Fail notwithstanding three I states. Proposed U_count = 0, unresolved_count = 6, so Unresolved. This change is much more directly connected to the harm/propagation error than ZG710's change. It still does not prove effective control or an adequately informed alternative.
+
+Stage 3D Conditional aggregate and retained-failure alternatives
+
+Full amended proposal, if all amendments and row judgments are accepted:
+Oko S/P/P/S/S/S → 0 U, 2 unresolved states → Unresolved.
+ZG710 P/I/P/P/P/S → 0 U, 5 unresolved states → Unresolved.
+F/A-18C P/I/P/P/P/P → 0 U, 6 unresolved states → Unresolved.
+Count: 0 Pass, 0 Fail, 3 Unresolved. Cell counts: 5 S, 11 P, 0 U, 2 I.
+
+If the author accepts the ZG710 limitations-capacity contradiction, its full-proposal row becomes P/U/P/P/P/S. Exactly one U produces Fail despite four P states. The total is then 0 Pass, 1 Fail, 2 Unresolved with the other two proposed rows unchanged.
+Likewise P/I/P/U/P/S (demonstrated necessary feasibility failure) or P/I/P/P/U/S (demonstrated absence of necessary evaluation) yields ZG710 Fail. One U is sufficient; no number of P/I states neutralizes it.
+
+These are substantive alternatives, not votes. If the source-to-necessary-condition inference is established, select U. If it is unresolved, uncertainty belongs at that element and is not proof of success. If the intended necessary condition changes, preserve both differently scoped claims instead of claiming the earlier one was disproved.
+
+Stage 3E Author judgments still required
+
+
+1. ZG710 comprehension: do T2's crew-specific preparation findings and T4's institutional fallibility findings adequately establish failure of the necessary limitations-capacity condition for this role? This is the strongest reason to retain Fail under the unchanged aggregation. Accepting or rejecting that inference requires source appraisal, not a new formula.
+2. Feasibility: what informed operation had to be available, and do the actual missing resources/timing establish its unavailability? Merely replacing effective challenge with withholding is not an evidentiary rebuttal.
+3. Exercise: is the necessary condition some relevant evaluation, independent evaluation, or successful challenge? The released question and failure indicators do not resolve every boundary. Apply one adopted meaning symmetrically across cases. A demonstrated absence of its necessary evaluative component requires U despite an action record.
+4. Evidence: does the author adopt the reconstructive policy instead of the original S temporal gate? Later positive and adverse findings must receive the same proposition-specific appraisal. Do not accept general adverse evidence as event-specific while rejecting equally bounded favorable evidence, or vice versa.
+5. Scope: does the author intend immediate reporting/ordering action or control over downstream commitment? The narrowed proposals cannot establish the wider safeguard claim.
+
+Until those choices are recorded, there is no uniquely justified full replacement matrix under unchanged original rules. The broader proposed matrix is useful for review, but three-Unresolved is not yet an adopted result.
+
+Appendix A Exact supporting evidence locators
+
+
+The short descriptions below identify the evidence used in each row. They are source reports unless specifically identified as an original record. References to an inquiry's underlying logs or witnesses do not mean those underlying materials were inspected.
+
+O2: David Hoffman, I Had a Funny Feeling in My Gut, displayed 9 February 1999. Locators: the role paragraph beginning “Petrov's role”; the paragraph beginning “Usually, Petrov said”; the decision paragraph beginning “In the end”; the next explanatory paragraphs beginning “Petrov's decision was based” and “Another factor”; and the later paragraph about the system's flaws. These give the interview-derived reporting sequence and reasons, while the automatic-alert paragraph limits a broad suppression claim.
+https://www.washingtonpost.com/archive/politics/1999/02/10/i-had-a-funny-feeling-in-my-gut/97fb4af6-2a54-4805-8ec0-115a13f33493/
+
+O3: Lewis et al., Too Close for Comfort, 2014, printed p.13, Serpukhov-15 subsection and notes 77–80; printed p.26, protocol/prudent-judgment paragraphs and notes 204–205. These locate the reported contrary assessment, reasoning and protocol tension. The internally inconsistent negative in p.26 must not be silently corrected. The report's interview dependencies are not separate original witnesses.
+https://www.chathamhouse.org/sites/default/files/field/field_document/20140428TooCloseforComfortNuclearUseLewisWilliamsPelopidasAghlani.pdf
+
+O4: Shuster, TIME, 19 September 2017, reporting a 2015 interview. Locators: interview-date paragraph; warning paragraph beginning “So both sides”; assessment/report paragraph beginning “It was up to Petrov”; following investigation paragraph. The immediate reporting account is relevant; a claim that retaliation necessarily followed confirmation is not adopted. Direct-open and targeted-search retrievals differed in displayed body content; the expected article was recovered at the same URL. No preserved-byte identity is claimed.
+https://time.com/4947879/stanislav-petrov-russia-nuclear-war-obituary/
+
+T2: UK Ministry of Defence, ZG710 Military Aircraft Accident Summary, cover May 2004.
+- Section 4, printed p.2: classification/identification sequence, crew launch, and compliance with the extant self-defence engagement rules.
+- Sections 6–7, p.2: the Board's investigative access and the relationship to U.S. investigations.
+- Sections 9–10, p.3: broad classification criteria and insufficiently protective engagement rules.
+- Section 11, p.3: about one minute; likely reclassification if firing were delayed; generic-threat-oriented preparation rather than Iraq-specific/false-alarm preparation; doctrine/training as contributing factors.
+- Section 12, p.3: permissive self-defence firing rule; communications equipment in transit, a relay through another battery, incomplete wider air picture, and the Board's contributory-factor finding.
+- Sections 14–15, p.4: missing Mode 1 codes, Mode 4/IFF findings and their role in the accident.
+These are affirmative adverse findings, not merely missing records.
+https://assets.publishing.service.gov.uk/media/5a78e39b40f0b62b22cbd9a5/maas03_02_tornado_zg710_22mar03.pdf
+
+T4/F5: Hawley, ARL-SR-0158, September 2007.
+- Printed pp.2–3: BOI documents, interviews and observations inform a broad explanatory model rather than a full operator-by-operator event trace.
+- P.4: known classification fallibilities did not enter training/practices/procedures; user beliefs and training routines were problematic. The user-information passage also offers a disjunction: lack of information or lack of effective response.
+- Pp.4–5: automation misuse and uncritical acquiescence are relevant adverse explanations; their attribution to the particular focal decision role still needs justification.
+- P.7: the short decision-cycle passage names Tornado while discussing TBM timelines. T2 instead identifies an ARM classification. Both threat-category and timing-endpoint inconsistencies remain unresolved.
+https://www.govinfo.gov/content/pkg/GOVPUB-D101-PURL-gpo58824/pdf/GOVPUB-D101-PURL-gpo58824.pdf
+
+T3/F4: Defense Science Board, Patriot System Performance Report Summary, January 2005, printed pp.1–2. Event/system context, combat identification, information-sharing and largely automatic operating practices; limited causal information and classified full report. This is not an independently inspected operator trace or a command-specific implementation record.
+https://www.govinfo.gov/content/pkg/GOVPUB-D-PURL-LPS66633/pdf/GOVPUB-D-PURL-LPS66633.pdf
+
+F3: Ricks, Investigation Finds U.S. Missiles Downed Navy Jet, displayed 10 December 2004. Exact locators are the successive paragraphs beginning “According to the summary,” “Seconds later,” “The effect of the corroborating reports,” and “The summary does not explain.” These are the command/assessment sequence and its disclosed explanatory limit, as already set out in the proposed reanalysis. The inquiry itself and its basis for the mental-state attribution were not independently inspected.
+https://www.washingtonpost.com/archive/politics/2004/12/11/investigation-finds-us-missiles-downed-navy-jet/323e76f1-31d5-49c1-a27a-df9f389b0532/
+
+Appendix B Versioning and complete dependency impact
+
+
+Preserve, without overwriting:
+- the original v0.3 assessments and packets;
+- the v0.6 Oko assessment/adjudication/change history;
+- A0 and its v0.16 rule;
+- the v0.17 source, PDF, hashes, figures, tables and released claims.
+
+Assign any approved reanalysis a new identifier and date. Record for every row: old assessment path and state/rationale; proposed and approved state separately; old/new claim boundary; exact source locator; positive, adverse and missing evidence; E/D/B/A tags; unchanged aggregation; author decision and date; disagreement; and dependent-output changes. Do not use a previous author attestation as approval of the new interpretation. No new version number or approval is invented in this ledger.
+
+Claims and prose
+- Abstract, methods, case results, cross-case discussion and conclusion must distinguish historical result, diagnostic and approved/new proposal.
+- PAPER-C03, C05 and C06 report legacy authority and case states; preserve their historical scope and create revised counterparts if approved.
+- PAPER-C42's six-stage any-U rule can remain unchanged.
+- PAPER-C43's historical deterministic result remains true of released inputs; a new result needs new input identifiers.
+- PAPER-C44's no-Pass finding may remain true in multiple scenarios, but must cite the relevant derivation rather than inherit approval automatically.
+- PAPER-C46's outcome-neutral effect interpretation remains distinct from whether each case actually supplies a propagation link.
+- Recheck PAPER-C07's missingness application, PAPER-C24's reliability limitations, and all dependent claims. No Jev or collaborative-review result supplies independent validation of historical coding.
+
+Tables and figures
+- Table 1: identify any revised necessary elements, especially exercise and option-specific authority/feasibility.
+- Table 2: disclose the admission amendment and P/I/U rules.
+- Tables 3–4: present versioned cells and aggregates from the same assessment set; include baseline comparison without silently replacing it.
+- Figure 2: regenerate the practical-control chain from the approved version.
+- Figure 3: update changed report/order boundaries and preserve timing conflicts; no invented common clock or downstream Oko suppression.
+- Figure 6: derive state compositions; do not hard-code the proposed 5/11/0/2 counts.
+- Figure A4 and the original Oko correction table remain historical. Add a separate all-case reanalysis ledger/figure.
+- Figure A3 and claim-eligibility outputs require re-evaluated dependencies and new author attestation where appropriate.
+- Figure 4's trust-evidence matrix and post-event correction/repair/reform findings are separate, unreassessed outputs. This reanalysis cannot validate them by association.
+
+Executable checks
+The pinned derivation function already checks for any U before Pass/Unresolved. Preserve that precedence. Its successful --check console message is hard-coded to the historical 0/2/1 counts; a new version must derive its message from its chosen inputs, while preserving historical replay. The current implementation also embeds original assessment paths, output version and rule identifier; do not silently redirect the old analysis to new rows.
+
+For an approved version, verify:
+1. Historical replay still yields 0/2/1 from the original inputs.
+2. Every required U yields Fail even when all other stages are P or I.
+3. Propagation-only non-U substitutions yield 0/1/2 with other historical states held fixed.
+4. The accepted full row set, whatever it is, determines its own counts and prose.
+5. A positive action cannot override a contradiction of required evaluation; a generic launch cannot supply a decision-specific link.
+6. Harm alone cannot cause U propagation; favorable outcome alone cannot cause S.
+7. Scope, source eligibility and actual/alternative options remain consistent across row records and outputs.
+8. Figures/data/fig-2-practical-control-chain.csv, fig-3-decision-paths.csv, fig-6-evidence-boundaries.csv, corresponding generated figures, figure specifications, paper/tables.md, manuscript-tables.tex and paper derivatives all name the same new approved input version.
+9. Claim maps, new review attestations and source/packet references do not inherit permissions or evidence from unreassessed legacy rows.
+
+The arithmetic scenarios in this ledger were locally checked. No new repository assessment set, figure regeneration, manuscript change, repository test run or publication was performed for this deliverable. Existing integrity tests can validate schemas and declared transformations; they cannot adjudicate whether a historical source establishes a necessary human-control condition.
+
+Appendix C Pinned repository sources
+
+
+O: https://github.com/node-and-norm/trust-autonomy-evidence/blob/781f7806a626cd4e4fffbe4d453d9d5365b835f9/assessments/v0.6.0/TAE-PUB-001-oko-1983.json
+T: https://github.com/node-and-norm/trust-autonomy-evidence/blob/781f7806a626cd4e4fffbe4d453d9d5365b835f9/cases/TAE-PUB-002-patriot-zg710-2003/assessment.json
+F: https://github.com/node-and-norm/trust-autonomy-evidence/blob/781f7806a626cd4e4fffbe4d453d9d5365b835f9/cases/TAE-PUB-003-patriot-fa18-2003/assessment.json
+A0: https://github.com/node-and-norm/trust-autonomy-evidence/blob/781f7806a626cd4e4fffbe4d453d9d5365b835f9/assessments/event-control-results-v0.16.0.json
+Current baseline control protocol: https://github.com/node-and-norm/trust-autonomy-evidence/blob/781f7806a626cd4e4fffbe4d453d9d5365b835f9/protocols/practical-human-control-test.md
+Original v0.3 control protocol: https://github.com/node-and-norm/trust-autonomy-evidence/blob/2c187b28c0cb96275cc995af129ad8a77f4dee94/protocols/practical-human-control-test.md
+Original ZG710 case-report inference labels: https://github.com/node-and-norm/trust-autonomy-evidence/blob/781f7806a626cd4e4fffbe4d453d9d5365b835f9/cases/TAE-PUB-002-patriot-zg710-2003/case-report.md
+Derivation code: https://github.com/node-and-norm/trust-autonomy-evidence/blob/781f7806a626cd4e4fffbe4d453d9d5365b835f9/analysis/derive_event_control_results.py
