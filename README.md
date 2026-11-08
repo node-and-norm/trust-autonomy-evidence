@@ -20,7 +20,7 @@ What evidence shows that a person could understand a consequential decision, int
 
 [November 8 main preprint](paper/revisions/2026-11-08/preprint_two_column.pdf) · [Companion supplement](paper/revisions/2026-11-08/preprint_supplement.pdf) · [Plain-English historical study book](notebooks/historical-study/00_READ_FIRST.ipynb) · [Revision and submission status](paper/revisions/2026-11-08/README.md)
 
-The November 8 revision is available in this repository; the earlier November 1 edition is deposited on Zenodo. The main PDF is the verified arXiv-processed submission copy with its genuine side watermark; the supplement remains a local compile. The watermark is a submission mark, not a public article identifier or acceptance. The November 1 DOI badge above identifies the older deposited edition, not this revision. This editorial update does not establish new validation.
+The November 8 revision is available in this repository; the earlier November 1 edition is deposited on Zenodo. The main PDF is the corrected local compilation without a submission watermark; the supplement is also locally compiled. Earlier processed-file provenance remains historical and does not establish public announcement or acceptance. The November 1 DOI badge above identifies the older deposited edition, not this revision. This editorial update does not establish new validation.
 
 ## Choose a notebook
 
@@ -118,4 +118,3 @@ The [complete prior README](README-2026-11-03.md) preserves the entry text at [a
 </details>
 
 Research by [Mark Julius Banasihan](https://orcid.org/0009-0001-8121-2878). [Node & Norm](https://nodeandnorm.org/) · [Research integrity](https://nodeandnorm.org/about/research-integrity/).
-

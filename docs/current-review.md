@@ -2,7 +2,7 @@
 
 Start with the **November 8, 2026 editorial revision** of *From Formal Authority to Practical Human Control*: a 21-page main paper and 15-page companion supplement. The preserved findings and methods-phase limits remain unchanged. [Revision and submission status](../paper/revisions/2026-11-08/README.md). The November 1 DOI remains the identity of the older deposited edition.
 
-[Start with the plain-English case guide](../notebooks/historical-study/00_READ_FIRST.ipynb). The current main PDF is the verified arXiv-processed submission copy with its genuine side watermark. The supplement remains a local compile; the corrected local main is preserved separately. The submission watermark does not mean public announcement or acceptance.
+[Start with the plain-English case guide](../notebooks/historical-study/00_READ_FIRST.ipynb). The current main PDF is the corrected local compilation without a submission watermark. The supplement and identical local-main copy remain preserved. Earlier processed-file provenance is historical and does not mean public announcement or acceptance.
 
 ## Read the paper and evidence
 
@@ -29,7 +29,7 @@ Start with the **November 8, 2026 editorial revision** of *From Formal Authority
 
 The sealed November archive preserves observations recorded before the Zenodo deposit. Its README and verification record therefore precede the publication receipt. Read the [later receipt](zenodo-publication-2026-11-01.md) for the deposited DOI and publication check. The [navigation policy](current-navigation.md) preserves earlier release files and review instructions.
 
-The November 8 revision is available here; the November 1 edition remains deposited on Zenodo. The retained submission PDF establishes no public arXiv article identifier, acceptance or peer review. [Dated status](../RESEARCH_STATUS.md).
+The November 8 revision is available here; the November 1 edition remains deposited on Zenodo. Neither repository availability nor historical processing records establish public arXiv announcement, acceptance or peer review. [Dated status](../RESEARCH_STATUS.md).
 
 ## Questions for a substantive review
 
@@ -42,4 +42,3 @@ The following questions follow the [research limits](../LIMITATIONS.md) and [cur
 5. What additional evidence would change a judgment or support transfer to a contemporary AI system?
 
 The three Unresolved findings remain conditional on the retained coding choices. A software pass does not settle the evidentiary judgment. [Approved findings and scope](../RESEARCH_STATUS.md#approved-reassessment-and-preserved-results).
-

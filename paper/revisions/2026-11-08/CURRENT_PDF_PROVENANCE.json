@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-08",
+  "artifact": "preprint_two_column.pdf",
+  "origin": "Restored from the preserved corrected local compilation; no PDF editing or watermark removal operation was applied.",
+  "source_path": "preprint_two_column_local_compile.pdf",
+  "sha256": "82a38022244fa1d40690296c7478593bbf994936f0e1bfdad7fd51bca29a01e6",
+  "git_blob_sha": "43ac048b4483f610ebc82069f2931b1245b35ccf",
+  "bytes": 1445087,
+  "pages": 21,
+  "watermark": null,
+  "scope": "Current main PDF only; supplement, source ZIP, scientific text, notebooks, evidence, earlier editions and Git history preserved.",
+  "historical_processed_record": "ARXIV_PROCESSED_PROVENANCE.json"
+}

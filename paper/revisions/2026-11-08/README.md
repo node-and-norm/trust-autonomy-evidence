@@ -6,13 +6,13 @@ This revision clarifies the presentation, adds a descriptive comparison of the p
 
 ## Submission status and PDF provenance
 
-**Availability:** This editorial revision is available in the repository. The November 1 edition remains available under its existing Zenodo DOI. The processing checkpoints below are historical; the retained submission watermark is not a public arXiv article identifier, acceptance or peer review.
+**Availability:** This editorial revision is available in the repository. The November 1 edition remains available under its existing Zenodo DOI. The processing checkpoints below are historical; the earlier processed-file watermark is not a public arXiv article identifier, acceptance or peer review.
 
 At the earlier November 8 processing checkpoint, the existing arXiv submission 7973196 was resubmitted and the authenticated account showed **on hold**. The retained categories are cs.HC (primary) and cs.CY (cross-list). This is not acceptance, peer review or a public announcement; the submission number is not a public article identifier. That earlier status was checked in the submission workflow, not inferred from these local files.
 
-The main `preprint_two_column.pdf` is now the **genuine arXiv-processed copy** retrieved from the authenticated submission preview on November 8. Its left-side mark reads `arXiv:submit/7973196 [cs.HC] 8 Nov 2026`. This is a submission identifier and processing mark, not a publicly announced arXiv article identifier, acceptance, or peer review. No watermark was fabricated.
+The current `preprint_two_column.pdf` is the **corrected local compilation without a submission watermark**, byte-identical to `preprint_two_column_local_compile.pdf`. The source ZIP, supplement and scientific content are unchanged. [Current-PDF provenance](CURRENT_PDF_PROVENANCE.json) records the exact identity.
 
-The [corrected local main PDF](preprint_two_column_local_compile.pdf) is preserved separately, byte-for-byte, along with the unchanged source ZIP. The companion supplement is still the local compile. The [processed-copy provenance record](ARXIV_PROCESSED_PROVENANCE.json) identifies the exact main-PDF bytes and the scope of the checks; older preparation and correction reviews retain their original local-PDF hashes.
+The [processed-copy provenance record](ARXIV_PROCESSED_PROVENANCE.json) is retained as a historical retrieval checkpoint. Its artifact path and hash describe the processed PDF at the recorded earlier commit, not the current file at that path. Git history remains intact; no historical PDF or record has been purged. Prior preparation and correction reviews retain their original local-PDF hashes.
 
 The November 1 DOI [10.5281/zenodo.23852566](https://doi.org/10.5281/zenodo.23852566) identifies the earlier November 1 edition, not this revision. Cite the specific edition used. No new DOI is asserted here.
 
