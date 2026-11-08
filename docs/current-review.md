@@ -2,7 +2,7 @@
 
 Start with the **November 8, 2026 editorial revision** of *From Formal Authority to Practical Human Control*: a 21-page main paper and 15-page companion supplement. The preserved findings and methods-phase limits remain unchanged. [Revision and submission status](../paper/revisions/2026-11-08/README.md). The November 1 DOI remains the identity of the older deposited edition.
 
-[Start with the plain-English case guide](../notebooks/historical-study/00_READ_FIRST.ipynb). The current repository PDFs are local compiles; the genuine arXiv-processed watermark is still pending retrieval and verification.
+[Start with the plain-English case guide](../notebooks/historical-study/00_READ_FIRST.ipynb). The current main PDF is the verified arXiv-processed submission copy with its genuine side watermark. The supplement remains a local compile; the corrected local main is preserved separately. The submission watermark does not mean public announcement or acceptance.
 
 ## Read the paper and evidence
 
