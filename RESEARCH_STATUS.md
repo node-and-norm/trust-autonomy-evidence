@@ -4,13 +4,13 @@
 
 **Current checkpoint:** [v0.18.0](https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.18.0), 16 October 2026; archive of the approved paper revision and closeout of the methods demonstration and initial Jev research phase.
 
-**Current manuscript:** [November 8, 2026 editorial revision](paper/revisions/2026-11-08/README.md): [21-page main paper](paper/revisions/2026-11-08/preprint_two_column.pdf) and [15-page companion supplement](paper/revisions/2026-11-08/preprint_supplement.pdf). The main PDF is now the verified arXiv-processed submission copy; the supplement remains locally compiled. The original corrected local main PDF is preserved separately. The genuine submission watermark does not establish acceptance or a public article identifier. The editorial revision clarifies presentation and selected source details; preserved findings and phase status remain unchanged. Earlier editions retain their identities.
+**Current manuscript:** [November 8, 2026 editorial revision](paper/revisions/2026-11-08/README.md): [21-page main paper](paper/revisions/2026-11-08/preprint_two_column.pdf) and [15-page companion supplement](paper/revisions/2026-11-08/preprint_supplement.pdf). The main PDF is the corrected local compilation without a submission watermark; the identical local-compile copy and supplement are preserved. Earlier processed-file provenance is historical, not the identity of the current main PDF. The editorial revision clarifies presentation and selected source details; preserved findings and phase status remain unchanged. Earlier editions retain their identities.
 
 **Current DOI-archived preprint:** [10.5281/zenodo.23852566](https://doi.org/10.5281/zenodo.23852566), the November 1 editorial revision, published on Zenodo November 1, 2026. The [publication receipt](docs/zenodo-publication-2026-11-01.md) records the artifact checks and preserves the earlier pre-deposit verification checkpoint. The [October edition](https://doi.org/10.5281/zenodo.23423847), published October 16, and historical [v0.17.0](https://doi.org/10.5281/zenodo.22970968) remain preserved under their own DOIs.
 
 **Phase status:** Closed for the bounded methods demonstration, approved reassessment and initial Jev experiments. This closes active work in the declared scope, without treating open validation questions as answered. See [phase closeout](docs/research-phase-closeout-2026-10-16.md).
 
-**Availability:** The November 8 editorial revision is available in this repository. The November 1 and earlier deposited editions remain available under their existing Zenodo DOIs. The retained arXiv-processed PDF watermark documents submission processing only; it is not a public article identifier, acceptance or peer review. Publication availability does not change the preserved evidence or reopen the completed research phase.
+**Availability:** The November 8 editorial revision is available in this repository. The November 1 and earlier deposited editions remain available under their existing Zenodo DOIs. The current main PDF has no submission watermark. Historical processing records establish neither public announcement nor acceptance or peer review. Publication availability does not change the preserved evidence or reopen the completed research phase.
 
 **Next phase trigger:** A public preprint announcement can prompt a publication-status and citation update. Independent replication, a contemporary trace-based case, a prospective sandbox study or a measured human/AI comparison requires a separately scoped study. A venue announcement alone does not validate the method or require another experiment.
 
@@ -84,4 +84,3 @@ Independent reliability, construct validity, prevalence, field validity, contemp
 ## Versioning rule
 
 A release may change the model, evidence requirements, or protocol only when the changelog identifies the affected proposition, supporting evidence, migration effect, and remaining uncertainty. Historical states are preserved; later corrections and reassessments identify their evidence and interpretation dependencies explicitly.
-
