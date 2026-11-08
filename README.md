@@ -12,13 +12,23 @@ What evidence shows that a person could understand a consequential decision, int
 <a href="docs/research-phase-closeout-2026-10-16.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/research/v1/badges/tae-status-dark.svg"><img src="assets/research/v1/badges/tae-status-dark.svg" alt="Status: methods closed; independent validation open"></picture></a>
 <a href="https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.18.0"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/research/v1/badges/tae-version-dark.svg"><img src="assets/research/v1/badges/tae-version-dark.svg" alt="Repository: v0.18.0"></picture></a>
 <a href="LICENSE"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/research/v1/badges/tae-license-dark.svg"><img src="assets/research/v1/badges/tae-license-dark.svg" alt="License: Apache-2.0"></picture></a>
-<a href="https://doi.org/10.5281/zenodo.23852566"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/research/v1/badges/tae-paper-dark.svg"><img src="assets/research/v1/badges/tae-paper-dark.svg" alt="Deposited paper: November 1, 2026"></picture></a>
+<a href="https://doi.org/10.5281/zenodo.23852566"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/research/v1/badges/tae-deposit-20261101.svg"><img src="assets/research/v1/badges/tae-deposit-20261101.svg" alt="Deposited paper: November 1, 2026"></picture></a>
+
+<a href="paper/revisions/2026-11-08/README.md"><img src="assets/research/v1/badges/tae-latest-20261108.svg" alt="Latest revision: November 8, 2026"></a>
 
 ## Start with the latest revision
 
 [November 8 main preprint](paper/revisions/2026-11-08/preprint_two_column.pdf) · [Companion supplement](paper/revisions/2026-11-08/preprint_supplement.pdf) · [Plain-English historical study book](notebooks/historical-study/00_READ_FIRST.ipynb) · [Revision and submission status](paper/revisions/2026-11-08/README.md)
 
 The resubmitted arXiv manuscript remains **on hold**. These are locally compiled PDFs; the current arXiv-processed side watermark remains unverified. The November 1 DOI badge above identifies the older deposited edition, not this revision. This editorial update does not establish new validation.
+
+## Choose a notebook
+
+[Study map](TAE_STUDY_MAP.ipynb) → [Read first](notebooks/historical-study/00_READ_FIRST.ipynb) → [Complete case records](notebooks/historical-study/01_COMPLETE_CASE_RECORDS.ipynb) → [ZG710 worked example](notebooks/historical-study/02_ZG710_WORKED_EXAMPLE.ipynb) → [Related methods](notebooks/historical-study/03_RELATED_METHODS_IN_PLAIN_ENGLISH.ipynb). No code execution is needed.
+
+The separately delivered Jev exact-record notebook book is not yet included here. Its underlying [experiment records](docs/jev-experiments.md) are available. These TAE notebooks are separate from the revocation study.
+
+Older paper folders retain their historical “current” or “latest” wording. For today’s reading route, use the links above and the [current review guide](docs/current-review.md).
 
 ## At a glance
 
@@ -74,7 +84,7 @@ A successful check establishes its declared software or file-identity condition.
 
 ## AI assistance and human review
 
-Codex contributed to research, manuscript preparation and code. Jev supplied outputs in separate recorded experiments. The paper's disclosure identifies these roles and unavailable model details. [November disclosure](paper/revisions/2026-11-01/main.tex#L1466-L1480).
+Codex contributed to research, manuscript preparation and code. Jev supplied outputs in separate recorded experiments. The paper's disclosure identifies these roles and unavailable model details. [Current disclosure: AI assistance and review limits](paper/revisions/2026-11-08/preprint_two_column.pdf) · [Preserved November 1 disclosure](paper/revisions/2026-11-01/main.tex#L1466-L1480).
 
 Author authorization, selected personal reading and independent verification have different scopes. The records identify what the author reviewed and which checks remain incomplete. [Review attestation](evidence/human-review-attestation-v0.14.0.json), [personal source review](docs/personal-source-review-2026-11-03.md), [program disclosure](https://nodeandnorm.org/about/research-integrity/#ai-use).
 

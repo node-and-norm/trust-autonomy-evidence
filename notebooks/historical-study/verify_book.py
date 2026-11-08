@@ -2,7 +2,7 @@
 import json, hashlib, re
 from pathlib import Path
 root=Path(__file__).resolve().parent
-m=json.loads((root/'MANIFEST.json').read_text())
+m=json.loads((root/'NAVIGATION_MANIFEST_20261108.json').read_text())
 for name,digest in m['files'].items():
  p=root/name
  assert p.is_file(), name
