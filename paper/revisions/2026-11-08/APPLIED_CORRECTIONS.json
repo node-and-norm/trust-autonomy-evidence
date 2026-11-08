@@ -1,0 +1,177 @@
+{
+  "record_type": "applied_local_corrections",
+  "date": "2026-11-08",
+  "scope": "14 audited corrections plus2 author-clarified ethics/independence updates in separate local candidate; baseline preserved.",
+  "baseline": {
+    "main_body.tex": "565c2f2e0840ea6ae60b1f9242f2cb5df2615956519302cb99a6a9700a1b0aac",
+    "preprint_supplement.tex": "c1f7f71cfd4450c05bfd12ef0f230abca03607dd761bef66e65fd344b4706cc1",
+    "preamble.tex": "9875b360b593aabd720c99c7b765d1ab7d24cc37962e35f0fa7651b23c881ebd",
+    "references.tex": "5df8d7264027a95defeae87b72117d98a862b18549ad21a4cebc700bb0d91833",
+    "preprint_two_column.pdf": "6bba8a06ae6918c7415976db2b19a26b31216dc6e845c094e959e1d34ad2ae76",
+    "preprint_supplement.pdf": "aa51d2613535d3eb44c3daa3389b553ac6f9ccb4ee53124692332449161d5c06",
+    "arxiv_main_clean.zip": "3cb2a11a71002c3bab38b3aa3918991075fbd44a654a0e2cfa87fd9137ba0f7d",
+    "arxiv_supplement_ancillary_20261108.zip": "f6bf0a4dec7ec8020e18150833cb80e96b4021bccbfae2b9358ea1c0315793bf"
+  },
+  "corrections": [
+    {
+      "id": "D01",
+      "file": "main_body.tex",
+      "line": 357,
+      "original": "This \\textbf{8 November proposed preprint revision is unpublished and awaits author approval}. Its shorter organization and supplement preserve the earlier findings and uncertainties. No archive or repository was changed and no submission was made in preparing it. Prior authorization to update an arXiv submission with the earlier editorial revision is not authorization to submit this draft.",
+      "replacement": "The 8 November editorial revision reorganizes the paper and supplement while preserving the earlier findings and uncertainties. The author approved this revision for arXiv submission.",
+      "reason": "Stale approval statements contradict subsequent approval and resubmission. Submission status belongs in a dated repository receipt rather than an assertion of public publication.",
+      "status": "applied locally"
+    },
+    {
+      "id": "D02",
+      "file": "main_body.tex",
+      "line": 367,
+      "original": "This review draft was also prepared with AI assistance and awaits author review.",
+      "replacement": "This editorial revision was also prepared with AI assistance under the author's review and authorization.",
+      "reason": "Reflects author review without claiming independent validation.",
+      "status": "applied locally"
+    },
+    {
+      "id": "D03",
+      "file": "preamble.tex",
+      "line": 63,
+      "original": "Unpublished proposed preprint revision, 8 November 2026",
+      "replacement": "Preprint editorial revision, 8 November 2026",
+      "reason": "PDF subject is stale; pdfinfo confirms it in compiled artifact.",
+      "status": "applied locally"
+    },
+    {
+      "id": "D04",
+      "file": "preprint_supplement.tex",
+      "line": 2,
+      "original": "Unpublished proposed preprint revision supplement, 8 November 2026",
+      "replacement": "Supplement to the preprint editorial revision, 8 November 2026",
+      "reason": "Synchronize supplement metadata.",
+      "status": "applied locally"
+    },
+    {
+      "id": "D05",
+      "file": "preprint_supplement.tex",
+      "line": 12,
+      "original": "This supplement accompanies the proposed 8 November preprint revision.",
+      "replacement": "This supplement accompanies the 8 November 2026 preprint editorial revision.",
+      "reason": "Remove stale proposed status without asserting acceptance.",
+      "status": "applied locally"
+    },
+    {
+      "id": "D06",
+      "file": "main_body.tex",
+      "line": 355,
+      "original": "The author-approved 10 October revision and additional-reassessment supplement were published on 16 October at \\href{https://doi.org/10.5281/zenodo.23423847}{10.5281/zenodo.23423847}.",
+      "replacement": "The author-approved 10 October revision and additional-reassessment supplement were published on 16 October at \\href{https://doi.org/10.5281/zenodo.23423847}{10.5281/zenodo.23423847}. The preceding 1 November editorial revision is archived at \\href{https://doi.org/10.5281/zenodo.23852566}{10.5281/zenodo.23852566}.",
+      "reason": "Close predecessor provenance gap; supported by staged RESEARCH_STATUS.md:9, with publication receipt to verify at final packaging.",
+      "status": "applied locally"
+    },
+    {
+      "id": "M01",
+      "file": "preprint_supplement.tex",
+      "line": 365,
+      "original": "Normalization boundary & 55/63 & Exact expected changes in 3/3 primary pairs",
+      "replacement": "Identical-input repeat check (inherited boundary suite) & 55/63 & No choice changes in 3/3 primary pairs",
+      "reason": "Methods review verified identical request bytes/SDK hashes and empty expected deltas; preserve frozen suite identity and score.",
+      "status": "applied locally"
+    },
+    {
+      "id": "M02",
+      "file": "preprint_supplement.tex",
+      "insert_after_line": 373,
+      "replacement": "The prepared changes in the inherited boundary suite disappeared before submission: P019 matched P001, P020 matched P008, and P021 matched P001. These records assess repeated answers to identical inputs, not conceptual-boundary discrimination.",
+      "reason": "Make Table D1 limitation explicit without rewriting recorded scores or fixtures.",
+      "status": "applied locally"
+    },
+    {
+      "id": "N01",
+      "file": "main_body.tex",
+      "line": 348,
+      "original": "A defensible event-level claim must connect assigned authority to usable information, comprehension capacity, a feasible opportunity, active judgment or intervention, and propagation into execution.",
+      "replacement": "Under this procedure, an event-level claim is assessed by linking assigned authority to usable information, comprehension capacity, a feasible opportunity, active judgment or intervention, and propagation into execution.",
+      "reason": "Do not present unvalidated operational definition as universally established necessity.",
+      "status": "applied locally"
+    },
+    {
+      "id": "N02",
+      "file": "main_body.tex",
+      "line": 266,
+      "original": "Practical control additionally asks whether",
+      "replacement": "In this procedure, the practical-control assessment additionally asks whether",
+      "reason": "Align discussion with bounded construct claim.",
+      "status": "applied locally"
+    },
+    {
+      "id": "N03",
+      "file": "main_body.tex",
+      "line": 32,
+      "original": "Its sample, tasks, model, and single qualitative coder limit transfer.",
+      "replacement": "Its sample and tasks limit transfer.",
+      "reason": "Single-coder claim not verified in accessible abstract/current matrix; conservative omission pending exact full-text passage.",
+      "status": "applied locally"
+    },
+    {
+      "id": "N04",
+      "file": "main_body.tex",
+      "line": 30,
+      "original": "explicit allocation and handover patterns",
+      "replacement": "dynamic task-allocation patterns",
+      "reason": "Publisher preview supports allocation patterns; specific handover attribution not verified in this pass.",
+      "status": "applied locally"
+    },
+    {
+      "id": "N05",
+      "file": "main_body.tex",
+      "line": 21,
+      "original": "Engineering accounts connect ability, authority, responsibility, and recorded decisions",
+      "replacement": "Engineering accounts connect ability, authority, responsibility, and links between human decisions and AI actions",
+      "reason": "Avoid implying event-level audit records guaranteed by source; review cites source sections3.4\u20133.5.",
+      "status": "applied locally"
+    },
+    {
+      "id": "N06",
+      "file": "main_body.tex",
+      "line": 35,
+      "original": "Time, independent knowledge, and practiced skill are established conditions for feasible intervention",
+      "replacement": "McDermid identifies sufficient time, independent information, and requisite skills as prerequisites for intervention",
+      "reason": "Attribute proposal precisely; avoid unverified practiced detail or established empirical implication.",
+      "status": "applied locally"
+    },
+    {
+      "id": "E02",
+      "file": "main_body.tex",
+      "original": "No institutional human-subjects-review determination has been obtained. Any applicable institutional and venue determination must be obtained before submission; no exemption is claimed.",
+      "replacement": "No institutional human-subjects-review determination has been obtained, and no exemption is claimed. This account does not establish an institutional or venue determination.",
+      "status": "applied locally",
+      "reason": "Author clarified independent research; no institutional determination, exemption or jurisdiction inferred."
+    },
+    {
+      "id": "E03",
+      "file": "main_body.tex",
+      "original": "The research was conducted independently through Node \\& Norm, without Harvard University sponsorship, supervision, endorsement, or representation.",
+      "replacement": "The research was conducted independently through Node \\& Norm, separate from his degree requirements and without Harvard University sponsorship, supervision, endorsement, or representation.",
+      "status": "applied locally",
+      "reason": "Author explicitly clarified work separate from degree requirements."
+    }
+  ],
+  "holds": [
+    {
+      "id": "E01",
+      "file": "main_body.tex",
+      "line": 360,
+      "action": "Resolved by E02/E03 after author clarification; no determination or exemption asserted.",
+      "reason": "No review determination has been obtained; neither exemption nor violation follows from the public-record/no-recruitment description alone. Do not silently erase this issue."
+    },
+    {
+      "id": "A01",
+      "action": "Create separate dated citation-audit disposition covering70 entries, append NIST70, and record corrections17/49/43/68. Preserve original69-entry matrix.",
+      "reason": "Citation screening is not complete full-text claim verification. Retain ISO normative, TIME, IEEE, Illinois and other access limits."
+    },
+    {
+      "id": "V01",
+      "action": "After approved corrections compile and compare the main and supplement PDFs/source bundle, synchronize Overleaf/local/repo/arXiv deliberately, and inspect actual arXiv processed artifact.",
+      "reason": "Local compile is not an authenticated arXiv-stamped copy; no fabricated watermark. Submission7973196/on hold is not acceptance or public announcement."
+    }
+  ]
+}

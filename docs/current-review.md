@@ -1,13 +1,15 @@
 # Review the current TAE paper
 
-Start with the **November 1, 2026 editorial revision** of *From Formal Authority to Practical Human Control*. Its 47-page manuscript preserves the approved October findings. The separate publication receipt records its November Zenodo deposit. [Revision record](../paper/revisions/2026-11-01/README.md), [publication receipt](zenodo-publication-2026-11-01.md).
+Start with the **November 8, 2026 editorial revision** of *From Formal Authority to Practical Human Control*: a 21-page main paper and 15-page companion supplement. The preserved findings and methods-phase limits remain unchanged. [Revision and submission status](../paper/revisions/2026-11-08/README.md). The November 1 DOI remains the identity of the older deposited edition.
+
+[Start with the plain-English case guide](../notebooks/historical-study/00_READ_FIRST.ipynb). The current repository PDFs are local compiles; the genuine arXiv-processed watermark is still pending retrieval and verification.
 
 ## Read the paper and evidence
 
 | Review task | Record |
 | :--- | :--- |
-| Read the current manuscript | [November PDF](../paper/revisions/2026-11-01/preprint.pdf) · [editable source](../paper/revisions/2026-11-01/main.tex) |
-| Inspect the full submitted package | [November source archive](../paper/revisions/2026-11-01/source.tar.gz) · [checksums](../paper/revisions/2026-11-01/SHA256SUMS.txt) |
+| Read the current manuscript | [Main PDF](../paper/revisions/2026-11-08/preprint_two_column.pdf) · [Supplement](../paper/revisions/2026-11-08/preprint_supplement.pdf) · [editable source](../paper/revisions/2026-11-08/clean_dual_source.zip) |
+| Inspect the preserved November 1 submission package | [November source archive](../paper/revisions/2026-11-01/source.tar.gz) · [checksums](../paper/revisions/2026-11-01/SHA256SUMS.txt) |
 | Inspect the approved reassessment | [October comparison and approval scope](../paper/revisions/2026-10-10/README.md#findings-and-approval-scope) · [public supplement](../paper/revisions/2026-10-10/supplement/README_PUBLIC.txt) |
 | Review claim support | [Material claims](../CLAIMS.md) · [current evidence status](../RESEARCH_STATUS.md) |
 | Review uncertainty and limits | [Known limits](../LIMITATIONS.md) · [phase closeout](research-phase-closeout-2026-10-16.md) |
@@ -19,14 +21,14 @@ Start with the **November 1, 2026 editorial revision** of *From Formal Authority
 
 | Artifact | Date and identity | Scope |
 | :--- | :--- | :--- |
-| Current editorial preprint | November 1, 2026. [DOI 10.5281/zenodo.23852566](https://doi.org/10.5281/zenodo.23852566) | Current manuscript. [Publication receipt](zenodo-publication-2026-11-01.md) |
+| Earlier DOI-deposited editorial preprint | November 1, 2026. [DOI 10.5281/zenodo.23852566](https://doi.org/10.5281/zenodo.23852566) | Earlier deposited manuscript. [Publication receipt](zenodo-publication-2026-11-01.md) |
 | Approved reassessment edition | Revised October 10 and published October 16, 2026. [DOI 10.5281/zenodo.23423847](https://doi.org/10.5281/zenodo.23423847) | Earlier manuscript and preserved public supplement. [Archive](../paper/revisions/2026-10-10/README.md) |
 | Repository release | October 16, 2026. [v0.18.0](https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.18.0) | Methods demonstration and initial Jev phase closeout. [Release notes](../release/v0.18.0-release-notes.md) |
 | Historical preprint | [v0.17.0 and DOI 10.5281/zenodo.22970968](https://doi.org/10.5281/zenodo.22970968) | Earlier paper, findings and review instructions. [Historical entry](../paper/preprints/README.md) |
 
 The sealed November archive preserves observations recorded before the Zenodo deposit. Its README and verification record therefore precede the publication receipt. Read the [later receipt](zenodo-publication-2026-11-01.md) for the deposited DOI and publication check. The [navigation policy](current-navigation.md) preserves earlier release files and review instructions.
 
-The last recorded arXiv observation is **on hold**, following the November 1 submission update. The record establishes no public arXiv article identifier or peer review. [Dated status](../RESEARCH_STATUS.md).
+The last recorded arXiv observation is **on hold**, following the November 8 resubmission. The record establishes no public arXiv article identifier or peer review. [Dated status](../RESEARCH_STATUS.md).
 
 ## Questions for a substantive review
 
@@ -39,3 +41,4 @@ The following questions follow the [research limits](../LIMITATIONS.md) and [cur
 5. What additional evidence would change a judgment or support transfer to a contemporary AI system?
 
 The three Unresolved findings remain conditional on the retained coding choices. A software pass does not settle the evidentiary judgment. [Approved findings and scope](../RESEARCH_STATUS.md#approved-reassessment-and-preserved-results).
+

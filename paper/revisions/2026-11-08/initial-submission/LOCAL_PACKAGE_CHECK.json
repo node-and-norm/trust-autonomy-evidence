@@ -1,0 +1,35 @@
+{
+  "edits": [
+    "Removed duplicate front result paragraph",
+    "Removed supplement front review-status label",
+    "Changed supplement sentence to It is not a new experiment or source audit."
+  ],
+  "unchanged_verified": [
+    "preamble.tex",
+    "main_body.tex",
+    "references.tex",
+    "preprint_two_column.tex",
+    "figures/fig-a1-mutation-response.png",
+    "figures/fig-a2-reproducibility-lineage.png",
+    "figures/fig-5-formal-search-and-screening.png",
+    "figures/fig-version-summary.pdf",
+    "figures/fig-a4-oko-versioned-correction.png",
+    "figures/fig-4-trust-evidence-states.png",
+    "figures/fig-2-c-additional.png",
+    "figures/fig-2-b-stage2.png",
+    "figures/fig-a3-claim-evidence-integrity.png",
+    "figures/fig-6-evidence-boundaries.png",
+    "figures/fig-3-decision-paths.png",
+    "figures/fig-2-a-baseline.png",
+    "figures/fig-1-selection-and-stopping.png"
+  ],
+  "main_pages": 21,
+  "supplement_pages": 15,
+  "warning": "main page13 floats only",
+  "no_submission": true,
+  "zip_sha256": {
+    "arxiv_main_clean.zip": "3cb2a11a71002c3bab38b3aa3918991075fbd44a654a0e2cfa87fd9137ba0f7d",
+    "supplement_source_clean.zip": "8a52db4d0261d0c2a6eda15861abf189b86e6870ce430374a61cc761cc0f182c",
+    "clean_dual_source.zip": "ebb61fc89c61f2aa456f621d8082a032aaf1721f14c1fc647f34646c343eb15d"
+  }
+}

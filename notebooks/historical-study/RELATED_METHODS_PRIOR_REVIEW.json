@@ -1,0 +1,12 @@
+{
+  "file": "03_RELATED_METHODS_IN_PLAIN_ENGLISH.ipynb",
+  "sha256": "bca814f20a6ad478c3eb00967d22b42e93e6a8bf21ead079ca5d6ae780b79b34",
+  "schema": "nbformat v4.5 validated",
+  "cells": 9,
+  "code_cells": 0,
+  "independent_review": "Passed independent AI-assisted editorial/schema review against retained source audit; recommended terminology changes applied. Not fresh verification of every primary source.",
+  "visual_rendering": "Not verified in GitHub or Jupyter",
+  "repo_and_manuscript_changes": false,
+  "source_review_limits": "Selected primary sections and indexed Niazi publisher text; not complete citation audit.",
+  "integration_note": "Place alongside historical study reader. Add direct navigation to 02_ZG710_WORKED_EXAMPLE.ipynb when bundled."
+}

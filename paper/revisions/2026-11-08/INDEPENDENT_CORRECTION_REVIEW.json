@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-08",
+  "status": "PASS for bounded local correction review",
+  "scope": "Independent check of approved editorial changes, source integrity and selected rendered pages, not full source or historical-judgment validation.",
+  "correction_count": 16,
+  "exact_expected_all_tex": true,
+  "baseline_all_eight_hashes_unchanged": true,
+  "all_figures_unchanged": true,
+  "references_unchanged": true,
+  "boundary_wording": "Accurately confines the finding to no choice changes for three identical-input primary pairs, and explicitly denies conceptual-boundary discrimination. This review checked correction wording against prior audit, not raw Jev pairs anew.",
+  "DOI": "Coordinator reports fresh verification at official https://zenodo.org/api/records/23852566. This reviewer checked local corroborating RESEARCH_STATUS.md; does not claim to have repeated external verification.",
+  "visual_review": {
+    "main_pages": [
+      3,
+      16,
+      17
+    ],
+    "supplement_pages": [
+      14
+    ],
+    "result": "No visible overlap or clipping. D1 row wraps within table and labels remain readable.",
+    "final_main_page17": "Rerendered and inspected after E02/E03: readable, no overlap or clipping."
+  },
+  "compile": {
+    "main_pages": 21,
+    "supplement_pages": 15,
+    "overfull_warnings": false,
+    "other_warning": "Main page13 contains only floats, inherited layout behavior not investigated here."
+  },
+  "not_checked": [
+    "Every rendered page",
+    "Every historical interpretation",
+    "All cited full texts",
+    "Authenticated arXiv processed artifact"
+  ],
+  "candidate_pdf_sha256": {
+    "preprint_supplement.pdf": "873752da962674290f7be97752ccd089fb46c0309bf77c6dd25c5f59e044efdc",
+    "preprint_two_column.pdf": "82a38022244fa1d40690296c7478593bbf994936f0e1bfdad7fd51bca29a01e6"
+  },
+  "ethics_E02_E03": "Exactly two further authorized edits. Preserves absence of institutional review and nonclaim of exemption; does not assert Harvard jurisdiction or absence of jurisdiction. Degree separation attributed to author clarification relayed by coordinator."
+}

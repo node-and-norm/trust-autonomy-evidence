@@ -1,0 +1,134 @@
+{
+  "version": "0.3.0",
+  "case_id": "TAE-PUB-003",
+  "retrieval_date": "2026-08-07",
+  "evidence_cutoff": "2026-08-06T23:59:59Z",
+  "rights_statement": "The packet redistributes source metadata, short paraphrases, and original assessment only. Copyrighted source files remain at issuer URLs. Locally hashed copies were used to fix the reviewed version and are not redistributed.",
+  "sources": [
+    {
+      "source_id": "F1",
+      "title": "AI Incident Database weekly snapshot, incident 445",
+      "issuer": "Responsible AI Collaborative",
+      "authors": [],
+      "publication_date": "2026-08-03",
+      "retrieval_date": "2026-08-07",
+      "url": "https://incidentdatabase.ai/research/snapshots/",
+      "archive_url": null,
+      "source_class": "candidate_collection",
+      "availability": "available",
+      "provenance_use": "source_claim",
+      "preservation": {
+        "status": "locally_hashed_not_redistributed",
+        "file": "backup-20260803110541.tar.bz2",
+        "sha256": "97fe770b0e92730c98fbb05bca8f9e2df6803f0f386d94404a19a7677d70f240"
+      },
+      "notes": "Incident 445 identified the candidate. Collection classifications do not establish assessment findings."
+    },
+    {
+      "source_id": "F2",
+      "title": "Friendly fire incidents will be investigated",
+      "issuer": "United States Air Force",
+      "authors": ["Rick Burnham"],
+      "publication_date": "2003-04-06",
+      "retrieval_date": "2026-08-07",
+      "url": "https://www.af.mil/News/Article-Display/Article/139557/friendly-fire-incidents-will-be-investigated/",
+      "archive_url": null,
+      "source_class": "official_record",
+      "availability": "available",
+      "provenance_use": "direct_record",
+      "preservation": {"status": "remote_only", "file": null, "sha256": null},
+      "notes": "The contemporaneous statement confirms the suspected Patriot engagement and the intended investigation of software, hardware, procedures, and people."
+    },
+    {
+      "source_id": "F3",
+      "title": "Investigation Finds U.S. Missiles Downed Navy Jet",
+      "issuer": "The Washington Post",
+      "authors": ["Thomas E. Ricks"],
+      "publication_date": "2004-12-10",
+      "retrieval_date": "2026-08-07",
+      "url": "https://www.washingtonpost.com/archive/politics/2004/12/11/investigation-finds-us-missiles-downed-navy-jet/323e76f1-31d5-49c1-a27a-df9f389b0532/",
+      "archive_url": null,
+      "source_class": "independent_reporting",
+      "availability": "available",
+      "provenance_use": "source_claim",
+      "preservation": {"status": "remote_only", "file": null, "sha256": null},
+      "notes": "The article reports the U.S. Central Command summary, including two battery detections, command-center correlation, increasing confidence, and the launch order. It also states that the summary did not explain why operators were fooled."
+    },
+    {
+      "source_id": "F4",
+      "title": "Report of the Defense Science Board Task Force on Patriot System Performance: Report Summary",
+      "issuer": "U.S. Defense Science Board",
+      "authors": ["Defense Science Board Task Force on Patriot System Performance"],
+      "publication_date": "2005",
+      "retrieval_date": "2026-08-07",
+      "url": "https://www.govinfo.gov/content/pkg/GOVPUB-D-PURL-LPS66633/pdf/GOVPUB-D-PURL-LPS66633.pdf",
+      "archive_url": "https://www.govinfo.gov/app/details/GOVPUB-D-PURL-LPS66633",
+      "source_class": "official_research",
+      "availability": "available",
+      "provenance_use": "direct_record",
+      "preservation": {
+        "status": "locally_hashed_not_redistributed",
+        "file": "GOVPUB-D-PURL-LPS66633.pdf",
+        "sha256": "d1d2ba0ca5372580419d53ce2f71cd1c2c0f3f0eb2196943c0e864ee36d183c2"
+      },
+      "notes": "The public summary reports insufficient data to determine exact causes and states that the complete final report is classified."
+    },
+    {
+      "source_id": "F5",
+      "title": "Looking Back at 20 Years of MANPRINT on Patriot: Observations and Lessons",
+      "issuer": "U.S. Army Research Laboratory",
+      "authors": ["J. K. Hawley"],
+      "publication_date": "2008",
+      "retrieval_date": "2026-08-07",
+      "url": "https://www.govinfo.gov/content/pkg/GOVPUB-D101-PURL-gpo58824/pdf/GOVPUB-D101-PURL-gpo58824.pdf",
+      "archive_url": "https://www.govinfo.gov/app/details/GOVPUB-D101-PURL-gpo58824",
+      "source_class": "official_research",
+      "availability": "available",
+      "provenance_use": "direct_record",
+      "preservation": {
+        "status": "locally_hashed_not_redistributed",
+        "file": "GOVPUB-D101-PURL-gpo58824.pdf",
+        "sha256": "a47fa7c915a6e023d945dc3ceee69b6dce1623647a68df4cd2eaaa06f8d8d13d"
+      },
+      "notes": "The report supports system-level findings about automation bias, training, situation awareness, and organizational design across both fratricides."
+    },
+    {
+      "source_id": "F6",
+      "title": "Army describes Patriot missile friendly fire problems",
+      "issuer": "Government Executive",
+      "authors": ["David Ruppe"],
+      "publication_date": "2003-07-29",
+      "retrieval_date": "2026-08-07",
+      "url": "https://www.govexec.com/defense/2003/07/army-describes-patriot-missile-friendly-fire-problems/14644/",
+      "archive_url": null,
+      "source_class": "independent_reporting",
+      "availability": "available",
+      "provenance_use": "source_claim",
+      "preservation": {"status": "remote_only", "file": null, "sha256": null},
+      "notes": "The report documents that incident-specific causes were withheld while Army lessons learned identified identification, communications, and training weaknesses."
+    },
+    {
+      "source_id": "F7",
+      "title": "Explanatory memorandum on the updated OECD definition of an AI system",
+      "issuer": "OECD",
+      "authors": ["OECD"],
+      "publication_date": "2024-03-05",
+      "retrieval_date": "2026-08-07",
+      "url": "https://doi.org/10.1787/623da898-en",
+      "archive_url": null,
+      "source_class": "definition",
+      "availability": "available",
+      "provenance_use": "source_claim",
+      "preservation": {"status": "remote_only", "file": null, "sha256": null},
+      "notes": "The functional definition includes knowledge-based systems that infer classifications and decisions from inputs."
+    }
+  ],
+  "unavailable_evidence": [
+    {
+      "description": "The full Central Command investigation, the U.S. Army Board of Inquiry record, command logs, display records, and the complete Defense Science Board report are not public.",
+      "search_record": "GovInfo, U.S. Army, U.S. Air Force, candidate reports, and targeted web searches were checked through the evidence cutoff.",
+      "effect": "The packet can establish the action sequence and shared system-level weaknesses. It cannot determine why the F/A-18 track was misclassified, whether each operator saw independent evidence, or which intervention options were feasible."
+    }
+  ]
+}
+

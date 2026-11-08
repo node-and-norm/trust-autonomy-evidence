@@ -1,0 +1,134 @@
+{
+  "version": "0.3.0",
+  "case_id": "TAE-PUB-002",
+  "retrieval_date": "2026-08-07",
+  "evidence_cutoff": "2026-08-06T23:59:59Z",
+  "rights_statement": "The packet redistributes source metadata, short paraphrases, and original assessment only. Copyrighted source files remain at issuer URLs. Locally hashed copies were used to fix the reviewed version and are not redistributed.",
+  "sources": [
+    {
+      "source_id": "T1",
+      "title": "AI Incident Database weekly snapshot, incident 444",
+      "issuer": "Responsible AI Collaborative",
+      "authors": [],
+      "publication_date": "2026-08-03",
+      "retrieval_date": "2026-08-07",
+      "url": "https://incidentdatabase.ai/research/snapshots/",
+      "archive_url": null,
+      "source_class": "candidate_collection",
+      "availability": "available",
+      "provenance_use": "source_claim",
+      "preservation": {
+        "status": "locally_hashed_not_redistributed",
+        "file": "backup-20260803110541.tar.bz2",
+        "sha256": "97fe770b0e92730c98fbb05bca8f9e2df6803f0f386d94404a19a7677d70f240"
+      },
+      "notes": "Incident 444 identified the candidate. Collection classifications do not establish assessment findings."
+    },
+    {
+      "source_id": "T2",
+      "title": "Military Aircraft Accident Summary: RAF Tornado GR Mk4A ZG710, 22 March 2003",
+      "issuer": "United Kingdom Ministry of Defence",
+      "authors": ["RAF Board of Inquiry"],
+      "publication_date": "2006",
+      "retrieval_date": "2026-08-07",
+      "url": "https://assets.publishing.service.gov.uk/media/5a78e39b40f0b62b22cbd9a5/maas03_02_tornado_zg710_22mar03.pdf",
+      "archive_url": null,
+      "source_class": "official_record",
+      "availability": "available",
+      "provenance_use": "direct_record",
+      "preservation": {"status": "remote_only", "file": null, "sha256": null},
+      "notes": "The Board used recorder data, wreckage, and British and U.S. witness statements. It reports the classification, launch, decision window, communications, training, and IFF findings."
+    },
+    {
+      "source_id": "T3",
+      "title": "Report of the Defense Science Board Task Force on Patriot System Performance: Report Summary",
+      "issuer": "U.S. Defense Science Board",
+      "authors": ["Defense Science Board Task Force on Patriot System Performance"],
+      "publication_date": "2005",
+      "retrieval_date": "2026-08-07",
+      "url": "https://www.govinfo.gov/content/pkg/GOVPUB-D-PURL-LPS66633/pdf/GOVPUB-D-PURL-LPS66633.pdf",
+      "archive_url": "https://www.govinfo.gov/app/details/GOVPUB-D-PURL-LPS66633",
+      "source_class": "official_research",
+      "availability": "available",
+      "provenance_use": "direct_record",
+      "preservation": {
+        "status": "locally_hashed_not_redistributed",
+        "file": "GOVPUB-D-PURL-LPS66633.pdf",
+        "sha256": "d1d2ba0ca5372580419d53ce2f71cd1c2c0f3f0eb2196943c0e864ee36d183c2"
+      },
+      "notes": "The unclassified summary describes weak identification, missing shared situational awareness, largely automatic operation, training to trust software, and the need for more operator control."
+    },
+    {
+      "source_id": "T4",
+      "title": "Looking Back at 20 Years of MANPRINT on Patriot: Observations and Lessons",
+      "issuer": "U.S. Army Research Laboratory",
+      "authors": ["J. K. Hawley"],
+      "publication_date": "2008",
+      "retrieval_date": "2026-08-07",
+      "url": "https://www.govinfo.gov/content/pkg/GOVPUB-D101-PURL-gpo58824/pdf/GOVPUB-D101-PURL-gpo58824.pdf",
+      "archive_url": "https://www.govinfo.gov/app/details/GOVPUB-D101-PURL-gpo58824",
+      "source_class": "official_research",
+      "availability": "available",
+      "provenance_use": "direct_record",
+      "preservation": {
+        "status": "locally_hashed_not_redistributed",
+        "file": "GOVPUB-D101-PURL-gpo58824.pdf",
+        "sha256": "a47fa7c915a6e023d945dc3ceee69b6dce1623647a68df4cd2eaaa06f8d8d13d"
+      },
+      "notes": "The report derives a human-system logic model from inquiry records, interviews, training observation, and operational experience."
+    },
+    {
+      "source_id": "T5",
+      "title": "Understanding the errors introduced by military AI applications",
+      "issuer": "Brookings Institution",
+      "authors": ["Scharre and Horowitz"],
+      "publication_date": "2022-05-06",
+      "retrieval_date": "2026-08-07",
+      "url": "https://www.brookings.edu/articles/understanding-the-errors-introduced-by-military-ai-applications/",
+      "archive_url": null,
+      "source_class": "independent_research",
+      "availability": "available",
+      "provenance_use": "source_claim",
+      "preservation": {"status": "remote_only", "file": null, "sha256": null},
+      "notes": "The analysis treats the case as a human-machine decision failure and separates system error from operator response."
+    },
+    {
+      "source_id": "T6",
+      "title": "Explanatory memorandum on the updated OECD definition of an AI system",
+      "issuer": "OECD",
+      "authors": ["OECD"],
+      "publication_date": "2024-03-05",
+      "retrieval_date": "2026-08-07",
+      "url": "https://doi.org/10.1787/623da898-en",
+      "archive_url": null,
+      "source_class": "definition",
+      "availability": "available",
+      "provenance_use": "source_claim",
+      "preservation": {"status": "remote_only", "file": null, "sha256": null},
+      "notes": "The functional definition includes knowledge-based systems that infer classifications and decisions from inputs."
+    },
+    {
+      "source_id": "T7",
+      "title": "Army describes Patriot missile friendly fire problems",
+      "issuer": "Government Executive",
+      "authors": ["David Ruppe"],
+      "publication_date": "2003-07-29",
+      "retrieval_date": "2026-08-07",
+      "url": "https://www.govexec.com/defense/2003/07/army-describes-patriot-missile-friendly-fire-problems/14644/",
+      "archive_url": null,
+      "source_class": "independent_reporting",
+      "availability": "available",
+      "provenance_use": "source_claim",
+      "preservation": {"status": "remote_only", "file": null, "sha256": null},
+      "notes": "The report describes an Army lessons-learned briefing that advised manual operation, robust communications, and avoidance of autonomous fire units."
+    }
+  ],
+  "unavailable_evidence": [
+    {
+      "description": "The complete U.S. Defense Science Board final report and U.S. Army Board of Inquiry records are not public.",
+      "search_record": "GovInfo, U.S. Army, U.S. Air Force, UK government, candidate reports, and targeted web searches were checked through the evidence cutoff.",
+      "effect": "The packet supports a system-level control finding but cannot reconstruct every operator action, display state, or command communication."
+    }
+  ]
+}
+

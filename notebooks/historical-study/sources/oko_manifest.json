@@ -1,0 +1,100 @@
+{
+  "version": "0.3.0",
+  "case_id": "TAE-PUB-001",
+  "retrieval_date": "2026-08-07",
+  "evidence_cutoff": "2026-08-06T23:59:59Z",
+  "rights_statement": "The packet redistributes source metadata, short paraphrases, and original assessment only. Copyrighted source files remain at issuer URLs. Locally hashed copies were used to fix the reviewed version and are not redistributed.",
+  "sources": [
+    {
+      "source_id": "O1",
+      "title": "AI Incident Database weekly snapshot, 3 August 2026",
+      "issuer": "Responsible AI Collaborative",
+      "authors": [],
+      "publication_date": "2026-08-03",
+      "retrieval_date": "2026-08-07",
+      "url": "https://incidentdatabase.ai/research/snapshots/",
+      "archive_url": null,
+      "source_class": "candidate_collection",
+      "availability": "available",
+      "provenance_use": "source_claim",
+      "preservation": {
+        "status": "locally_hashed_not_redistributed",
+        "file": "backup-20260803110541.tar.bz2",
+        "sha256": "97fe770b0e92730c98fbb05bca8f9e2df6803f0f386d94404a19a7677d70f240"
+      },
+      "notes": "Incident 27 identified the candidate. Collection classifications do not establish assessment findings."
+    },
+    {
+      "source_id": "O2",
+      "title": "I Had a Funny Feeling in My Gut",
+      "issuer": "The Washington Post",
+      "authors": ["David Hoffman"],
+      "publication_date": "1999-02-09",
+      "retrieval_date": "2026-08-07",
+      "url": "https://www.washingtonpost.com/archive/politics/1999/02/10/i-had-a-funny-feeling-in-my-gut/97fb4af6-2a54-4805-8ec0-115a13f33493/",
+      "archive_url": null,
+      "source_class": "primary_interview",
+      "availability": "available",
+      "provenance_use": "direct_record",
+      "preservation": {"status": "remote_only", "file": null, "sha256": null},
+      "notes": "The report contains Petrov's first-person account and states that the official Soviet account remained secret."
+    },
+    {
+      "source_id": "O3",
+      "title": "Too Close for Comfort: Cases of Near Nuclear Use and Options for Policy",
+      "issuer": "Chatham House",
+      "authors": ["Patricia Lewis", "Heather Williams", "Benoit Pelopidas", "Sasan Aghlani"],
+      "publication_date": "2014-04-28",
+      "retrieval_date": "2026-08-07",
+      "url": "https://www.chathamhouse.org/sites/default/files/field/field_document/20140428TooCloseforComfortNuclearUseLewisWilliamsPelopidasAghlani.pdf",
+      "archive_url": null,
+      "source_class": "independent_research",
+      "availability": "available",
+      "provenance_use": "source_claim",
+      "preservation": {
+        "status": "locally_hashed_not_redistributed",
+        "file": "20140428TooCloseforComfortNuclearUseLewisWilliamsPelopidasAghlani.pdf",
+        "sha256": "36034f8de3301efee226951b4185eea02f8cb671ac53eadc7c788f2e4dfff2af"
+      },
+      "notes": "The report reconstructs the decision chain and explicitly states uncertainty about what a higher-level decision-maker would have done."
+    },
+    {
+      "source_id": "O4",
+      "title": "Stanislav Petrov, the Russian Officer Who Averted a Nuclear War, Feared History Repeating Itself",
+      "issuer": "Time",
+      "authors": ["Simon Shuster"],
+      "publication_date": "2017-09-19",
+      "retrieval_date": "2026-08-07",
+      "url": "https://time.com/4947879/stanislav-petrov-russia-nuclear-war-obituary/",
+      "archive_url": null,
+      "source_class": "primary_interview",
+      "availability": "available",
+      "provenance_use": "direct_record",
+      "preservation": {"status": "remote_only", "file": null, "sha256": null},
+      "notes": "The article reports a 2015 interview with Petrov about the alert, his uncertainty, and his report to commanders."
+    },
+    {
+      "source_id": "O5",
+      "title": "Explanatory memorandum on the updated OECD definition of an AI system",
+      "issuer": "OECD",
+      "authors": ["OECD"],
+      "publication_date": "2024-03-05",
+      "retrieval_date": "2026-08-07",
+      "url": "https://doi.org/10.1787/623da898-en",
+      "archive_url": null,
+      "source_class": "definition",
+      "availability": "available",
+      "provenance_use": "source_claim",
+      "preservation": {"status": "remote_only", "file": null, "sha256": null},
+      "notes": "The functional definition includes machine-based inference that produces predictions, recommendations, or decisions, including knowledge-based approaches."
+    }
+  ],
+  "unavailable_evidence": [
+    {
+      "description": "Soviet command logs, the official incident record, and the investigation file were not located in a public official archive.",
+      "search_record": "The candidate reports, Chatham House references, public government pages, and targeted web searches were checked through the evidence cutoff.",
+      "effect": "The packet cannot verify Petrov's account against contemporaneous official records or determine what senior leaders would have done after escalation."
+    }
+  ]
+}
+
