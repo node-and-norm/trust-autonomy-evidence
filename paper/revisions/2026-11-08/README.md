@@ -6,7 +6,9 @@ This revision clarifies the presentation, adds a descriptive comparison of the p
 
 ## Submission status and PDF provenance
 
-On November 8 the existing arXiv submission 7973196 was resubmitted and the authenticated account showed **on hold**. The retained categories are cs.HC (primary) and cs.CY (cross-list). This is not acceptance, peer review or a public announcement; the submission number is not a public article identifier. This status was checked in the submission workflow, not inferred from these local files.
+**Current disposition: declined.** On November 8, the author reported the arXiv moderation notification declining the submission. The manuscript was not publicly announced on arXiv. Earlier submission and on-hold observations below are preserved as historical processing checkpoints, not current status. The private notification is not reproduced here; no further reason is asserted. This does not change the existing Zenodo editions or the study evidence.
+
+At the earlier November 8 processing checkpoint, the existing arXiv submission 7973196 was resubmitted and the authenticated account showed **on hold**. The retained categories are cs.HC (primary) and cs.CY (cross-list). This is not acceptance, peer review or a public announcement; the submission number is not a public article identifier. That earlier status was checked in the submission workflow, not inferred from these local files.
 
 The main `preprint_two_column.pdf` is now the **genuine arXiv-processed copy** retrieved from the authenticated submission preview on November 8. Its left-side mark reads `arXiv:submit/7973196 [cs.HC] 8 Nov 2026`. This is a submission identifier and processing mark, not a publicly announced arXiv article identifier, acceptance, or peer review. No watermark was fabricated.
 
