@@ -14,8 +14,8 @@ class ProcessedPreprintTests(unittest.TestCase):
         self.assertEqual(hashlib.sha256((root / local['path']).read_bytes()).hexdigest(), local['sha256'])
         self.assertNotEqual(record['sha256'], local['sha256'])
         self.assertEqual(record['watermark'], 'arXiv:submit/7973196 [cs.HC] 8 Nov 2026')
-        self.assertIn('Declined', record['status'])
-        self.assertIn('not publicly announced', record['status'])
+        self.assertIn('submission processing only', record['status'])
+        self.assertIn('does not establish a public arXiv article identifier', record['status'])
         self.assertIn('on hold', record['processing_status_at_retrieval'])
 
     def test_revision_checksums(self):
