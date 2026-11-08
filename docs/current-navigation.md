@@ -22,6 +22,10 @@ The historical v0.17.0 PDF SHA-256 is `d7609d47f4f92629c58d400e3222b29026a6a152d
 
 Earlier navigation updates in v0.17.1, v0.17.2 and later merged Jev records preserved their release snapshots. Their tags and manifests continue to describe those historical checkpoints. Frozen paper entry points in `paper/preprints/` and earlier review documents retain their release identities; the new revision has its own entry point.
 
+## Reader navigation follow-up
+
+The November 8 navigation follow-up distinguishes the latest manuscript badge from the older DOI-deposited edition, refreshes the study map and notebook routes, and labels old source-edition links accurately. It does not modify frozen paper entry points, manuscript bytes, case records, release manifests or DOI identities. The original historical-book `MANIFEST.json` remains unchanged; `NAVIGATION_MANIFEST_20261108.json` identifies the reader notebooks after navigation edits. Prior review records describe the earlier reader checkpoint.
+
 ## Verification
 
 Run the repository's existing validation workflow and `python -m unittest discover -s tests -p 'test_navigation.py' -v`. The navigation tests reject unrecorded changes, expanded checkpoint scope, incorrect historical baselines and changes to sealed research artifacts. They verify that the v0.17.0 manifest still equals its tagged copy. Computational checks and author approval provide no independent validation of evidence judgments.

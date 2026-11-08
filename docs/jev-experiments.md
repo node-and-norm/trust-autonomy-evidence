@@ -1,9 +1,12 @@
 # Jev experiments: current guide
 
 Jev is an optional experimental evaluator within TAE. Core TAE validation remains
-deterministic and credential-free. The current published repository release is
-v0.17.2; the paper remains v0.17.0. Later pilot and collaborative-review records
-are separate additions, not revisions of released research conclusions.
+deterministic and credential-free. The current repository release is
+v0.18.0; the latest manuscript is the [November 8 editorial revision](current-review.md).
+The first live results retain their v0.17.2 identity and historical paper context.
+Later pilot and collaborative-review records are separate additions, not revisions
+of those released research conclusions. The separate Jev notebook reading book
+has been delivered for review but is not yet included in this repository.
 
 ## Experiment map
 
