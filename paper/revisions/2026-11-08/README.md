@@ -8,7 +8,9 @@ This revision clarifies the presentation, adds a descriptive comparison of the p
 
 On November 8 the existing arXiv submission 7973196 was resubmitted and the authenticated account showed **on hold**. The retained categories are cs.HC (primary) and cs.CY (cross-list). This is not acceptance, peer review or a public announcement; the submission number is not a public article identifier. This status was checked in the submission workflow, not inferred from these local files.
 
-The two PDFs here are **locally compiled copies**, not downloaded arXiv-processed PDFs. The genuine current arXiv side watermark has not yet been retrieved and verified for this repository copy. No watermark has been fabricated, and the October stamp has not been reused.
+The main `preprint_two_column.pdf` is now the **genuine arXiv-processed copy** retrieved from the authenticated submission preview on November 8. Its left-side mark reads `arXiv:submit/7973196 [cs.HC] 8 Nov 2026`. This is a submission identifier and processing mark, not a publicly announced arXiv article identifier, acceptance, or peer review. No watermark was fabricated.
+
+The [corrected local main PDF](preprint_two_column_local_compile.pdf) is preserved separately, byte-for-byte, along with the unchanged source ZIP. The companion supplement is still the local compile. The [processed-copy provenance record](ARXIV_PROCESSED_PROVENANCE.json) identifies the exact main-PDF bytes and the scope of the checks; older preparation and correction reviews retain their original local-PDF hashes.
 
 The November 1 DOI [10.5281/zenodo.23852566](https://doi.org/10.5281/zenodo.23852566) identifies the earlier November 1 edition, not this revision. Cite the specific edition used. No new DOI is asserted here.
 

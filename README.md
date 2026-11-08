@@ -20,7 +20,7 @@ What evidence shows that a person could understand a consequential decision, int
 
 [November 8 main preprint](paper/revisions/2026-11-08/preprint_two_column.pdf) · [Companion supplement](paper/revisions/2026-11-08/preprint_supplement.pdf) · [Plain-English historical study book](notebooks/historical-study/00_READ_FIRST.ipynb) · [Revision and submission status](paper/revisions/2026-11-08/README.md)
 
-The resubmitted arXiv manuscript remains **on hold**. These are locally compiled PDFs; the current arXiv-processed side watermark remains unverified. The November 1 DOI badge above identifies the older deposited edition, not this revision. This editorial update does not establish new validation.
+The resubmitted arXiv manuscript remains **on hold**. The main PDF is the verified arXiv-processed submission copy with its genuine side watermark; the supplement remains a local compile. The watermark is a submission mark, not a public article identifier or acceptance. The November 1 DOI badge above identifies the older deposited edition, not this revision. This editorial update does not establish new validation.
 
 ## Choose a notebook
 
