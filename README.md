@@ -1,3 +1,9 @@
+> **Research status, 11 November 2026: methods phase closed; independent validation open.**
+>
+> **Held:** A retrospective method and preprint applied to three selected historical cases. The approved reassessment leaves all three Unresolved, conditional on the retained judgments.
+>
+> **Open:** Independent reliability, validity, transfer to contemporary AI systems and institutional effectiveness. Repository release v0.18.0 and the November 8 manuscript revision have separate identities.
+
 <h1>
 <picture>
   <source media="(max-width: 600px)" srcset="assets/research/v1/tae-banner-mobile-dark.svg">
