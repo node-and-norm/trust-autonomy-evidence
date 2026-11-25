@@ -6,8 +6,8 @@
 
 <h1>
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/research/v1/tae-banner-mobile-dark.svg">
-  <img src="assets/research/v1/tae-banner-dark.svg" alt="Trust, Autonomy, and Evidence" width="1000">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/node-and-norm/.github/4ee2d5fd660242d84cc6927f9ef842b1ba617056/assets/research/v2/trust-autonomy-evidence/banner-mobile.svg">
+  <img src="https://raw.githubusercontent.com/node-and-norm/.github/4ee2d5fd660242d84cc6927f9ef842b1ba617056/assets/research/v2/trust-autonomy-evidence/banner.svg" alt="Trust, Autonomy, and Evidence" width="1000">
 </picture>
 </h1>
 
