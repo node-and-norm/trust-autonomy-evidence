@@ -59,14 +59,7 @@ The method preserves missing or disputed evidence. A justified failure of any ne
 
 ## Method in brief
 
-```mermaid
-flowchart LR
-  accTitle: TAE documentary reconstruction method
-  accDescr: Define a decision and its source packet. Assess six conditions and retain alternatives. Apply the declared rule. Expose the finding, judgments, sources and limits.
-  A["Define decision<br/>and source packet"] -->|supports| B["Assess six conditions<br/>and retain alternatives"]
-  B -->|feeds declared rule| C["Pass, Fail<br/>or Unresolved"]
-  C -->|exposes| D["Judgments, sources<br/>and limits"]
-```
+![Define the decision and source packet, assess six conditions and retain alternatives. The declared rule yields Pass, Fail or Unresolved. The finding exposes its judgments, sources and limits.](assets/research/method-in-brief.svg)
 
 The diagram summarizes the [case-reconstruction protocol](protocols/public-case-reconstruction-protocol.md), [control conditions](protocols/practical-human-control-test.md) and [approved reassessment](paper/revisions/2026-10-10/README.md). The text sequence is: define the decision, assemble records, assess conditions, retain alternatives, calculate the finding and expose its reasons. Independent assessment of those judgments remains open. [Known limits](LIMITATIONS.md).
 

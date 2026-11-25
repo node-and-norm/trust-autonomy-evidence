@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="417" viewBox="0 0 340 417"
+     role="img" aria-labelledby="title description">
+  <title id="title">TAE documentary reconstruction method</title>
+  <desc id="description">Define a decision and its source packet. Assess six conditions and retain alternatives. Apply the declared rule. Expose the finding, judgments, sources and limits.</desc>
+  <defs>
+    <marker id="arrow" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8"
+            viewBox="0 0 8 8" refX="7" refY="4" orient="auto">
+      <path d="M0 0 8 4 0 8Z" fill="#514788"/>
+    </marker>
+  </defs>
+  <rect width="340" height="417" rx="8" fill="#faf9fc"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="19" text-anchor="middle" fill="#211e31">
+    <g>
+      <rect x="16" y="16" width="308" height="64" rx="6" fill="#eeebff" stroke="#887aca"/>
+      <text x="170" y="42" font-weight="600">Define decision</text>
+      <text x="170" y="65" font-weight="600">and source packet</text>
+    </g>
+    <path d="M170 80v41" stroke="#514788" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="181" y="106" text-anchor="start" font-size="16" fill="#514788">supports</text>
+    <g>
+      <rect x="16" y="123" width="308" height="64" rx="6" fill="#eeebff" stroke="#887aca"/>
+      <text x="170" y="149" font-weight="600">Assess six conditions</text>
+      <text x="170" y="172" font-weight="600">and retain alternatives</text>
+    </g>
+    <path d="M170 187v41" stroke="#514788" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="181" y="213" text-anchor="start" font-size="16" fill="#514788">feeds declared rule</text>
+    <g>
+      <rect x="16" y="230" width="308" height="64" rx="6" fill="#eeebff" stroke="#887aca"/>
+      <text x="170" y="256" font-weight="600">Pass, Fail</text>
+      <text x="170" y="279" font-weight="600">or Unresolved</text>
+    </g>
+    <path d="M170 294v41" stroke="#514788" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="181" y="320" text-anchor="start" font-size="16" fill="#514788">exposes</text>
+    <g>
+      <rect x="16" y="337" width="308" height="64" rx="6" fill="#e4dfff" stroke="#7465bc"/>
+      <text x="170" y="363" font-weight="600">Judgments, sources</text>
+      <text x="170" y="386" font-weight="600">and limits</text>
+    </g>
+  </g>
+</svg>
